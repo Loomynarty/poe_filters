@@ -286,11 +286,11 @@ Show
 	SetTextColor 0 0 0
 	SetFontSize 35
 	MinimapIcon 2 Green Circle
-# Show
-	# BaseType "Scroll of Wisdom"
-	# AreaLevel <= 14
-	# SetFontSize 35
-	# MinimapIcon 2 Brown UpsideDownHouse
+Show
+	BaseType "Scroll of Wisdom"
+	AreaLevel <= 14
+	SetFontSize 35
+	MinimapIcon 2 Brown UpsideDownHouse
 Show
 	BaseType "Scroll of Wisdom"
 	AreaLevel <= 67
@@ -712,15 +712,15 @@ Show
 	SetTextColor 100 150 200
 Show
 	BaseType "Portal Scroll"
-	SetFontSize 27
+	SetFontSize 30
 	SetTextColor 100 150 200
-Hide
+Show
 	BaseType "Scroll of Wisdom"
 	StackSize >= 5
 	SetFontSize 30
 Show
 	BaseType "Scroll of Wisdom"
-	SetFontSize 27
+	SetFontSize 30
 	DisableDropSound
 	
 #Shards
@@ -2107,7 +2107,7 @@ Show
 	PlayAlertSound 11 200
 	MinimapIcon 2 Grey Square
 	PlayEffect Grey Temp
-	
+
 #League Unknowns - Uniques and div cards whose names/basetypes are known before launch but not the details, or if I'm not quite sure how significantly the changes will impact the value. Small green icons.
 #Show
 #	BaseType ""
@@ -4109,7 +4109,7 @@ Show
 # 	PlayEffect Purple
 
 #noteworthy but not as hard to roll mods (100-200 weighting on generic or t1/t2 restricted to top bases only). dark purple text
-Show
+# Show
 	# Class "Helmet"
 	# HasExplicitMod "Taskmaster's"
 	# Corrupted False
@@ -4583,7 +4583,7 @@ Show
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	SetFontSize 30
-Hide
+Show
 	Class Jewel
 	Rarity Magic
 	SetBackgroundColor 135 135 254
