@@ -439,7 +439,6 @@ Show
 	SetTextColor 0 0 0
 	SetFontSize 35
 	PlayAlertSound 2 150
-	SetFontSize 35
 	MinimapIcon 1 Purple Circle
 	PlayEffect Purple
 Show
@@ -450,7 +449,6 @@ Show
 	SetTextColor 0 0 0
 	SetFontSize 35
 	PlayAlertSound 2 150
-	SetFontSize 35
 	MinimapIcon 0 Pink Circle
 	PlayEffect Pink
 Show
@@ -460,9 +458,17 @@ Show
 	SetTextColor 0 0 0
 	SetFontSize 35
 	PlayAlertSound 2 150
-	SetFontSize 35
 	MinimapIcon 1 Pink Circle
 	PlayEffect Pink
+Show 
+	BaseType "Maven's Chisel of Procurement" "Maven's Chisel of Proliferation" "Maven's Chisel of Divination" "Maven's Chisel of Scarabs" "Maven's Chisel of Avarice"
+	SetBackgroundColor 250 0 125
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	PlayAlertSound 10 250
+	SetFontSize 32
+	MinimapIcon 1 Red Circle
+	PlayEffect Red
 
 #Eldritch Currencies (combo ones use standard highlights)
 Show
@@ -483,6 +489,7 @@ Show
 	PlayAlertSound 3 150
 	MinimapIcon 1 Cyan Circle
 	PlayEffect Cyan
+
 #alternate darker essence-like version, couldn't really decide which was better so here's both
 #Show
 #	BaseType "Eldritch Ember"
@@ -512,9 +519,8 @@ Show
 	SetTextColor 250 0 0
 	SetFontSize 35
 	PlayAlertSound 6 250
-	MinimapIcon 0 White Diamond
 	PlayEffect White
-	DisableDropSound
+	MinimapIcon 0 White Diamond
 
 #50c+ (pink)
 Show 
@@ -1748,7 +1754,7 @@ Show
 
 #Blight (v3.8)
 Show
-	BaseType "Golden Oil"
+	BaseType "Golden Oil" "Prismatic Oil"
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
 	SetTextColor 75 125 75
@@ -2098,6 +2104,16 @@ Show
 	PlayAlertSound 11 200
 	MinimapIcon 0 Grey Circle
 	PlayEffect Grey
+
+Show
+	BaseType "Reflecting Mist"
+	SetBackgroundColor 112 150 150
+	SetBorderColor 225 225 225
+	SetTextColor 225 225 225
+	SetFontSize 35
+	PlayAlertSound 13 200
+	MinimapIcon 0 Grey Circle
+	PlayEffect Grey
 	
 #Forbidden Sanctum (v3.20) - brown/gold. research moved to map section
 Show
@@ -2169,7 +2185,7 @@ Show
 	SetBackgroundColor 75 50 40
 	SetBorderColor 200 200 200
 	SetTextColor 225 225 225
-	SetFontSize 30
+	SetFontSize 32
 	PlayAlertSound 11 150
 	PlayEffect Brown
 	MinimapIcon 2 Brown Square
@@ -2184,6 +2200,21 @@ Show
 	PlayAlertSound 11 200
 	MinimapIcon 2 Grey Square
 	PlayEffect Grey Temp
+
+# Settlers of Kalguur (v3.25)
+Show
+	Class "Rune"
+	SetBackgroundColor 255 255 255
+	SetTextColor 255 255 255
+	SetFontSize 30
+	PlayAlertSound 11 200
+	MinimapIcon 2 Grey Square
+	PlayEffect Grey
+
+Show
+	BaseType "Gold"
+	SetTextColor 255 255 255
+	SetFontSize 30
 
 #League Unknowns - Uniques and div cards whose names/basetypes are known before launch but not the details, or if I'm not quite sure how significantly the changes will impact the value. Small green icons.
 #Show
@@ -2224,7 +2255,7 @@ Show
 # T1 Fragments
 Show
 	Class == "Map Fragments"
-	BaseType == "Sacred Blossom" "Simulacrum" "The Maven's Writ"
+	BaseType == "Sacred Blossom" "Simulacrum" "The Maven's Writ" "An Audience With The King"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
 	SetTextColor 180 76 58 255
@@ -5629,7 +5660,7 @@ Show
 	SetBorderColor 175 75 255
 	SetFontSize 30
 Show
-	BaseType "Coral Ring" "Two-Stone Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Prismatic Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet"
+	BaseType "Coral Ring" "Two-Stone Ring" "Unset Ring" "Sapphire Ring" "Topaz Ring" "Ruby Ring" "Prismatic Ring" "Amber Amulet" "Jade Amulet" "Lapis Amulet" "Nameless Ring"
 	Rarity Rare
 	SetBackgroundColor 50 0 100
 	SetBorderColor 175 75 255
