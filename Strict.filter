@@ -415,6 +415,7 @@ Show
 	PlayAlertSound 3 150
 	MinimapIcon 1 Cyan Circle
 	PlayEffect Cyan
+
 #alternate darker essence-like version, couldn't really decide which was better so here's both
 #Show
 #	BaseType "Eldritch Ember"
@@ -1426,7 +1427,7 @@ Show
 	PlayEffect Red
 #red (10-20c)
 Show
-	BaseType "Glyphic Fossil" "Perfect Fossil" "Shuddering Fossil" "Sanctified Fossil" "Bloodstained Fossil" "Tangled Fossil"
+	BaseType "Glyphic Fossil" "Opulent Fossil" "Shuddering Fossil" "Sanctified Fossil" "Bloodstained Fossil" "Tangled Fossil"
 	Class Currency
 	SetBackgroundColor 80 0 0
 	SetBorderColor 0 0 0
@@ -1448,7 +1449,7 @@ Show
 	PlayEffect Yellow
 #all the rest (<5c)
 Show
-	BaseType "Scorched Fossil" "Frigid Fossil" "Metallic Fossil" "Pristine Fossil" "Lucent Fossil" "Jagged Fossil" "Deft Fossil" "Aberrant Fossil" "Serrated Fossil" "Gilded Fossil" "Fundamental Fossil" "Prismatic Fossil" "Perfect Fossil"
+	BaseType "Scorched Fossil" "Frigid Fossil" "Metallic Fossil" "Pristine Fossil" "Lucent Fossil" "Jagged Fossil" "Deft Fossil" "Aberrant Fossil" "Serrated Fossil" "Gilded Fossil" "Fundamental Fossil" "Prismatic Fossil" "Opulent Fossil"
 	Class Currency
 	SetBackgroundColor 80 40 0
 	SetBorderColor 0 0 0
@@ -4005,7 +4006,7 @@ Show
 	PlayEffect Cyan
 #ritual bases
 Show
-	BaseType "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Debilitation Gauntlets" "Gruelling Gauntlets" "Taxing Gauntlets" "Sinistral Gloves" "Southswing Gloves" "Gauche Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
+	BaseType "Dreamquest Slippers" "Cloudwhisper Boots" "Brimstone Treads" "Nightwind Slippers" "Windbreak Boots" "Darksteel Treads" "Duskwalk Slippers" "Stormrider Boots" "Basemetal Treads" "Thwarting Gauntlets" "Guarding Gauntlets" "Preserving Gauntlets" "Trapsetter Gloves" "Apprentice Gloves" "Tinker Gloves" "Nexus Gloves" "Aetherwind Gloves" "Leyline Gloves" "Blizzard Crown" "Winter Crown" "Gale Crown" "Archdemon Crown" "Demon Crown" "Imp Crown" "Atonement Mask" "Penitent Mask" "Sorrow Mask"
 	Rarity Normal Magic Rare
 	SetBackgroundColor 0 75 75
 	SetBorderColor 0 250 250
