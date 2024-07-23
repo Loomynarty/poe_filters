@@ -5201,100 +5201,109 @@ Show
 
 # High defense percent items 
 Show
-	BaseType "Vaal Regalia" "Titanium Spirit Shield" "Glorious Plate" "Ezomyte Tower Shield" "Zodiac Leather" "Lacquered Buckler" "Sadist Garb" "Supreme Spiked Shield" "Triumphant Lamellar" "Elegant Round Shield"
+	Class "Body Armour" Helmet Gloves Boots
 	BaseDefencePercentile >= 90
 	ItemLevel >= 86
+	DropLevel >= 65
 	Corrupted False
 	Mirrored False
-	SetBorderColor 250 250 250
+	SetBorderColor 229 136 66
 	SetFontSize 30
 	PlayAlertSound 13 200
-	MinimapIcon 1 White Kite
-	PlayEffect White
-Show	
-	BaseType "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Titan Gauntlets" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Slink Boots" "Lion Pelt" "Murder Mitts" "Murder Boots" "Deicide Mask" "Dragonscale Gauntlets" "Dragonscale Boots" "Pig-Faced Bascinet" "Fugitive Boots"
-	BaseDefencePercentile >= 100
-	ItemLevel >= 85
-	Corrupted False
-	Mirrored False
-	SetBorderColor 250 250 250
-	SetFontSize 30
-	PlayAlertSound 13 200
-	MinimapIcon 1 White Kite
-	PlayEffect White
-Show
-	BaseType "Vaal Regalia" "Titanium Spirit Shield" "Glorious Plate" "Ezomyte Tower Shield" "Zodiac Leather" "Lacquered Buckler" "Sadist Garb" "Supreme Spiked Shield" "Triumphant Lamellar" "Elegant Round Shield"
-	BaseDefencePercentile >= 90
-	ItemLevel >= 86
-	Corrupted False
-	Mirrored False
-	SetBorderColor 250 250 250
-	SetFontSize 38
-	MinimapIcon 2 White Kite
-	PlayEffect White Temp
-Show
-	BaseType "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Titan Gauntlets" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Slink Boots" "Lion Pelt" "Murder Mitts" "Murder Boots" "Deicide Mask" "Dragonscale Gauntlets" "Dragonscale Boots" "Pig-Faced Bascinet" "Fugitive Boots"
-	BaseDefencePercentile >= 90
-	ItemLevel >= 85
-	Corrupted False
-	Mirrored False
-	SetBorderColor 250 250 250
-	SetFontSize 38
-	MinimapIcon 2 White Kite
-	PlayEffect White Temp
+	MinimapIcon 1 Brown Kite
+	PlayEffect Brown
+
+# Show	
+# 	BaseType "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Titan Gauntlets" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Slink Boots" "Lion Pelt" "Murder Mitts" "Murder Boots" "Deicide Mask" "Dragonscale Gauntlets" "Dragonscale Boots" "Pig-Faced Bascinet" "Fugitive Boots"
+# 	BaseDefencePercentile >= 100
+# 	ItemLevel >= 85
+# 	Corrupted False
+# 	Mirrored False
+# 	SetBorderColor 250 250 250
+# 	SetFontSize 30
+# 	PlayAlertSound 13 200
+# 	MinimapIcon 1 White Kite
+# 	PlayEffect White
+# Show
+# 	BaseType "Vaal Regalia" "Titanium Spirit Shield" "Glorious Plate" "Ezomyte Tower Shield" "Zodiac Leather" "Lacquered Buckler" "Sadist Garb" "Supreme Spiked Shield" "Triumphant Lamellar" "Elegant Round Shield"
+# 	BaseDefencePercentile >= 90
+# 	ItemLevel >= 86
+# 	Corrupted False
+# 	Mirrored False
+# 	SetBorderColor 250 250 250
+# 	SetFontSize 38
+# 	MinimapIcon 2 White Kite
+# 	PlayEffect White Temp
+# Show
+# 	BaseType "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Titan Gauntlets" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Slink Boots" "Lion Pelt" "Murder Mitts" "Murder Boots" "Deicide Mask" "Dragonscale Gauntlets" "Dragonscale Boots" "Pig-Faced Bascinet" "Fugitive Boots"
+# 	BaseDefencePercentile >= 90
+# 	ItemLevel >= 85
+# 	Corrupted False
+# 	Mirrored False
+# 	SetBorderColor 250 250 250
+# 	SetFontSize 38
+# 	MinimapIcon 2 White Kite
+# 	PlayEffect White Temp
 
 #exception needed for AR/EV two-toned because for some fucking reason it's the only atlas base with the highest defense ratings in its item class
-Show
-	BaseType "Two-Toned Boots"
-	BaseArmour > 1
-	BaseEvasion > 1
-	BaseDefencePercentile >= 100
-	ItemLevel >= 86
-	Corrupted False
-	Mirrored False
-	SetBorderColor 250 250 250
-	SetFontSize 30
-	PlayAlertSound 13 200
-	MinimapIcon 1 White Kite
-	PlayEffect White
-Show
-	BaseType "Two-Toned Boots"
-	BaseArmour > 1
-	BaseEvasion > 1
-	BaseDefencePercentile >= 90
-	ItemLevel >= 86
-	Corrupted False
-	Mirrored False
-	SetBorderColor 250 250 250
-	SetFontSize 38
-	MinimapIcon 2 White Kite
-	PlayEffect White Temp
+# Show
+# 	BaseType "Two-Toned Boots"
+# 	BaseArmour > 1
+# 	BaseEvasion > 1
+# 	BaseDefencePercentile >= 100
+# 	ItemLevel >= 86
+# 	Corrupted False
+# 	Mirrored False
+# 	SetBorderColor 250 250 250
+# 	SetFontSize 30
+# 	PlayAlertSound 13 200
+# 	MinimapIcon 1 White Kite
+# 	PlayEffect White
+# Show
+# 	BaseType "Two-Toned Boots"
+# 	BaseArmour > 1
+# 	BaseEvasion > 1
+# 	BaseDefencePercentile >= 90
+# 	ItemLevel >= 86
+# 	Corrupted False
+# 	Mirrored False
+# 	SetBorderColor 250 250 250
+# 	SetFontSize 38
+# 	MinimapIcon 2 White Kite
+# 	PlayEffect White Temp
 
-#84-86 filtering. Removed AR/ES bases: "Crusader Gloves" "Crusader Boots" "Praetor Crown" "Saintly Chainmail". 86 bases with no difference from 85 now show as 85's and are hidden in Uberstrict
+#84-86 filtering
 #Blocks that are hidden but NOT the ones thare shown MUST have a "Rarity Normal Magic" line or they interfere with rare highlighting elsewhere in the filter. 
 Show
-	BaseType "Sorcerer Boots" "Vaal Regalia" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Titan Greaves" "Glorious Plate" "Ezomyte Tower Shield" "Slink Boots" "Zodiac Leather" "Lacquered Buckler" "Murder Boots" "Sadist Garb" "Supreme Spiked Shield" "Sovereign Spiked Shield" "Dragonscale Boots" "Triumphant Lamellar" "Elegant Round Shield" "Spine Bow" "Feathered Arrow Quiver" "Leather Belt" "Fossilised Spirit Shield"
+	Class "Body Armour" Helmet Gloves Boots
 	ItemLevel >= 86
+	DropLevel >= 65
 	Rarity Rare
 	Corrupted False
 	Mirrored False
 	SetBorderColor 250 200 150
 	SetFontSize 32
+	PlayEffect White
 Show
-	BaseType "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Vaal Regalia" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Titan Gauntlets" "Titan Greaves" "Royal Burgonet" "Glorious Plate" "Ezomyte Tower Shield" "Slink Gloves" "Slink Boots" "Lion Pelt" "Zodiac Leather" "Lacquered Buckler" "Murder Mitts" "Murder Boots" "Fugitive Boots" "Deicide Mask" "Sadist Garb" "Supreme Spiked Shield" "Dragonscale Gauntlets" "Dragonscale Boots" "Pig-Faced Bascinet" "Triumphant Lamellar" "Elegant Round Shield" "Despot Axe" "Spine Bow" "Feathered Arrow Quiver" "Opal Sceptre" "Void Sceptre" "Imbued Wand" "Convoking Wand" "Leather Belt" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Amethyst Ring" "Two-Stone Ring" "Coral Ring" "Bone Ring" "Fossilised Spirit Shield"
+	Class "Body Armour" Helmet Gloves Boots
 	ItemLevel = 85
+	DropLevel >= 65
 	Rarity Rare
 	Corrupted False
 	Mirrored False
 	SetBorderColor 200 150 0
 	SetFontSize 30
-# Show
-	# BaseType "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Vaal Regalia" "Titanium Spirit Shield" "Harmonic Spirit Shield" "Titan Gauntlets" "Titan Greaves" "Royal Burgonet" "Glorious Plate" "Ezomyte Tower Shield" "Slink Gloves" "Slink Boots" "Lion Pelt" "Zodiac Leather" "Lacquered Buckler" "Murder Mitts" "Murder Boots" "Fugitive Boots" "Deicide Mask" "Sadist Garb" "Supreme Spiked Shield" "Dragonscale Gauntlets" "Dragonscale Boots" "Pig-Faced Bascinet" "Triumphant Lamellar" "Elegant Round Shield" "Despot Axe" "Spine Bow" "Feathered Arrow Quiver" "Opal Sceptre" "Void Sceptre" "Imbued Wand" "Convoking Wand" "Leather Belt" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Amethyst Ring" "Two-Stone Ring" "Coral Ring" "Bone Ring" "Fossilised Spirit Shield"
-	# ItemLevel = 84
-	# Corrupted False
-	# Mirrored False
-	# SetBorderColor 150 100 0
-	# SetFontSize 34
+	PlayEffect White
+
+Show
+	Class "Body Armour" Helmet Gloves Boots
+	ItemLevel = 84
+	DropLevel >= 65
+	Corrupted False
+	Mirrored False
+	SetBorderColor 150 100 0
+	SetFontSize 30
+	PlayEffect White
 
 ###################################################################################
 ############################ Section 11A - Rare Armour ############################
@@ -5306,30 +5315,38 @@ Show
 
 #A Bit of Everything - shows a spattering of the best rares by default for those who didn't do any editing. Purple borders. Meant to be disabled/deleted if properly setting up your targetted rares.
 Show
-	BaseType "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Nightmare Bascinet" "Pig-Faced Bascinet" 
-	Rarity Rare
+	Class "Body Armour" Helmet Gloves Boots
+	DropLevel >= 65
+	Corrupted False
+	Mirrored False
 	SetBorderColor 150 0 255
-	SetFontSize 30
-Show
-	BaseType "Titan Gauntlets" "Slink Gloves" "Dragonscale Gauntlets" "Murder Mitts"
-	Rarity Rare
-	SetBorderColor 150 0 255
-	SetFontSize 30
-Show
-	BaseType "Titan Greaves" "Slink Boots" "Dragonscale Boots" "Murder Boots"
-	Rarity Rare
-	SetBorderColor 150 0 255
-	SetFontSize 30
-Show
-	BaseType "Astral Plate" "Sadist Garb"
-	Rarity Rare
-	SetBorderColor 150 0 255
-	SetFontSize 30
-Show
-	BaseType "Supreme Spiked Shield" "Sovereign Spiked Shield"
-	Rarity Rare
-	SetBorderColor 150 0 255
-	SetFontSize 30
+	SetFontSize 28
+
+# Show
+# 	BaseType "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Nightmare Bascinet" "Pig-Faced Bascinet" 
+# 	Rarity Rare
+# 	SetBorderColor 150 0 255
+# 	SetFontSize 30
+# Show
+# 	BaseType "Titan Gauntlets" "Slink Gloves" "Dragonscale Gauntlets" "Murder Mitts"
+# 	Rarity Rare
+# 	SetBorderColor 150 0 255
+# 	SetFontSize 30
+# Show
+# 	BaseType "Titan Greaves" "Slink Boots" "Dragonscale Boots" "Murder Boots"
+# 	Rarity Rare
+# 	SetBorderColor 150 0 255
+# 	SetFontSize 30
+# Show
+# 	BaseType "Astral Plate" "Sadist Garb"
+# 	Rarity Rare
+# 	SetBorderColor 150 0 255
+# 	SetFontSize 30
+# Show
+# 	BaseType "Supreme Spiked Shield" "Sovereign Spiked Shield"
+# 	Rarity Rare
+# 	SetBorderColor 150 0 255
+# 	SetFontSize 30
 
 #Spell Suppression with Eldritch Battery - shows EV gloves/boots/helm, AR/ES chest, EV/ES shield
 #Show
