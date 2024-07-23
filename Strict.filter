@@ -5102,7 +5102,35 @@ Hide
 	SetBorderColor 200 135 0
 	SetFontSize 30
 
-#high defense percent items. #removed AR/ES bases: "Crusader Gloves" "Crusader Boots" "Praetor Crown" "Saintly Chainmail"
+# High quality items
+Show
+	Class "Body Armour" Helmet Gloves Boots
+	Quality >= 21
+	ItemLevel >= 84
+	DropLevel >= 65
+	Corrupted False
+	Mirrored False
+	SetBorderColor 250 250 250
+	SetFontSize 35
+	PlayAlertSound 13 200
+	MinimapIcon 1 White Kite
+	PlayEffect White
+
+Show
+	Class Mace Axe Sword Bow Claw Dagger Stave Warstave Wand Shield Sceptre
+	Quality >= 21
+	ItemLevel >= 84
+	DropLevel >= 60
+	Corrupted False
+	Mirrored False
+	SetBorderColor 200 0 0
+	SetFontSize 35
+	PlayAlertSound 13 200
+	MinimapIcon 1 Red Kite
+	PlayEffect Red
+
+
+# High defense percent items 
 Show
 	BaseType "Vaal Regalia" "Titanium Spirit Shield" "Glorious Plate" "Ezomyte Tower Shield" "Zodiac Leather" "Lacquered Buckler" "Sadist Garb" "Supreme Spiked Shield" "Triumphant Lamellar" "Elegant Round Shield"
 	BaseDefencePercentile >= 90
