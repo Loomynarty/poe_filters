@@ -256,7 +256,7 @@ Show
 ###################################################################################
 #GENERAL ONLY - leaguestart currency overrides - makes race currency bigger/more dramatic highlights at race levels. next set of blocks in general filter only and all terminate before maps start
 Show
-	BaseType "Orb of Alchemy" "Chaos Orb" "Vaal Orb" "Orb of Chance"
+	BaseType "Orb of Alchemy" "Chaos Orb" "Vaal Orb" "Orb of Chance" "Orb of Fusing"
 	AreaLevel <= 67
 	Class Currency
 	SetBackgroundColor 0 225 225
@@ -264,10 +264,11 @@ Show
 	SetTextColor 0 0 0
 	PlayAlertSound 2 100
 	SetFontSize 35
-	MinimapIcon 2 Cyan Circle
+	MinimapIcon 1 Cyan Circle
+	PlayEffect Cyan
 	DisableDropSound
 Show
-	BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Blacksmith's Whetstone"
+	BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Blacksmith's Whetstone" "Armourer's Scrap"
 	AreaLevel <= 67
 	Class Currency
 	SetBackgroundColor 0 200 0
@@ -276,40 +277,23 @@ Show
 	SetFontSize 35
 	PlayAlertSound 3 100
 	MinimapIcon 2 Green Circle
+	PlayEffect Green Temp
 	DisableDropSound
 Show
-	BaseType "Armourer's Scrap"
-	AreaLevel <= 47
-	Class Currency
-	SetBackgroundColor 0 200 0
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 35
-	MinimapIcon 2 Green Circle
-Show
-	BaseType "Scroll of Wisdom"
-	AreaLevel <= 14
-	SetFontSize 35
-	MinimapIcon 2 Brown UpsideDownHouse
-	PlayEffect Brown
-Show
 	BaseType "Scroll of Wisdom"
 	AreaLevel <= 67
+	SetBorderColor 170 158 129
 	SetFontSize 35
 	MinimapIcon 2 Brown UpsideDownHouse
-	PlayEffect Brown
+	PlayEffect Brown Temp
 Show
 	BaseType "Portal Scroll"
-	AreaLevel <= 33
+	AreaLevel <= 67
 	SetFontSize 35
+	SetBorderColor 100 150 200
 	SetTextColor 100 150 200
 	MinimapIcon 2 Blue UpsideDownHouse
-	PlayEffect Blue
-Show
-	BaseType "Portal Scroll"
-	AreaLevel <= 67
-	SetFontSize 35
-	SetTextColor 100 150 200
+	PlayEffect Blue Temp
 Show
 	BaseType "Orb of Binding"
 	AreaLevel <= 67
