@@ -66,80 +66,80 @@
 
 
 # Chaos Recipe
-Show
-	Class == "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Rune Daggers" "Wands"
-	Rarity Rare
-	ItemLevel >= 60
-	ItemLevel <= 74
-	AreaLevel <= 74
-	Height <= 3
-	Width <= 1
-	Identified False
-	Corrupted False
-	SetBorderColor 45 227 98
-	SetTextColor 0 250 9
-	SetFontSize 30
+# Show
+# 	Class == "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Rune Daggers" "Wands"
+# 	Rarity Rare
+# 	ItemLevel >= 60
+# 	ItemLevel <= 74
+# 	AreaLevel <= 74
+# 	Height <= 3
+# 	Width <= 1
+# 	Identified False
+# 	Corrupted False
+# 	SetBorderColor 45 227 98
+# 	SetTextColor 0 250 9
+# 	SetFontSize 30
 
-Show
-	Class == "Helmets"
-	Rarity Rare
-	ItemLevel >= 60
-	ItemLevel <= 74
-	AreaLevel <= 74
-	Identified False
-	Corrupted False
-	SetBorderColor 45 227 98
-	SetTextColor 238 65 34
-	SetFontSize 30
+# Show
+# 	Class == "Helmets"
+# 	Rarity Rare
+# 	ItemLevel >= 60
+# 	ItemLevel <= 74
+# 	AreaLevel <= 74
+# 	Identified False
+# 	Corrupted False
+# 	SetBorderColor 45 227 98
+# 	SetTextColor 238 65 34
+# 	SetFontSize 30
 
-Show
-	Class == "Body Armours"
-	Rarity Rare
-	ItemLevel >= 60
-	ItemLevel <= 74
-	AreaLevel <= 74
-	Identified False
-	Corrupted False
-	SetBorderColor 45 227 98
-	SetTextColor 0 115 250
-	SetFontSize 30
+# Show
+# 	Class == "Body Armours"
+# 	Rarity Rare
+# 	ItemLevel >= 60
+# 	ItemLevel <= 74
+# 	AreaLevel <= 74
+# 	Identified False
+# 	Corrupted False
+# 	SetBorderColor 45 227 98
+# 	SetTextColor 0 115 250
+# 	SetFontSize 30
 
-Show
-	Class == "Boots"
-	Rarity Rare
-	ItemLevel >= 60
-	ItemLevel <= 74
-	AreaLevel <= 74
-	Identified False
-	Corrupted False
-	SetBorderColor 45 227 98
-	SetTextColor 250 0 218
-	SetFontSize 30
+# Show
+# 	Class == "Boots"
+# 	Rarity Rare
+# 	ItemLevel >= 60
+# 	ItemLevel <= 74
+# 	AreaLevel <= 74
+# 	Identified False
+# 	Corrupted False
+# 	SetBorderColor 45 227 98
+# 	SetTextColor 250 0 218
+# 	SetFontSize 30
 
-Show
-	Class == "Amulets" "Belts" "Rings"
-	ItemLevel >= 60
-	ItemLevel <= 74
-	AreaLevel <= 74
-	Rarity Rare
-	Identified False
-	Corrupted False
-	SetBorderColor 45 227 98
-	SetTextColor 122 0 183
-	SetFontSize 32
-	PlayEffect White
+# Show
+# 	Class == "Amulets" "Belts" "Rings"
+# 	ItemLevel >= 60
+# 	ItemLevel <= 74
+# 	AreaLevel <= 74
+# 	Rarity Rare
+# 	Identified False
+# 	Corrupted False
+# 	SetBorderColor 45 227 98
+# 	SetTextColor 122 0 183
+# 	SetFontSize 32
+# 	PlayEffect White
 
-Show
-	Class == "Gloves"
-	ItemLevel >= 60
-	ItemLevel <= 74
-	AreaLevel <= 74
-	Rarity Rare
-	Identified False
-	Corrupted False
-	SetBorderColor 45 227 98
-	SetTextColor 136 251 255
-	SetFontSize 30
+# Show
+# 	Class == "Gloves"
+# 	ItemLevel >= 60
+# 	ItemLevel <= 74
+# 	AreaLevel <= 74
+# 	Rarity Rare
+# 	Identified False
+# 	Corrupted False
+# 	SetBorderColor 45 227 98
+# 	SetTextColor 136 251 255
+# 	SetFontSize 30
 
 ###################################################################################
 ############## Section 1 - Chance, Priority Highlight, Link Options ###############
@@ -626,6 +626,7 @@ Show
 	SetFontSize 35
 	PlayAlertSound 3 125
 	MinimapIcon 2 Cyan Circle
+	PlayEffect Cyan
 	DisableDropSound
 Show
 	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Orb of Horizons" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking"
@@ -1476,7 +1477,7 @@ Show
 #Fossils
 #pink (20c+)
 Show
-	BaseType "Faceted Fossil" "Fractured Fossil" "Hollow Fossil" 
+	BaseType "Faceted Fossil" "Fractured Fossil" "Hollow Fossil" "Shuddering Fossil"
 	Class Currency
 	SetBackgroundColor 80 0 80
 	SetBorderColor 0 0 0
@@ -1487,7 +1488,7 @@ Show
 	PlayEffect Red
 #red (10-20c)
 Show
-	BaseType "Glyphic Fossil" "Opulent Fossil" "Shuddering Fossil" "Sanctified Fossil" "Bloodstained Fossil" "Tangled Fossil"
+	BaseType "Glyphic Fossil" "Opulent Fossil" "Sanctified Fossil" "Bloodstained Fossil" "Tangled Fossil"
 	Class Currency
 	SetBackgroundColor 80 0 0
 	SetBorderColor 0 0 0
@@ -2164,18 +2165,20 @@ Show
 
 # Settlers of Kalguur (v3.25)
 Show
-	Class "Rune"
+	BaseType "Life Rune" "Sun Rune" "Bound Rune" "War Rune" "River Rune" "Bounty Rune" "Journey Rune" "Mountain Rune" "Time Rune" "Power Rune"
 	SetBackgroundColor 255 255 255
-	SetTextColor 255 255 255
+	SetTextColor 0 0 0
 	SetFontSize 30
 	PlayAlertSound 11 200
 	MinimapIcon 2 Grey Square
 	PlayEffect Grey
 
 Show
-	BaseType "Gold"
+	BaseType == "Gold"
+	SetBackgroundColor 0 0 0 150
+	SetBorderColor 255 160 0
 	SetTextColor 255 255 255
-	SetFontSize 30
+	SetFontSize 35
 
 #League Unknowns - Uniques and div cards whose names/basetypes are known before launch but not the details, or if I'm not quite sure how significantly the changes will impact the value. Small green icons.
 #Show
@@ -2812,22 +2815,24 @@ Show
 	UberBlightedMap True
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
-	SetTextColor 75 125 75
+	SetTextColor 250 0 0
 	SetFontSize 35
-	PlayAlertSound 6 200
-	MinimapIcon 0 White Hexagon
-	PlayEffect White
+	PlayAlertSound 10 200
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red
+	DisableDropSound
 Show
 	Class Map
 	BlightedMap True
 	MapTier >= 13
 	SetBackgroundColor 255 221 153
 	SetBorderColor 250 0 0
-	SetTextColor 75 125 75
+	SetTextColor 250 0 0
 	SetFontSize 35
 	PlayAlertSound 8 200
-	MinimapIcon 0 Yellow Hexagon
+	MinimapIcon 0 Red Hexagon
 	PlayEffect Red
+	DisableDropSound
 Show
 	Class Map
 	BlightedMap True
@@ -2839,6 +2844,7 @@ Show
 	PlayAlertSound 9 200
 	MinimapIcon 1 Yellow Hexagon
 	PlayEffect Yellow
+	DisableDropSound
 Show
 	Class Map
 	BlightedMap True
@@ -2849,6 +2855,7 @@ Show
 	PlayAlertSound 9 200
 	MinimapIcon 2 Yellow Hexagon
 	PlayEffect Yellow
+	DisableDropSound
 	
 #corrupted map catcher
 Show
@@ -2938,9 +2945,9 @@ Show
 	SetBackgroundColor 235 235 235 255
 	SetBorderColor 255 0 0
 	SetTextColor 0 0 0 255
-	SetFontSize 32
+	SetFontSize 35
 	PlayAlertSound 5 300
-	PlayEffect Yellow
+	PlayEffect Red
 	MinimapIcon 1 Red Square
 
 Show
@@ -2949,9 +2956,9 @@ Show
 	SetBackgroundColor 235 235 235 255
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0 255
-	SetFontSize 30
+	SetFontSize 32
 	PlayAlertSound 5 300
-	PlayEffect Yellow
+	PlayEffect Red
 	MinimapIcon 1 Red Square
 Show
 	Class Map
@@ -2959,7 +2966,7 @@ Show
 	SetBackgroundColor 235 235 235 255
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0 255
-	SetFontSize 28
+	SetFontSize 30
 	PlayAlertSound 5 300
 	MinimapIcon 1 Red Square
 	
@@ -4425,13 +4432,13 @@ Hide
 Show
 	BaseType "Prismatic Jewel" "Timeless Jewel" "Large Cluster Jewel"
 	Rarity Unique
-	SetBackgroundColor 180 100 0
-	SetBorderColor 0 0 0
-	SetTextColor 250 125 0
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
 	SetFontSize 35
-	PlayAlertSound 6 250
-	MinimapIcon 0 Orange Diamond
-	PlayEffect White
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
 Show
 	BaseType "Cluster Jewel"
 	Class Jewel
@@ -4986,14 +4993,14 @@ Show
 	DisableDropSound
 	
 #Loreweave block - Disabled by default, adds a blue border to rings (really only matters in Uber filter as no other filters hide uniques)
-#Show
-#	Class Ring
-#	Rarity Unique
-#	SetBackgroundColor 180 80 0
-#	SetBorderColor 75 75 200
-#	SetTextColor 0 0 0
-#	SetFontSize 36
-#	DisableDropSound
+Show
+	Class Ring
+	Rarity Unique
+	SetBackgroundColor 180 80 0
+	SetBorderColor 75 75 200
+	SetTextColor 0 0 0
+	SetFontSize 35
+	DisableDropSound
 
 #Uber Only Low Value Unique Hide Block - hides uniques consistently under 5c. Should only ever be enabled in the Uber filter. Any unique that is very rare, regardless of current league value, shouldn't be in this block (but the 3.23.2 update was quite aggressive)
 #Hide
@@ -5270,7 +5277,7 @@ Show
 	Mirrored False
 	SetBorderColor 250 200 150
 	SetFontSize 32
-	PlayEffect White
+	# PlayEffect White
 Show
 	Class "Body Armour" Helmet Gloves Boots
 	ItemLevel = 85
@@ -5280,17 +5287,18 @@ Show
 	Mirrored False
 	SetBorderColor 200 150 0
 	SetFontSize 30
-	PlayEffect White
+	# PlayEffect White
 
 Show
 	Class "Body Armour" Helmet Gloves Boots
 	ItemLevel = 84
 	DropLevel >= 65
+	Rarity Rare
 	Corrupted False
 	Mirrored False
 	SetBorderColor 150 100 0
 	SetFontSize 30
-	PlayEffect White
+	# PlayEffect White
 
 ###################################################################################
 ############################ Section 11A - Rare Armour ############################
@@ -5304,6 +5312,7 @@ Show
 Show
 	Class "Body Armour" Helmet Gloves Boots
 	DropLevel >= 65
+	Rarity Rare
 	Corrupted False
 	Mirrored False
 	SetBorderColor 150 0 255
@@ -8797,9 +8806,9 @@ Show
 	ItemLevel >= 85
 	SetBorderColor 200 150 0
 	SetTextColor 0 125 250
-	SetFontSize 32
-	PlayAlertSound 14 150
-	MinimapIcon 2 Yellow Raindrop
+	SetFontSize 28
+	# PlayAlertSound 14 150
+	# MinimapIcon 2 Yellow Raindrop
 	
 # Show
 	# BaseType "Eternal Mana Flask" "Divine Life Flask" "Eternal Life Flask"
@@ -8823,46 +8832,46 @@ Show
 	ItemLevel <= 72
 	SetTextColor 0 175 250
 	PlayAlertSound 14 200
-	SetFontSize 30
+	SetFontSize 28
 	MinimapIcon 2 Cyan Raindrop
 Show
 	BaseType "Granite Flask"
 	ItemLevel <= 72
 	SetTextColor 0 125 250
-	SetFontSize 30
+	SetFontSize 28
 	PlayAlertSound 14 200
 	MinimapIcon 2 Orange Raindrop
 Show
 	BaseType "Quartz Flask"
 	ItemLevel <= 72
 	SetTextColor 0 125 250
-	SetFontSize 30
+	SetFontSize 28
 	PlayAlertSound 14 200
 	MinimapIcon 2 Pink Raindrop
 Show
 	BaseType "Jade Flask"
 	ItemLevel <= 72
 	SetTextColor 0 125 250
-	SetFontSize 30
+	SetFontSize 28
 	PlayAlertSound 14 200
 	MinimapIcon 2 Green Raindrop
 Show
 	BaseType "Amethyst Flask"
 	ItemLevel <= 72
 	SetTextColor 0 125 250
-	SetFontSize 30
+	SetFontSize 28
 	MinimapIcon 2 Purple Raindrop
 Show
 	BaseType "Diamond Flask" "Sulphur Flask"
 	ItemLevel <= 72
 	SetTextColor 0 125 250
-	SetFontSize 30
+	SetFontSize 28
 	MinimapIcon 2 White Raindrop
 Show
 	BaseType "Stibnite Flask" "Basalt Flask"
 	ItemLevel <= 72
 	SetTextColor 0 125 250
-	SetFontSize 30
+	SetFontSize 28
 	PlayAlertSound 14 200
 	MinimapIcon 2 Grey Raindrop
 
@@ -8890,6 +8899,7 @@ Show
 	# AreaLevel <= 77
 	Quality >= 10
 	SetBorderColor 100 100 100
+	SetFontSize 32
 	MinimapIcon 2 Grey Raindrop
 	PlayEffect Grey
 	

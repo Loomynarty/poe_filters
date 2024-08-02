@@ -1399,7 +1399,7 @@ Show
 #Fossils
 #pink (20c+)
 Show
-	BaseType "Faceted Fossil" "Fractured Fossil" "Hollow Fossil" 
+	BaseType "Faceted Fossil" "Fractured Fossil" "Hollow Fossil" "Shuddering Fossil"
 	Class Currency
 	SetBackgroundColor 80 0 80
 	SetBorderColor 0 0 0
@@ -1410,7 +1410,7 @@ Show
 	PlayEffect Red
 #red (10-20c)
 Show
-	BaseType "Glyphic Fossil" "Opulent Fossil" "Shuddering Fossil" "Sanctified Fossil" "Bloodstained Fossil" "Tangled Fossil"
+	BaseType "Glyphic Fossil" "Opulent Fossil" "Sanctified Fossil" "Bloodstained Fossil" "Tangled Fossil"
 	Class Currency
 	SetBackgroundColor 80 0 0
 	SetBorderColor 0 0 0
@@ -2087,18 +2087,20 @@ Show
 
 # Settlers of Kalguur (v3.25)
 Show
-	Class "Rune"
+	BaseType "Life Rune" "Sun Rune" "Bound Rune" "War Rune" "River Rune" "Bounty Rune" "Journey Rune" "Mountain Rune" "Time Rune" "Power Rune"
 	SetBackgroundColor 255 255 255
-	SetTextColor 255 255 255
+	SetTextColor 0 0 0
 	SetFontSize 30
 	PlayAlertSound 11 200
 	MinimapIcon 2 Grey Square
 	PlayEffect Grey
 
 Show
-	BaseType "Gold"
+	BaseType == "Gold"
+	SetBackgroundColor 0 0 0 150
+	SetBorderColor 255 160 0
 	SetTextColor 255 255 255
-	SetFontSize 30
+	SetFontSize 35
 
 #League Unknowns - Uniques and div cards whose names/basetypes are known before launch but not the details, or if I'm not quite sure how significantly the changes will impact the value. Small green icons.
 #Show
@@ -2735,23 +2737,25 @@ Show
 	UberBlightedMap True
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
-	SetTextColor 75 125 75
+	SetTextColor 250 0 0
 	SetFontSize 35
-	PlayAlertSound 6 200
-	MinimapIcon 0 White Hexagon
-	PlayEffect White
+	PlayAlertSound 10 200
+	MinimapIcon 0 Red Hexagon
+	PlayEffect Red
+	DisableDropSound
 Show
 	Class Map
 	BlightedMap True
 	MapTier >= 13
 	SetBackgroundColor 255 221 153
 	SetBorderColor 250 0 0
-	SetTextColor 75 125 75
+	SetTextColor 250 0 0
 	SetFontSize 35
 	PlayAlertSound 8 200
-	MinimapIcon 0 Yellow Hexagon
+	MinimapIcon 0 Red Hexagon
 	PlayEffect Red
-Hide
+	DisableDropSound
+Show
 	Class Map
 	BlightedMap True
 	MapTier >= 6
@@ -2762,7 +2766,8 @@ Hide
 	PlayAlertSound 9 200
 	MinimapIcon 1 Yellow Hexagon
 	PlayEffect Yellow
-Hide
+	DisableDropSound
+Show
 	Class Map
 	BlightedMap True
 	SetBackgroundColor 255 221 153
@@ -2772,6 +2777,7 @@ Hide
 	PlayAlertSound 9 200
 	MinimapIcon 2 Yellow Hexagon
 	PlayEffect Yellow
+	DisableDropSound
 	
 #corrupted map catcher
 # Show
@@ -2861,9 +2867,9 @@ Show
 	SetBackgroundColor 235 235 235 255
 	SetBorderColor 255 0 0
 	SetTextColor 0 0 0 255
-	SetFontSize 32
+	SetFontSize 35
 	PlayAlertSound 5 300
-	PlayEffect Yellow
+	PlayEffect Red
 	MinimapIcon 1 Red Square
 
 Show
@@ -2872,9 +2878,9 @@ Show
 	SetBackgroundColor 235 235 235 255
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0 255
-	SetFontSize 30
+	SetFontSize 32
 	PlayAlertSound 5 300
-	PlayEffect Yellow
+	PlayEffect Red
 	MinimapIcon 1 Red Square
 Show
 	Class Map
@@ -2882,7 +2888,7 @@ Show
 	SetBackgroundColor 235 235 235 255
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0 255
-	SetFontSize 28
+	SetFontSize 30
 	PlayAlertSound 5 300
 	MinimapIcon 1 Red Square
 	
@@ -4356,13 +4362,13 @@ Hide
 Show
 	BaseType "Prismatic Jewel" "Timeless Jewel" "Large Cluster Jewel"
 	Rarity Unique
-	SetBackgroundColor 180 100 0
-	SetBorderColor 0 0 0
-	SetTextColor 250 125 0
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
 	SetFontSize 35
-	PlayAlertSound 6 250
-	MinimapIcon 0 Orange Diamond
-	PlayEffect White
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
 Show
 	BaseType "Cluster Jewel"
 	Class Jewel
@@ -4983,7 +4989,7 @@ Show
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	PlayAlertSound 2 125
-	SetFontSize 27
+	SetFontSize 32
 	MinimapIcon 1 Purple Square
 	PlayEffect Purple
 #All 6L Cards except Humility and Imperial Legacy. Must be on mid tier highlight regardless of trade value due to SSF importance. These next two blocks are separated here mainly for organizational purposes as mid tier is getting kinda big. 
@@ -5123,14 +5129,14 @@ Show
 	Class "Body Armour" Helmet Gloves Boots
 	BaseDefencePercentile >= 90
 	ItemLevel >= 86
-	DropLevel >= 65
+	DropLevel >= 78
 	Corrupted False
 	Mirrored False
 	SetBorderColor 229 136 66
 	SetFontSize 30
-	PlayAlertSound 13 200
-	MinimapIcon 1 Brown Kite
-	PlayEffect Brown
+	# PlayAlertSound 13 200
+	# MinimapIcon 1 Brown Kite
+	# PlayEffect Brown
 
 # Show	
 # 	BaseType "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Titan Gauntlets" "Titan Greaves" "Royal Burgonet" "Slink Gloves" "Slink Boots" "Lion Pelt" "Murder Mitts" "Murder Boots" "Deicide Mask" "Dragonscale Gauntlets" "Dragonscale Boots" "Pig-Faced Bascinet" "Fugitive Boots"
@@ -5193,36 +5199,36 @@ Show
 
 #84-86 filtering
 #Blocks that are hidden but NOT the ones thare shown MUST have a "Rarity Normal Magic" line or they interfere with rare highlighting elsewhere in the filter. 
-Show
-	Class "Body Armour" Helmet Gloves Boots
-	ItemLevel >= 86
-	DropLevel >= 65
-	Rarity Rare
-	Corrupted False
-	Mirrored False
-	SetBorderColor 250 200 150
-	SetFontSize 32
-	PlayEffect White
-Show
-	Class "Body Armour" Helmet Gloves Boots
-	ItemLevel = 85
-	DropLevel >= 65
-	Rarity Rare
-	Corrupted False
-	Mirrored False
-	SetBorderColor 200 150 0
-	SetFontSize 30
-	PlayEffect White
+# Show
+# 	Class "Body Armour" Helmet Gloves Boots
+# 	ItemLevel >= 86
+# 	DropLevel >= 65
+# 	Rarity Rare
+# 	Corrupted False
+# 	Mirrored False
+# 	SetBorderColor 250 200 150
+# 	SetFontSize 32
+# 	PlayEffect White
+# Show
+# 	Class "Body Armour" Helmet Gloves Boots
+# 	ItemLevel = 85
+# 	DropLevel >= 65
+# 	Rarity Rare
+# 	Corrupted False
+# 	Mirrored False
+# 	SetBorderColor 200 150 0
+# 	SetFontSize 30
+# 	PlayEffect White
 
-Show
-	Class "Body Armour" Helmet Gloves Boots
-	ItemLevel = 84
-	DropLevel >= 65
-	Corrupted False
-	Mirrored False
-	SetBorderColor 150 100 0
-	SetFontSize 30
-	PlayEffect White
+# Show
+# 	Class "Body Armour" Helmet Gloves Boots
+# 	ItemLevel = 84
+# 	DropLevel >= 65
+# 	Corrupted False
+# 	Mirrored False
+# 	SetBorderColor 150 100 0
+# 	SetFontSize 30
+# 	PlayEffect White
 
 ###################################################################################
 ############################ Section 11A - Rare Armour ############################
@@ -5233,13 +5239,13 @@ Show
 # --------------------------------- Mixed Blocks ---------------------------------
 
 #A Bit of Everything - shows a spattering of the best rares by default for those who didn't do any editing. Purple borders. Meant to be disabled/deleted if properly setting up your targetted rares.
-Show
-	Class "Body Armour" Helmet Gloves Boots
-	DropLevel >= 65
-	Corrupted False
-	Mirrored False
-	SetBorderColor 150 0 255
-	SetFontSize 28
+# Show
+# 	Class "Body Armour" Helmet Gloves Boots
+# 	DropLevel >= 65
+# 	Corrupted False
+# 	Mirrored False
+# 	SetBorderColor 150 0 255
+# 	SetFontSize 28
 
 # Show
 # 	BaseType "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Nightmare Bascinet" "Pig-Faced Bascinet" 
@@ -8725,13 +8731,14 @@ Hide
 	
 #High ilvl Flasks
 Show
-	BaseType "Amethyst Flask" "Basalt Flask" "Bismuth Flask" "Diamond Flask" "Gold Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Ruby Flask" "Sapphire Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask" "Topaz Flask" "Eternal Mana Flask" "Divine Life Flask" "Eternal Life Flask"
+	BaseType "Amethyst Flask" "Basalt Flask" "Bismuth Flask" "Diamond Flask" "Gold Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Ruby Flask" "Sapphire Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask" "Topaz Flask" 
+	# "Eternal Mana Flask" "Divine Life Flask" "Eternal Life Flask"
 	ItemLevel >= 85
-	SetBorderColor 200 150 0
+	# SetBorderColor 200 150 0
 	SetTextColor 0 125 250
-	SetFontSize 32
-	PlayAlertSound 14 150
-	MinimapIcon 2 Yellow Raindrop
+	SetFontSize 28
+	# PlayAlertSound 14 150
+	# MinimapIcon 2 Yellow Raindrop
 	
 # Show
 	# BaseType "Eternal Mana Flask" "Divine Life Flask" "Eternal Life Flask"
@@ -8746,7 +8753,7 @@ Show
 	BaseType "Amethyst Flask" "Basalt Flask" "Bismuth Flask" "Diamond Flask" "Gold Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Ruby Flask" "Sapphire Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask" "Topaz Flask"  
 	ItemLevel >= 84
 	SetTextColor 0 125 250
-	SetFontSize 30
+	SetFontSize 28
 	# MinimapIcon 2 Brown Raindrop
 
 #Sounded Flasks (campaign and early maps only. should be disabled, NOT hidden, in Uber only)
