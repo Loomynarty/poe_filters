@@ -2241,7 +2241,7 @@ Show
 	
 # Guardian Fragments
 Show
-	BaseType "Baran's Crest" "Al-Hezmin's Crest" "Drox's Crest" "Veritania's Crest" "Fragment of the Hydra" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Phoenix" "Fragment of Enslavement" "Fragment of Constriction" "Fragment of Purification" "Fragment of Eradication"
+	BaseType "Baran's Crest" "Al-Hezmin's Crest" "Drox's Crest" "Veritania's Crest" "Fragment of the Hydra" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Phoenix" "Fragment of Enslavement" "Fragment of Constriction" "Fragment of Purification" "Fragment of Eradication" "Fragment of Emptiness" "Fragment of Terror" "Fragment of Shape" "Fragment of Knowledge"
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 180 76 58 255
