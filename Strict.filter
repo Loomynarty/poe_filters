@@ -2168,6 +2168,16 @@ Show
 	PlayAlertSound 1 200
 	MinimapIcon 1 Pink Hexagon
 	PlayEffect Pink Temp
+# Guardian Fragments
+Show
+	BaseType "Baran's Crest" "Al-Hezmin's Crest" "Drox's Crest" "Veritania's Crest" "Fragment of the Hydra" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Phoenix" "Fragment of Enslavement" "Fragment of Constriction" "Fragment of Purification" "Fragment of Eradication"
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 180 76 58 255
+	SetFontSize 35
+	PlayAlertSound 1 200
+	MinimapIcon 1 Pink Hexagon
+	PlayEffect Pink Temp
 
 # Splinters (needs to be up here for prio issues)
 Show
@@ -2646,7 +2656,7 @@ Show
 
 #Fragments
 Show
-	BaseType "Fragment" "Mortal" "Crest"
+	BaseType "Fragment" "Mortal"
 	Class "Map Fragments"
 	SetBackgroundColor 0 0 0
 	SetBorderColor 200 150 250
