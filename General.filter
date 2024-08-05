@@ -2238,6 +2238,17 @@ Show
 	PlayAlertSound 1 200
 	MinimapIcon 1 Pink Hexagon
 	PlayEffect Pink Temp
+	
+# Guardian Fragments
+Show
+	BaseType "Baran's Crest" "Al-Hezmin's Crest" "Drox's Crest" "Veritania's Crest" "Fragment of the Hydra" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Phoenix" "Fragment of Enslavement" "Fragment of Constriction" "Fragment of Purification" "Fragment of Eradication"
+	SetTextColor 255 255 255 255
+	SetBorderColor 255 255 255 255
+	SetBackgroundColor 180 76 58 255
+	SetFontSize 35
+	PlayAlertSound 1 200
+	MinimapIcon 1 Pink Hexagon
+	PlayEffect Pink Temp
 
 # Splinters (needs to be up here for prio issues)
 Show
@@ -3063,40 +3074,40 @@ Show
 
 #white tier - top value special mod/basetype combos, white background brown text. stuff in this tier should drop pretty infrequently, if it's common then it should be moved to offwhite tier. should mostly be specific base + ilvl (for the most popular/strongest mod) combinations
 #explody
-Show
-	BaseType "Astral Plate"
-	HasInfluence Elder Hunter Crusader Warlord
-	ItemLevel >= 85
-	SetBackgroundColor 250 250 250
-	SetBorderColor 0 0 0
-	SetTextColor 150 100 0
-	SetFontSize 35
-	PlayAlertSound 6 250
-	MinimapIcon 0 White Cross
-	PlayEffect White
-Show
-	BaseType "Vaal Regalia"
-	HasInfluence Crusader
-	ItemLevel >= 85
-	SetBackgroundColor 250 250 250
-	SetBorderColor 0 0 0
-	SetTextColor 150 100 0
-	SetFontSize 35
-	PlayAlertSound 6 250
-	MinimapIcon 0 White Cross
-	PlayEffect White
+# Show
+# 	BaseType "Astral Plate"
+# 	HasInfluence Elder Hunter Crusader Warlord
+# 	ItemLevel >= 85
+# 	SetBackgroundColor 250 250 250
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 150 100 0
+# 	SetFontSize 30
+# 	PlayAlertSound 6 250
+# 	MinimapIcon 0 White Cross
+# 	PlayEffect White
+# Show
+# 	BaseType "Vaal Regalia"
+# 	HasInfluence Crusader
+# 	ItemLevel >= 80
+# 	SetBackgroundColor 250 250 250
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 150 100 0
+# 	SetFontSize 35
+# 	PlayAlertSound 6 250
+# 	MinimapIcon 0 White Cross
+# 	PlayEffect White
 #intimidate/unnerve
-Show
-	BaseType "Sorcerer Gloves" "Titan Gauntlets"
-	HasInfluence Hunter
-	ItemLevel >= 85
-	SetBackgroundColor 250 250 250
-	SetBorderColor 0 0 0
-	SetTextColor 150 100 0
-	SetFontSize 35
-	PlayAlertSound 6 250
-	MinimapIcon 0 White Cross
-	PlayEffect White
+# Show
+# 	BaseType "Sorcerer Gloves" "Titan Gauntlets"
+# 	HasInfluence Hunter
+# 	ItemLevel >= 85
+# 	SetBackgroundColor 250 250 250
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 150 100 0
+# 	SetFontSize 35
+# 	PlayAlertSound 6 250
+# 	MinimapIcon 0 White Cross
+# 	PlayEffect White
 
 #Semiwhite Tiers - high value but not worthy of solid white bg's. recessed white highlighting, different sound
 #explody and high life chests
@@ -3107,7 +3118,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 100 100 100
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 1 250
 	MinimapIcon 1 White Cross
 	PlayEffect White
@@ -3118,7 +3129,7 @@ Show
 	ItemLevel >= 80
 	SetBackgroundColor 100 100 100
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 1 250
 	MinimapIcon 1 White Cross
 	PlayEffect White
@@ -3130,7 +3141,7 @@ Show
 	ItemLevel >= 80
 	SetBackgroundColor 100 100 100
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 1 250
 	MinimapIcon 1 White Cross
 	PlayEffect White
@@ -3141,7 +3152,7 @@ Show
 	ItemLevel >= 80
 	SetBackgroundColor 100 100 100
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 1 250
 	MinimapIcon 1 White Cross
 	PlayEffect White
@@ -3152,21 +3163,21 @@ Show
 	ItemLevel >= 85
 	SetBackgroundColor 100 100 100
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 1 250
 	MinimapIcon 1 White Cross
 	PlayEffect White
 #ailment avoidance
-Show
-	BaseType "Titan Greaves" "Sorcerer Boots"
-	HasInfluence Shaper
-	ItemLevel >= 81
-	SetBackgroundColor 100 100 100
-	SetBorderColor 250 250 250
-	SetFontSize 35
-	PlayAlertSound 1 250
-	MinimapIcon 1 White Cross
-	PlayEffect White
+# Show
+# 	BaseType "Titan Greaves" "Sorcerer Boots"
+# 	HasInfluence Shaper
+# 	ItemLevel >= 81
+# 	SetBackgroundColor 100 100 100
+# 	SetBorderColor 250 250 250
+# 	SetFontSize 30
+# 	PlayAlertSound 1 250
+# 	MinimapIcon 1 White Cross
+# 	PlayEffect White
 #bleed
 Show
 	BaseType "Citadel Bow" "Siege Axe" "Royal Axe" "Karui Chopper" "Vaal Axe"
@@ -3174,7 +3185,7 @@ Show
 	ItemLevel >= 83
 	SetBackgroundColor 100 100 100
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 1 250
 	MinimapIcon 1 White Cross
 	PlayEffect White
@@ -3185,21 +3196,21 @@ Show
 	ItemLevel >= 80
 	SetBackgroundColor 100 100 100
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 1 250
 	MinimapIcon 1 White Cross
 	PlayEffect White
 #-9% res aura
-Show
-	BaseType "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet"
-	HasInfluence "Crusader" "Redeemer" "Hunter" "Warlord" "Elder" "Shaper"
-	ItemLevel >= 85
-	SetBackgroundColor 100 100 100
-	SetBorderColor 250 250 250
-	SetFontSize 35
-	PlayAlertSound 1 250
-	MinimapIcon 1 White Cross
-	PlayEffect White
+# Show
+# 	BaseType "Royal Burgonet" "Eternal Burgonet" "Lion Pelt" "Hubris Circlet"
+# 	HasInfluence "Crusader" "Redeemer" "Hunter" "Warlord" "Elder" "Shaper"
+# 	ItemLevel >= 85
+# 	SetBackgroundColor 100 100 100
+# 	SetBorderColor 250 250 250
+# 	SetFontSize 30
+# 	PlayAlertSound 1 250
+# 	MinimapIcon 1 White Cross
+# 	PlayEffect White
 #thicc life
 Show
 	BaseType "Leather Belt"
@@ -3207,7 +3218,7 @@ Show
 	ItemLevel >= 75
 	SetBackgroundColor 100 100 100
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 1 250
 	MinimapIcon 1 White Cross
 	PlayEffect White
@@ -3218,7 +3229,7 @@ Show
 	ItemLevel >= 85
 	SetBackgroundColor 100 100 100
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 1 250
 	MinimapIcon 1 White Cross
 	PlayEffect White
@@ -3229,21 +3240,21 @@ Show
 	ItemLevel >= 82
 	SetBackgroundColor 100 100 100
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 1 250
 	MinimapIcon 1 White Cross
 	PlayEffect White
 #curse on hit
-Show
-	BaseType "Coral Ring"
-	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
-	ItemLevel >= 80
-	SetBackgroundColor 100 100 100
-	SetBorderColor 250 250 250
-	SetFontSize 35
-	PlayAlertSound 1 250
-	MinimapIcon 1 White Cross
-	PlayEffect White
+# Show
+# 	BaseType "Coral Ring"
+# 	HasInfluence Shaper Elder Crusader Redeemer Hunter Warlord
+# 	ItemLevel >= 80
+# 	SetBackgroundColor 100 100 100
+# 	SetBorderColor 250 250 250
+# 	SetFontSize 30
+# 	PlayAlertSound 1 250
+# 	MinimapIcon 1 White Cross
+# 	PlayEffect White
 #life on block (actual req 68)
 Show 
 	BaseType "Fossilised Spirit Shield" "Harmonic Spirit Shield" "Ezomyte Tower Shield" "Bronze Tower Shield" "Copper Tower Shield" "Archon Kite Shield" "Angelic Kite Shield" "Ceremonial Kite Shield" "Colossal Tower Shield" "Supreme Spiked Shield"
@@ -3252,7 +3263,7 @@ Show
 	ItemLevel >= 80
 	SetBackgroundColor 100 100 100
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 1 250
 	MinimapIcon 1 White Cross
 	PlayEffect White
@@ -3264,7 +3275,7 @@ Show
 	ItemLevel >= 80
 	SetBackgroundColor 100 100 100
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 1 250
 	MinimapIcon 1 White Cross
 	PlayEffect White
@@ -3275,32 +3286,32 @@ Show
 	ItemLevel >= 80
 	SetBackgroundColor 100 100 100
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 1 250
 	MinimapIcon 1 White Cross
 	PlayEffect White
 
 #catchalls for good basetypes
-Show
-	BaseType "Titan Gauntlets" "Vaal Gauntlets" "Goliath Gauntlets" "Ancient Gauntlets" "Titan Greaves" "Vaal Greaves" "Goliath Greaves" "Ancient Greaves" "Eternal Burgonet" "Royal Burgonet" "Ezomyte Burgonet" "Samnite Helmet" "Glorious Plate" "Gladiator Plate" "Astral Plate" "Pinnacle Tower Shield" "Colossal Tower Shield" "Ezomyte Tower Shield" "Slink Gloves" "Stealth Gloves" "Shagreen Gloves" "Sharkskin Gloves" "Slink Boots" "Stealth Boots" "Shagreen Boots" "Sharkskin Boots" "Lion Pelt" "Sinner Tricorne" "Silken Hood" "Ursine Pelt" "Assassin's Garb" "Zodiac Leather" "Exquisite Leather" "Imperial Buckler" "Crusader Buckler" "Lacquered Buckler" "Dragonscale Gauntlets" "Hydrascale Gauntlets" "Wyrmscale Gauntlets" "Serpentscale Gauntlets" "Dragonscale Boots" "Hydrascale Boots" "Wyrmscale Boots" "Serpentscale Boots" "Nightmare Bascinet" "Pig-Faced Bascinet" "Fluted Bascinet" "Lacquered Helmet" "Triumphant Lamellar" "General's Brigandine" "Full Dragonscale" "Elegant Round Shield" "Murder Mitts" "Assassin's Mitts" "Carnal Mitts" "Ambush Mitts" "Murder Boots" "Assassin's Boots" "Carnal Boots" "Ambush Boots" "Deicide Mask" "Vaal Mask" "Harlequin Mask" "Regicide Mask" "Sadist Garb" "Blood Raiment" "Varnished Coat" "Supreme Spiked Shield" "Sovereign Spiked Shield" "Crusader Gloves" "Legion Gloves" "Soldier Gloves" "Zealot Gloves" "Crusader Boots" "Legion Boots" "Soldier Boots" "Zealot Boots" "Praetor Crown" "Prophet Crown" "Magistrate Crown" "Great Crown" "Saintly Chainmail" "Saint's Hauberk" "Elegant Ringmail" "Archon Kite Shield" "Angelic Kite Shield" "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Titanium Spirit Shield" "Vaal Regalia" "Arcanist Gloves" "Arcanist Slippers" "Harmonic Spirit Shield" "Jingling Spirit Shield" "Chiming Spirit Shield" "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield" "Feathered Arrow Quiver" "Spine Bow" "Ivory Bow" "Thicket Bow" "Piledriver" "Ambusher" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Behemoth Mace" "Siege Axe"
-	HasInfluence Crusader Hunter Shaper Elder
-	ItemLevel >= 85
-	SetBackgroundColor 100 100 100
-	SetBorderColor 250 250 250
-	SetFontSize 35
-	PlayAlertSound 1 250
-	MinimapIcon 1 White Cross
-	PlayEffect White
-Show
-	BaseType "Titan Gauntlets" "Vaal Gauntlets" "Goliath Gauntlets" "Ancient Gauntlets" "Titan Greaves" "Vaal Greaves" "Goliath Greaves" "Ancient Greaves" "Eternal Burgonet" "Royal Burgonet" "Ezomyte Burgonet" "Samnite Helmet" "Glorious Plate" "Gladiator Plate" "Astral Plate" "Pinnacle Tower Shield" "Colossal Tower Shield" "Ezomyte Tower Shield" "Slink Gloves" "Stealth Gloves" "Shagreen Gloves" "Sharkskin Gloves" "Slink Boots" "Stealth Boots" "Shagreen Boots" "Sharkskin Boots" "Lion Pelt" "Sinner Tricorne" "Silken Hood" "Ursine Pelt" "Assassin's Garb" "Zodiac Leather" "Exquisite Leather" "Imperial Buckler" "Crusader Buckler" "Lacquered Buckler" "Dragonscale Gauntlets" "Hydrascale Gauntlets" "Wyrmscale Gauntlets" "Serpentscale Gauntlets" "Dragonscale Boots" "Hydrascale Boots" "Wyrmscale Boots" "Serpentscale Boots" "Nightmare Bascinet" "Pig-Faced Bascinet" "Fluted Bascinet" "Lacquered Helmet" "Triumphant Lamellar" "General's Brigandine" "Full Dragonscale" "Elegant Round Shield" "Murder Mitts" "Assassin's Mitts" "Carnal Mitts" "Ambush Mitts" "Murder Boots" "Assassin's Boots" "Carnal Boots" "Ambush Boots" "Deicide Mask" "Vaal Mask" "Harlequin Mask" "Regicide Mask" "Sadist Garb" "Blood Raiment" "Varnished Coat" "Supreme Spiked Shield" "Sovereign Spiked Shield" "Crusader Gloves" "Legion Gloves" "Soldier Gloves" "Zealot Gloves" "Crusader Boots" "Legion Boots" "Soldier Boots" "Zealot Boots" "Praetor Crown" "Prophet Crown" "Magistrate Crown" "Great Crown" "Saintly Chainmail" "Saint's Hauberk" "Elegant Ringmail" "Archon Kite Shield" "Angelic Kite Shield" "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Titanium Spirit Shield" "Vaal Regalia" "Arcanist Gloves" "Arcanist Slippers" "Harmonic Spirit Shield" "Jingling Spirit Shield" "Chiming Spirit Shield" "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield" "Feathered Arrow Quiver" "Spine Bow" "Ivory Bow" "Thicket Bow" "Piledriver" "Ambusher" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Behemoth Mace" "Siege Axe"
-	HasInfluence Redeemer Warlord
-	ItemLevel >= 83
-	SetBackgroundColor 100 100 100
-	SetBorderColor 250 250 250
-	SetFontSize 35
-	PlayAlertSound 1 250
-	MinimapIcon 1 White Cross
-	PlayEffect White
+# Show
+# 	BaseType "Titan Gauntlets" "Vaal Gauntlets" "Goliath Gauntlets" "Ancient Gauntlets" "Titan Greaves" "Vaal Greaves" "Goliath Greaves" "Ancient Greaves" "Eternal Burgonet" "Royal Burgonet" "Ezomyte Burgonet" "Samnite Helmet" "Glorious Plate" "Gladiator Plate" "Astral Plate" "Pinnacle Tower Shield" "Colossal Tower Shield" "Ezomyte Tower Shield" "Slink Gloves" "Stealth Gloves" "Shagreen Gloves" "Sharkskin Gloves" "Slink Boots" "Stealth Boots" "Shagreen Boots" "Sharkskin Boots" "Lion Pelt" "Sinner Tricorne" "Silken Hood" "Ursine Pelt" "Assassin's Garb" "Zodiac Leather" "Exquisite Leather" "Imperial Buckler" "Crusader Buckler" "Lacquered Buckler" "Dragonscale Gauntlets" "Hydrascale Gauntlets" "Wyrmscale Gauntlets" "Serpentscale Gauntlets" "Dragonscale Boots" "Hydrascale Boots" "Wyrmscale Boots" "Serpentscale Boots" "Nightmare Bascinet" "Pig-Faced Bascinet" "Fluted Bascinet" "Lacquered Helmet" "Triumphant Lamellar" "General's Brigandine" "Full Dragonscale" "Elegant Round Shield" "Murder Mitts" "Assassin's Mitts" "Carnal Mitts" "Ambush Mitts" "Murder Boots" "Assassin's Boots" "Carnal Boots" "Ambush Boots" "Deicide Mask" "Vaal Mask" "Harlequin Mask" "Regicide Mask" "Sadist Garb" "Blood Raiment" "Varnished Coat" "Supreme Spiked Shield" "Sovereign Spiked Shield" "Crusader Gloves" "Legion Gloves" "Soldier Gloves" "Zealot Gloves" "Crusader Boots" "Legion Boots" "Soldier Boots" "Zealot Boots" "Praetor Crown" "Prophet Crown" "Magistrate Crown" "Great Crown" "Saintly Chainmail" "Saint's Hauberk" "Elegant Ringmail" "Archon Kite Shield" "Angelic Kite Shield" "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Titanium Spirit Shield" "Vaal Regalia" "Arcanist Gloves" "Arcanist Slippers" "Harmonic Spirit Shield" "Jingling Spirit Shield" "Chiming Spirit Shield" "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield" "Feathered Arrow Quiver" "Spine Bow" "Ivory Bow" "Thicket Bow" "Piledriver" "Ambusher" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Behemoth Mace" "Siege Axe"
+# 	HasInfluence Crusader Hunter Shaper Elder
+# 	ItemLevel >= 85
+# 	SetBackgroundColor 100 100 100
+# 	SetBorderColor 250 250 250
+# 	SetFontSize 30
+# 	PlayAlertSound 1 250
+# 	MinimapIcon 1 White Cross
+# 	PlayEffect White
+# Show
+# 	BaseType "Titan Gauntlets" "Vaal Gauntlets" "Goliath Gauntlets" "Ancient Gauntlets" "Titan Greaves" "Vaal Greaves" "Goliath Greaves" "Ancient Greaves" "Eternal Burgonet" "Royal Burgonet" "Ezomyte Burgonet" "Samnite Helmet" "Glorious Plate" "Gladiator Plate" "Astral Plate" "Pinnacle Tower Shield" "Colossal Tower Shield" "Ezomyte Tower Shield" "Slink Gloves" "Stealth Gloves" "Shagreen Gloves" "Sharkskin Gloves" "Slink Boots" "Stealth Boots" "Shagreen Boots" "Sharkskin Boots" "Lion Pelt" "Sinner Tricorne" "Silken Hood" "Ursine Pelt" "Assassin's Garb" "Zodiac Leather" "Exquisite Leather" "Imperial Buckler" "Crusader Buckler" "Lacquered Buckler" "Dragonscale Gauntlets" "Hydrascale Gauntlets" "Wyrmscale Gauntlets" "Serpentscale Gauntlets" "Dragonscale Boots" "Hydrascale Boots" "Wyrmscale Boots" "Serpentscale Boots" "Nightmare Bascinet" "Pig-Faced Bascinet" "Fluted Bascinet" "Lacquered Helmet" "Triumphant Lamellar" "General's Brigandine" "Full Dragonscale" "Elegant Round Shield" "Murder Mitts" "Assassin's Mitts" "Carnal Mitts" "Ambush Mitts" "Murder Boots" "Assassin's Boots" "Carnal Boots" "Ambush Boots" "Deicide Mask" "Vaal Mask" "Harlequin Mask" "Regicide Mask" "Sadist Garb" "Blood Raiment" "Varnished Coat" "Supreme Spiked Shield" "Sovereign Spiked Shield" "Crusader Gloves" "Legion Gloves" "Soldier Gloves" "Zealot Gloves" "Crusader Boots" "Legion Boots" "Soldier Boots" "Zealot Boots" "Praetor Crown" "Prophet Crown" "Magistrate Crown" "Great Crown" "Saintly Chainmail" "Saint's Hauberk" "Elegant Ringmail" "Archon Kite Shield" "Angelic Kite Shield" "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Titanium Spirit Shield" "Vaal Regalia" "Arcanist Gloves" "Arcanist Slippers" "Harmonic Spirit Shield" "Jingling Spirit Shield" "Chiming Spirit Shield" "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield" "Feathered Arrow Quiver" "Spine Bow" "Ivory Bow" "Thicket Bow" "Piledriver" "Ambusher" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Behemoth Mace" "Siege Axe"
+# 	HasInfluence Redeemer Warlord
+# 	ItemLevel >= 83
+# 	SetBackgroundColor 100 100 100
+# 	SetBorderColor 250 250 250
+# 	SetFontSize 30
+# 	PlayAlertSound 1 250
+# 	MinimapIcon 1 White Cross
+# 	PlayEffect White
 	
 #6s exception with slightly different highlight from regular 6s
 Show
@@ -3309,7 +3320,7 @@ Show
 	SetBackgroundColor 0 150 150
 	SetBorderColor 0 250 250
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 2 200
 	MinimapIcon 0 Green Square
 	PlayEffect Green
@@ -3322,7 +3333,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 25 0 50
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Purple Cross
 	PlayEffect Purple
@@ -3333,7 +3344,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 25 0 50
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Purple Cross
 	PlayEffect Purple
@@ -3343,7 +3354,7 @@ Show
 	ItemLevel >= 82
 	SetBackgroundColor 25 0 50
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Purple Cross
 	PlayEffect Purple
@@ -3354,7 +3365,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 25 0 50
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Purple Cross
 	PlayEffect Purple
@@ -3364,7 +3375,7 @@ Show
 	ItemLevel >= 80
 	SetBackgroundColor 25 0 50
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 200
 	MinimapIcon 0 Purple Cross
 	PlayEffect Purple
@@ -3382,7 +3393,7 @@ Show
 	HasInfluence Shaper
 	SetBackgroundColor 25 0 50
 	SetBorderColor 100 0 200
-	SetFontSize 36
+	SetFontSize 30
 	MinimapIcon 2 Purple Cross
 	
 #Elder
@@ -3393,7 +3404,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 25 25 50
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Grey Cross
 	PlayEffect Grey
@@ -3404,7 +3415,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 25 25 50
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Grey Cross
 	PlayEffect Grey
@@ -3415,7 +3426,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 25 25 50
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Grey Cross
 	PlayEffect Grey
@@ -3426,7 +3437,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 25 25 50
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Grey Cross
 	PlayEffect Grey
@@ -3436,7 +3447,7 @@ Show
 	ItemLevel >= 83
 	SetBackgroundColor 25 25 50
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Grey Cross
 	PlayEffect Grey
@@ -3446,7 +3457,7 @@ Show
 	ItemLevel >= 80
 	SetBackgroundColor 25 25 50
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 200
 	MinimapIcon 0 Grey Cross
 	PlayEffect Grey
@@ -3464,7 +3475,7 @@ Show
 	HasInfluence Elder
 	SetBackgroundColor 25 25 50
 	SetBorderColor 150 150 200
-	SetFontSize 36
+	SetFontSize 30
 	MinimapIcon 2 Grey Cross
 	
 #Crusader
@@ -3475,7 +3486,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 40 0 0
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Red Cross
 	PlayEffect Red
@@ -3485,7 +3496,7 @@ Show
 	ItemLevel >= 82
 	SetBackgroundColor 40 0 0
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Red Cross
 	PlayEffect Red
@@ -3496,7 +3507,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 40 0 0
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Red Cross
 	PlayEffect Red
@@ -3506,7 +3517,7 @@ Show
 	ItemLevel >= 80
 	SetBackgroundColor 40 0 0
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 200
 	MinimapIcon 0 Red Cross
 	PlayEffect Red
@@ -3524,7 +3535,7 @@ Show
 	HasInfluence Crusader
 	SetBackgroundColor 40 0 0
 	SetBorderColor 200 0 0
-	SetFontSize 36
+	SetFontSize 30
 	MinimapIcon 2 Red Cross
 	
 #Redeemer
@@ -3535,7 +3546,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 0 0 90
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Blue Cross
 	PlayEffect Blue
@@ -3545,7 +3556,7 @@ Show
 	ItemLevel >= 82
 	SetBackgroundColor 0 0 90
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Blue Cross
 	PlayEffect Blue
@@ -3555,7 +3566,7 @@ Show
 	ItemLevel >= 81
 	SetBackgroundColor 0 0 90
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Blue Cross
 	PlayEffect Blue
@@ -3566,7 +3577,7 @@ Show
 	DropLevel >= 60
 	SetBackgroundColor 0 0 90
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Blue Cross
 	PlayEffect Blue
@@ -3576,7 +3587,7 @@ Show
 	ItemLevel >= 80
 	SetBackgroundColor 0 0 90
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 200
 	MinimapIcon 0 Blue Cross
 	PlayEffect Blue
@@ -3594,7 +3605,7 @@ Show
 	HasInfluence Redeemer
 	SetBackgroundColor 0 0 90
 	SetBorderColor 0 175 250
-	SetFontSize 36
+	SetFontSize 30
 	MinimapIcon 2 Blue Cross
 	
 #Hunter
@@ -3604,7 +3615,7 @@ Show
 	ItemLevel >= 84
 	SetBackgroundColor 0 35 0
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Green Cross
 	PlayEffect Green
@@ -3615,7 +3626,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 0 35 0
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Green Cross
 	PlayEffect Green
@@ -3625,7 +3636,7 @@ Show
 	ItemLevel >= 82
 	SetBackgroundColor 0 35 0
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Green Cross
 	PlayEffect Green
@@ -3636,7 +3647,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 0 35 0
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Green Cross
 	PlayEffect Green
@@ -3647,7 +3658,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 0 35 0
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Green Cross
 	PlayEffect Green
@@ -3667,7 +3678,7 @@ Show
 	ItemLevel >= 80
 	SetBackgroundColor 0 35 0
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 200
 	MinimapIcon 0 Green Cross
 	PlayEffect Green
@@ -3685,7 +3696,7 @@ Show
 	HasInfluence Hunter
 	SetBackgroundColor 0 35 0
 	SetBorderColor 0 200 0
-	SetFontSize 36
+	SetFontSize 30
 	MinimapIcon 2 Green Cross
 	
 #Warlord
@@ -3696,7 +3707,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 35 35 0
 	SetBorderColor 250 250 100
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Yellow Cross
 	PlayEffect Yellow
@@ -3707,7 +3718,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 35 35 0
 	SetBorderColor 250 250 100
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Yellow Cross
 	PlayEffect Yellow
@@ -3718,7 +3729,7 @@ Show
 	DropLevel >= 65
 	SetBackgroundColor 35 35 0
 	SetBorderColor 250 250 100
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Yellow Cross
 	PlayEffect Yellow
@@ -3728,7 +3739,7 @@ Show
 	ItemLevel >= 82
 	SetBackgroundColor 35 35 0
 	SetBorderColor 250 250 100
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 250
 	MinimapIcon 0 Yellow Cross
 	PlayEffect Yellow
@@ -3738,7 +3749,7 @@ Show
 	ItemLevel >= 80
 	SetBackgroundColor 35 35 0
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 200
 	MinimapIcon 0 Yellow Cross
 	PlayEffect Yellow
@@ -3756,7 +3767,7 @@ Show
 	HasInfluence Warlord
 	SetBackgroundColor 35 35 0
 	SetBorderColor 180 180 0
-	SetFontSize 36
+	SetFontSize 30
 	MinimapIcon 2 Yellow Cross
 	
 #Fractured Items
