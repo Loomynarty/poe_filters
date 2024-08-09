@@ -3750,7 +3750,7 @@ Show
 	BaseArmour >= 1
 	BaseEvasion = 0
 	BaseEnergyShield = 0
-	DropLevel >= 50
+	DropLevel >= 73
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
@@ -3763,7 +3763,7 @@ Show
 	BaseArmour >= 1
 	BaseEvasion >= 1
 	BaseEnergyShield = 0
-	DropLevel >= 40
+	DropLevel >= 73
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 0 250 0
@@ -3776,7 +3776,7 @@ Show
 	BaseArmour = 0
 	BaseEvasion >= 1
 	BaseEnergyShield = 0
-	DropLevel >= 40
+	DropLevel >= 73
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 0 250 0
@@ -3789,7 +3789,7 @@ Show
 	BaseArmour = 0
 	BaseEvasion >= 1
 	BaseEnergyShield >= 1
-	DropLevel >= 45
+	DropLevel >= 73
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 0 250 0
@@ -3802,7 +3802,7 @@ Show
 	BaseArmour >= 1
 	BaseEvasion = 0
 	BaseEnergyShield >= 1
-	DropLevel >= 60
+	DropLevel >= 73
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
@@ -3811,18 +3811,11 @@ Show
 	MinimapIcon 1 Grey Moon
 	PlayEffect Grey
 Show
-	BaseType "Hubris Circlet" "Sorcerer Gloves" "Vaal Regalia" "Sorcerer Boots" "Sadist Garb"
-	DropLevel >= 60
-	FracturedItem True
-	SetBackgroundColor 40 90 140
-	SetBorderColor 150 150 150
-	SetFontSize 30
-	#CustomAlertSound "16_influence.mp3"
-	MinimapIcon 1 Grey Moon
-	PlayEffect Grey
-Show
 	Class Gloves Boots Helm "Body Armour"
-	DropLevel >= 66
+	BaseArmour = 0
+	BaseEvasion = 0
+	BaseEnergyShield >= 1
+	DropLevel >= 73
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
@@ -3848,7 +3841,7 @@ Show
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 200 250
-	SetFontSize 30
+	SetFontSize 35
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
 	PlayEffect Grey
@@ -3858,7 +3851,7 @@ Show
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
-	SetFontSize 30
+	SetFontSize 35
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
 	PlayEffect Grey
@@ -3882,7 +3875,7 @@ Show
 	MinimapIcon 2 Grey Moon
 	PlayEffect Grey
 Show
-	BaseType "Titan Gauntlets" "Vaal Gauntlets" "Goliath Gauntlets" "Ancient Gauntlets" "Titan Greaves" "Vaal Greaves" "Goliath Greaves" "Ancient Greaves" "Eternal Burgonet" "Royal Burgonet" "Ezomyte Burgonet" "Samnite Helmet" "Glorious Plate" "Gladiator Plate" "Astral Plate" "Pinnacle Tower Shield" "Colossal Tower Shield" "Ezomyte Tower Shield" "Slink Gloves" "Stealth Gloves" "Shagreen Gloves" "Sharkskin Gloves" "Slink Boots" "Stealth Boots" "Shagreen Boots" "Sharkskin Boots" "Lion Pelt" "Sinner Tricorne" "Silken Hood" "Ursine Pelt" "Assassin's Garb" "Zodiac Leather" "Exquisite Leather" "Imperial Buckler" "Crusader Buckler" "Lacquered Buckler" "Dragonscale Gauntlets" "Hydrascale Gauntlets" "Wyrmscale Gauntlets" "Serpentscale Gauntlets" "Dragonscale Boots" "Hydrascale Boots" "Wyrmscale Boots" "Serpentscale Boots" "Nightmare Bascinet" "Pig-Faced Bascinet" "Fluted Bascinet" "Lacquered Helmet" "Triumphant Lamellar" "General's Brigandine" "Full Dragonscale" "Elegant Round Shield" "Murder Mitts" "Assassin's Mitts" "Carnal Mitts" "Ambush Mitts" "Murder Boots" "Assassin's Boots" "Carnal Boots" "Ambush Boots" "Deicide Mask" "Vaal Mask" "Harlequin Mask" "Regicide Mask" "Sadist Garb" "Blood Raiment" "Varnished Coat" "Supreme Spiked Shield" "Sovereign Spiked Shield" "Crusader Gloves" "Legion Gloves" "Soldier Gloves" "Zealot Gloves" "Crusader Boots" "Legion Boots" "Soldier Boots" "Zealot Boots" "Praetor Crown" "Prophet Crown" "Magistrate Crown" "Great Crown" "Saintly Chainmail" "Saint's Hauberk" "Elegant Ringmail" "Archon Kite Shield" "Angelic Kite Shield" "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Titanium Spirit Shield" "Vaal Regalia" "Arcanist Gloves" "Arcanist Slippers" "Harmonic Spirit Shield" "Jingling Spirit Shield" "Chiming Spirit Shield" "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield" "Feathered Arrow Quiver" "Spine Bow" "Ivory Bow" "Thicket Bow" "Piledriver" "Ambusher" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Behemoth Mace" "Siege Axe"
+	BaseType "Pinnacle Tower Shield" "Colossal Tower Shield" "Ezomyte Tower Shield" "Imperial Buckler" "Crusader Buckler" "Lacquered Buckler" "Elegant Round Shield" "Supreme Spiked Shield" "Sovereign Spiked Shield""Titanium Spirit Shield" "Harmonic Spirit Shield" "Jingling Spirit Shield" "Chiming Spirit Shield" "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield" "Feathered Arrow Quiver" "Spine Bow" "Ivory Bow" "Thicket Bow" "Piledriver" "Ambusher" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Behemoth Mace" "Siege Axe" "Imperial Claw"
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
@@ -3894,7 +3887,7 @@ Show
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
-	SetFontSize 34
+	SetFontSize 22
 
 #Temporary Exarch/Eater Sections. v3.22 update - is likely never going to be further expanded as these drops are pretty much always worthless
 #Show
