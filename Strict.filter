@@ -1580,7 +1580,7 @@ Show
 	MinimapIcon 2 Brown Moon
 # Scarabs
 Show
-	BaseType "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Ambush Scarab of Containment" "Horned Scarab of Glittering" "Horned Scarab of Awakening" "Horned Scarab of Pandemonium" "Essence Scarab of Calcification" "Divination Scarab of Pilfering" "Domination Scarab of Terrors"
+	BaseType "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Ambush Scarab of Containment" "Horned Scarab of Glittering" "Horned Scarab of Awakening" "Horned Scarab of Pandemonium"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
 	SetTextColor 180 76 58 255
@@ -1588,18 +1588,18 @@ Show
 	PlayAlertSound 6 300
 	PlayEffect Red
 	MinimapIcon 0 Red Star
+# Show
+# 	BaseType "Horned"
+# 	Class "Map Fragment"
+# 	SetBackgroundColor 80 0 0
+# 	SetBorderColor 250 250 250
+# 	SetTextColor 250 0 0 
+# 	SetFontSize 35
+# 	PlayAlertSound 11 200
+# 	MinimapIcon 1 Red Triangle
+# 	PlayEffect Red
 Show
-	BaseType "Horned"
-	Class "Map Fragment"
-	SetBackgroundColor 80 0 0
-	SetBorderColor 250 250 250
-	SetTextColor 250 0 0 
-	SetFontSize 35
-	PlayAlertSound 11 200
-	MinimapIcon 1 Red Triangle
-	PlayEffect Red
-Show
-	BaseType "Scarab of"
+	BaseType "Divination Scarab of Pilfering" "Essence Scarab of Calcification" "Domination Scarab of Terrors" "Harvest Scarab of Cornucopia" "Ambush Scarab of Discernment" "Horned Scarab of Bloodlines" "Cartography Scarab of Corruption" "Harbinger Scarab of Regency" "Incursion Scarab of Timelines" "Blight Scarab of Blooming" "Ultimatum Scarab of Dueling" "Harbinger Scarab of Warhoards" "Harvest Scarab of Doubling" "Ritual Scarab of Abundance" "Ambush Scarab" "Cartography Scarab of the Multitude" "Essence Scarab of Adaptation" "Breach Scarab of Snares" "Titanic Scarab of Treasures" "Essence Scarab of Ascent" "Divination Scarab of The Cloister" "Horned Scarab of Tradition" "Harbinger Scarab" "Cartography Scarab of Escalation"
 	Class "Map Fragment"
 	SetBackgroundColor 100 50 0
 	SetBorderColor 225 225 225
@@ -1614,7 +1614,7 @@ Show
 	SetBackgroundColor 80 40 0
 	SetBorderColor 200 200 200
 	SetTextColor 225 75 0
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 11 200
 	MinimapIcon 2 Brown Triangle
 	PlayEffect Brown
