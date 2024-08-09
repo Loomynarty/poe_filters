@@ -2094,13 +2094,21 @@ Show
 
 # Settlers of Kalguur (v3.25)
 Show
+	BaseType "Time Rune" "Power Rune"
+	SetBackgroundColor 255 255 255
+	SetTextColor 0 0 0
+	SetFontSize 30
+	PlayAlertSound 11 200
+	MinimapIcon 2 White Star
+	PlayEffect White
+Show
 	BaseType "Life Rune" "Sun Rune" "Bound Rune" "War Rune" "River Rune" "Bounty Rune" "Journey Rune" "Mountain Rune" "Time Rune" "Power Rune"
 	SetBackgroundColor 255 255 255
 	SetTextColor 0 0 0
 	SetFontSize 30
 	PlayAlertSound 11 200
-	MinimapIcon 2 Grey Square
-	PlayEffect Grey
+	# MinimapIcon 2 Grey Square
+	# PlayEffect Grey
 
 Show
 	BaseType == "Gold"
@@ -2160,7 +2168,7 @@ Show
 
 # Boss Fragments
 Show
-	BaseType "Cosmic Fragment" "Decaying Fragment" "Awakening Fragment" "Synthesising Fragment" "Reality Fragment" "Devouring Fragment" "Blazing Fragment"
+	BaseType "Cosmic Fragment" "Decaying Fragment" "Awakening Fragment" "Synthesising Fragment" "Reality Fragment" "Devouring Fragment" "Blazing Fragment" "Primordial Fragment"
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 180 76 58 255
@@ -2513,7 +2521,7 @@ Show
 	SetBackgroundColor 50 50 50
 	SetBorderColor 0 0 0
 	SetTextColor 250 220 175
-	SetFontSize 35
+	SetFontSize 30
 	MinimapIcon 2 Grey Raindrop
 	PlayEffect Grey Temp
 
