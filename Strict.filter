@@ -4933,7 +4933,7 @@ Show
 	SetBackgroundColor 180 80 0
 	SetBorderColor 200 150 250
 	SetTextColor 0 0 0
-	SetFontSize 36
+	SetFontSize 30
 	DisableDropSound
 
 #6S uniques - located here due to priority issues
