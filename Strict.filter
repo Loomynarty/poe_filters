@@ -541,7 +541,7 @@ Show
 Show
 	BaseType "Chaos Orb" "Regal Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Vaal Orb"
 	Class Currency
-	SetBackgroundColor 0 175 175
+	SetBackgroundColor 0 225 225
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	SetFontSize 35
@@ -1130,7 +1130,7 @@ Hide
 	SetBorderColor 0 0 0
 	SetTextColor 0 250 175
 	SetFontSize 30
-Show
+Hide
 	BaseType "Essence"
 	Class Currency
 	SetBackgroundColor 0 75 0
@@ -1706,23 +1706,24 @@ Show
 #Metamorph (v3.9)
 #samples removed in 3.23
 Show
-	BaseType "Fertile Catalyst" "Prismatic Catalyst" "Tempering Catalyst" "Tainted Catalyst"
+	BaseType "Fertile Catalyst" "Prismatic Catalyst" "Tainted Catalyst"
 	Class Currency
-	SetBackgroundColor 250 230 200
+	SetBackgroundColor 175 0 250
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 32
-	PlayEffect White
-	PlayAlertSound 11 200
-	MinimapIcon 0 Yellow Circle
+	SetFontSize 35
+	PlayEffect Purple
+	PlayAlertSound 10 200
+	MinimapIcon 1 Purple Star
 Show
 	BaseType "Catalyst"
 	Class Currency
-	SetBackgroundColor 220 208 180
+	SetBackgroundColor 0 225 225
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
-	PlayEffect Grey Temp
+	SetFontSize 32
+	PlayEffect Cyan Temp
+	PlayAlertSound 11 200
 	MinimapIcon 2 Yellow Circle
 	
 #Delirium (v3.10): dark grey/tan theme for splinters, faded pink for orbs - fully migrated into other sections
