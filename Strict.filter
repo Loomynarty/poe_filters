@@ -1123,7 +1123,7 @@ Show
 	SetFontSize 32
 	MinimapIcon 2 Cyan Circle
 	PlayEffect Cyan Temp
-Show
+Hide
 	BaseType "Wailing Essence"
 	Class Currency
 	SetBackgroundColor 0 75 50
