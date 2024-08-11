@@ -73,7 +73,6 @@ Hide
 	DisableDropSound
 Show
 	Class "Jewel" "Gem"
-	Rarity Rare
 	AreaLevel == 1
 	SetFontSize 30
 	DisableDropSound
@@ -729,13 +728,13 @@ Hide
 	
 #Shards
 Show
-	BaseType "Exalted Shard" "Annulment Shard" "Ancient Shard" "Harbinger's Shard" "Fracturing Shard"
+	BaseType "Exalted Shard" "Annulment Shard" "Ancient Shard" "Fracturing Shard"
 	SetBorderColor 0 150 250
 	SetFontSize 30
 	MinimapIcon 2 Blue Circle
 	PlayEffect Blue Temp
 Hide
-	BaseType "Chaos Shard" "Regal Shard" "Horizon Shard"
+	BaseType "Chaos Shard" "Regal Shard" "Horizon Shard" "Harbinger's Shard"
 	SetBorderColor 0 200 200
 	SetFontSize 30
 Hide
@@ -1667,6 +1666,16 @@ Show
 	MinimapIcon 0 Purple Star
 Show
 	BaseType "Thaumaturge's" "Time-Lost" "Gemcutter's" "Ornate" "Celestial Jeweller's" "Fine" "Diviner's" "Maddening" "Fossilised" "Skittering"
+	Class Incubator
+	SetBackgroundColor 125 0 225
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 30
+	PlayEffect Purple Temp
+	PlayAlertSound 11 200
+	MinimapIcon 2 Purple Circle
+Hide
+	BaseType "Primal"
 	Class Incubator
 	SetBackgroundColor 125 0 225
 	SetBorderColor 0 0 0
@@ -2912,8 +2921,7 @@ Show
 	PlayAlertSound 5 300
 	PlayEffect Red
 	MinimapIcon 1 Red Square
-
-Show
+Hide
 	Class Map
 	MapTier >= 14
 	SetBackgroundColor 235 235 235 255
@@ -2923,7 +2931,7 @@ Show
 	PlayAlertSound 5 300
 	PlayEffect Red
 	MinimapIcon 1 Red Square
-Show
+Hide
 	Class Map
 	MapTier >= 11
 	SetBackgroundColor 235 235 235 255
@@ -3021,7 +3029,7 @@ Show
 	PlayEffect Yellow
 
 #atlas bases, white background red-purple text. v3.22 update - removed Marble Amulet, Blue Pearl Amulet, Vanguard Belt, Cerulean Ring, Convoking Wand, Seaglass Amulet, Artillery Quiver
-Show	
+Hide	
 	BaseType "Vermillion Ring" "Steel Ring" "Opal Ring" "Iolite Ring" "Marble Amulet" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise" "Fugitive Boots" "Apothecary's Gloves"
 	HasInfluence Crusader Redeemer Hunter Warlord Shaper Elder
 	SetBackgroundColor 250 250 250
@@ -3919,7 +3927,7 @@ Show
 #	MinimapIcon 2 Cyan Cross
 	
 #T1 Atlas Bases. dark purple background, border indicates ilvl
-Show
+Hide
 	BaseType "Vermillion Ring" "Stygian Vise" "Crystal Belt" "Marble Amulet"
 	Rarity Normal Magic Rare
 	ItemLevel >= 86
@@ -3929,7 +3937,7 @@ Show
 	# PlayAlertSound 13 200
 	# MinimapIcon 1 Red Kite
 	# PlayEffect Red
-Show
+Hide
 	BaseType "Vermillion Ring" "Stygian Vise" "Crystal Belt" "Marble Amulet"
 	Rarity Normal Magic Rare
 	ItemLevel >= 85
@@ -3939,7 +3947,7 @@ Show
 	# PlayAlertSound 13 200
 	# MinimapIcon 1 Purple Kite
 	# PlayEffect Purple
-Show
+Hide
 	BaseType "Vermillion Ring" "Stygian Vise" "Crystal Belt" "Marble Amulet"
 	Rarity Normal Magic Rare
 	ItemLevel >= 84
@@ -3949,7 +3957,7 @@ Show
 	# PlayAlertSound 13 200
 	# MinimapIcon 1 Blue Kite
 	# PlayEffect Blue
-Show 
+Hide
 	BaseType "Vermillion Ring" "Stygian Vise" "Crystal Belt" "Marble Amulet"
 	Rarity Normal Magic Rare
 	SetBackgroundColor 65 0 65
@@ -3957,31 +3965,31 @@ Show
 	SetFontSize 35
 
 #T2 Atlas Bases. border indicator for ilvl only (same as 84+ filtering). no icons or light
-Show
+Hide
 	BaseType "Opal Ring" "Steel Ring" "Iolite Ring"
 	Rarity Normal Magic Rare
 	ItemLevel >= 86
 	SetBorderColor 250 250 250
 	SetFontSize 30
-Show
+Hide
 	BaseType "Opal Ring" "Steel Ring" "Iolite Ring"
 	Rarity Normal Magic Rare
 	ItemLevel >= 85
 	SetBorderColor 250 200 150
 	SetFontSize 30
-Show
+Hide
 	BaseType "Opal Ring" "Steel Ring" "Iolite Ring"
 	Rarity Normal Magic Rare
 	ItemLevel >= 84
 	SetBorderColor 200 150 0
 	SetFontSize 30
-Show
+Hide
 	BaseType "Opal Ring" "Steel Ring" "Iolite Ring"
 	Rarity Normal Magic Rare
 	SetFontSize 30
 	
 #T3 Atlas Bases. only shown in General before red maps due to eldritch implicits existing
-Show
+Hide
 	AreaLevel <= 77
 	BaseType "Vanguard Belt" "Cerulean Ring" "Blue Pearl Amulet" "Seaglass Amulet" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Fugitive Boots" "Apothecary's Gloves" "Artillery Quiver"
 	Rarity Normal Magic Rare
@@ -4333,7 +4341,7 @@ Show
 	SetBackgroundColor 250 225 100
 	SetBorderColor 255 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 25
 Show
 	Class "Jewel"
 	Corrupted True
@@ -4341,7 +4349,7 @@ Show
 	SetBackgroundColor 50 0 0
 	SetBorderColor 0 0 0
 	SetTextColor 255 255 119
-	SetFontSize 30
+	SetFontSize 25
 # Show
 	# Class "Jewel"
 	# Corrupted True
@@ -4438,18 +4446,18 @@ Show
 
 #cluster jewels
 #84 clusters
-Show
-	BaseType "Large Cluster Jewel"
-	EnchantmentPassiveNode "Chaos" "Physical" "Minion" "Spell" "Fire" "Cold" "Lightning" "Bow" "Two Handed"
-	EnchantmentPassiveNum = 12
-	ItemLevel >= 84
-	SetBackgroundColor 250 250 250
-	SetBorderColor 0 0 0
-	SetTextColor 250 125 150
-	SetFontSize 30
-	PlayAlertSound 6 200
-	MinimapIcon 0 White Kite
-	PlayEffect White
+# Show
+# 	BaseType "Large Cluster Jewel"
+# 	EnchantmentPassiveNode "Chaos" "Physical" "Minion" "Spell" "Fire" "Cold" "Lightning" "Bow" "Two Handed"
+# 	EnchantmentPassiveNum = 12
+# 	ItemLevel >= 84
+# 	SetBackgroundColor 250 250 250
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 250 125 150
+# 	SetFontSize 30
+# 	PlayAlertSound 11 200
+# 	MinimapIcon 0 White Kite
+# 	PlayEffect White
 Show
 	BaseType "Small Cluster Jewel"
 	EnchantmentPassiveNode "Reservation"
@@ -4458,10 +4466,11 @@ Show
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
 	SetTextColor 250 125 150
-	SetFontSize 30
-	PlayAlertSound 6 200
+	SetFontSize 25
+	PlayAlertSound 11 200
 	MinimapIcon 0 White Kite
 	PlayEffect White
+	
 Show
 	BaseType "Large Cluster Jewel"
 	EnchantmentPassiveNum = 12
@@ -4469,10 +4478,10 @@ Show
 	SetBackgroundColor 250 125 150
 	SetBorderColor 250 250 250
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 12 200
-	MinimapIcon 0 Pink Kite
-	PlayEffect White
+	# MinimapIcon 0 Pink Kite
+	# PlayEffect White
 #large clusters
 Show
 	BaseType "Large Cluster Jewel"
@@ -4480,39 +4489,53 @@ Show
 	SetBackgroundColor 250 125 150
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 12 200
-	MinimapIcon 1 Pink Kite
-	PlayEffect Pink
-#medium clusters
-Show
-	BaseType "Medium Cluster Jewel"
-	EnchantmentPassiveNode "Flask"
+Hide
+	BaseType "Large Cluster Jewel"
+	EnchantmentPassiveNum 9 10 11
 	SetBackgroundColor 250 125 150
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 12 200
-	MinimapIcon 1 Pink Kite
-	PlayEffect Pink
-Show
+	# MinimapIcon 1 Pink Kite
+	# PlayEffect Pink
+#medium clusters
+# Show
+# 	BaseType "Medium Cluster Jewel"
+# 	EnchantmentPassiveNode "Flask"
+# 	SetBackgroundColor 250 125 150
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 0 0 0
+# 	SetFontSize 30
+# 	PlayAlertSound 12 200
+# 	MinimapIcon 1 Pink Kite
+# 	PlayEffect Pink
+# Show
+# 	BaseType "Medium Cluster Jewel"
+# 	EnchantmentPassiveNode "Herald" "Channelling" "Recovery" "Critical" "Area"
+# 	ItemLevel <= 83
+# 	SetBackgroundColor 200 100 115
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 0 0 0
+# 	SetFontSize 30
+Hide
 	BaseType "Medium Cluster Jewel"
-	EnchantmentPassiveNode "Herald" "Channelling" "Recovery" "Critical" "Area"
-	ItemLevel <= 83
-	SetBackgroundColor 200 100 115
+	EnchantmentPassiveNum == 6
+	SetBackgroundColor 250 125 150
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 25
+	PlayAlertSound 12 200
 Show
 	BaseType "Medium Cluster Jewel"
 	EnchantmentPassiveNum <= 5
 	SetBackgroundColor 250 125 150
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 12 200
-	MinimapIcon 1 Pink Kite
-	PlayEffect Pink
 #small clusters
 Show
 	BaseType "Small Cluster Jewel"
@@ -4520,10 +4543,10 @@ Show
 	SetBackgroundColor 250 125 150
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 12 200
-	MinimapIcon 1 Pink Kite
-	PlayEffect Pink
+	# MinimapIcon 1 Pink Kite
+	# PlayEffect Pink
 Show
 	BaseType "Small Cluster Jewel"
 	EnchantmentPassiveNode "Evasion" "Fire" "Cold" "Lightning" "Block Spell" "Block Attack" "Curse" "Armour" "Evasion" "Mana"
@@ -4531,17 +4554,17 @@ Show
 	SetBackgroundColor 200 100 115
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
-Show
+	SetFontSize 25
+Hide
 	BaseType "Small Cluster Jewel"
 	EnchantmentPassiveNum = 2
 	SetBackgroundColor 250 125 150
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 12 200
-	MinimapIcon 1 Pink Kite
-	PlayEffect Pink
+	# MinimapIcon 1 Pink Kite
+	# PlayEffect Pink
 #catchalls
 Show
 	BaseType "Cluster Jewel"
@@ -4549,13 +4572,13 @@ Show
 	SetBackgroundColor 200 100 115
 	SetBorderColor 150 100 0
 	SetTextColor 0 0 0
-	SetFontSize 30
-Show
+	SetFontSize 25
+Hide
 	BaseType "Cluster Jewel"
 	SetBackgroundColor 200 100 115
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 25
 	
 #abyss jewels (Abyss League 3.1.0)
 
@@ -4566,28 +4589,28 @@ Show
 	SetBackgroundColor 250 225 100
 	SetBorderColor 250 250 250
 	SetTextColor 0 0 0
-	SetFontSize 32
+	SetFontSize 25
 	PlayAlertSound 12 200
 	MinimapIcon 2 Brown Kite
 	PlayEffect Brown
-Show
+Hide
 	Class "Abyss Jewel"
 	ItemLevel >= 83
 	Rarity Magic
 	SetBackgroundColor 150 125 250
 	SetBorderColor 250 250 250
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 12 200
 	MinimapIcon 2 Brown Kite
 	PlayEffect Brown
-Show
+Hide
 	Class "Abyss Jewel"
 	ItemLevel >= 83
 	SetBackgroundColor 150 125 225
 	SetBorderColor 250 250 250
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 12 200
 	MinimapIcon 2 Brown Kite
 	PlayEffect Brown
@@ -4597,7 +4620,7 @@ Show
 	SetBackgroundColor 250 225 100
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 25
 	
 Hide
 	Class "Abyss Jewel"
@@ -4605,12 +4628,13 @@ Hide
 	SetBackgroundColor 150 125 250
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
-Show
+	SetFontSize 25
+Hide
 	Class "Abyss Jewel"
 	SetBackgroundColor 150 125 225
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
+	SetFontSize 25
 Hide
 	Class Jewel
 	Rarity Rare
@@ -4653,25 +4677,25 @@ Show
 #Sockets
 #NOTE - 6L is located in Currency section and 3CL (chrome recipe) is located in Misc section due to code priority issues.
 #It's not perfect but having them located together is an absolute nightmare, as having 3 items of extremely different values in the same block leads to a massive number of exception blocks and bandaid fixes.
-Show
-	Sockets = 6
-	BaseType "Astral Plate" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Sadist Garb" "Zodiac Leather"
-	Rarity Normal Magic Rare
-	ItemLevel >= 85
-	SetBackgroundColor 0 115 0
-	SetBorderColor 0 250 0
-	SetTextColor 0 0 0
-	SetFontSize 35
-	PlayAlertSound 2 200
-	MinimapIcon 1 Green Square
+# Show
+# 	Sockets = 6
+# 	BaseType "Astral Plate" "Vaal Regalia" "Triumphant Lamellar" "Saintly Chainmail" "Sadist Garb" "Zodiac Leather"
+# 	Rarity Normal Magic Rare
+# 	ItemLevel >= 85
+# 	SetBackgroundColor 0 115 0
+# 	SetBorderColor 0 250 0
+# 	SetTextColor 0 0 0
+# 	SetFontSize 35
+# 	PlayAlertSound 2 200
+# 	MinimapIcon 1 Green Square
 #5L block (chest only)
-Show
+Hide
 	LinkedSockets = 5
 	Class "Body Armour"
 	Rarity Normal Magic Rare
 	SetBackgroundColor 50 0 100
 	SetBorderColor 50 0 100
-	SetFontSize 35
+	SetFontSize 25
 	PlayAlertSound 1 200
 	MinimapIcon 0 Purple Pentagon
 	PlayEffect Purple Temp
@@ -5063,7 +5087,7 @@ Show
 	PlayEffect Blue Temp
 
 #Trash Tier: <2c. No sounds, darker blue color. Hidden in the Uber filter only. Note that these blocks are rather aggressive and caution should be exercised when using the Uber filter for SSF. 
-Show
+Hide
 	BaseType == "The Gambler" "The Flora's Gift" "Her Mask" "The Catalyst" "The Spoiled Prince" "Thunderous Skies" "The Twins" "The Mercenary" "The Calling" "The Visionary" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "A Mother's Parting Gift" "The Sun" "The Fox" "The Realm" "The Web" "Turn the Other Cheek" "Death" "Call to the First Ones" "The Hermit" "Audacity" "Doedre's Madness" "The Watcher" "Dark Temptation" "The Blazing Fire" "The Rabid Rhoa" "Forbidden Power" "The Tumbleweed" "The Army of Blood" "The Wolf's Shadow" "The Demoness" "The Betrayal" "Volatile Power" "Three Voices" "Three Faces in the Dark" "The Wolf" "The Trial" "The Traitor" "The Tower" "The Summoner" "The Stormcaller" "The Standoff" "The Inventor" "The Gladiator" "The Fletcher" "The Arena Champion" "The Aesthete" "Mitts" "Hunter's Resolve" "Glimmer of Hope" "Assassin's Favour" "The Drunken Aristocrat" "The Dragon" "The Deceiver" "The One With All" "Alivia's Grace" "The Golden Era" "Triskaidekaphobia" "The Dreamland" "Hope" "The Whiteout" "The Penitent" "Man With Bear" "The Wolf's Legacy" "Azure Rage" "Dialla's Subjugation" "The Admirer" "The Cataclysm" "The Jeweller's Boon" "The Lord of Celebration" "The Return of the Rat" "The Wilted Rose" "The Oath" "The Surveyor" "Loyalty" "Emperor's Luck" "Alone in the Darkness" "Atziri's Arsenal" "The Fox in the Brambles" "The Master" "The Conduit" "Lysah's Respite" "The Wind" "Unchained" "The Cache" "The Feast" "The Lion" "The Rite of Elements" "Broken Truce" "The Battle Born" "Blind Venture" "Boundless Realms" "Grave Knowledge" "Hubris" "Lost Worlds" "More is Never Enough" "Scholar of the Seas" "The Body" "The Doppelganger" "The Encroaching Darkness" "The Explorer" "The Forsaken" "The Gemcutter" "The Master Artisan" "The Mountain" "The Puzzle" "The Survivalist" "The Wretched" "Time-Lost Relic" "Vile Power" "The Fool" "The Jester" "Jack in the Box" "Prejudice" "The Scavenger"
 	Class "Divination Card"
 	SetBackgroundColor 110 160 210
