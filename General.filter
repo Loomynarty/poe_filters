@@ -2165,20 +2165,63 @@ Show
 
 # Settlers of Kalguur (v3.25)
 Show
-	BaseType "Life Rune" "Sun Rune" "Bound Rune" "War Rune" "River Rune" "Bounty Rune" "Journey Rune" "Mountain Rune" "Time Rune" "Power Rune"
+	BaseType "Time Rune" "Power Rune"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
+	SetFontSize 35
+	PlayAlertSound 6 200
+	MinimapIcon 2 White Star
+	PlayEffect White
+Show
+	BaseType "Life Rune" "Sun Rune" "Bound Rune" "War Rune" "River Rune" "Bounty Rune" "Journey Rune" "Mountain Rune"
 	SetBackgroundColor 255 255 255
 	SetTextColor 0 0 0
 	SetFontSize 30
 	PlayAlertSound 11 200
-	MinimapIcon 2 Grey Square
-	PlayEffect Grey
+	# MinimapIcon 2 Grey Square
+	# PlayEffect Grey
 
 Show
 	BaseType == "Gold"
 	SetBackgroundColor 0 0 0 150
-	SetBorderColor 255 160 0
+	# SetBorderColor 255 160 0
 	SetTextColor 255 255 255
+	SetFontSize 30
+	MinimapIcon 2 Yellow Circle
+
+# League of Phrecia (3.25 Event)
+Show
+	Class "Idol"
+	Rarity Unique
+	SetBackgroundColor 225 100 0
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 32
+	PlayAlertSound 11 100
+	MinimapIcon 1 Yellow Star
+	PlayEffect Brown
+	DisableDropSound
+Show
+	Class "Idol"
+	Rarity Rare
+	SetBackgroundColor 200 150 100
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
 	SetFontSize 35
+	PlayAlertSound 11 200
+	MinimapIcon 2 Yellow Square
+	PlayEffect Yellow
+Hide
+	Class "Idol"
+	Rarity Magic
+	SetBackgroundColor 150 125 250
+	SetBorderColor 0 0 0 
+	SetTextColor 0 0 0
+	SetFontSize 1
+	PlayAlertSound 11 200
+	MinimapIcon 2 Blue Square
+	PlayEffect Blue
 
 #League Unknowns - Uniques and div cards whose names/basetypes are known before launch but not the details, or if I'm not quite sure how significantly the changes will impact the value. Small green icons.
 #Show
@@ -3061,16 +3104,16 @@ Show
 	PlayEffect Yellow
 
 #atlas bases, white background red-purple text. v3.22 update - removed Marble Amulet, Blue Pearl Amulet, Vanguard Belt, Cerulean Ring, Convoking Wand, Seaglass Amulet, Artillery Quiver
-Show	
-	BaseType "Vermillion Ring" "Steel Ring" "Opal Ring" "Iolite Ring" "Marble Amulet" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise" "Fugitive Boots" "Apothecary's Gloves"
-	HasInfluence Crusader Redeemer Hunter Warlord Shaper Elder
-	SetBackgroundColor 250 250 250
-	SetBorderColor 0 0 0
-	SetTextColor 250 0 125
-	SetFontSize 35
-	PlayAlertSound 6 250
-	MinimapIcon 0 Purple Diamond
-	PlayEffect White
+# Show	
+# 	BaseType "Vermillion Ring" "Steel Ring" "Opal Ring" "Iolite Ring" "Marble Amulet" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise" "Fugitive Boots" "Apothecary's Gloves"
+# 	HasInfluence Crusader Redeemer Hunter Warlord Shaper Elder
+# 	SetBackgroundColor 250 250 250
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 250 0 125
+# 	SetFontSize 35
+# 	PlayAlertSound 6 250
+# 	MinimapIcon 0 Purple Diamond
+# 	PlayEffect White
 
 #white tier - top value special mod/basetype combos, white background brown text. stuff in this tier should drop pretty infrequently, if it's common then it should be moved to offwhite tier. should mostly be specific base + ilvl (for the most popular/strongest mod) combinations
 #explody
@@ -5052,7 +5095,7 @@ Show
 
 #High Tier - 50c to 200c. Fuschia.
 Show
-	BaseType == "The Dragon's Heart" "The Nurse" "The Price of Loyalty" "The Enlightened" "The Progeny of Lunaris" "The Gulf" "Desecrated Virtue" "Seven Years Bad Luck" "Broken Promises" "Home" "Divine Beauty" "Gemcutter's Mercy" "The Samurai's Eye" "Succor of the Sinless" "Brother's Stash" "The Last One Standing" "The Hunger" "The Greatest Intentions" "The World Eater" "Matryoshka" "Auspicious Ambitions" "The Sephirot" "The Immortal" "The Soul" "The Emptiness" "The Fortunate"
+	BaseType == "The Dragon's Heart" "The Nurse" "The Price of Loyalty" "The Enlightened" "The Progeny of Lunaris" "The Gulf" "Desecrated Virtue" "Seven Years Bad Luck" "Broken Promises" "Home" "Divine Beauty" "Gemcutter's Mercy" "The Samurai's Eye" "Succor of the Sinless" "Brother's Stash" "The Last One Standing"  "The Greatest Intentions" "The World Eater" "Matryoshka" "Auspicious Ambitions" "The Sephirot" "The Immortal" "The Soul" "The Emptiness" "The Fortunate"
 	Class "Divination Card"
 	SetBackgroundColor 250 100 200
 	SetBorderColor 0 0 0
@@ -5110,7 +5153,7 @@ Show
 
 #Trash Tier: <2c. No sounds, darker blue color. Hidden in the Uber filter only. Note that these blocks are rather aggressive and caution should be exercised when using the Uber filter for SSF. 
 Show
-	BaseType == "The Gambler" "The Flora's Gift" "Her Mask" "The Catalyst" "The Spoiled Prince" "Thunderous Skies" "The Twins" "The Mercenary" "The Calling" "The Visionary" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "A Mother's Parting Gift" "The Sun" "The Fox" "The Realm" "The Web" "Turn the Other Cheek" "Death" "Call to the First Ones" "The Hermit" "Audacity" "Doedre's Madness" "The Watcher" "Dark Temptation" "The Blazing Fire" "The Rabid Rhoa" "Forbidden Power" "The Tumbleweed" "The Army of Blood" "The Wolf's Shadow" "The Demoness" "The Betrayal" "Volatile Power" "Three Voices" "Three Faces in the Dark" "The Wolf" "The Trial" "The Traitor" "The Tower" "The Summoner" "The Stormcaller" "The Standoff" "The Inventor" "The Gladiator" "The Fletcher" "The Arena Champion" "The Aesthete" "Mitts" "Hunter's Resolve" "Glimmer of Hope" "Assassin's Favour" "The Drunken Aristocrat" "The Dragon" "The Deceiver" "The One With All" "Alivia's Grace" "The Golden Era" "Triskaidekaphobia" "The Dreamland" "Hope" "The Whiteout" "The Penitent" "Man With Bear" "The Wolf's Legacy" "Azure Rage" "Dialla's Subjugation" "The Admirer" "The Cataclysm" "The Jeweller's Boon" "The Lord of Celebration" "The Return of the Rat" "The Wilted Rose" "The Oath" "The Surveyor" "Loyalty" "Emperor's Luck" "Alone in the Darkness" "Atziri's Arsenal" "The Fox in the Brambles" "The Master" "The Conduit" "Lysah's Respite" "The Wind" "Unchained" "The Cache" "The Feast" "The Lion" "The Rite of Elements" "Broken Truce" "The Battle Born" "Blind Venture" "Boundless Realms" "Grave Knowledge" "Hubris" "Lost Worlds" "More is Never Enough" "Scholar of the Seas" "The Body" "The Doppelganger" "The Encroaching Darkness" "The Explorer" "The Forsaken" "The Gemcutter" "The Master Artisan" "The Mountain" "The Puzzle" "The Survivalist" "The Wretched" "Time-Lost Relic" "Vile Power" "The Fool" "The Jester" "Jack in the Box" "Prejudice" "The Scavenger"
+	BaseType == "The Gambler" "The Flora's Gift" "Her Mask" "The Catalyst" "The Spoiled Prince" "Thunderous Skies" "The Twins" "The Mercenary" "The Calling" "The Visionary" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "A Mother's Parting Gift" "The Sun" "The Fox" "The Realm" "The Web" "Turn the Other Cheek" "Death" "Call to the First Ones" "The Hermit" "Audacity" "Doedre's Madness" "The Watcher" "Dark Temptation" "The Blazing Fire" "The Rabid Rhoa" "Forbidden Power" "The Tumbleweed" "The Army of Blood" "The Wolf's Shadow" "The Demoness" "The Betrayal" "Volatile Power" "Three Voices" "Three Faces in the Dark" "The Wolf" "The Trial" "The Traitor" "The Tower" "The Summoner" "The Stormcaller" "The Standoff" "The Inventor" "The Gladiator" "The Fletcher" "The Arena Champion" "The Aesthete" "Mitts" "Hunter's Resolve" "Glimmer of Hope" "Assassin's Favour" "The Drunken Aristocrat" "The Dragon" "The Deceiver" "The One With All" "Alivia's Grace" "The Golden Era" "Triskaidekaphobia" "The Dreamland" "Hope" "The Whiteout" "The Penitent" "Man With Bear" "The Wolf's Legacy" "Azure Rage" "Dialla's Subjugation" "The Admirer" "The Cataclysm" "The Jeweller's Boon" "The Lord of Celebration" "The Return of the Rat" "The Wilted Rose" "The Oath" "The Surveyor" "Loyalty" "Emperor's Luck" "Alone in the Darkness" "Atziri's Arsenal" "The Fox in the Brambles" "The Master" "The Conduit" "Lysah's Respite" "The Wind" "Unchained" "The Cache" "The Feast" "The Lion" "The Rite of Elements" "Broken Truce" "The Battle Born" "Blind Venture" "Boundless Realms" "Grave Knowledge" "Hubris" "Lost Worlds" "More is Never Enough" "Scholar of the Seas" "The Body" "The Doppelganger" "The Encroaching Darkness" "The Explorer" "The Forsaken" "The Gemcutter" "The Master Artisan" "The Mountain" "The Puzzle" "The Survivalist" "The Wretched" "Time-Lost Relic" "Vile Power" "The Fool" "The Jester" "Jack in the Box" "Prejudice" "The Scavenger" "The Hunger"
 	Class "Divination Card"
 	SetBackgroundColor 110 160 210
 	SetBorderColor 0 0 0
@@ -5564,10 +5607,15 @@ Show
 
 #melee (maroon)
 # Show
-	# BaseType "Despot Axe" "Ezomyte Axe" "Piledriver" "Siege Axe" "Royal Axe"
-	# Rarity Rare
-	# SetBorderColor 125 0 0
-	# SetFontSize 30
+# 	BaseType "Despot Axe" "Ezomyte Axe" "Piledriver" "Siege Axe" "Royal Axe" "Sundering Axe"
+# 	Rarity Rare
+# 	SetBorderColor 125 0 0
+# 	SetFontSize 30
+Show
+	BaseType "Sundering Axe"
+	Rarity Rare
+	SetBorderColor 125 0 0
+	SetFontSize 30
 	
 #summoner (violet)
 # Show
@@ -7233,153 +7281,153 @@ Show
 ##################### Section 16.2 - 2h Melee Levelling ###########################
 ###################################################################################
 #As of 3.11.5 only shows axes by default
-# Show
-	# BaseType "Stone Axe" "Corroded Blade" "Driftwood Maul"
-	# AreaLevel <= 8
-	# SetBorderColor 128 0 0
-	# SetFontSize 30
-# Show
-	# BaseType "Jade Chopper" "Longsword"
-	# AreaLevel <= 12
-	# SetBorderColor 128 0 0
-	# SetFontSize 35
-# Show
-	# BaseType "Woodsplitter" "Bastard Sword"
-	# AreaLevel <= 17
-	# SetBorderColor 128 0 0
-	# SetFontSize 35
+Show
+	BaseType "Stone Axe" "Corroded Blade" "Driftwood Maul"
+	AreaLevel <= 8
+	SetBorderColor 128 0 0
+	SetFontSize 30
+Show
+	BaseType "Jade Chopper" "Longsword"
+	AreaLevel <= 12
+	SetBorderColor 128 0 0
+	SetFontSize 35
+Show
+	BaseType "Woodsplitter" "Bastard Sword"
+	AreaLevel <= 17
+	SetBorderColor 128 0 0
+	SetFontSize 35
 	
 #Axes
-# Show
-	# BaseType "Poleaxe"
-	# AreaLevel <= 22
-	# Rarity Rare
-	# SetBorderColor 128 0 0
-	# SetFontSize 35
-# Show
-	# BaseType "Poleaxe"
-	# AreaLevel <= 22
-	# SetBorderColor 128 0 0
-	# SetFontSize 30
-# Show
-	# BaseType "Double Axe"
-	# AreaLevel <= 27
-	# Rarity Rare
-	# SetBorderColor 128 0 0
-	# SetFontSize 35
-# Show
-	# BaseType "Double Axe"
-	# AreaLevel <= 27
-	# SetBorderColor 128 0 0
-	# SetFontSize 30
-# Show
-	# BaseType "Gilded Axe"
-	# AreaLevel <= 32
-	# Rarity Rare
-	# SetBorderColor 128 0 0
-	# SetFontSize 35
-# Show
-	# BaseType "Gilded Axe"
-	# AreaLevel <= 32
-	# SetBorderColor 128 0 0
-	# SetFontSize 30
-# Show
-	# BaseType "Shadow Axe"
-	# AreaLevel <= 35
-	# Rarity Rare
-	# SetBorderColor 128 0 0
-	# SetFontSize 35
-# Show
-	# BaseType "Shadow Axe"
-	# AreaLevel <= 35
-	# SetBorderColor 128 0 0
-	# SetFontSize 30
-# Show
-	# BaseType "Jasper Chopper"
-	# AreaLevel <= 40
-	# Rarity Rare
-	# SetBorderColor 128 0 0
-	# SetFontSize 35
-# Show
-	# BaseType "Jasper Chopper"
-	# AreaLevel <= 40
-	# SetBorderColor 128 0 0
-	# SetFontSize 30
-# Show
-	# BaseType "Timber Axe"
-	# AreaLevel <= 44
-	# Rarity Rare
-	# SetBorderColor 128 0 0
-	# SetFontSize 35
-# Show
-	# BaseType "Timber Axe"
-	# AreaLevel <= 44
-	# SetBorderColor 128 0 0
-	# SetFontSize 30
+Show
+	BaseType "Poleaxe"
+	AreaLevel <= 22
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 35
+Show
+	BaseType "Poleaxe"
+	AreaLevel <= 22
+	SetBorderColor 128 0 0
+	SetFontSize 30
+Show
+	BaseType "Double Axe"
+	AreaLevel <= 27
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 35
+Show
+	BaseType "Double Axe"
+	AreaLevel <= 27
+	SetBorderColor 128 0 0
+	SetFontSize 30
+Show
+	BaseType "Gilded Axe"
+	AreaLevel <= 32
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 35
+Show
+	BaseType "Gilded Axe"
+	AreaLevel <= 32
+	SetBorderColor 128 0 0
+	SetFontSize 30
+Show
+	BaseType "Shadow Axe"
+	AreaLevel <= 35
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 35
+Show
+	BaseType "Shadow Axe"
+	AreaLevel <= 35
+	SetBorderColor 128 0 0
+	SetFontSize 30
+Show
+	BaseType "Jasper Chopper"
+	AreaLevel <= 40
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 35
+Show
+	BaseType "Jasper Chopper"
+	AreaLevel <= 40
+	SetBorderColor 128 0 0
+	SetFontSize 30
+Show
+	BaseType "Timber Axe"
+	AreaLevel <= 44
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 35
+Show
+	BaseType "Timber Axe"
+	AreaLevel <= 44
+	SetBorderColor 128 0 0
+	SetFontSize 30
 	
-#a5 kitava cutoff
-# Show
-	# BaseType "Headsman Axe"
-	# AreaLevel <= 48
-	# Rarity Rare
-	# SetBorderColor 128 0 0
-	# SetFontSize 32
-# Show
-	# BaseType "Headsman Axe"
-	# AreaLevel <= 48
-	# SetBorderColor 128 0 0
-	# SetFontSize 38
-# Show
-	# BaseType "Labrys"
-	# AreaLevel <= 51
-	# Rarity Rare
-	# SetBorderColor 128 0 0
-	# SetFontSize 32
-# Show
-	# BaseType "Labrys"
-	# AreaLevel <= 51
-	# SetBorderColor 128 0 0
-	# SetFontSize 38
-# Show
-	# BaseType "Noble Axe"
-	# AreaLevel <= 54
-	# Rarity Rare
-	# SetBorderColor 128 0 0
-	# SetFontSize 32
-# Show
-	# BaseType "Noble Axe"
-	# AreaLevel <= 54
-	# SetBorderColor 128 0 0
-	# SetFontSize 38
-# Show
-	# BaseType "Abyssal Axe"
-	# AreaLevel <= 57
-	# Rarity Rare
-	# SetBorderColor 128 0 0
-	# SetFontSize 32
-# Show
-	# BaseType "Abyssal Axe"
-	# AreaLevel <= 57
-	# SetBorderColor 128 0 0
-	# SetFontSize 38
+# a5 kitava cutoff
+Show
+	BaseType "Headsman Axe"
+	AreaLevel <= 48
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 32
+Show
+	BaseType "Headsman Axe"
+	AreaLevel <= 48
+	SetBorderColor 128 0 0
+	SetFontSize 38
+Show
+	BaseType "Labrys"
+	AreaLevel <= 51
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 32
+Show
+	BaseType "Labrys"
+	AreaLevel <= 51
+	SetBorderColor 128 0 0
+	SetFontSize 38
+Show
+	BaseType "Noble Axe"
+	AreaLevel <= 54
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 32
+Show
+	BaseType "Noble Axe"
+	AreaLevel <= 54
+	SetBorderColor 128 0 0
+	SetFontSize 38
+Show
+	BaseType "Abyssal Axe"
+	AreaLevel <= 57
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 32
+Show
+	BaseType "Abyssal Axe"
+	AreaLevel <= 57
+	SetBorderColor 128 0 0
+	SetFontSize 38
 	
 #endgame axes
-# Show
-	# Class "Two Hand Axe"
-	# DropLevel >= 60
-	# AreaLevel <= 67
-	# Rarity Rare
-	# SetBorderColor 128 0 0
-	# SetFontSize 38
-# Show
-	# BaseType "Vaal Axe" "Karui Chopper"
-	# AreaLevel <= 67
-	# SetBorderColor 128 0 0
-	# SetFontSize 36
-# Show
-	# BaseType "Fleshripper" "Despot Axe"
-	# AreaLevel <= 70
-	# SetBorderColor 128 0 0
+Show
+	Class "Two Hand Axe"
+	DropLevel >= 60
+	AreaLevel <= 67
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 38
+Show
+	BaseType "Vaal Axe" "Karui Chopper"
+	AreaLevel <= 67
+	SetBorderColor 128 0 0
+	SetFontSize 36
+Show
+	BaseType "Fleshripper" "Despot Axe"
+	AreaLevel <= 70
+	SetBorderColor 128 0 0
 
 #Swords
 #Show
