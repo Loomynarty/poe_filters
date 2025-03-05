@@ -887,7 +887,7 @@ Show
 	Rarity Unique
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
-	SetTextColor 250 125 0
+	SetTextColor 175 96 37
 	PlayAlertSound 6 250
 	SetFontSize 35
 	MinimapIcon 0 Orange Pentagon
@@ -1776,6 +1776,18 @@ Show
 
 #Metamorph (v3.9)
 #samples removed in 3.23
+Show
+	BaseType "Fertile Catalyst" "Prismatic Catalyst" "Tainted Catalyst"
+	Class Currency
+	StackSize >= 5
+	SetBackgroundColor 250 0 125
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	PlayAlertSound 10 250
+	SetFontSize 35
+	MinimapIcon 0 Red Circle
+	PlayEffect Red
+	DisableDropSound
 Show
 	BaseType "Fertile Catalyst" "Prismatic Catalyst" "Tempering Catalyst" "Tainted Catalyst"
 	Class Currency
@@ -2795,7 +2807,7 @@ Show
 	Rarity Unique
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
-	SetTextColor 250 125 0
+	SetTextColor 175 96 37
 	SetFontSize 35
 	PlayAlertSound 6 250
 	MinimapIcon 0 White Hexagon
@@ -4809,7 +4821,7 @@ Show
 	Rarity Unique
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
-	SetTextColor 250 125 0
+	SetTextColor 175 96 37
 	SetFontSize 35
 	PlayAlertSound 6 250
 	MinimapIcon 0 White Star
@@ -4820,7 +4832,7 @@ Show
 	Rarity Unique
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
-	SetTextColor 250 125 0
+	SetTextColor 175 96 37
 	SetFontSize 35
 	PlayAlertSound 6 250
 	MinimapIcon 0 White Star
@@ -4834,7 +4846,7 @@ Show
 	Rarity Unique
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
-	SetTextColor 250 125 0
+	SetTextColor 175 96 37
 	SetFontSize 35
 	PlayAlertSound 6 250
 	MinimapIcon 0 White Star
