@@ -492,7 +492,7 @@ Show
 	MinimapIcon 0 White Diamond
 
 Show 
-	BaseType "Divine Orb" "Fracturing Shard" "Orb of Dominance" "Awakener's Orb" "Veiled Orb"
+	BaseType "Divine Orb" "Fracturing Shard" "Orb of Dominance" "Awakener's Orb" "Veiled Orb" "Hunter's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Redeemer's Exalted Orb"
 	Class Currency
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255

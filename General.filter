@@ -499,7 +499,7 @@ Show
 #High Value Currencies
 #200c+ (white)
 Show
-	BaseType "Mirror of Kalandra" "Mirror Shard" "Fracturing Orb" "Hinekora's Lock" "Eternal Orb" "Imprint" "Fishing Rod" "Albino Rhoa Feather"
+	BaseType "Mirror of Kalandra" "Mirror Shard" "Fracturing Orb" "Hinekora's Lock" "Eternal Orb" "Fishing Rod" "Albino Rhoa Feather"
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
 	SetTextColor 250 0 0
@@ -510,7 +510,7 @@ Show
 
 #50c+ (pink)
 Show 
-	BaseType "Divine Orb" "Fracturing Shard" "Orb of Conflict" "Orb of Dominance" "Awakener's Orb" "Veiled Orb"
+	BaseType "Divine Orb" "Fracturing Shard" "Orb of Conflict" "Orb of Dominance" "Awakener's Orb" "Veiled Orb" "Hunter's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Redeemer's Exalted Orb"
 	Class Currency
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
@@ -519,6 +519,7 @@ Show
 	PlayAlertSound 6 300
 	PlayEffect Red
 	MinimapIcon 0 Red Star
+	
 Show 
 	BaseType "Exalted Orb" "Orb of Annulment" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch"
 	StackSize >= 5
@@ -532,7 +533,7 @@ Show
 
 #10c+ (red)
 Show
-	BaseType "Exalted Orb" "Orb of Annulment" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch"
+	BaseType "Exalted Orb" "Orb of Annulment" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Imprint"
 	Class Currency
 	SetBackgroundColor 250 0 125
 	SetBorderColor 255 255 255
