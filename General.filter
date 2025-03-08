@@ -447,7 +447,16 @@ Show
 	MinimapIcon 1 Pink Circle
 	PlayEffect Pink
 Show 
-	BaseType "Maven's Chisel of Procurement" "Maven's Chisel of Proliferation" "Maven's Chisel of Divination" "Maven's Chisel of Scarabs" "Maven's Chisel of Avarice"
+	BaseType "Maven's Chisel of Scarabs"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
+	SetFontSize 35
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+Show 
+	BaseType "Maven's Chisel of Proliferation" "Maven's Chisel of Divination" "Maven's Chisel of Avarice"
 	SetBackgroundColor 250 0 125
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
