@@ -4952,6 +4952,21 @@ Show
 #	BaseType "Onyx Amulet" "Spidersilk Robe" "Saintly Chainmail" "Ritual Sceptre" "Sage's Robe" "Crusader Plate" "Branded Kite Shield" "Ornate Quiver" "Harmonic Spirit Shield"
 #	Rarity Unique
 	
+
+# Good Boss Flasks
+Show
+	BaseType == "Bismuth Flask" "Amethyst Flask"
+	Rarity Unique
+	ItemLevel == 87
+	AreaLevel == 85
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
+	SetFontSize 35
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
 #Set Value Blocks - bases where all potential uniques fall within a set value range. Fiery-theme highlighting (orange and yellow)
 #High Value Tier - 50-200c
 Show
@@ -5104,7 +5119,7 @@ Show
 	SetBackgroundColor 180 80 0
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 27
+	SetFontSize 25
 #	PlayAlertSound 4 100 #SSF Players - Enable this line to sound ALL uniques for alch shards
 #	MinimapIcon 2 Brown Star #SSF Players - Enable this line for minimap icons on all shit uniques
 	DisableDropSound
@@ -5658,12 +5673,18 @@ Show
 	# SetFontSize 30
 	
 #bone ring is included in summoner weapon section as it's the only jewellery base that's archetype-associated, and you're either playing a summoner or you're not
-# Show
-	# BaseType "Bone Ring"
+Show
+	BaseType "Bone Ring"
 	# Rarity Rare
-	# SetBackgroundColor 50 0 100
-	# SetBorderColor 175 75 255
-	# SetFontSize 30
+	SetBackgroundColor 50 0 100
+	SetBorderColor 175 75 255
+	SetFontSize 25
+Show
+	BaseType "Karui Chopper"
+	Rarity Rare
+	SetBackgroundColor 50 0 100
+	SetBorderColor 175 75 255
+	SetFontSize 25
 	
 #offmeta - disabled by default, listed here for convenience
 #Show

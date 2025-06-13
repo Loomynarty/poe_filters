@@ -947,7 +947,7 @@ Show
 	PlayEffect Pink Temp
 
 #Talisman (v2.1) - Maroon (uniques in Sec 8 now)
-Show
+Hide
 	BaseType "Talisman"
 	HasExplicitMod "Virile" "Rotund" "Indomitable" "Unassailable" "Resplendent" "Dazzling" "Ferocity" "Destruction"
 	BaseType "Bonespire Talisman" "Avian Twins Talisman" "Clutching Talisman" "Fangjaw Talisman" "Horned Talisman" "Primal Skull Talisman" "Wereclaw Talisman" "Longtooth Talisman" "Rotfeather Talisman" "Spinefuse Talisman" "Three Rat Talisman"
@@ -958,14 +958,14 @@ Show
 	SetTextColor 150 50 250
 	SetFontSize 30
 	PlayEffect Purple Temp
-Show
+Hide
 	BaseType "Bonespire Talisman" "Avian Twins Talisman" "Clutching Talisman" "Fangjaw Talisman" "Horned Talisman" "Primal Skull Talisman" "Wereclaw Talisman" "Longtooth Talisman" "Rotfeather Talisman" "Spinefuse Talisman" "Three Rat Talisman"
 	Class Amulet
 	Rarity Rare
 	SetBackgroundColor 50 0 100
 	SetBorderColor 150 0 0
 	SetFontSize 30
-Show
+Hide
 	BaseType "Talisman"
 	HasExplicitMod "Virile" "Rotund" "Indomitable" "Unassailable" "Resplendent" "Dazzling" "Ferocity" "Destruction"
 	Rarity Rare
@@ -974,7 +974,7 @@ Show
 	SetBorderColor 150 0 0
 	SetTextColor 150 50 250
 	SetFontSize 30
-Show
+Hide
 	BaseType "Talisman"
 	Rarity Rare
 	Class Amulet
@@ -1611,7 +1611,7 @@ Hide
 
 # Scarabs
 Show
-	BaseType == "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Ambush Scarab of Containment" "Horned Scarab of Glittering" "Horned Scarab of Awakening" "Horned Scarab of Pandemonium"
+	BaseType == "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Ambush Scarab of Containment" "Horned Scarab of Glittering" "Horned Scarab of Awakening" 
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
 	SetTextColor 180 76 58 255
@@ -1630,7 +1630,7 @@ Show
 # 	MinimapIcon 1 Red Triangle
 # 	PlayEffect Red
 Show
-	BaseType == "Divination Scarab of Pilfering" "Essence Scarab of Calcification" "Domination Scarab of Terrors" "Harvest Scarab of Cornucopia" "Ambush Scarab of Discernment" "Horned Scarab of Bloodlines" "Cartography Scarab of Corruption" "Harbinger Scarab of Regency" "Incursion Scarab of Timelines" "Blight Scarab of Blooming" "Ultimatum Scarab of Dueling" "Harbinger Scarab of Warhoards" "Harvest Scarab of Doubling" "Ritual Scarab of Abundance" "Ambush Scarab" "Cartography Scarab of the Multitude" "Essence Scarab of Adaptation" "Breach Scarab of Snares" "Titanic Scarab of Treasures" "Essence Scarab of Ascent" "Divination Scarab of The Cloister" "Horned Scarab of Tradition" "Harbinger Scarab" "Cartography Scarab of Escalation" "Cartography Scarab of Risk" "Horned Scarab of Nemeses" "Titanic Scarab of Legend"
+	BaseType == "Divination Scarab of Pilfering" "Essence Scarab of Calcification" "Domination Scarab of Terrors" "Harvest Scarab of Cornucopia" "Ambush Scarab of Discernment" "Horned Scarab of Bloodlines" "Cartography Scarab of Corruption" "Harbinger Scarab of Regency" "Incursion Scarab of Timelines" "Blight Scarab of Blooming" "Ultimatum Scarab of Dueling" "Harbinger Scarab of Warhoards" "Harvest Scarab of Doubling" "Ritual Scarab of Abundance" "Ambush Scarab" "Cartography Scarab of the Multitude" "Essence Scarab of Adaptation" "Breach Scarab of Snares" "Titanic Scarab of Treasures" "Horned Scarab of Tradition" "Harbinger Scarab" "Horned Scarab of Nemeses" "Titanic Scarab of Legend" "Horned Scarab of Pandemonium"
 	Class "Map Fragment"
 	SetBackgroundColor 100 50 0
 	SetBorderColor 225 225 225
@@ -1673,22 +1673,12 @@ Show
 #Legion (v3.7)
 #timeless jewels in the jewel section, splinters/emblems in map section as of 3.23
 Show
-	BaseType "Geomancer's"
-	Class Incubator
-	SetBackgroundColor 150 0 250
-	SetBorderColor 250 250 250
-	SetTextColor 0 0 0
-	SetFontSize 30
-	PlayEffect Purple
-	PlayAlertSound 10 200
-	MinimapIcon 0 Purple Star
-Show
-	BaseType "Thaumaturge's" "Time-Lost" "Gemcutter's" "Ornate" "Celestial Jeweller's" "Fine" "Diviner's" "Maddening" "Fossilised" "Skittering"
+	BaseType "Thaumaturge's" "Time-Lost" "Gemcutter's" "Ornate" "Fine" "Diviner's" "Skittering"
 	Class Incubator
 	SetBackgroundColor 125 0 225
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 35
 	PlayEffect Purple Temp
 	PlayAlertSound 11 200
 	MinimapIcon 2 Purple Circle
@@ -1702,7 +1692,7 @@ Hide
 	PlayEffect Purple Temp
 	PlayAlertSound 11 200
 	MinimapIcon 2 Purple Circle
-Show
+Hide
 	Class Incubator
 	SetBackgroundColor 100 0 200
 	SetBorderColor 0 0 0
@@ -2272,14 +2262,23 @@ Show
 
 # Boss Fragments
 Show
-	BaseType "Cosmic Fragment" "Decaying Fragment" "Awakening Fragment" "Synthesising Fragment" "Reality Fragment" "Devouring Fragment" "Blazing Fragment" "Primordial Fragment"
+	BaseType "Reality Fragment" "Devouring Fragment"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
+	SetFontSize 35
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+Show
+	BaseType "Cosmic Fragment" "Decaying Fragment" "Awakening Fragment" "Synthesising Fragment" "Blazing Fragment" "Primordial Fragment"
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
-	SetBackgroundColor 180 76 58 255
+	SetBackgroundColor 180 76 58 255 
 	SetFontSize 35
 	PlayAlertSound 1 200
 	MinimapIcon 1 Pink Hexagon
-	PlayEffect Pink Temp
+	PlayEffect Pink
 # Guardian Fragments
 Show
 	BaseType "Baran's Crest" "Al-Hezmin's Crest" "Drox's Crest" "Veritania's Crest" "Fragment of the Hydra" "Fragment of the Minotaur" "Fragment of the Chimera" "Fragment of the Phoenix" "Fragment of Enslavement" "Fragment of Constriction" "Fragment of Purification" "Fragment of Eradication" "Fragment of Emptiness" "Fragment of Terror" "Fragment of Shape" "Fragment of Knowledge"
@@ -2490,7 +2489,7 @@ Show
 	PlayAlertSound 2 200	
 	PlayEffect Red Temp
 	MinimapIcon 1 Red Raindrop
-Show
+Hide
 	BaseType "Timeless Vaal Splinter"
 	SetBackgroundColor 50 50 50
 	SetBorderColor 0 0 0
@@ -2518,7 +2517,7 @@ Show
 	PlayAlertSound 2 200	
 	PlayEffect Orange Temp
 	MinimapIcon 1 Orange Raindrop
-Show
+Hide
 	BaseType "Timeless Karui Splinter"
 	SetBackgroundColor 50 50 50
 	SetBorderColor 0 0 0
@@ -2546,7 +2545,7 @@ Show
 	PlayAlertSound 2 200	
 	PlayEffect Green Temp
 	MinimapIcon 1 Green Raindrop
-Show
+Hide
 	BaseType "Timeless Templar Splinter"
 	SetBackgroundColor 50 50 50
 	SetBorderColor 0 0 0
@@ -2574,7 +2573,7 @@ Show
 	PlayAlertSound 2 200	
 	PlayEffect Yellow Temp
 	MinimapIcon 1 Yellow Raindrop
-Show
+Hide
 	BaseType "Timeless Maraketh Splinter"
 	SetBackgroundColor 50 50 50
 	SetBorderColor 0 0 0
@@ -2602,7 +2601,7 @@ Show
 	PlayAlertSound 2 200	
 	PlayEffect Grey Temp
 	MinimapIcon 1 Grey Raindrop	
-Show
+Hide
 	BaseType "Timeless Eternal Empire Splinter"
 	SetBackgroundColor 50 50 50
 	SetBorderColor 0 0 0
@@ -4974,6 +4973,20 @@ Show
 #	BaseType "Onyx Amulet" "Spidersilk Robe" "Saintly Chainmail" "Ritual Sceptre" "Sage's Robe" "Crusader Plate" "Branded Kite Shield" "Ornate Quiver" "Harmonic Spirit Shield"
 #	Rarity Unique
 	
+# Good Boss Flasks
+Show
+	BaseType == "Bismuth Flask" "Amethyst Flask"
+	Rarity Unique
+	ItemLevel == 87
+	AreaLevel == 85
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
+	SetFontSize 35
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
 #Set Value Blocks - bases where all potential uniques fall within a set value range. Fiery-theme highlighting (orange and yellow)
 #High Value Tier - 50-200c
 Show
@@ -5222,7 +5235,7 @@ Show
 	PlayEffect Purple
 	
 #General Only Leaguestart - Cards that are in trash tier but are a bit more valuable in the first few days of the league. Has same tier as default highlighting. Enabled in General filter only.
-Show
+Hide
 	BaseType == "The Catalyst" "The Inventor" "The Gemcutter" "The Encroaching Darkness" "The Survivalist"
 	Class "Divination Card"
 	SetBackgroundColor 150 200 250
