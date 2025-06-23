@@ -393,7 +393,7 @@ Show
 
 #10c+ (red)
 Show
-	BaseType "Exalted Orb" "Orb of Annulment" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Imprint" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb"
+	BaseType "Exalted Orb" "Orb of Annulment" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb"
 	Class Currency
 	SetBackgroundColor 250 0 125
 	SetBorderColor 255 255 255
@@ -1102,29 +1102,40 @@ Show
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	PlayAlertSound 2 150
-	SetFontSize 35
+	SetFontSize 25
 	MinimapIcon 1 Green Moon
 Show
-	HasExplicitMod "Craiceann" "Fenumus"
-	Class Ring Amulet Belt
-	SetBorderColor 175 250 0
-	SetTextColor 175 250 0
-	SetFontSize 35
-	PlayAlertSound 16 200
-	MinimapIcon 0 Green Moon
-	PlayEffect Green
-Show
-	HasExplicitMod "Craiceann" "Fenumus"
-	SetTextColor 175 250 0
-	SetFontSize 35
-	MinimapIcon 1 Green Moon
-	PlayEffect Green
-Show
-	HasExplicitMod "Farrul" "Saqawal"
-	SetTextColor 175 250 0
-	SetFontSize 35
-	MinimapIcon 2 Green Moon
-	PlayEffect Green Temp
+	BaseType "Imprint"
+	Class Currency
+	SetBackgroundColor 250 0 125
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	PlayAlertSound 10 250
+	SetFontSize 30
+	MinimapIcon 1 Red Circle
+	PlayEffect Red
+	DisableDropSound
+# Show
+# 	HasExplicitMod "Craiceann" "Fenumus"
+# 	Class Ring Amulet Belt
+# 	SetBorderColor 175 250 0
+# 	SetTextColor 175 250 0
+# 	SetFontSize 35
+# 	PlayAlertSound 16 200
+# 	MinimapIcon 0 Green Moon
+# 	PlayEffect Green
+# Show
+# 	HasExplicitMod "Craiceann" "Fenumus"
+# 	SetTextColor 175 250 0
+# 	SetFontSize 35
+# 	MinimapIcon 1 Green Moon
+# 	PlayEffect Green
+# Show
+# 	HasExplicitMod "Farrul" "Saqawal"
+# 	SetTextColor 175 250 0
+# 	SetFontSize 35
+# 	MinimapIcon 2 Green Moon
+# 	PlayEffect Green Temp
 	
 #Incursion (v3.3) - Dark Red
 #vials moved to unique section in 3.23
