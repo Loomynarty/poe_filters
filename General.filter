@@ -5835,19 +5835,19 @@ Show
 # 	SetFontSize 30
 	
 #summoner (violet)
-Show
-	BaseType "Calling Wand" "Convening Wand" "Convoking Wand" "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
-	Rarity Rare
-	SetBorderColor 125 0 250
-	SetFontSize 30
+# Show
+# 	BaseType "Calling Wand" "Convening Wand" "Convoking Wand" "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
+# 	Rarity Rare
+# 	SetBorderColor 125 0 250
+# 	SetFontSize 30
 
 #bone ring is included in summoner weapon section as it's the only jewellery base that's archetype-associated, and you're either playing a summoner or you're not
-Show
-	BaseType "Bone Ring"
-	# Rarity Rare
-	SetBackgroundColor 50 0 100
-	SetBorderColor 175 75 255
-	SetFontSize 30
+# Show
+# 	BaseType "Bone Ring"
+# 	# Rarity Rare
+# 	SetBackgroundColor 50 0 100
+# 	SetBorderColor 175 75 255
+# 	SetFontSize 30
 	
 #offmeta - disabled by default, listed here for convenience
 #Show
