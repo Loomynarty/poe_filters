@@ -401,46 +401,59 @@ Show
 ######################### Section 2 - Currency & 6L ###############################
 ###################################################################################
 #GENERAL ONLY - leaguestart currency overrides - makes race currency bigger/more dramatic highlights at race levels. next set of blocks in general filter only and all terminate before maps start
+# Show
+# 	BaseType "Orb of Alchemy" "Chaos Orb" "Vaal Orb" "Orb of Chance" "Orb of Fusing"
+# 	AreaLevel <= 67
+# 	Class Currency
+# 	SetBackgroundColor 0 225 225
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 0 0 0
+# 	PlayAlertSound 2 100
+# 	SetFontSize 35
+# 	MinimapIcon 2 Cyan Circle
+# 	DisableDropSound
+# Show
+# 	BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Blacksmith's Whetstone" "Armourer's Scrap"
+# 	AreaLevel <= 67
+# 	Class Currency
+# 	SetBackgroundColor 0 200 0
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 0 0 0
+# 	SetFontSize 35
+# 	PlayAlertSound 3 100
+# 	MinimapIcon 2 Green Circle
+# 	DisableDropSound
+# Show
+# 	BaseType "Scroll of Wisdom"
+# 	AreaLevel <= 67
+# 	SetBorderColor 170 158 129
+# 	SetFontSize 35
+# 	MinimapIcon 2 Brown UpsideDownHouse
+# 	PlayEffect Brown Temp
+# Show
+# 	BaseType "Portal Scroll"
+# 	AreaLevel <= 67
+# 	SetFontSize 35
+# 	SetBorderColor 100 150 200
+# 	SetTextColor 100 150 200
+# 	MinimapIcon 2 Blue UpsideDownHouse
+# 	PlayEffect Blue Temp
+# Show
+# 	BaseType "Orb of Binding"
+# 	AreaLevel <= 67
+# 	SetBackgroundColor 175 0 250
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 0 0 0
+# 	SetFontSize 35
+# 	PlayAlertSound 2 150
+# 	MinimapIcon 1 Purple Circle
+# 	PlayEffect Purple
+# 	DisableDropSound
+
+# Keepers of the Flame Currencies
 Show
-	BaseType "Orb of Alchemy" "Chaos Orb" "Vaal Orb" "Orb of Chance" "Orb of Fusing"
-	AreaLevel <= 67
+	BaseType "Augmentation Implant" "Regal Implant" "Exalted Implant" "Unstable Implant" "Foulborn Orb of Augmentation" "Foulborn Regal Orb" "Foulborn Exalted Orb"
 	Class Currency
-	SetBackgroundColor 0 225 225
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	PlayAlertSound 2 100
-	SetFontSize 35
-	MinimapIcon 2 Cyan Circle
-	DisableDropSound
-Show
-	BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Blacksmith's Whetstone" "Armourer's Scrap"
-	AreaLevel <= 67
-	Class Currency
-	SetBackgroundColor 0 200 0
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 35
-	PlayAlertSound 3 100
-	MinimapIcon 2 Green Circle
-	DisableDropSound
-Show
-	BaseType "Scroll of Wisdom"
-	AreaLevel <= 67
-	SetBorderColor 170 158 129
-	SetFontSize 35
-	MinimapIcon 2 Brown UpsideDownHouse
-	PlayEffect Brown Temp
-Show
-	BaseType "Portal Scroll"
-	AreaLevel <= 67
-	SetFontSize 35
-	SetBorderColor 100 150 200
-	SetTextColor 100 150 200
-	MinimapIcon 2 Blue UpsideDownHouse
-	PlayEffect Blue Temp
-Show
-	BaseType "Orb of Binding"
-	AreaLevel <= 67
 	SetBackgroundColor 175 0 250
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
@@ -2352,19 +2365,6 @@ Show
 
 #Keepers of the Flame (v3.27)
 
-# Exclusive Currencies
-Show
-	BaseType "Augmentation Implant" "Regal Implant" "Exalted Implant" "Unstable Implant" "Foulborn Orb of Augmentation" "Foulborn Regal Orb" "Foulborn Exalted Orb"
-	Class Currency
-	SetBackgroundColor 175 0 250
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 35
-	PlayAlertSound 2 150
-	MinimapIcon 1 Purple Circle
-	PlayEffect Purple
-	DisableDropSound
-
 # Grafts
 	Rarity Normal Magic Rare
 	Class == "Grafts"
@@ -2416,7 +2416,7 @@ Show #
 	DisableDropSound
 
 # Foulborn Uniques
-Show # 
+Show 
 	Foulborn True
 	Rarity Unique
 	SetFontSize 35
@@ -5835,11 +5835,11 @@ Show
 # 	SetFontSize 30
 	
 #summoner (violet)
-# Show
-# 	BaseType "Calling Wand" "Convening Wand" "Convoking Wand" "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
-# 	Rarity Rare
-# 	SetBorderColor 125 0 250
-# 	SetFontSize 30
+Show
+	BaseType "Calling Wand" "Convening Wand" "Convoking Wand" "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
+	Rarity Rare
+	SetBorderColor 125 0 250
+	SetFontSize 30
 
 #bone ring is included in summoner weapon section as it's the only jewellery base that's archetype-associated, and you're either playing a summoner or you're not
 # Show
