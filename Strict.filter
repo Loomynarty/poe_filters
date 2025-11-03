@@ -1911,7 +1911,7 @@ Show
 	
 #Forbidden Sanctum (v3.20) - brown/gold. research moved to map section
 Show
-	BaseType "Censer Relic" "Papyrus Relic"
+	BaseType "Papyrus Relic"
 	Rarity Unique
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
