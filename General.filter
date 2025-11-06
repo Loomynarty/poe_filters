@@ -2186,7 +2186,7 @@ Show
 	
 #Forbidden Sanctum (v3.20) - brown/gold. research moved to map section
 Show
-	BaseType "Censer Relic" "Papyrus Relic"
+	BaseType "Papyrus Relic"
 	Rarity Unique
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
@@ -2205,10 +2205,16 @@ Show
 	PlayAlertSound 11 200
 	MinimapIcon 1 Orange Square
 	PlayEffect Orange
+Hide
+	BaseType "Candlestick Relic"
+	Rarity Normal Magic Rare
+	Class "Relic"
+	SetBackgroundColor 150 125 250
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 27
 Show
 	Class "Relic"
-#	SetBackgroundColor 225 175 125
-	# SetBackgroundColor 200 150 100
 	SetBackgroundColor 150 125 250
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
@@ -5433,7 +5439,7 @@ Show
 	Corrupted False
 	Mirrored False
 	SetBorderColor 250 250 250
-	SetFontSize 40
+	SetFontSize 30
 	PlayAlertSound 13 200
 	MinimapIcon 1 White Kite
 	PlayEffect White
@@ -5445,7 +5451,7 @@ Show
 	Corrupted False
 	Mirrored False
 	SetBorderColor 250 250 250
-	SetFontSize 40
+	SetFontSize 30
 	PlayAlertSound 13 200
 	MinimapIcon 1 White Kite
 	PlayEffect White
@@ -5457,7 +5463,7 @@ Show
 	Corrupted False
 	Mirrored False
 	SetBorderColor 250 250 250
-	SetFontSize 40
+	SetFontSize 30
 	PlayAlertSound 13 200
 	MinimapIcon 1 White Kite
 	PlayEffect White
@@ -5470,7 +5476,7 @@ Show
 	Corrupted False
 	Mirrored False
 	SetBorderColor 250 200 150
-	SetFontSize 38
+	SetFontSize 30
 Show
 	Class "Gloves" "Helm"
 	DropLevel >= 84
@@ -5478,7 +5484,7 @@ Show
 	Corrupted False
 	Mirrored False
 	SetBorderColor 200 150 0
-	SetFontSize 36
+	SetFontSize 30
 Show
 	Class "Body Armour" "Boots" "Gloves" "Helm"
 	DropLevel >= 84
@@ -5486,7 +5492,7 @@ Show
 	Corrupted False
 	Mirrored False
 	SetBorderColor 150 100 0
-	SetFontSize 34
+	SetFontSize 30
 
 #weapons, shields, and jewellery. 86 titanium always shown
 Show
