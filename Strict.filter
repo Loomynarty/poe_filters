@@ -758,7 +758,7 @@ Show
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
 	SetTextColor 175 96 37
-	PlayAlertSound 6 250
+	PlayAlertSound 10 250
 	SetFontSize 35
 	MinimapIcon 0 Orange Pentagon
 	PlayEffect Orange
@@ -772,7 +772,7 @@ Show
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
 	SetTextColor 0 200 200
-	PlayAlertSound 6 250
+	PlayAlertSound 10 250
 	SetFontSize 35
 	MinimapIcon 0 White Pentagon
 	PlayEffect White
@@ -4939,8 +4939,8 @@ Show
 	PlayAlertSound 6 300
 	PlayEffect Red
 	MinimapIcon 0 Red Star
-Hide
-	BaseType "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Ancient Gauntlets" "Vaal Sceptre" "Vaal Mask" "Triumphant Lamellar" "Dragonscale Boots" "Royal Sceptre" "Golden Plate" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Ambush Mitts" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Shagreen Boots" "Golden Mask" "Titan Gauntlets" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Lacquered Helmet" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Agate Amulet" "Goliath Gauntlets" "Zealot Helmet" "Shadow Sceptre" "Ezomyte Blade" "Antique Gauntlets"
+Show
+	BaseType "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Ancient Gauntlets" "Vaal Sceptre" "Vaal Mask" "Triumphant Lamellar" "Dragonscale Boots" "Royal Sceptre" "Golden Plate" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Ambush Mitts" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Shagreen Boots" "Golden Mask" "Titan Gauntlets" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Lacquered Helmet" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Agate Amulet" "Goliath Gauntlets" "Zealot Helmet" "Shadow Sceptre" "Ezomyte Blade" "Antique Gauntlets" "Spiny Round Shield" "Paladin Crown" "Marble Amulet" "Faithful Helmet" "Sacrificial Garb"
 	Rarity Unique
 	SetBackgroundColor 180 80 0
 	SetBorderColor 200 150 250
@@ -4989,6 +4989,7 @@ Hide
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	SetFontSize 25
+
 #	PlayAlertSound 4 100 #SSF Players - Enable this line to sound ALL uniques for alch shards
 #	MinimapIcon 2 Brown Star #SSF Players - Enable this line for minimap icons on all shit uniques
 	DisableDropSound
