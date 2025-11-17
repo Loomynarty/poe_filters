@@ -378,7 +378,7 @@ Show
 
 #50c+ (pink)
 Show 
-	BaseType "Divine Orb" "Fracturing Shard" "Reflecting Mist" "Orb of Dominance" "Awakener's Orb" "Veiled Exalted Orb" "Hunter's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Redeemer's Exalted Orb" "Shaper's Exalted Orb" "Elder's Exalted Orb" 
+	BaseType "Divine Orb" "Fracturing Shard" "Reflecting Mist" "Orb of Dominance" "Awakener's Orb" "Veiled Exalted Orb" "Hunter's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Redeemer's Exalted Orb" 
 	Class Currency
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
@@ -2810,13 +2810,13 @@ Show
 	PlayAlertSound 8 150
 	MinimapIcon 0 Blue Hexagon
 	PlayEffect Blue
-Hide
+Show
 	BaseType "Contract"
 	AreaLevel >= 83
 	SetBackgroundColor 255 221 153
 	SetBorderColor 150 200 0
 	SetTextColor 125 100 75
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 9 200
 	MinimapIcon 0 Green Hexagon
 	PlayEffect Green Temp
@@ -4940,7 +4940,7 @@ Show
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 Show
-	BaseType "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Ancient Gauntlets" "Vaal Sceptre" "Vaal Mask" "Triumphant Lamellar" "Dragonscale Boots" "Royal Sceptre" "Golden Plate" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Ambush Mitts" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Shagreen Boots" "Golden Mask" "Titan Gauntlets" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Lacquered Helmet" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Agate Amulet" "Goliath Gauntlets" "Zealot Helmet" "Shadow Sceptre" "Ezomyte Blade" "Antique Gauntlets" "Spiny Round Shield" "Paladin Crown" "Marble Amulet" "Faithful Helmet" "Sacrificial Garb" "Lich's Circlet" "Waxed Garb"
+	BaseType "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Ancient Gauntlets" "Vaal Sceptre" "Vaal Mask" "Triumphant Lamellar" "Dragonscale Boots" "Royal Sceptre" "Golden Plate" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Ambush Mitts" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Shagreen Boots" "Golden Mask" "Titan Gauntlets" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Lacquered Helmet" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Agate Amulet" "Goliath Gauntlets" "Zealot Helmet" "Shadow Sceptre" "Ezomyte Blade" "Antique Gauntlets" "Spiny Round Shield" "Paladin Crown" "Marble Amulet" "Faithful Helmet" "Sacrificial Garb" "Lich's Circlet" "Waxed Garb" "Spectral Axe" "Seaglass Amulet" "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Colossal Mana Flask" "Steel Ring"
 	Rarity Unique
 	SetBackgroundColor 180 80 0
 	SetBorderColor 200 150 250
