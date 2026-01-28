@@ -1756,7 +1756,7 @@ Show
 
 # Scarabs
 Show
-	BaseType == "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Ambush Scarab of Containment" "Horned Scarab of Glittering" "Horned Scarab of Awakening" 
+	BaseType == "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Ambush Scarab of Containment" "Horned Scarab of Awakening" 
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
 	SetTextColor 180 76 58 255
@@ -1775,7 +1775,7 @@ Show
 # 	MinimapIcon 1 Red Triangle
 # 	PlayEffect Red
 Show
-	BaseType == "Divination Scarab of Pilfering" "Essence Scarab of Calcification" "Domination Scarab of Terrors" "Harvest Scarab of Cornucopia" "Ambush Scarab of Discernment" "Horned Scarab of Bloodlines" "Cartography Scarab of Corruption" "Harbinger Scarab of Regency" "Incursion Scarab of Timelines" "Blight Scarab of Blooming" "Ultimatum Scarab of Dueling" "Harbinger Scarab of Warhoards" "Harvest Scarab of Doubling" "Ritual Scarab of Abundance" "Ambush Scarab" "Cartography Scarab of the Multitude" "Essence Scarab of Adaptation" "Titanic Scarab of Treasures" "Horned Scarab of Tradition" "Harbinger Scarab" "Horned Scarab of Nemeses" "Titanic Scarab of Legend" "Horned Scarab of Pandemonium"
+	BaseType == "Divination Scarab of Pilfering" "Essence Scarab of Calcification" "Domination Scarab of Terrors" "Harvest Scarab of Cornucopia" "Ambush Scarab of Discernment" "Horned Scarab of Bloodlines" "Cartography Scarab of Corruption" "Incursion Scarab of Timelines" "Blight Scarab of Blooming" "Harvest Scarab of Doubling" "Ritual Scarab of Abundance" "Ambush Scarab" "Cartography Scarab of the Multitude" "Essence Scarab of Adaptation" "Titanic Scarab of Treasures" "Horned Scarab of Tradition" "Harbinger Scarab" "Horned Scarab of Nemeses" "Horned Scarab of Pandemonium" "Cartography Scarab of Risk" "Horned Scarab of Glittering"
 	Class "Map Fragment"
 	SetBackgroundColor 100 50 0
 	SetBorderColor 225 225 225
@@ -2324,47 +2324,47 @@ Show
 	SetFontSize 20
 
 #Legacy of Phrecia Event
-# Show
-# 	Class Idol
-# 	Rarity Unique
-# 	SetBackgroundColor 225 100 0
-# 	SetBorderColor 0 0 0
-# 	SetTextColor 0 0 0
-# 	SetFontSize 20
-# 	PlayAlertSound 11 100
-	# MinimapIcon 1 Yellow Star
-	# PlayEffect Brown
-# 	DisableDropSound
-# Show
-# 	BaseType "Conqueror Idol"
-# 	Rarity Rare
-# 	SetBackgroundColor 200 150 100
-# 	SetBorderColor 0 0 0
-# 	SetTextColor 0 0 0
-# 	SetFontSize 35
-# 	PlayAlertSound 11 200
-# 	MinimapIcon 2 Yellow Square
-# 	PlayEffect Yellow
-# Show
-# 	Class "Idol"
-# 	Rarity Rare
-# 	SetBackgroundColor 200 150 100
-# 	SetBorderColor 0 0 0
-# 	SetTextColor 0 0 0
-# 	SetFontSize 30
-# 	PlayAlertSound 11 200
-# 	MinimapIcon 2 Yellow Square
-# 	PlayEffect Yellow
-# Hide
-# 	Class "Idol"
-# 	Rarity Magic
-# 	SetBackgroundColor 150 125 250
-# 	SetBorderColor 0 0 0 
-# 	SetTextColor 0 0 0
-# 	SetFontSize 30
-# 	PlayAlertSound 11 200
-# 	MinimapIcon 2 Blue Square
-# 	PlayEffect Blue
+Show
+	Class Idol
+	Rarity Unique
+	SetBackgroundColor 225 100 0
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 20
+	PlayAlertSound 11 100
+	MinimapIcon 1 Yellow Star
+	PlayEffect Brown
+	DisableDropSound
+Show
+	BaseType "Conqueror Idol"
+	Rarity Rare
+	SetBackgroundColor 200 150 100
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 35
+	PlayAlertSound 11 200
+	MinimapIcon 2 Yellow Square
+	PlayEffect Yellow
+Show
+	Class "Idol"
+	Rarity Rare
+	SetBackgroundColor 200 150 100
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 30
+	PlayAlertSound 11 200
+	MinimapIcon 2 Yellow Square
+	PlayEffect Yellow
+Hide
+	Class "Idol"
+	Rarity Magic
+	SetBackgroundColor 150 125 250
+	SetBorderColor 0 0 0 
+	SetTextColor 0 0 0
+	SetFontSize 30
+	PlayAlertSound 11 200
+	MinimapIcon 2 Blue Square
+	PlayEffect Blue
 
 #Secrets of the Atlas / Mercenaries of Trarthus (v3.26)
 #runegrafts - tiering will be added in first league update
@@ -4965,7 +4965,7 @@ Show
 
 #Maximum Value Tier - 200c+ guaranteed value
 Show
-	BaseType "Crusader Boots" "Unset Amulet" "Siege Axe" "Karui Maul" "Ezomyte Tower Shield" "Rot Head Talisman" "Greatwolf Talisman" "Riveted Boots" "Engraved Greatsword" "Vaal Rapier" "Cabalist Regalia"
+	BaseType "Crusader Boots" "Unset Amulet" "Siege Axe" "Karui Maul" "Rot Head Talisman" "Greatwolf Talisman" "Riveted Boots" "Engraved Greatsword" "Vaal Rapier" "Cabalist Regalia"
 	Rarity Unique
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
@@ -5095,7 +5095,7 @@ Show
 	DisableDropSound
 #Mid Value Tier - 20c to 50c fairly consistently. Include bases with multiple uniques as long as they all fall into this range.
 Show
-	BaseType "Amethyst Flask" "Ruby Flask" "Topaz Flask" "Mosaic Kite Shield" "Silk Gloves" "Dusk Blade" "Ezomyte Dagger" "Serpentscale Boots" "Trapper Boots" "Highborn Staff" "Sovereign Spiked Shield" "Runic" "Hydrascale Gauntlets" "Harmonic Spirit Shield" "Blood Sceptre" "Citadel Bow" "Carnal Boots" "Gemstone Sword" "Cardinal Round Shield" "Steelwood Bow" "Vaal Greaves" "Quarterstaff" "Jewelled Foil" "Goliath Greaves" "Grand Mana Flask" "Studded Belt" "Stygian Vise" "Large Hybrid Flask" "Steel Kite Shield" "Fugitive Boots" "Archon Kite Shield" "Ornate Quiver" "Void Axe"
+	BaseType "Amethyst Flask" "Ruby Flask" "Topaz Flask" "Mosaic Kite Shield" "Silk Gloves" "Dusk Blade" "Ezomyte Dagger" "Serpentscale Boots" "Trapper Boots" "Highborn Staff" "Sovereign Spiked Shield" "Runic" "Hydrascale Gauntlets" "Harmonic Spirit Shield" "Blood Sceptre" "Citadel Bow" "Carnal Boots" "Gemstone Sword" "Cardinal Round Shield" "Steelwood Bow" "Vaal Greaves" "Quarterstaff" "Jewelled Foil" "Goliath Greaves" "Grand Mana Flask" "Studded Belt" "Stygian Vise" "Large Hybrid Flask" "Steel Kite Shield" "Fugitive Boots" "Archon Kite Shield" "Ornate Quiver" "Void Axe" "Ezomyte Tower Shield"
 	Rarity Unique
 	SetBackgroundColor 225 100 0
 	SetBorderColor 0 0 0
@@ -5196,7 +5196,7 @@ Show
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 Show
-	BaseType "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Ancient Gauntlets" "Vaal Sceptre" "Vaal Mask" "Triumphant Lamellar" "Dragonscale Boots" "Royal Sceptre" "Golden Plate" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Ambush Mitts" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Shagreen Boots" "Golden Mask" "Titan Gauntlets" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Lacquered Helmet" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Agate Amulet" "Goliath Gauntlets" "Zealot Helmet" "Shadow Sceptre" "Ezomyte Blade" "Antique Gauntlets" "Spiny Round Shield" "Paladin Crown" "Marble Amulet" "Faithful Helmet" "Sacrificial Garb" "Lich's Circlet" "Waxed Garb" "Spectral Axe" "Seaglass Amulet" "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Colossal Mana Flask" "Steel Ring"
+	BaseType "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Ancient Gauntlets" "Vaal Sceptre" "Vaal Mask" "Triumphant Lamellar" "Dragonscale Boots" "Royal Sceptre" "Golden Plate" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Ambush Mitts" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Shagreen Boots" "Golden Mask" "Titan Gauntlets" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Lacquered Helmet" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Agate Amulet" "Goliath Gauntlets" "Zealot Helmet" "Shadow Sceptre" "Ezomyte Blade" "Antique Gauntlets" "Spiny Round Shield" "Paladin Crown" "Marble Amulet" "Faithful Helmet" "Sacrificial Garb" "Lich's Circlet" "Waxed Garb" "Spectral Axe" "Seaglass Amulet" "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Colossal Mana Flask" "Steel Ring" "Fugitive Ring" "Organic Ring"
 	Rarity Unique
 	SetBackgroundColor 180 80 0
 	SetBorderColor 200 150 250
