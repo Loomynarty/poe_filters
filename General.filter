@@ -2355,7 +2355,7 @@ Show
 	PlayAlertSound 11 200
 	MinimapIcon 2 Yellow Square
 	PlayEffect Yellow
-Hide
+Show
 	Class "Idol"
 	Rarity Magic
 	SetBackgroundColor 150 125 250
