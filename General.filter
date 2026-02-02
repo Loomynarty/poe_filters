@@ -2383,6 +2383,7 @@ Show
 #Keepers of the Flame (v3.27)
 
 # Grafts
+Show
 	Rarity Normal Magic Rare
 	Class == "Grafts"
 	BaseType == "Aegis Tulgraft" "Battering Uulgraft" "Draining Eshgraft" "Erupting Xophgraft" "Flamecaller Xophgraft" "Fleshgraft" "Freezing Tulgraft" "Hardening Uulgraft" "Impaling Uulgraft" "Jolting Eshgraft" "Molten Xophgraft" "Replicating Eshgraft" "Spiking Uulgraft" "Squalling Tulgraft" "Stoking Xophgraft" "Storming Eshgraft" "Summoning Tulgraft"
