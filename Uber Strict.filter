@@ -123,14 +123,14 @@
 #	MinimapIcon 0 Yellow Star
 #	PlayEffect Yellow
 
-Show
-	MemoryStrands >= 40
-	SetBackgroundColor 40 90 140
-	SetBorderColor 225 190 70
-	SetFontSize 30
-	PlayAlertSound 16 200
-	MinimapIcon 1 Blue Moon
-	PlayEffect Blue
+# Show
+# 	MemoryStrands >= 40
+# 	SetBackgroundColor 40 90 140
+# 	SetBorderColor 225 190 70
+# 	SetFontSize 30
+# 	PlayAlertSound 16 200
+# 	MinimapIcon 1 Blue Moon
+# 	PlayEffect Blue
 
 ###################################################################################
 ############## Section 1 - Chance, Priority Highlight, Link Options ###############
@@ -329,19 +329,19 @@ Show
 	SetBackgroundColor 225 115 115
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 25
 	PlayAlertSound 3 150
 	MinimapIcon 1 Brown Circle
-	PlayEffect Red
+	# PlayEffect Red
 Show
 	BaseType "Eldritch Ichor"
 	SetBackgroundColor 115 225 225
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 25
 	PlayAlertSound 3 150
 	MinimapIcon 1 Cyan Circle
-	PlayEffect Cyan
+	# PlayEffect Cyan
 
 #alternate darker essence-like version, couldn't really decide which was better so here's both
 #Show
@@ -421,7 +421,7 @@ Show
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	PlayAlertSound 10 250
-	SetFontSize 35
+	SetFontSize 30
 	MinimapIcon 1 Red Circle
 	PlayEffect Red
 	DisableDropSound
@@ -433,7 +433,7 @@ Show
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	PlayAlertSound 10 250
-	SetFontSize 35
+	SetFontSize 30
 	MinimapIcon 1 Red Circle
 	PlayEffect Red
 	DisableDropSound
@@ -445,7 +445,7 @@ Show
 	SetBackgroundColor 175 0 250
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 25
 	PlayAlertSound 2 150
 	MinimapIcon 1 Purple Circle
 	PlayEffect Purple
@@ -457,7 +457,7 @@ Show
 	SetBackgroundColor 175 0 250
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 2 150
 	MinimapIcon 1 Purple Circle
 	PlayEffect Purple
@@ -469,19 +469,19 @@ Show
 	SetBackgroundColor 175 0 250
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 25
 	PlayAlertSound 2 150
 	MinimapIcon 1 Purple Circle
 	PlayEffect Purple
 	DisableDropSound
-Show 
+Hide 
 	BaseType "Orb of Alchemy" "Orb of Fusing" "Chromatic Orb"
 	Class Currency
 	StackSize >= 15
 	SetBackgroundColor 175 0 250
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 2 150
 	MinimapIcon 1 Purple Circle
 	PlayEffect Purple
@@ -494,29 +494,29 @@ Show
 	SetBackgroundColor 0 225 225
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 25
 	PlayAlertSound 3 125
 	MinimapIcon 2 Cyan Circle
 	DisableDropSound
-Show
+Hide
 	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Orb of Horizons" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking" "Orb of Alteration"
 	StackSize >= 3
 	Class Currency
 	SetBackgroundColor 0 175 175
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 3 125
 	MinimapIcon 2 Cyan Circle
 	DisableDropSound
-Show
+Hide
 	BaseType "Orb of Alchemy" "Orb of Fusing" "Chromatic Orb"
 	StackSize >= 6
 	Class Currency
 	SetBackgroundColor 0 175 175
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 3 125
 	MinimapIcon 2 Cyan Circle
 	DisableDropSound
@@ -534,17 +534,17 @@ Hide
 
 #<1c but still important (seagreen) - lowest tier to be shown in Uber.
 #note that some of these are higher tiered than their trade value because of their high consumption rate and SSF value
-Show
+Hide
 	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Orb of Horizons" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking"
 	Class Currency
 	SetBackgroundColor 0 180 130
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 25
 	PlayAlertSound 3 100
 	MinimapIcon 2 Green Circle
 	DisableDropSound
-Show
+Hide
 	BaseType "Orb of Alchemy" "Orb of Fusing" "Chromatic Orb"
 	StackSize >= 3
 	Class Currency
@@ -557,12 +557,12 @@ Show
 	DisableDropSound
 Show
 	BaseType "Orb of Alteration"
-	StackSize >= 6
+	StackSize >= 20
 	Class Currency
 	SetBackgroundColor 0 180 130
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 3 100
 	MinimapIcon 2 Green Circle
 	DisableDropSound
@@ -664,7 +664,7 @@ Hide
 	DisableDropSound
 	
 #Shards
-Show
+Hide
 	BaseType "Exalted Shard" "Ancient Shard"
 	SetBorderColor 0 150 250
 	SetFontSize 30
@@ -681,7 +681,7 @@ Hide
 	DisableDropSound
 	
 #Nonscaling Items (these items never drop stacked and have decreasing highlights as filter strictness increases)
-Show
+Hide
 	BaseType "Scouting Report"
 	Class Currency
 	SetBackgroundColor 175 0 250
@@ -723,24 +723,24 @@ Show
 	Class "Quest"
 	SetBorderColor 0 250 0
 	SetTextColor 0 250 0
-	SetFontSize 35
+	SetFontSize 30
 	MinimapIcon 0 Green UpsideDownHouse
 	PlayEffect Green
 	
 #6L Blocks - located up here due to code priority issues. 5L and 6S blocks are in the Sockets section (7)
 #corrupted catcher
-Show
-	LinkedSockets = 6
-	Corrupted True
-	SetBackgroundColor 125 0 0
-	SetBorderColor 250 250 250
-	SetTextColor 0 0 0
-	PlayAlertSound 10 250
-	SetFontSize 35
-	MinimapIcon 0 Red Pentagon
-	PlayEffect Red
+# Show
+# 	LinkedSockets = 6
+# 	Corrupted True
+# 	SetBackgroundColor 125 0 0
+# 	SetBorderColor 250 250 250
+# 	SetTextColor 0 0 0
+# 	PlayAlertSound 10 250
+# 	SetFontSize 25
+# 	MinimapIcon 0 Red Pentagon
+# 	PlayEffect Red
 #tabula exception
-Show
+Hide
 	LinkedSockets = 6
 	Rarity Unique
 	BaseType "Simple Robe"
@@ -748,20 +748,20 @@ Show
 	SetBorderColor 250 250 250
 	SetTextColor 0 0 0
 	PlayAlertSound 10 250
-	SetFontSize 35
+	SetFontSize 25
 	MinimapIcon 0 Cyan Pentagon
 	PlayEffect Cyan
 #unique exception
-Show
-	LinkedSockets = 6
-	Rarity Unique
-	SetBackgroundColor 250 250 250
-	SetBorderColor 0 0 0
-	SetTextColor 175 96 37
-	PlayAlertSound 10 250
-	SetFontSize 35
-	MinimapIcon 0 Orange Pentagon
-	PlayEffect Orange
+# Show
+# 	LinkedSockets = 6
+# 	Rarity Unique
+# 	SetBackgroundColor 250 250 250
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 175 96 37
+# 	PlayAlertSound 10 250
+# 	SetFontSize 25
+# 	MinimapIcon 0 Orange Pentagon
+# 	PlayEffect Orange
 #white bg for high ilvl high droplevel 6L's
 Show
 	LinkedSockets = 6
@@ -777,40 +777,40 @@ Show
 	MinimapIcon 0 White Pentagon
 	PlayEffect White
 #only best weapons get white bg
-Show
-	LinkedSockets = 6
-	BaseType "Thicket Bow" "Piledriver" "Karui Chopper" "Eclipse Staff" "Coronal Maul" "Piledriver" "Thicket Bow" "Imperial Bow" "Spine Bow" "Grove Bow" "Fleshripper" "Despot Axe" "Vaal Axe" "Ezomyte Axe" "Karui Chopper"
-	ItemLevel >= 83
-	Corrupted False
-	SetBackgroundColor 250 250 250
-	SetBorderColor 0 0 0
-	SetTextColor 125 0 0
-	PlayAlertSound 10 250
-	SetFontSize 35
-	MinimapIcon 0 Brown Pentagon
-	PlayEffect Brown
+# Show
+# 	LinkedSockets = 6
+# 	BaseType "Thicket Bow" "Piledriver" "Karui Chopper" "Eclipse Staff" "Coronal Maul" "Piledriver" "Thicket Bow" "Imperial Bow" "Spine Bow" "Grove Bow" "Fleshripper" "Despot Axe" "Vaal Axe" "Ezomyte Axe" "Karui Chopper"
+# 	ItemLevel >= 83
+# 	Corrupted False
+# 	SetBackgroundColor 250 250 250
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 125 0 0
+# 	PlayAlertSound 10 250
+# 	SetFontSize 25
+# 	MinimapIcon 0 Brown Pentagon
+# 	PlayEffect Brown
 #teal bg white border for all others (same as tabula highlight)
-Show
-	LinkedSockets = 6
-	Class "Body Armour"
-	Corrupted False
-	SetBackgroundColor 0 200 200
-	SetBorderColor 250 250 250
-	SetTextColor 0 0 0
-	PlayAlertSound 10 250
-	SetFontSize 35
-	MinimapIcon 0 Red Pentagon
-	PlayEffect Cyan
+# Show
+# 	LinkedSockets = 6
+# 	Class "Body Armour"
+# 	Corrupted False
+# 	SetBackgroundColor 0 200 200
+# 	SetBorderColor 250 250 250
+# 	SetTextColor 0 0 0
+# 	PlayAlertSound 10 250
+# 	SetFontSize 25
+# 	MinimapIcon 0 Red Pentagon
+# 	PlayEffect Cyan
 #catchall
-Show
-	LinkedSockets = 6
-	SetBackgroundColor 0 200 200
-	SetBorderColor 250 250 250
-	SetTextColor 0 0 0
-	PlayAlertSound 10 250
-	SetFontSize 35
-	MinimapIcon 0 Brown Pentagon
-	PlayEffect Brown
+# Show
+# 	LinkedSockets = 6
+# 	SetBackgroundColor 0 200 200
+# 	SetBorderColor 250 250 250
+# 	SetTextColor 0 0 0
+# 	PlayAlertSound 10 250
+# 	SetFontSize 25
+# 	MinimapIcon 0 Brown Pentagon
+# 	PlayEffect Brown
 
 ###################################################################################
 #################### Section 3 - League & Zone Specific ###########################
@@ -1698,12 +1698,12 @@ Show
 	PlayAlertSound 4 100	
 	MinimapIcon 0 Blue Star
 	PlayEffect Blue
-Show
+Hide
 	BaseType "Rogue's Marker"
 	SetBackgroundColor 65 10 0
 	SetBorderColor 225 225 225
 	SetTextColor 225 225 225
-	SetFontSize 35
+	SetFontSize 25
 Show
 	Class "Heist Target"
 	SetTextColor 250 200 150
@@ -1981,7 +1981,7 @@ Show
 	PlayEffect Cyan Temp
 	
 #Affliction (v3.23)
-Show
+Hide
 	Class "Tincture" "Charms" "Corpses"
 	SetBackgroundColor 75 50 40
 	SetBorderColor 200 200 200
@@ -1990,6 +1990,16 @@ Show
 	PlayAlertSound 11 150
 	# PlayEffect Brown
 	# MinimapIcon 2 Brown Square
+Show 
+	Class "Tincture"
+	Quality >= 21
+	SetBackgroundColor 75 50 40
+	SetBorderColor 200 200 200
+	SetTextColor 225 225 225
+	SetFontSize 25
+	PlayAlertSound 11 150
+	PlayEffect Brown
+	MinimapIcon 2 Brown Square
 	
 #Necropolis (v3.24)
 Show
@@ -2039,7 +2049,7 @@ Show
 	SetFontSize 20
 
 #Legacy of Phrecia Event
-Show
+Hide
 	Class Idol
 	Rarity Unique
 	SetBackgroundColor 225 100 0
@@ -2060,6 +2070,26 @@ Show
 	PlayAlertSound 11 200
 	MinimapIcon 2 Yellow Square
 	PlayEffect Yellow
+Hide
+	BaseType "Noble Idol" "Kamasan Idol"
+	Rarity Rare
+	SetBackgroundColor 200 150 100
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 25
+	PlayAlertSound 11 200
+	MinimapIcon 2 Yellow Square
+	PlayEffect Yellow
+Hide
+	BaseType "Noble Idol" "Kamasan Idol"
+	Rarity Magic
+	SetBackgroundColor 150 125 250
+	SetBorderColor 0 0 0 
+	SetTextColor 0 0 0
+	SetFontSize 30
+	PlayAlertSound 11 200
+	MinimapIcon 2 Blue Square
+	PlayEffect Blue
 Show
 	Class "Idol"
 	Rarity Rare
@@ -2561,10 +2591,19 @@ Hide
 # Delirium splinters
 Show
 	BaseType "Simulacrum Splinter"
+	StackSize >= 3
 	SetBackgroundColor 50 50 50
 	SetBorderColor 0 0 0
 	SetTextColor 250 220 175
 	SetFontSize 30
+	MinimapIcon 2 Grey Raindrop
+	PlayEffect Grey Temp
+Hide
+	BaseType "Simulacrum Splinter"
+	SetBackgroundColor 50 50 50
+	SetBorderColor 0 0 0
+	SetTextColor 250 220 175
+	SetFontSize 25
 	MinimapIcon 2 Grey Raindrop
 	PlayEffect Grey Temp
 
@@ -2712,7 +2751,7 @@ Show
 	SetBackgroundColor 0 0 0
 	SetBorderColor 200 150 250
 	SetTextColor 200 150 250
-	SetFontSize 35
+	SetFontSize 25
 	MinimapIcon 2 Pink Hexagon
 	PlayEffect Pink
 Show
@@ -2720,7 +2759,7 @@ Show
 	SetBackgroundColor 0 0 0
 	SetBorderColor 200 150 250
 	SetTextColor 200 150 250
-	SetFontSize 35
+	SetFontSize 25
 	MinimapIcon 2 Pink Hexagon
 	PlayEffect Pink Temp
 	
@@ -2752,7 +2791,7 @@ Show
 	MinimapIcon 1 Yellow Star
 
 #mid tier. a few chaos (orange bg, tan border)
-Show
+Hide
 	BaseType "Shore" "Underground River" "Overgrown Shrine" "Underground Sea" "Necropolis" "Vaal Pyramid"
 	Class Map Contract
 	MapTier >= 11
@@ -2766,14 +2805,14 @@ Show
 	PlayEffect Orange
 	DisableDropSound
 #low tier (darker orange, darker border, no sound in Uber)
-Show
+Hide
 	Class Map
 	Rarity Unique
 	SetBackgroundColor 180 80 0
 	SetBorderColor 255 221 153
     SetTextColor 0 0 0
 	PlayAlertSound 4 150
-	SetFontSize 32
+	SetFontSize 25
 	MinimapIcon 2 Orange Hexagon
 	PlayEffect Orange Temp
 	DisableDropSound
@@ -2810,7 +2849,7 @@ Show
 	PlayAlertSound 8 150
 	MinimapIcon 0 Blue Hexagon
 	PlayEffect Blue
-Show
+Hide
 	BaseType "Contract"
 	AreaLevel >= 83
 	SetBackgroundColor 255 221 153
@@ -2962,15 +3001,27 @@ Hide
 Show
 	Class Map
 	MapTier >= 16
+	ZanaMemory True
 	SetBackgroundColor 235 235 235 255
 	SetBorderColor 255 0 0
 	SetTextColor 0 0 0 255
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 5 300
-	PlayEffect Red
-	MinimapIcon 1 Red Square
+	# PlayEffect Red
+	# MinimapIcon 1 Red Square
 	DisableDropSound
-Show
+Hide
+	Class Map
+	MapTier >= 16
+	SetBackgroundColor 235 235 235 255
+	SetBorderColor 255 0 0
+	SetTextColor 0 0 0 255
+	SetFontSize 27
+	PlayAlertSound 5 300
+	# PlayEffect Red
+	# MinimapIcon 1 Red Square
+	DisableDropSound
+Hide
 	Class Map
 	MapTier >= 14
 	SetBackgroundColor 235 235 235 255
@@ -2981,7 +3032,7 @@ Show
 	PlayEffect Red
 	MinimapIcon 1 Red Square
 	DisableDropSound
-Show
+Hide
 	Class Map
 	MapTier >= 11
 	SetBackgroundColor 235 235 235 255
@@ -2993,7 +3044,7 @@ Show
 	DisableDropSound
 	
 #t6-10: yellow maps
-Show
+Hide
 	Class Map
 	MapTier >= 6
 	AreaLevel <= 74
@@ -3004,7 +3055,7 @@ Show
 	PlayAlertSound 9 125
 	MinimapIcon 2 Blue Hexagon
 	DisableDropSound
-Show
+Hide
 	Class Map
 	MapTier >= 6
 	SetBackgroundColor 20 20 0 255
@@ -3016,7 +3067,7 @@ Show
 	DisableDropSound
 
 #t1-6: white maps
-Show
+Hide
 	Class Map
 	AreaLevel <= 73
 	SetBackgroundColor 20 20 0 255
@@ -3025,7 +3076,7 @@ Show
 	SetFontSize 30
 	PlayAlertSound 9 100
 	MinimapIcon 2 Grey Square
-Show
+Hide
 	Class Map
 	SetBackgroundColor 20 20 0 255
 	SetBorderColor 255 255 255
@@ -3758,27 +3809,27 @@ Show
 	SetFontSize 30
 	PlayAlertSound 16 200
 	MinimapIcon 1 White Moon
-	PlayEffect Grey
+	# PlayEffect Grey
 Show
 	BaseType "Divine Life Flask" "Eternal Mana Flask"
 	Class Flask
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 225 225 225
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
-	PlayEffect Grey
+	# PlayEffect Grey
 Show
 	Class "Utility Flask"
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 225 225 225
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
-	PlayEffect Grey
-Show
+	# PlayEffect Grey
+Hide
 	Class Gloves Boots Helm "Body Armour"
 	BaseArmour >= 1
 	BaseEvasion = 0
@@ -3790,8 +3841,8 @@ Show
 	SetFontSize 30
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
-	PlayEffect Grey
-Show
+	# PlayEffect Grey
+Hide
 	Class Gloves Boots Helm "Body Armour"
 	BaseArmour >= 1
 	BaseEvasion >= 1
@@ -3803,8 +3854,8 @@ Show
 	SetFontSize 30
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
-	PlayEffect Grey
-Show
+	# PlayEffect Grey
+Hide
 	Class Gloves Boots Helm "Body Armour"
 	BaseArmour = 0
 	BaseEvasion >= 1
@@ -3816,8 +3867,8 @@ Show
 	SetFontSize 30
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
-	PlayEffect Grey
-Show
+	# PlayEffect Grey
+Hide
 	Class Gloves Boots Helm "Body Armour"
 	BaseArmour = 0
 	BaseEvasion >= 1
@@ -3829,7 +3880,7 @@ Show
 	SetFontSize 30
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
-	PlayEffect Grey
+	# PlayEffect Grey
 Show
 	Class Gloves Boots Helm "Body Armour"
 	BaseArmour >= 1
@@ -3842,27 +3893,27 @@ Show
 	SetFontSize 30
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
-	PlayEffect Grey
+	# PlayEffect Grey
 Show
 	Class "Body Armour" "Boots" "Gloves" "Helm"
 	DropLevel >= 84
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 250 250 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 16 200
 	MinimapIcon 0 Grey Moon
-	PlayEffect Grey
-Show
+	# PlayEffect Grey
+Hide
 	Class Gloves Boots Helm "Body Armour"
 	DropLevel >= 66
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
-	PlayEffect Grey
+	# PlayEffect Grey
 Show
 	Class Shield
 	BaseArmour = 0
@@ -3874,60 +3925,59 @@ Show
 	SetFontSize 30
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
-	PlayEffect Grey
+	# PlayEffect Grey
 Show
 	Class Sceptre
 	DropLevel >= 20
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 200 250
-	SetFontSize 35
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
-	PlayEffect Grey
+	# PlayEffect Grey
 Show
 	Class Wand
 	DropLevel >= 40
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
-	SetFontSize 35
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
-	PlayEffect Grey
+	# PlayEffect Grey
 Show
 	Class "Rune Dagger"
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
-	PlayEffect Grey
+	# PlayEffect Grey
 Show
 	Class "Two Hand Axe"
 	FracturedItem True
 	DropLevel >= 58
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
-	PlayEffect Grey
-Show
-	BaseType "Titan Gauntlets" "Vaal Gauntlets" "Goliath Gauntlets" "Ancient Gauntlets" "Titan Greaves" "Vaal Greaves" "Goliath Greaves" "Ancient Greaves" "Eternal Burgonet" "Royal Burgonet" "Ezomyte Burgonet" "Samnite Helmet" "Glorious Plate" "Gladiator Plate" "Astral Plate" "Pinnacle Tower Shield" "Colossal Tower Shield" "Ezomyte Tower Shield" "Slink Gloves" "Stealth Gloves" "Shagreen Gloves" "Sharkskin Gloves" "Slink Boots" "Stealth Boots" "Shagreen Boots" "Sharkskin Boots" "Lion Pelt" "Sinner Tricorne" "Silken Hood" "Ursine Pelt" "Assassin's Garb" "Zodiac Leather" "Exquisite Leather" "Imperial Buckler" "Crusader Buckler" "Lacquered Buckler" "Dragonscale Gauntlets" "Hydrascale Gauntlets" "Wyrmscale Gauntlets" "Serpentscale Gauntlets" "Dragonscale Boots" "Hydrascale Boots" "Wyrmscale Boots" "Serpentscale Boots" "Nightmare Bascinet" "Pig-Faced Bascinet" "Fluted Bascinet" "Lacquered Helmet" "Triumphant Lamellar" "General's Brigandine" "Full Dragonscale" "Elegant Round Shield" "Murder Mitts" "Assassin's Mitts" "Carnal Mitts" "Ambush Mitts" "Murder Boots" "Assassin's Boots" "Carnal Boots" "Ambush Boots" "Deicide Mask" "Vaal Mask" "Harlequin Mask" "Regicide Mask" "Sadist Garb" "Blood Raiment" "Varnished Coat" "Supreme Spiked Shield" "Sovereign Spiked Shield" "Crusader Gloves" "Legion Gloves" "Soldier Gloves" "Zealot Gloves" "Crusader Boots" "Legion Boots" "Soldier Boots" "Zealot Boots" "Praetor Crown" "Prophet Crown" "Magistrate Crown" "Great Crown" "Saintly Chainmail" "Saint's Hauberk" "Elegant Ringmail" "Archon Kite Shield" "Angelic Kite Shield" "Sorcerer Gloves" "Sorcerer Boots" "Hubris Circlet" "Titanium Spirit Shield" "Vaal Regalia" "Arcanist Gloves" "Arcanist Slippers" "Harmonic Spirit Shield" "Jingling Spirit Shield" "Chiming Spirit Shield" "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield" "Feathered Arrow Quiver" "Spine Bow" "Ivory Bow" "Thicket Bow" "Piledriver" "Ambusher" "Jewelled Foil" "Spiraled Foil" "Corsair Sword" "Behemoth Mace" "Siege Axe"
+	# PlayEffect Grey
+Hide
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
-	PlayEffect Grey
+	# PlayEffect Grey
 Show
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
-	SetFontSize 22
+	SetFontSize 20
 
 #Temporary Exarch/Eater Sections. v3.22 update - is likely never going to be further expanded as these drops are pretty much always worthless
 #Show
@@ -4337,22 +4387,22 @@ Show
 	PlayEffect Red
 
 # Corrupted Abyss Jewels
-Show
-	Class "Abyss Jewel"
-	Corrupted True
-	Rarity Rare
-	SetBackgroundColor 250 225 100
-	SetBorderColor 255 0 0
-	SetTextColor 0 0 0
-	SetFontSize 25
-Show
-	Class "Jewel"
-	Corrupted True
-	Rarity Rare
-	SetBackgroundColor 50 0 0
-	SetBorderColor 0 0 0
-	SetTextColor 255 255 119
-	SetFontSize 25
+# Show
+# 	Class "Abyss Jewel"
+# 	Corrupted True
+# 	Rarity Rare
+# 	SetBackgroundColor 250 225 100
+# 	SetBorderColor 255 0 0
+# 	SetTextColor 0 0 0
+# 	SetFontSize 25
+# Show
+# 	Class "Jewel"
+# 	Corrupted True
+# 	Rarity Rare
+# 	SetBackgroundColor 50 0 0
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 255 255 119
+# 	SetFontSize 25
 
 Hide
 	BaseType "Breach Ring"
@@ -4393,7 +4443,7 @@ Show
 	SetBackgroundColor 180 100 0
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 32
+	SetFontSize 25
 	PlayAlertSound 5 150
 	MinimapIcon 0 Orange Star
 	PlayEffect Orange
@@ -4404,9 +4454,9 @@ Show
 	SetBackgroundColor 180 100 0
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 7 150
-	MinimapIcon 0 Red Star
+	MinimapIcon 0 Orange Star
 	PlayEffect Red
 
 #cluster jewels
@@ -4547,7 +4597,7 @@ Hide
 	
 #abyss jewels (Abyss League 3.1.0)
 
-Show
+Hide
 	Class "Abyss Jewel"
 	ItemLevel >= 83
 	Rarity Rare
@@ -4708,7 +4758,7 @@ Show
 
 #Maximum Value Tier - 200c+ guaranteed value
 Show
-	BaseType "Crusader Boots" "Unset Amulet" "Siege Axe" "Karui Maul" "Rot Head Talisman" "Greatwolf Talisman" "Riveted Boots" "Engraved Greatsword" "Vaal Rapier" "Cabalist Regalia"
+	BaseType "Crusader Boots" "Unset Amulet" "Siege Axe" "Karui Maul" "Rot Head Talisman" "Greatwolf Talisman" "Riveted Boots" "Engraved Greatsword" "Vaal Rapier" "Cabalist Regalia" "Dusk Blade"
 	Rarity Unique
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
@@ -4837,8 +4887,8 @@ Show
 	PlayEffect Orange
 	DisableDropSound
 #Mid Value Tier - 20c to 50c fairly consistently. Include bases with multiple uniques as long as they all fall into this range.
-Show
-	BaseType "Amethyst Flask" "Ruby Flask" "Topaz Flask" "Mosaic Kite Shield" "Silk Gloves" "Dusk Blade" "Ezomyte Dagger" "Serpentscale Boots" "Trapper Boots" "Highborn Staff" "Sovereign Spiked Shield" "Runic" "Hydrascale Gauntlets" "Harmonic Spirit Shield" "Blood Sceptre" "Citadel Bow" "Carnal Boots" "Gemstone Sword" "Cardinal Round Shield" "Steelwood Bow" "Vaal Greaves" "Quarterstaff" "Jewelled Foil" "Goliath Greaves" "Grand Mana Flask" "Studded Belt" "Stygian Vise" "Large Hybrid Flask" "Steel Kite Shield" "Fugitive Boots" "Archon Kite Shield" "Ornate Quiver" "Void Axe" "Ezomyte Tower Shield"
+Hide
+	BaseType "Amethyst Flask" "Ruby Flask" "Topaz Flask" "Mosaic Kite Shield" "Silk Gloves" "Ezomyte Dagger" "Serpentscale Boots" "Trapper Boots" "Highborn Staff" "Sovereign Spiked Shield" "Runic" "Hydrascale Gauntlets" "Harmonic Spirit Shield" "Blood Sceptre" "Citadel Bow" "Carnal Boots" "Gemstone Sword" "Cardinal Round Shield" "Steelwood Bow" "Vaal Greaves" "Quarterstaff" "Jewelled Foil" "Goliath Greaves" "Grand Mana Flask" "Studded Belt" "Stygian Vise" "Large Hybrid Flask" "Steel Kite Shield" "Fugitive Boots" "Archon Kite Shield" "Ornate Quiver" "Void Axe" "Ezomyte Tower Shield"
 	Rarity Unique
 	SetBackgroundColor 225 100 0
 	SetBorderColor 0 0 0
@@ -4849,13 +4899,13 @@ Show
 	PlayEffect Brown
 	DisableDropSound
 #Low Value Tier - Noteworthy under 20c uniques mostly valuable at leaguestart. same as Mid Value in General, no sound/icon in strict/uber
-Show
-	BaseType "Wool Shoes" "Imperial Staff" "Bronze Sceptre" "Granite Flask" "Meatgrinder" "Full Wyrmscale" "Vanguard Belt" "Full Dragonscale" "Crusader Chainmail" "Soldier Helmet" "Serpentscale Gauntlets" "Omen Wand" "Raven Mask" "Arcanist Gloves" "Assassin's Garb" "Deicide Mask" "Sharkskin Tunic" "Vaal Gauntlets" "Embroidered Gloves" "Reinforced Greaves" "Mind Cage" "Colosseum Plate" "Lacquered Buckler" "Saint's Hauberk" "Two-Stone Ring" "Vaal Axe" "Demon Dagger" "Leather Cap" "Iron Gauntlets" "Nubuck Boots" "Sinner Tricorne" "Eternal Sword" "Pinnacle Tower Shield" "Rawhide Tower Shield" "Exquisite Leather" "Destiny Leather" "Two-Toned Boots" "Deerskin Gloves" "Vaal Blade" "Majestic Plate" "Titan Greaves" "Conjurer Boots" "Zealot Gloves" "Ritual Sceptre" "Amethyst Ring" "Abyssal Axe" "Simple Robe" "Imperial Maul" "Zodiac Leather" "Leather Hood" "Branded Kite Shield" "Sapphire Flask" "Faun's Horn" "Kinetic Wand" "Omen Wand" "Somatic Wand"
+Hide
+	BaseType "Wool Shoes" "Imperial Staff" "Bronze Sceptre" "Granite Flask" "Meatgrinder" "Full Wyrmscale" "Vanguard Belt" "Full Dragonscale" "Crusader Chainmail" "Soldier Helmet" "Serpentscale Gauntlets" "Omen Wand" "Raven Mask" "Arcanist Gloves" "Assassin's Garb" "Deicide Mask" "Sharkskin Tunic" "Vaal Gauntlets" "Embroidered Gloves" "Reinforced Greaves" "Mind Cage" "Colosseum Plate" "Lacquered Buckler" "Saint's Hauberk" "Two-Stone Ring" "Vaal Axe" "Demon Dagger" "Leather Cap" "Iron Gauntlets" "Nubuck Boots" "Sinner Tricorne" "Eternal Sword" "Pinnacle Tower Shield" "Rawhide Tower Shield" "Exquisite Leather" "Destiny Leather" "Two-Toned Boots" "Deerskin Gloves" "Majestic Plate" "Titan Greaves" "Conjurer Boots" "Zealot Gloves" "Ritual Sceptre" "Amethyst Ring" "Abyssal Axe" "Simple Robe" "Imperial Maul" "Zodiac Leather" "Leather Hood" "Branded Kite Shield" "Sapphire Flask" "Faun's Horn" "Kinetic Wand" "Omen Wand" "Somatic Wand"
 	Rarity Unique
 	SetBackgroundColor 225 100 0
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 25
+	SetFontSize 22
 	PlayAlertSound 4 100
 	MinimapIcon 2 Brown Star
 	PlayEffect Brown Temp
@@ -4864,18 +4914,18 @@ Show
 #Variable Value Blocks - basetypes where at least one unique is valuable and one is not. Watery-theme highlighting (blue and cyan)
 #High Variable Value. 200c+ value on at least one unique from the basetype. Must be checked. Bright cyan border, larger font.
 Show
-	BaseType "Leather Belt" "Heavy Belt" "Paua Amulet"
+	BaseType "Leather Belt" "Heavy Belt" "Paua Amulet" "Vaal Blade" "Imperial Skean" "Vaal Claw" "Imperial Bow" "Spine Bow"
 	Rarity Unique
 	SetBackgroundColor 225 100 0
 	SetBorderColor 0 250 250
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 27
 	PlayAlertSound 4 100
 	MinimapIcon 1 Cyan Star
 	PlayEffect Cyan Temp
 	DisableDropSound
 #Mid Variable Value. 50-200c value on at least one unique from the basetype. Blue border
-Show
+Hide
 	BaseType "Imperial Bow" "Fiend Dagger" "Imperial Skean" "Sage's Robe" "Spidersilk Robe" "Murder Mitts" "Spine Bow" "Sage Wand" "Iron Flask" "Crusader Plate" "Cloth Belt" "Sadist Garb" "Onyx Amulet" "Moonstone Ring" "Topaz Ring" "Turquoise Amulet" "Bone Circlet" "Nameless Ring"
 	Rarity Unique
 	SetBackgroundColor 180 80 0
@@ -4887,13 +4937,13 @@ Show
 	PlayEffect Blue Temp
 	DisableDropSound
 #Low Variable Value Tier - 20c to 50c on at least one unique from the basetype, rest have shit value. Also includes extremely high variance uniques (i.e. Crude Bow)
-Show
+Hide
 	BaseType "Citrine Amulet" "Iron Circlet" "Vaal Claw" "Vaal Blade" "Sapphire Ring" "Paua Ring" "Stibnite Flask" "Crude Bow" "Wyrmscale Gauntlets" "Gold Amulet" "Unset Ring" "Bronzescale Gauntlets" "Two-Point Arrow Quiver" "Midnight Blade" "Iron Staff" "Steel Circlet" "Death Bow" "Crystal Sceptre" "Nightmare Bascinet" "Ruby Ring" "Lacquered Garb" "Goathide Boots" "Sorcerer Boots" "Prophet Crown" "Stealth Boots" "Necromancer Silks" "Gavel" "Karui Sceptre" "Gold Ring" "Hubris Circlet" "Lion Pelt" "Assassin Bow" "Ebony Tower Shield" "Saintly Chainmail" "Vaal Claw" "Bone Helmet"
 	Rarity Unique
 	SetBackgroundColor 180 80 0
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 25
+	SetFontSize 22
 	PlayAlertSound 4 100
 	PlayEffect Blue Temp
 	DisableDropSound
@@ -4914,13 +4964,13 @@ Show
 #Variable League-Specific - when the only valuable unique on the basetype is bound to league/area content. Grey text and border
 #For situations where a unique isn't necessarily expected to drop as it is with a boss. What should be a complete list: breaches, lab chests, warbands mobs, blight pumps, domain of timeless conflict, temple chests, trialmaster
 #Most items in this category have been moved to other blocks with their addition to the core drop pool. If an item fits both an area and a boss drop (as with Carnal Armour) then this section overrules.
-Show
-	BaseType "Amber Amulet" "Lapis Amulet" "Jade Amulet" "Imperial Claw" "Chain Belt" "Carnal Armour" "Chiming Spirit Shield" "Ezomyte Burgonet" "Silken Hood" "Solaris Circlet" "Ancient Gauntlets"
+Hide
+	BaseType "Chain Belt" "Carnal Armour" "Chiming Spirit Shield" "Ezomyte Burgonet" "Silken Hood" "Solaris Circlet" "Ancient Gauntlets"
 	Rarity Unique
 	SetBackgroundColor 225 100 0
 	SetBorderColor 100 100 100
 	SetTextColor 75 75 75
-	SetFontSize 30
+	SetFontSize 22
 	MinimapIcon 1 Grey Star
 	PlayEffect Grey Temp
 	DisableDropSound
@@ -4938,8 +4988,8 @@ Show
 	PlayAlertSound 6 300
 	PlayEffect Red
 	MinimapIcon 0 Red Star
-Show
-	BaseType "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Ancient Gauntlets" "Vaal Sceptre" "Vaal Mask" "Triumphant Lamellar" "Dragonscale Boots" "Royal Sceptre" "Golden Plate" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Ambush Mitts" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Shagreen Boots" "Golden Mask" "Titan Gauntlets" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Lacquered Helmet" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Agate Amulet" "Goliath Gauntlets" "Zealot Helmet" "Shadow Sceptre" "Ezomyte Blade" "Antique Gauntlets" "Spiny Round Shield" "Paladin Crown" "Marble Amulet" "Faithful Helmet" "Sacrificial Garb" "Lich's Circlet" "Waxed Garb" "Spectral Axe" "Seaglass Amulet" "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Colossal Mana Flask" "Steel Ring" "Fugitive Ring" "Organic Ring" "Torturer Garb"
+Hide
+	BaseType "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Ancient Gauntlets" "Vaal Sceptre" "Vaal Mask" "Triumphant Lamellar" "Dragonscale Boots" "Royal Sceptre" "Golden Plate" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Ambush Mitts" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Shagreen Boots" "Golden Mask" "Titan Gauntlets" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Lacquered Helmet" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Agate Amulet" "Goliath Gauntlets" "Zealot Helmet" "Shadow Sceptre" "Ezomyte Blade" "Antique Gauntlets" "Spiny Round Shield" "Paladin Crown" "Marble Amulet" "Faithful Helmet" "Sacrificial Garb" "Lich's Circlet" "Waxed Garb" "Spectral Axe" "Seaglass Amulet" "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Colossal Mana Flask" "Steel Ring" "Fugitive Ring" "Organic Ring" "Torturer Garb" 
 	Rarity Unique
 	SetBackgroundColor 180 80 0
 	SetBorderColor 200 150 250
@@ -4949,17 +4999,17 @@ Show
 
 
 #6S uniques - located here due to priority issues
-Show
-	Sockets = 6
-	Rarity Unique
-	SetBackgroundColor 0 115 0
-	SetBorderColor 225 100 0
-	SetTextColor 225 100 0
-	SetFontSize 35
-	PlayAlertSound 2 200
-	MinimapIcon 2 Orange Square
-	PlayEffect Orange
-	DisableDropSound
+# Show
+# 	Sockets = 6
+# 	Rarity Unique
+# 	SetBackgroundColor 0 115 0
+# 	SetBorderColor 225 100 0
+# 	SetTextColor 225 100 0
+# 	SetFontSize 25
+# 	PlayAlertSound 2 200
+# 	MinimapIcon 2 Orange Square
+# 	PlayEffect Orange
+# 	DisableDropSound
 	
 #Loreweave block - Disabled by default, adds a blue border to rings (really only matters in Uber filter as no other filters hide uniques)
 #Show
@@ -4972,14 +5022,14 @@ Show
 #	DisableDropSound
 
 #Uber Only Low Value Unique Hide Block - hides uniques consistently under 5c. Should only ever be enabled in the Uber filter. Any unique that is very rare, regardless of current league value, shouldn't be in this block (but the 3.23.2 update was quite aggressive)
-#Hide
-#	Rarity Unique
-#	BaseType "Ambusher" "Ancient Spirit Shield" "Antique Greaves" "Antique Rapier" "Assassin's Mitts" "Astral Plate" "Auric Mace" "Aventail Helmet" "Awl" "Baroque Round Shield" "Basket Rapier" "Bastard Sword" "Blazing Arrow Quiver" "Bone Armour" "Boot Blade" "Boot Knife" "Barbute Helmet" "Blunt Arrow Quiver" "Brass Maul" "Brass Spirit Shield" "Bronze Gauntlets" "Bronzescale Boots" "Buckskin Tunic" "Callous Mask" "Carnal Sceptre" "Cedar Tower Shield" "Chain Gloves" "Clasped Boots" "Clasped Mitts" "Cleaver" "Close Helmet" "Compound Spiked Shield" "Conjurer Gloves" "Conquest Chainmail" "Coral Ring" "Corrugated Buckler" "Corsair Sword" "Copper Plate" "Crystal Wand" "Cutthroat's Garb" "Decimation Bow" "Decorative Axe" "Deerskin Boots" "Despot Axe" "Destroyer Regalia" "Diamond Flask" "Diamond Ring" "Dragonscale Gauntlets" "Dread Maul" "Dream Mace" "Driftwood Wand" "Eelskin Boots" "Eelskin Gloves" "Elder Sword" "Elegant Foil" "Elegant Ringmail" "Elegant Round Shield" "Elegant Sword" "Estoc" "Etched Greatsword" "Eternal Burgonet" "Ezomyte Axe" "Ezomyte Staff" "Feathered Arrow Quiver" "Festival Mask" "Fire Arrow Quiver" "Flaying Knife" "Fright Claw" "Gilded Sallet" "Gladius" "Gnarled Branch" "Goathide Gloves" "Goat's Horn" "Gut Ripper" "Great Helmet" "Great Mallet" "Greater Mana Flask" "Grinning Fetish" "Hallowed Hybrid Flask" "Headsman Axe" "Heavy Arrow Quiver" "Highland Blade" "Holy Chainmail"  "Infernal Axe" "Ironscale Gauntlets" "Iron Hat" "Iron Mask" "Iron Ring" "Ironscale Boots" "Ironwood Buckler" "Jade Hatchet" "Jagged Foil" "Jagged Maul" "Jasper Chopper" "Karui Chopper" "Laminated Kite Shield" "Latticed Ringmail" "Leather Hood" "Legion Boots" "Legion Gloves" "Long Bow" "Lunaris Circlet" "Marble Amulet" "Maelstrom Staff" "Mesh Gloves" "Mesh Boots" "Mirrored Spiked Shield" "Nailed Fist" "Nubuck Gloves" "Opal Sceptre" "Ornate Mace" "Ornate Ringmail" "Ornate Sword" "Painted Buckler" "Penetrating Arrow Quiver" "Pine Buckler" "Plague Mask" "Plank Kite Shield" "Plated Greaves" "Plate Vest" "Platinum Kris" "Platinum Sceptre" "Primordial Staff" "Prismatic Ring" "Poleaxe" "Polished Spiked Shield" "Quicksilver Flask" "Ranger Bow" "Reaver Sword" "Reaver Helmet" "Recurve Bow" "Regicide Mask" "Reinforced Tower Shield" "Rock Breaker" "Rotfeather Talisman" "Rotted Round Shield" "Royal Skean" "Royal Staff" "Rusted Sword" "Rustic Sash" "Sabre" "Samite Gloves" "Samnite Helmet" "Sanctified Life Flask" "Sanctified Mana Flask" "Satin Gloves" "Secutor Helm" "Scholar Boots" "Sentinel Jacket" "Serrated Arrow Quiver" "Shadow Axe" "Sharktooth Arrow Quiver" "Short Bow" "Silk Slippers" "Silken Vest" "Skinning Knife" "Sledgehammer" "Slink Gloves" "Soldier Boots" "Spiked Club" "Spike-point Arrow Quiver" "Spiraled Wand" "Steel Gauntlets" "Steelhead" "Stiletto" "Strapped Boots" "Strapped Leather" "Strapped Mitts" "Studded Round Shield" "Sundering Axe" "Sun Leather" "Supreme Spiked Shield" "Tarnished Spirit Shield" "Teak Round Shield" "Terror Claw" "Terror Maul" "Thresher Claw" "Throat Stabber" "Timeworn Claw" "Tiger Sword" "Tomahawk" "Tribal Circlet" "Tricorne" "Twilight Blade" "Tyrant's Sekhem" "Ursine Pelt" "War Buckler" "War Hammer" "War Sword" "Whalebone Rapier" "Wild Leather" "Wolf Pelt" "Woodsplitter" "Wool Gloves" "Wrapped Mitts" "Vaal Buckler" "Velvet Gloves" "Velvet Slippers" "Vile Arrow Quiver" "Vile Staff" "Vine Circlet" "Visored Sallet" "Sharkskin Boots" "Coral Amulet" "Talisman" "Royal Axe" "Void Sceptre" "Quartz Flask" "Lion Sword" "Shagreen Gloves" "Arcanist Slippers" "Steelscale Gauntlets" "Vaal Hatchet" "Blue Pearl Amulet" "Lathi" "Royal Bow" "Military Staff"
-#	SetBackgroundColor 180 80 0
-#	SetBorderColor 0 0 0
-#	SetTextColor 0 0 0
-#	SetFontSize 30
-#	DisableDropSound
+Hide
+	Rarity Unique
+	BaseType "Ambusher" "Ancient Spirit Shield" "Antique Greaves" "Antique Rapier" "Assassin's Mitts" "Astral Plate" "Auric Mace" "Aventail Helmet" "Awl" "Baroque Round Shield" "Basket Rapier" "Bastard Sword" "Blazing Arrow Quiver" "Bone Armour" "Boot Blade" "Boot Knife" "Barbute Helmet" "Blunt Arrow Quiver" "Brass Maul" "Brass Spirit Shield" "Bronze Gauntlets" "Bronzescale Boots" "Buckskin Tunic" "Callous Mask" "Carnal Sceptre" "Cedar Tower Shield" "Chain Gloves" "Clasped Boots" "Clasped Mitts" "Cleaver" "Close Helmet" "Compound Spiked Shield" "Conjurer Gloves" "Conquest Chainmail" "Coral Ring" "Corrugated Buckler" "Corsair Sword" "Copper Plate" "Crystal Wand" "Cutthroat's Garb" "Decimation Bow" "Decorative Axe" "Deerskin Boots" "Despot Axe" "Destroyer Regalia" "Diamond Flask" "Diamond Ring" "Dragonscale Gauntlets" "Dread Maul" "Dream Mace" "Driftwood Wand" "Eelskin Boots" "Eelskin Gloves" "Elder Sword" "Elegant Foil" "Elegant Ringmail" "Elegant Round Shield" "Elegant Sword" "Estoc" "Etched Greatsword" "Eternal Burgonet" "Ezomyte Axe" "Ezomyte Staff" "Feathered Arrow Quiver" "Festival Mask" "Fire Arrow Quiver" "Flaying Knife" "Fright Claw" "Gilded Sallet" "Gladius" "Gnarled Branch" "Goathide Gloves" "Goat's Horn" "Gut Ripper" "Great Helmet" "Great Mallet" "Greater Mana Flask" "Grinning Fetish" "Hallowed Hybrid Flask" "Headsman Axe" "Heavy Arrow Quiver" "Highland Blade" "Holy Chainmail"  "Infernal Axe" "Ironscale Gauntlets" "Iron Hat" "Iron Mask" "Iron Ring" "Ironscale Boots" "Ironwood Buckler" "Jade Hatchet" "Jagged Foil" "Jagged Maul" "Jasper Chopper" "Karui Chopper" "Laminated Kite Shield" "Latticed Ringmail" "Leather Hood" "Legion Boots" "Legion Gloves" "Long Bow" "Lunaris Circlet" "Marble Amulet" "Maelstrom Staff" "Mesh Gloves" "Mesh Boots" "Mirrored Spiked Shield" "Nailed Fist" "Nubuck Gloves" "Opal Sceptre" "Ornate Mace" "Ornate Ringmail" "Ornate Sword" "Painted Buckler" "Penetrating Arrow Quiver" "Pine Buckler" "Plague Mask" "Plank Kite Shield" "Plated Greaves" "Plate Vest" "Platinum Kris" "Platinum Sceptre" "Primordial Staff" "Prismatic Ring" "Poleaxe" "Polished Spiked Shield" "Quicksilver Flask" "Ranger Bow" "Reaver Sword" "Reaver Helmet" "Recurve Bow" "Regicide Mask" "Reinforced Tower Shield" "Rock Breaker" "Rotfeather Talisman" "Rotted Round Shield" "Royal Skean" "Royal Staff" "Rusted Sword" "Rustic Sash" "Sabre" "Samite Gloves" "Samnite Helmet" "Sanctified Life Flask" "Sanctified Mana Flask" "Satin Gloves" "Secutor Helm" "Scholar Boots" "Sentinel Jacket" "Serrated Arrow Quiver" "Shadow Axe" "Sharktooth Arrow Quiver" "Short Bow" "Silk Slippers" "Silken Vest" "Skinning Knife" "Sledgehammer" "Slink Gloves" "Soldier Boots" "Spiked Club" "Spike-point Arrow Quiver" "Spiraled Wand" "Steel Gauntlets" "Steelhead" "Stiletto" "Strapped Boots" "Strapped Leather" "Strapped Mitts" "Studded Round Shield" "Sundering Axe" "Sun Leather" "Supreme Spiked Shield" "Tarnished Spirit Shield" "Teak Round Shield" "Terror Claw" "Terror Maul" "Thresher Claw" "Throat Stabber" "Timeworn Claw" "Tiger Sword" "Tomahawk" "Tribal Circlet" "Tricorne" "Twilight Blade" "Tyrant's Sekhem" "Ursine Pelt" "War Buckler" "War Hammer" "War Sword" "Whalebone Rapier" "Wild Leather" "Wolf Pelt" "Woodsplitter" "Wool Gloves" "Wrapped Mitts" "Vaal Buckler" "Velvet Gloves" "Velvet Slippers" "Vile Arrow Quiver" "Vile Staff" "Vine Circlet" "Visored Sallet" "Sharkskin Boots" "Coral Amulet" "Talisman" "Royal Axe" "Void Sceptre" "Quartz Flask" "Lion Sword" "Shagreen Gloves" "Arcanist Slippers" "Steelscale Gauntlets" "Vaal Hatchet" "Blue Pearl Amulet" "Lathi" "Royal Bow" "Military Staff" "Amber Amulet" "Lapis Amulet" "Jade Amulet"
+	SetBackgroundColor 180 80 0
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 25
+	DisableDropSound
 
 #Bottom Tier Uniques: All other low value, mostly shit uniques. no sound, darker background
 Hide 
@@ -5017,30 +5067,30 @@ Show
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	PlayAlertSound 6 200
-	SetFontSize 32
+	SetFontSize 30
 	MinimapIcon 0 Pink Square
 	PlayEffect Pink
 
 #Mid Tier - 10c to 50c. Lavender.
 Show
-	BaseType == "The Devastator" "The Artist" "The Vast" "The Breach" "The Dreamer" "The Obscured" "Monochrome" "The Seeker" "The Primordial" "Akil's Prophecy" "Azyran's Reward" "Perfection" "The Celestial Stone" "The Mad King" "The Fishmonger" "The Escape" "Peaceful Moments" "The Patient" "A Modest Request" "The Eternal War" "Lachrymal Necrosis" "Dementophobia" "Chasing Risk" "Bijoux" "The One That Got Away" "Magnum Opus" "Altered Perception" "A Fate Worse Than Death" "Rebirth and Renewal" "Nook's Crown" "Luminous Trove" "Hunter's Reward" "Abandoned Wealth" "Dark Dreams" "Void of the Elements" "The Damned" "The Old Man" "The Hive of Knowledge" "The Last Supper" "Gift of Asenath" "Keeper's Corruption" "The Scout" "Duality" "The Catch" "Prometheus' Armoury" "A Stone Perfected" "The Rabbit's Foot" "Lethean Temptation" "Pride of the First Ones" "The Eye of the Dragon" "The Hook" "Something Dark" "The Enforcer" "Eternal Bonds" "The Aspirant" "The Fortunate" "Underground Forest" "Who Asked" "The Polymath" "The Eye of Terror" "The Wedding Gift" "Burning Blood" "The Astromancer" "Imperfect Memories" "The White Knight" "The Leviathan" "A Familiar Call" "Alluring Bounty" "The Strategist" "Remembrance" "The Cursed King" "Winter's Embrace" "Desperate Crusade" "The Finishing Touch" "The Long Con" "Deadly Joy" "The Destination" "Darker Half" "The Undisputed" "The Chosen" "Tranquillity" "The Garish Power" "Assassin's Gift" "The Awakened" "Justified Ambition" "Doryani's Epiphany" "Friendship" "The Long Watch" "Temperance" "Avian Pursuit" "The Bargain" "Sambodhi's Wisdom" "Squandered Prosperity" "The Mayor" "Underground Forest" "The Hunger" "Runic Luck" 
+	BaseType == "The Devastator" "The Artist" "The Vast" "The Breach" "The Dreamer" "The Obscured" "Monochrome" "The Seeker" "The Primordial" "Akil's Prophecy" "Azyran's Reward" "Perfection" "The Celestial Stone" "The Mad King" "The Fishmonger" "The Escape" "Peaceful Moments" "The Patient" "A Modest Request" "The Eternal War" "Lachrymal Necrosis" "Dementophobia" "Chasing Risk" "Bijoux" "The One That Got Away" "Magnum Opus" "Altered Perception" "A Fate Worse Than Death" "Rebirth and Renewal" "Nook's Crown" "Luminous Trove" "Hunter's Reward" "Abandoned Wealth" "Dark Dreams" "Void of the Elements" "The Damned" "The Old Man" "The Hive of Knowledge" "The Last Supper" "Gift of Asenath" "Keeper's Corruption" "The Scout" "Duality" "The Catch" "Prometheus' Armoury" "A Stone Perfected" "The Rabbit's Foot" "Lethean Temptation" "Pride of the First Ones" "The Eye of the Dragon" "The Hook" "Something Dark" "The Enforcer" "Eternal Bonds" "The Aspirant" "The Fortunate" "Underground Forest" "Who Asked" "The Polymath" "The Eye of Terror" "The Wedding Gift" "Burning Blood" "The Astromancer" "Imperfect Memories" "The White Knight" "The Leviathan" "A Familiar Call" "Alluring Bounty" "The Strategist" "Remembrance" "The Cursed King" "Winter's Embrace" "Desperate Crusade" "The Finishing Touch" "The Long Con" "Deadly Joy" "The Destination" "Darker Half" "The Undisputed" "The Chosen" "Tranquillity" "The Garish Power" "Assassin's Gift" "The Awakened" "Justified Ambition" "Doryani's Epiphany" "Friendship" "The Long Watch" "Temperance" "Avian Pursuit" "The Bargain" "Sambodhi's Wisdom" "Squandered Prosperity" "The Mayor" "Underground Forest" "Runic Luck" 
 	Class "Divination Card"
 	SetBackgroundColor 200 150 250
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	PlayAlertSound 2 125
-	SetFontSize 32
+	SetFontSize 30
 	MinimapIcon 1 Purple Square
 	PlayEffect Purple
 #All 6L Cards except Humility and Imperial Legacy. Must be on mid tier highlight regardless of trade value due to SSF importance. These next two blocks are separated here mainly for organizational purposes as mid tier is getting kinda big. 
-Show
+Hide
 	BaseType == "The Dapper Prodigy" "The Chains that Bind" "Draped in Dreams" "The Celestial Justicar" "Emperor of Purity" "The Warlord" "Bowyer's Dream" "The Porcupine" "The Dark Mage" "The Ethereal" "Immortal Resolve" "The Sacrifice"
 	Class "Divination Card"
 	SetBackgroundColor 200 150 250
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	PlayAlertSound 2 125
-	SetFontSize 32
+	SetFontSize 30
 	MinimapIcon 1 Purple Square
 	PlayEffect Purple
 #Single Turn In - cards with a stack size of 1.
@@ -5051,7 +5101,7 @@ Show
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	PlayAlertSound 2 125
-	SetFontSize 32
+	SetFontSize 25
 	MinimapIcon 1 Purple Square
 	PlayEffect Purple
 	
@@ -5068,13 +5118,13 @@ Show
 # 	PlayEffect Blue Temp
 
 #Trash Tier: <2c. No sounds, darker blue color. Hidden in the Uber filter only. Note that these blocks are rather aggressive and caution should be exercised when using the Uber filter for SSF. 
-Show
+Hide
 	BaseType == "The Gambler" "The Flora's Gift" "Her Mask" "The Catalyst" "The Spoiled Prince" "Thunderous Skies" "The Twins" "The Mercenary" "The Calling" "The Visionary" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "A Mother's Parting Gift" "The Sun" "The Fox" "The Realm" "The Web" "Turn the Other Cheek" "Death" "Call to the First Ones" "The Hermit" "Audacity" "Doedre's Madness" "The Watcher" "Dark Temptation" "The Blazing Fire" "The Rabid Rhoa" "Forbidden Power" "The Tumbleweed" "The Army of Blood" "The Wolf's Shadow" "The Demoness" "The Betrayal" "Volatile Power" "Three Voices" "Three Faces in the Dark" "The Wolf" "The Trial" "The Traitor" "The Tower" "The Summoner" "The Stormcaller" "The Standoff" "The Inventor" "The Gladiator" "The Fletcher" "The Arena Champion" "The Aesthete" "Mitts" "Hunter's Resolve" "Glimmer of Hope" "Assassin's Favour" "The Drunken Aristocrat" "The Dragon" "The Deceiver" "The One With All" "Alivia's Grace" "The Golden Era" "Triskaidekaphobia" "The Dreamland" "Hope" "The Whiteout" "The Penitent" "Man With Bear" "The Wolf's Legacy" "Azure Rage" "Dialla's Subjugation" "The Admirer" "The Cataclysm" "The Jeweller's Boon" "The Lord of Celebration" "The Return of the Rat" "The Wilted Rose" "The Oath" "The Surveyor" "Loyalty" "Emperor's Luck" "Alone in the Darkness" "Atziri's Arsenal" "The Fox in the Brambles" "The Master" "The Conduit" "Lysah's Respite" "The Wind" "Unchained" "The Cache" "The Feast" "The Lion" "The Rite of Elements" "Broken Truce" "The Battle Born" "Blind Venture" "Boundless Realms" "Grave Knowledge" "Hubris" "Lost Worlds" "Scholar of the Seas" "The Body" "The Doppelganger" "The Encroaching Darkness" "The Explorer" "The Forsaken" "The Gemcutter" "The Master Artisan" "The Mountain" "The Puzzle" "The Survivalist" "The Wretched" "Time-Lost Relic" "Vile Power" "The Fool" "The Jester" "Jack in the Box" "Prejudice" "The Scavenger" "Last Stand" "When Currents Blaze"
 	Class "Divination Card"
 	SetBackgroundColor 110 160 210
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 27
+	SetFontSize 23
 
 #Dogshit Tier: Hidden in all filters, waste of a click to pick up. Same highlight as trash tier. Only the very worst get added here.
 Hide
@@ -5092,7 +5142,7 @@ Show
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	PlayAlertSound 3 125
-	SetFontSize 30
+	SetFontSize 25
 	MinimapIcon 2 Blue Square
 	PlayEffect Blue Temp
 
@@ -5105,7 +5155,7 @@ Show
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	PlayAlertSound 3 125
-	SetFontSize 35		
+	SetFontSize 25	
 	MinimapIcon 2 Blue Square
 	PlayEffect Blue Temp
 
@@ -9189,7 +9239,7 @@ Show
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
 	SetTextColor 27 162 155
-	SetFontSize 35
+	SetFontSize 25
 	PlayAlertSound 6 200
 	MinimapIcon 1 White Triangle
 	PlayEffect Green
@@ -9202,7 +9252,7 @@ Show
 	SetBackgroundColor 50 0 0
 	SetBorderColor 250 125 125
 	SetTextColor 0 200 200
-	SetFontSize 32
+	SetFontSize 25
 	PlayAlertSound 12 200
 	MinimapIcon 1 Green Triangle
 Show
@@ -9214,7 +9264,7 @@ Show
 	SetBackgroundColor 50 0 0
 	SetBorderColor 200 100 100
 	SetTextColor 0 200 200
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 12 200
 	MinimapIcon 2 Green Triangle
 Show
@@ -9224,7 +9274,7 @@ Show
 	Corrupted True
 	SetBackgroundColor 50 0 0
 	SetBorderColor 250 125 125
-	SetFontSize 32
+	SetFontSize 25
 	PlayAlertSound 12 200
 	MinimapIcon 1 Green Triangle
 Show
@@ -9234,7 +9284,7 @@ Show
 	Corrupted True
 	SetBackgroundColor 50 0 0
 	SetTextColor 75 255 250
-	SetFontSize 32
+	SetFontSize 25
 	PlayAlertSound 12 200
 	MinimapIcon 2 Green Triangle
 Show
@@ -9244,7 +9294,7 @@ Show
 	Corrupted True
 	SetBackgroundColor 50 0 0
 	SetTextColor 0 200 200
-	SetFontSize 30
+	SetFontSize 25
 Show
 	Class Gem
 	Quality >= 7
@@ -9252,7 +9302,7 @@ Show
 	Corrupted True
 	SetBackgroundColor 50 0 0
 	SetBorderColor 200 100 100
-	SetFontSize 30
+	SetFontSize 25
 
 #nonvaal gem highlighting
 Show
@@ -9261,33 +9311,33 @@ Show
 	GemLevel >= 20
 	SetBorderColor 250 250 250
 	SetTextColor 75 255 250
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 12 200
 	MinimapIcon 1 White Triangle
 	PlayEffect Green
-Show
+Hide
 	Class Gem
 	Quality >= 14
 	GemLevel >= 19
 	SetBorderColor 255 204 102
 	SetTextColor 0 200 200
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 12 200
 	MinimapIcon 2 Green Triangle
-Show
+Hide
 	Class Gem
 	Quality >= 10
 	GemLevel >= 19
 	SetBorderColor 200 160 80
 	SetTextColor 0 200 200
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 12 200
 	MinimapIcon 2 Green Triangle
-Show
+Hide
 	Class Gem
 	Quality >= 20
 	SetBorderColor 250 250 250
-	SetFontSize 32
+	SetFontSize 25
 	PlayAlertSound 12 200
 	MinimapIcon 1 Green Triangle
 	PlayEffect Green Temp
@@ -9295,27 +9345,27 @@ Show
 	Class Gem
 	GemLevel >= 20
 	SetTextColor 75 255 250
-	SetFontSize 32
+	SetFontSize 25
 	PlayAlertSound 12 200
 	MinimapIcon 1 Green Triangle
 	PlayEffect Green Temp
-Show
+Hide
 	Class Gem
 	Quality >= 14
 	SetBorderColor 255 204 102
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 12 200
 	MinimapIcon 2 Green Triangle
-Show
+Hide
 	Class Gem
 	GemLevel >= 19
 	SetTextColor 0 200 200
-	SetFontSize 36
+	SetFontSize 25
 Hide
 	Class Gem
 	Quality >= 10
 	SetBorderColor 200 160 80
-	SetFontSize 32
+	SetFontSize 25
 Hide
     Class Gem
     Quality >= 5
