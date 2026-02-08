@@ -325,6 +325,14 @@ Show
 	
 #Eldritch Currencies (combo ones use standard highlights)
 Show
+	BaseType "Grand Eldritch Ember" "Exceptional Eldritch Ember"
+	SetBackgroundColor 225 115 115
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 25
+	PlayAlertSound 3 150
+	MinimapIcon 1 Brown Circle
+Hide
 	BaseType "Eldritch Ember"
 	SetBackgroundColor 225 115 115
 	SetBorderColor 0 0 0
@@ -332,8 +340,16 @@ Show
 	SetFontSize 25
 	PlayAlertSound 3 150
 	MinimapIcon 1 Brown Circle
-	# PlayEffect Red
+
 Show
+	BaseType "Grand Eldritch Ichor" "Exceptional Eldritch Ichor"
+	SetBackgroundColor 115 225 225
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 25
+	PlayAlertSound 3 150
+	MinimapIcon 1 Cyan Circle
+Hide
 	BaseType "Eldritch Ichor"
 	SetBackgroundColor 115 225 225
 	SetBorderColor 0 0 0
@@ -341,7 +357,6 @@ Show
 	SetFontSize 25
 	PlayAlertSound 3 150
 	MinimapIcon 1 Cyan Circle
-	# PlayEffect Cyan
 
 #alternate darker essence-like version, couldn't really decide which was better so here's both
 #Show
@@ -1524,7 +1539,7 @@ Show
 	SynthesisedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 225 190 70
-	SetFontSize 30
+	SetFontSize 20
 	PlayAlertSound 16 200
 	MinimapIcon 1 Blue Moon
 	PlayEffect Blue
@@ -1532,12 +1547,22 @@ Show
 #Legion (v3.7)
 #timeless jewels in the jewel section, splinters/emblems in map section as of 3.23
 Show
-	BaseType "Thaumaturge's" "Time-Lost" "Gemcutter's" "Ornate" "Fine" "Diviner's" "Skittering"
+	BaseType "Ornate"
 	Class Incubator
 	SetBackgroundColor 125 0 225
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 30
+	PlayEffect Purple Temp
+	PlayAlertSound 11 200
+	MinimapIcon 2 Purple Circle
+Hide
+	BaseType "Thaumaturge's" "Time-Lost" "Gemcutter's" "Diviner's" "Skittering"
+	Class Incubator
+	SetBackgroundColor 125 0 225
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 25
 	PlayEffect Purple Temp
 	PlayAlertSound 11 200
 	MinimapIcon 2 Purple Circle
@@ -2020,7 +2045,7 @@ Show
 	SetTextColor 250 125 0
 	SetBackgroundColor 0 0 0
 	SetBorderColor 0 0 0
-	SetFontSize 32
+	SetFontSize 0
 	PlayAlertSound 3 125
 	MinimapIcon 1 Orange Circle
 	PlayEffect Orange
@@ -2030,7 +2055,7 @@ Show
 	SetTextColor 250 150 0
 	SetBackgroundColor 0 0 0
 	SetBorderColor 0 0 0
-	SetFontSize 28
+	SetFontSize 0
 	MinimapIcon 2 Orange Circle
 	PlayEffect Orange Temp
 Show
@@ -2039,14 +2064,16 @@ Show
 	SetTextColor 250 175 0
 	SetBackgroundColor 0 0 0
 	SetBorderColor 0 0 0
-	SetFontSize 24
+	SetFontSize 0
+	MinimapIcon 2 Orange Circle
 	PlayEffect Yellow Temp
 Show
 	Class "Gold"
 	SetTextColor 250 200 0
 	SetBackgroundColor 0 0 0
 	SetBorderColor 0 0 0
-	SetFontSize 20
+	MinimapIcon 2 Orange Circle
+	SetFontSize 0
 
 #Legacy of Phrecia Event
 Hide
@@ -2836,7 +2863,7 @@ Show
 	SetBackgroundColor 255 221 153
 	SetBorderColor 100 200 250
 	SetTextColor 125 100 75
-	SetFontSize 35
+	SetFontSize 22
 	PlayAlertSound 8 150
 	MinimapIcon 0 Blue Hexagon
 	PlayEffect Blue
@@ -2845,7 +2872,7 @@ Show
 	SetBackgroundColor 255 221 153
 	SetBorderColor 100 200 250
 	SetTextColor 125 100 75 #old brown text color
-	SetFontSize 30
+	SetFontSize 22
 	PlayAlertSound 8 150
 	MinimapIcon 0 Blue Hexagon
 	PlayEffect Blue
@@ -4451,13 +4478,24 @@ Show
 Show
 	Class Jewel
 	Rarity Unique
-	SetBackgroundColor 180 100 0
+	Corrupted True
+	SetBackgroundColor 255 0 0
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	SetFontSize 30
 	PlayAlertSound 7 150
 	MinimapIcon 0 Orange Star
-	PlayEffect Red
+	# PlayEffect Red
+Show
+	Class Jewel
+	Rarity Unique
+	SetBackgroundColor 180 100 0 
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 30
+	PlayAlertSound 7 150
+	MinimapIcon 0 Orange Star
+	# PlayEffect Red
 
 #cluster jewels
 #84 clusters
@@ -4881,7 +4919,7 @@ Show
 	SetBackgroundColor 225 100 0
 	SetBorderColor 255 255 255
 	SetTextColor 0 0 0
-	SetFontSize 32
+	SetFontSize 25
 	PlayAlertSound 5 150
 	MinimapIcon 0 Orange Star
 	PlayEffect Orange
@@ -8901,12 +8939,12 @@ Show
 	ItemLevel >= 82
     SetBorderColor 200 200 200
 	SetTextColor 0 125 250
-	SetFontSize 34
+	SetFontSize 30
 	MinimapIcon 2 Grey Raindrop
 	PlayEffect Grey
 
 #High ilvl Flasks
-Show
+Hide
 	BaseType "Amethyst Flask" "Basalt Flask" "Bismuth Flask" "Diamond Flask" "Gold Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Ruby Flask" "Sapphire Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask" "Topaz Flask" 
 	ItemLevel >= 85
 	SetBorderColor 200 150 0
