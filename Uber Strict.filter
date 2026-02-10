@@ -418,7 +418,7 @@ Show
 
 #10c+ (red)
 Show
-	BaseType "Exalted Orb" "Orb of Annulment" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Orb of Conflict" "Shaper's Exalted Orb" "Elder's Exalted Orb" 
+	BaseType "Exalted Orb" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Orb of Conflict" "Shaper's Exalted Orb" "Elder's Exalted Orb" 
 	Class Currency
 	SetBackgroundColor 250 0 125
 	SetBorderColor 255 255 255
@@ -429,7 +429,7 @@ Show
 	PlayEffect Red
 	DisableDropSound
 Show
-	BaseType "Harbinger's Orb" "Ancient Orb"
+	BaseType "Harbinger's Orb" "Ancient Orb" "Orb of Annulment"
 	StackSize >= 5
 	Class Currency
 	SetBackgroundColor 250 0 125
@@ -455,7 +455,7 @@ Show
 
 #5c+ (purple)
 Show
-	BaseType "Harbinger's Orb" "Ancient Orb"
+	BaseType "Harbinger's Orb" "Ancient Orb" "Orb of Annulment"
 	Class Currency
 	SetBackgroundColor 175 0 250
 	SetBorderColor 0 0 0
@@ -2783,6 +2783,15 @@ Show
 	PlayEffect Blue Temp
 
 #Fragments
+Hide
+	BaseType "Sacrifice at Dusk" "Sacrifice at Noon" "Sacrifice at Midnight" "Sacrifice at Dawn" 
+	Class "Map Fragments"
+	SetBackgroundColor 0 0 0
+	SetBorderColor 200 150 250
+	SetTextColor 200 150 250
+	SetFontSize 25
+	MinimapIcon 2 Pink Hexagon
+	PlayEffect Pink
 Show
 	BaseType "Fragment" "Mortal"
 	Class "Map Fragments"
@@ -2817,7 +2826,7 @@ Show
 	DisableDropSound
 #high tier. 10c+ (orange bg, white border)
 Show
-	BaseType "Harbinger" "Synthesised" "Museum" "Harbinger" "Moon Temple" "Courtyard"
+	BaseType "Harbinger" "Synthesised" "Museum" "Harbinger" "Moon Temple" "Courtyard" "Cursed Crypt"
 	Class Map Contract
 	Rarity Unique
 	SetBackgroundColor 175 96 37 255
@@ -2877,8 +2886,8 @@ Show
 	SetFontSize 22
 	PlayAlertSound 8 150
 	MinimapIcon 0 Blue Hexagon
-	PlayEffect Blue
-Show
+	# PlayEffect Blue
+Hide
 	Class "Blueprint" "Expedition Logbook" "Sanctum Research"
 	SetBackgroundColor 255 221 153
 	SetBorderColor 100 200 250
@@ -2886,7 +2895,7 @@ Show
 	SetFontSize 22
 	PlayAlertSound 8 150
 	MinimapIcon 0 Blue Hexagon
-	PlayEffect Blue
+	# PlayEffect Blue
 Hide
 	BaseType "Contract"
 	AreaLevel >= 83
@@ -3838,8 +3847,8 @@ Show
 # 	MinimapIcon 2 Yellow Cross
 	
 #Fractured Items
-Show
-	BaseType != "Gold Ring" "Iron Ring" "Paua Ring" "Coral Amulet" "Paua Amulet" "Gold Amulet" "Chain Belt" "Cloth Belt" "Rustic Sash" "Studded Belt"
+Hide
+	# BaseType != "Gold Ring" "Iron Ring" "Paua Ring" "Coral Amulet" "Paua Amulet" "Gold Amulet" "Chain Belt" "Cloth Belt" "Rustic Sash" "Studded Belt"
 	Class Ring Amulet Belt Jewel
 	FracturedItem True
 	SetBackgroundColor 40 90 140
@@ -3848,8 +3857,8 @@ Show
 	PlayAlertSound 16 200
 	MinimapIcon 1 White Moon
 	# PlayEffect Grey
-Show
-	BaseType "Divine Life Flask" "Eternal Mana Flask"
+Hide
+	# BaseType "Divine Life Flask" "Eternal Mana Flask"
 	Class Flask
 	FracturedItem True
 	SetBackgroundColor 40 90 140
@@ -3858,15 +3867,15 @@ Show
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
-Show
-	Class "Utility Flask"
-	FracturedItem True
-	SetBackgroundColor 40 90 140
-	SetBorderColor 225 225 225
-	SetFontSize 25
-	PlayAlertSound 16 200
-	MinimapIcon 1 Grey Moon
-	# PlayEffect Grey
+# Hide
+# 	Class "Utility Flask"
+# 	FracturedItem True
+# 	SetBackgroundColor 40 90 140
+# 	SetBorderColor 225 225 225
+# 	SetFontSize 25
+# 	PlayAlertSound 16 200
+# 	MinimapIcon 1 Grey Moon
+# 	# PlayEffect Grey
 Hide
 	Class Gloves Boots Helm "Body Armour"
 	BaseArmour >= 1
@@ -3919,7 +3928,7 @@ Hide
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
-Show
+Hide
 	Class Gloves Boots Helm "Body Armour"
 	BaseArmour >= 1
 	BaseEvasion = 0
@@ -3932,7 +3941,7 @@ Show
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
-Show
+Hide
 	Class "Body Armour" "Boots" "Gloves" "Helm"
 	DropLevel >= 84
 	FracturedItem True
@@ -3952,7 +3961,7 @@ Hide
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
-Show
+Hide
 	Class Shield
 	BaseArmour = 0
 	BaseEvasion = 0
@@ -3964,7 +3973,7 @@ Show
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
-Show
+Hide
 	Class Sceptre
 	DropLevel >= 20
 	FracturedItem True
@@ -3974,7 +3983,7 @@ Show
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
 	# PlayEffect Grey
-Show
+Hide
 	Class Wand
 	DropLevel >= 40
 	FracturedItem True
@@ -3984,7 +3993,7 @@ Show
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
 	# PlayEffect Grey
-Show
+Hide
 	Class "Rune Dagger"
 	FracturedItem True
 	SetBackgroundColor 40 90 140
@@ -3993,7 +4002,7 @@ Show
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
 	# PlayEffect Grey
-Show
+Hide
 	Class "Two Hand Axe"
 	FracturedItem True
 	DropLevel >= 58
@@ -4002,6 +4011,15 @@ Show
 	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
+	# PlayEffect Grey
+Hide
+	Class Gloves Boots Helm "Body Armour"
+	FracturedItem True
+	SetBackgroundColor 40 90 140
+	SetBorderColor 150 150 150
+	SetFontSize 25
+	PlayAlertSound 16 200
+	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
 Hide
 	FracturedItem True
@@ -4925,7 +4943,7 @@ Show
 #Set Value Blocks - bases where all potential uniques fall within a set value range. Fiery-theme highlighting (orange and yellow)
 #High Value Tier - 50-200c
 Show
-	BaseType "Wyrmscale Doublet" "Champion Kite Shield" "Jingling Spirit Shield" "Savant's Robe" "Slaughter Knife" "Hydrascale Gauntlets" "Occultist's Vestment" "Prophecy Wand" "Hellion's Paw" "Desert Brigandine" "Wyrmscale Boots" "Titanium Spirit Shield" "Devout Chainmail" "Rawhide Boots" "Spiked Gloves" "Slink Boots" "Iron Sceptre" "Assassin's Boots" "Magistrate Crown" "Gladiator Plate" "Blood Raiment" "Riveted Gloves" "Golden Buckler" "Fingerless Silk Gloves" "Savant's Robe" "Vaal Spirit Shield" "Royal Burgonet" "Cutlass" "Opal Wand" "Painted Tower Shield" "Girded Tower Shield" "Runic Gages" "Glorious Plate" "Vermillion Ring"
+	BaseType "Wyrmscale Doublet" "Champion Kite Shield" "Jingling Spirit Shield" "Savant's Robe" "Slaughter Knife" "Hydrascale Gauntlets" "Occultist's Vestment" "Prophecy Wand" "Hellion's Paw" "Wyrmscale Boots" "Titanium Spirit Shield" "Devout Chainmail" "Rawhide Boots" "Spiked Gloves" "Slink Boots" "Iron Sceptre" "Assassin's Boots" "Magistrate Crown" "Gladiator Plate" "Blood Raiment" "Riveted Gloves" "Golden Buckler" "Fingerless Silk Gloves" "Savant's Robe" "Vaal Spirit Shield" "Royal Burgonet" "Cutlass" "Opal Wand" "Painted Tower Shield" "Girded Tower Shield" "Runic Gages" "Glorious Plate" "Vermillion Ring"
 	Rarity Unique
 	SetBackgroundColor 225 100 0
 	SetBorderColor 255 255 255
@@ -4937,7 +4955,7 @@ Show
 	DisableDropSound
 #Mid Value Tier - 20c to 50c fairly consistently. Include bases with multiple uniques as long as they all fall into this range.
 Hide
-	BaseType "Amethyst Flask" "Ruby Flask" "Topaz Flask" "Mosaic Kite Shield" "Silk Gloves" "Ezomyte Dagger" "Serpentscale Boots" "Trapper Boots" "Highborn Staff" "Sovereign Spiked Shield" "Runic" "Hydrascale Gauntlets" "Harmonic Spirit Shield" "Blood Sceptre" "Citadel Bow" "Carnal Boots" "Gemstone Sword" "Cardinal Round Shield" "Steelwood Bow" "Vaal Greaves" "Quarterstaff" "Jewelled Foil" "Goliath Greaves" "Grand Mana Flask" "Studded Belt" "Stygian Vise" "Large Hybrid Flask" "Steel Kite Shield" "Fugitive Boots" "Archon Kite Shield" "Ornate Quiver" "Void Axe" "Ezomyte Tower Shield" "Scholar's Robe"
+	BaseType "Amethyst Flask" "Ruby Flask" "Topaz Flask" "Mosaic Kite Shield" "Silk Gloves" "Ezomyte Dagger" "Serpentscale Boots" "Trapper Boots" "Highborn Staff" "Sovereign Spiked Shield" "Runic" "Hydrascale Gauntlets" "Harmonic Spirit Shield" "Blood Sceptre" "Citadel Bow" "Carnal Boots" "Gemstone Sword" "Cardinal Round Shield" "Steelwood Bow" "Vaal Greaves" "Quarterstaff" "Jewelled Foil" "Goliath Greaves" "Grand Mana Flask" "Studded Belt" "Stygian Vise" "Large Hybrid Flask" "Steel Kite Shield" "Fugitive Boots" "Archon Kite Shield" "Ornate Quiver" "Void Axe" "Ezomyte Tower Shield" "Scholar's Robe" "Desert Brigandine" 
 	Rarity Unique
 	SetBackgroundColor 225 100 0
 	SetBorderColor 0 0 0
