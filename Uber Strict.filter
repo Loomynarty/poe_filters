@@ -4535,7 +4535,6 @@ Show
 	SetFontSize 30
 	PlayAlertSound 7 150
 	MinimapIcon 0 Orange Star
-	# PlayEffect Red
 Show
 	Class Jewel
 	Rarity Unique
@@ -4545,7 +4544,6 @@ Show
 	SetFontSize 30
 	PlayAlertSound 7 150
 	MinimapIcon 0 Orange Star
-	# PlayEffect Red
 
 #cluster jewels
 #84 clusters

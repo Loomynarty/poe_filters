@@ -4703,13 +4703,22 @@ Show
 Show
 	Class Jewel
 	Rarity Unique
-	SetBackgroundColor 180 100 0
+	Corrupted True
+	SetBackgroundColor 255 0 0
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 7 150
-	MinimapIcon 0 Red Star
-	PlayEffect Red
+	MinimapIcon 0 Orange Star
+Show
+	Class Jewel
+	Rarity Unique
+	SetBackgroundColor 180 100 0 
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 30
+	PlayAlertSound 7 150
+	MinimapIcon 0 Orange Star
 
 #cluster jewels
 #84 clusters
