@@ -124,14 +124,14 @@
 #	PlayEffect Yellow
 
 
-Show
-	MemoryStrands >= 1
-	SetBackgroundColor 40 90 140
-	SetBorderColor 225 190 70
-	SetFontSize 30
-	PlayAlertSound 16 200
-	MinimapIcon 1 Blue Moon
-	PlayEffect Blue
+# Show
+# 	MemoryStrands >= 1
+# 	SetBackgroundColor 40 90 140
+# 	SetBorderColor 225 190 70
+# 	SetFontSize 30
+# 	PlayAlertSound 16 200
+# 	MinimapIcon 1 Blue Moon
+# 	PlayEffect Blue
 
 
 # Chaos Recipe
@@ -509,6 +509,16 @@ Show
 	PlayEffect Purple
 Show
 	BaseType "Echo of"
+	SetBackgroundColor 200 100 250
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 35
+	PlayAlertSound 2 150
+	MinimapIcon 1 Pink Circle
+	PlayEffect Pink
+Show
+	BaseType "Memory of" "Astrolabe"
+	Class Currency
 	SetBackgroundColor 200 100 250
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
@@ -1751,7 +1761,7 @@ Show
 
 # Scarabs
 Show
-	BaseType == "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Ambush Scarab of Containment" "Horned Scarab of Awakening" 
+	BaseType == "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Ambush Scarab of Containment"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
 	SetTextColor 180 76 58 255
@@ -1770,7 +1780,7 @@ Show
 # 	MinimapIcon 1 Red Triangle
 # 	PlayEffect Red
 Show
-	BaseType == "Divination Scarab of Pilfering" "Essence Scarab of Calcification" "Domination Scarab of Terrors" "Harvest Scarab of Cornucopia" "Ambush Scarab of Discernment" "Horned Scarab of Bloodlines" "Cartography Scarab of Corruption" "Incursion Scarab of Timelines" "Blight Scarab of Blooming" "Harvest Scarab of Doubling" "Ritual Scarab of Abundance" "Ambush Scarab" "Cartography Scarab of the Multitude" "Essence Scarab of Adaptation" "Titanic Scarab of Treasures" "Horned Scarab of Tradition" "Horned Scarab of Nemeses" "Horned Scarab of Pandemonium" "Cartography Scarab of Risk" "Horned Scarab of Glittering"
+	BaseType == "Divination Scarab of Pilfering" "Essence Scarab of Calcification" "Domination Scarab of Terrors" "Harvest Scarab of Cornucopia" "Ambush Scarab of Discernment" "Horned Scarab of Bloodlines" "Cartography Scarab of Corruption" "Incursion Scarab of Timelines" "Blight Scarab of Blooming" "Harvest Scarab of Doubling" "Ritual Scarab of Abundance" "Ambush Scarab" "Cartography Scarab of the Multitude" "Essence Scarab of Adaptation" "Titanic Scarab of Treasures" "Horned Scarab of Tradition" "Horned Scarab of Nemeses" "Horned Scarab of Pandemonium" "Cartography Scarab of Risk" "Horned Scarab of Glittering" "Horned Scarab of Awakening" 
 	Class "Map Fragment"
 	SetBackgroundColor 100 50 0
 	SetBorderColor 225 225 225
@@ -1813,17 +1823,17 @@ Show
 #Legion (v3.7)
 #timeless jewels in the jewel section, splinters/emblems in map section as of 3.23
 Show
-	BaseType "Thaumaturge's" "Time-Lost" "Gemcutter's" "Ornate" "Fine" "Diviner's" "Skittering"
+	BaseType "Ornate" "Honoured" "Sacred" "Miraged"
 	Class Incubator
 	SetBackgroundColor 125 0 225
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 30
 	PlayEffect Purple Temp
 	PlayAlertSound 11 200
 	MinimapIcon 2 Purple Circle
 Hide
-	BaseType "Primal" "Abyssal"
+	BaseType "Thaumaturge's" "Time-Lost" "Gemcutter's" "Diviner's" "Skittering" "Primal" "Abyssal"
 	Class Incubator
 	SetBackgroundColor 125 0 225
 	SetBorderColor 0 0 0
@@ -2379,7 +2389,7 @@ Show
 
 # Wombgifts
 Show
-	Class == "Wombgifts"
+	Class == "Wombgifts" 
 	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
@@ -2426,6 +2436,44 @@ Show
 	PlayEffect Purple
 	MinimapIcon 1 Purple Star
 
+#Mirage (v3.28)
+
+Show
+	BaseType "Coin of Restoration" "Coin of Desecration" "Coin of Knowledge" "Coin of Power" "Coin of Skill" "Crystallised Rancour" "Flesh of Xesht" "Volatile Vaal Orb" "Essence of Desolation" "Refracting Fog" "Sinistral Catalyst" "Dextral Catalyst"
+	Class Currency
+	SetFontSize 30
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 120 200 160 255
+	PlayAlertSound 2 150
+	PlayEffect Yellow
+	MinimapIcon 1 Yellow Moon
+	DisableDropSound
+
+# Blight Belt
+Show 
+	ItemLevel >= 82
+	Rarity Normal Magic Rare
+	Class == "Belts"
+	BaseType == "Cord Belt"
+	SetFontSize 35
+	SetTextColor 0 240 190 255
+	SetBorderColor 0 240 190 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 150
+	DisableDropSound
+
+Show 
+	ItemLevel >= 68
+	Rarity Normal Magic Rare
+	Class == "Belts"
+	BaseType == "Cord Belt"
+	SetFontSize 32
+	SetTextColor 0 240 190 255
+	SetBorderColor 0 240 190 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 150
+	DisableDropSound
 
 
 #League Unknowns - Uniques and div cards whose names/basetypes are known before launch but not the details, or if I'm not quite sure how significantly the changes will impact the value. Small green icons.
@@ -2440,7 +2488,7 @@ Show
 # 	MinimapIcon 2 Green Star
 # 	PlayEffect Green
 Show
-	BaseType == "The Last Laugh" "The Lake" "One Last Score" "Bound by Flame" "Outfoxed"
+	BaseType == "The Everlasting" "Lucky Bastion" "The Miracle" "Apocalypse" "The Slumbering Beast" "The Forbidden Fruit" "The Silly Boy" "Reflection of the Heart"
 	Class "Divination Card"
 	SetBackgroundColor 200 150 250
 	SetBorderColor 0 0 0
@@ -2467,7 +2515,7 @@ Show
 # T1 Fragments
 Show
 	Class == "Map Fragments"
-	BaseType == "Sacred Blossom" "Simulacrum" "The Maven's Writ" "An Audience With The King" "Syndicate Medallion"
+	BaseType == "Sacred Blossom" "Simulacrum" "The Maven's Writ" "An Audience With The King" "Syndicate Medallion" "The Black Barya"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
 	SetTextColor 180 76 58 255
@@ -2858,8 +2906,9 @@ Show
 	
 #Guardian Maps
 Show
+	BaseType "Shaper Guardian Map"
 	Class Map
-	HasInfluence Shaper
+	# HasInfluence Shaper
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 100 0 122 255
 	SetTextColor 100 0 122 255
@@ -2918,10 +2967,11 @@ Show
 	PlayEffect Yellow
 	MinimapIcon 0 Yellow Square
 	
-#t17
+#t17 - Nightmare
 Show
+	BaseType "Nightmare Map" "Valdo Map"
 	Class Map
-	MapTier >= 17
+	# MapTier >= 16
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 100 0 122 255
 	SetTextColor 100 0 122 255
@@ -3017,7 +3067,7 @@ Show
 	DisableDropSound
 #high tier. 10c+ (orange bg, white border)
 Show
-	BaseType "Harbinger" "Synthesised" "Museum" "Harbinger" "Moon Temple" "Courtyard" "Vengeful Contract"
+	BaseType "Synthesised" "Museum" "Moon Temple" "Courtyard" "Vengeful Contract"
 	Class Map Contract
 	Rarity Unique
 	SetBackgroundColor 175 96 37 255
@@ -4207,9 +4257,7 @@ Show
 	SetBackgroundColor 65 0 65
 	SetBorderColor 250 250 250
 	SetFontSize 30
-	# PlayAlertSound 13 200
-	# MinimapIcon 1 Red Kite
-	# PlayEffect Red
+
 Show
 	BaseType "Vermillion Ring" "Stygian Vise" "Crystal Belt" "Marble Amulet"
 	Rarity Normal Magic Rare
@@ -4217,9 +4265,7 @@ Show
 	SetBackgroundColor 65 0 65
 	SetBorderColor 250 200 150
 	SetFontSize 30
-	# PlayAlertSound 13 200
-	# MinimapIcon 1 Purple Kite
-	# PlayEffect Purple
+
 Show
 	BaseType "Vermillion Ring" "Stygian Vise" "Crystal Belt" "Marble Amulet"
 	Rarity Normal Magic Rare
@@ -4227,9 +4273,7 @@ Show
 	SetBackgroundColor 65 0 65
 	SetBorderColor 200 150 0
 	SetFontSize 30
-	# PlayAlertSound 13 200
-	# MinimapIcon 1 Blue Kite
-	# PlayEffect Blue
+
 Show 
 	BaseType "Vermillion Ring" "Stygian Vise" "Crystal Belt" "Marble Amulet"
 	Rarity Normal Magic Rare
@@ -5237,7 +5281,7 @@ Show
 
 #Maximum Tier - 200c+. White.
 Show
-	BaseType == "The Doctor" "The Fiend" "House of Mirrors" "The Demon" "Unrequited Love" "Love Through Ice" "The Apothecary" "The Shieldbearer" "Choking Guilt" "The Price of Devotion" "The Insane Cat" "Brother's Gift" "Fire of Unknown Origin" "I See Brothers" "The Endless Darkness" "Wealth and Power" "Father's Love" "Lonely Warrior" "Damnation" "History"
+	BaseType == "The Doctor" "The Fiend" "House of Mirrors" "The Demon" "Unrequited Love" "Love Through Ice" "The Apothecary" "The Shieldbearer" "Choking Guilt" "The Price of Devotion" "The Insane Cat" "Brother's Gift" "Fire of Unknown Origin" "I See Brothers" "The Endless Darkness" "Wealth and Power" "Father's Love" "Lonely Warrior" "Damnation" "History" "The Lake" "The Eye of Terror"
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
 	SetTextColor 240 0 240
@@ -5248,7 +5292,7 @@ Show
 
 #High Tier - 50c to 200c. Fuschia.
 Show
-	BaseType == "The Dragon's Heart" "The Nurse" "The Price of Loyalty" "The Enlightened" "The Progeny of Lunaris" "The Gulf" "Seven Years Bad Luck" "Broken Promises" "Home" "Divine Beauty" "Gemcutter's Mercy" "The Samurai's Eye" "Succor of the Sinless" "Brother's Stash" "The Last One Standing" "The Greatest Intentions" "The World Eater" "Matryoshka" "Auspicious Ambitions" "Beauty Through Death" "The Sephirot" "The Immortal" "The Soul" 
+	BaseType == "The Dragon's Heart" "The Nurse" "The Price of Loyalty" "The Enlightened" "The Progeny of Lunaris" "The Gulf" "Seven Years Bad Luck" "Broken Promises" "Home" "Divine Beauty" "Gemcutter's Mercy" "The Samurai's Eye" "Succor of the Sinless" "Brother's Stash" "The Last One Standing" "The Greatest Intentions" "The World Eater" "Matryoshka" "Auspicious Ambitions" "Beauty Through Death" "The Sephirot" "The Immortal" "The Soul" "One Last Score" "Outfoxed" "The Journey"
 	Class "Divination Card"
 	SetBackgroundColor 250 100 200
 	SetBorderColor 0 0 0
@@ -5260,7 +5304,7 @@ Show
 
 #Mid Tier - 10c to 50c. Lavender.
 Show
-	BaseType == "The Devastator" "The Artist" "The Vast" "The Breach" "The Dreamer" "Monochrome" "The Seeker" "The Primordial" "Akil's Prophecy" "Azyran's Reward" "Perfection" "The Celestial Stone" "The Mad King" "The Fishmonger" "The Escape" "Peaceful Moments" "The Patient" "A Modest Request" "The Eternal War" "Lachrymal Necrosis" "Dementophobia" "Chasing Risk" "Bijoux" "The One That Got Away" "Magnum Opus" "Altered Perception" "A Fate Worse Than Death" "Rebirth and Renewal" "Nook's Crown" "Luminous Trove" "Hunter's Reward" "Abandoned Wealth" "Dark Dreams" "Void of the Elements" "The Damned" "The Old Man" "The Hive of Knowledge" "The Last Supper" "Gift of Asenath" "Keeper's Corruption" "The Scout" "Duality" "The Catch" "Prometheus' Armoury" "A Stone Perfected" "The Rabbit's Foot" "Lethean Temptation" "Pride of the First Ones" "The Eye of the Dragon" "The Hook" "Something Dark" "The Enforcer" "Eternal Bonds" "The Aspirant" "The Fortunate" "Underground Forest" "Who Asked" "The Polymath" "The Wedding Gift" "Burning Blood" "The Astromancer" "Imperfect Memories" "The White Knight" "The Leviathan" "A Familiar Call" "Alluring Bounty" "The Strategist" "Remembrance" "The Cursed King" "Winter's Embrace" "Desperate Crusade" "The Finishing Touch" "The Long Con" "Deadly Joy" "The Destination" "Darker Half" "The Undisputed" "The Chosen" "Tranquillity" "The Garish Power" "Assassin's Gift" "The Awakened" "Justified Ambition" "Doryani's Epiphany" "Friendship" "The Long Watch" "Temperance" "Avian Pursuit" "Sambodhi's Wisdom" "Squandered Prosperity" "The Mayor" "Underground Forest" "The Hunger" "Runic Luck" 
+	BaseType == "The Devastator" "The Artist" "The Vast" "The Breach" "The Dreamer" "Monochrome" "The Seeker" "The Primordial" "Akil's Prophecy" "Azyran's Reward" "Perfection" "The Celestial Stone" "The Mad King" "The Fishmonger" "The Escape" "Peaceful Moments" "The Patient" "A Modest Request" "The Eternal War" "Lachrymal Necrosis" "Dementophobia" "Chasing Risk" "Bijoux" "The One That Got Away" "Magnum Opus" "Altered Perception" "A Fate Worse Than Death" "Rebirth and Renewal" "Nook's Crown" "Luminous Trove" "Hunter's Reward" "Abandoned Wealth" "Dark Dreams" "Void of the Elements" "The Damned" "The Old Man" "The Hive of Knowledge" "The Last Supper" "Gift of Asenath" "Keeper's Corruption" "The Scout" "Duality" "The Catch" "Prometheus' Armoury" "A Stone Perfected" "The Rabbit's Foot" "Lethean Temptation" "Pride of the First Ones" "The Eye of the Dragon" "The Hook" "Something Dark" "The Enforcer" "Eternal Bonds" "The Aspirant" "The Fortunate" "Underground Forest" "Who Asked" "The Polymath" "The Wedding Gift" "Burning Blood" "The Astromancer" "Imperfect Memories" "The White Knight" "The Leviathan" "A Familiar Call" "Alluring Bounty" "The Strategist" "Remembrance" "The Cursed King" "Winter's Embrace" "Desperate Crusade" "The Finishing Touch" "The Long Con" "Deadly Joy" "The Destination" "Darker Half" "The Undisputed" "The Chosen" "Tranquillity" "The Garish Power" "Assassin's Gift" "The Awakened" "Justified Ambition" "Doryani's Epiphany" "Friendship" "The Long Watch" "Temperance" "Avian Pursuit" "Sambodhi's Wisdom" "Squandered Prosperity" "The Mayor" "Underground Forest" "The Hunger" "Runic Luck" "The Last Laugh" "Bound by Flame" "The Side Quest"
 	Class "Divination Card"
 	SetBackgroundColor 200 150 250
 	SetBorderColor 0 0 0
@@ -5306,7 +5350,7 @@ Show
 
 #Trash Tier: <2c. No sounds, darker blue color. Hidden in the Uber filter only. Note that these blocks are rather aggressive and caution should be exercised when using the Uber filter for SSF. 
 Show
-	BaseType == "The Gambler" "The Flora's Gift" "Her Mask" "The Catalyst" "The Spoiled Prince" "Thunderous Skies" "The Twins" "The Mercenary" "The Calling" "The Visionary" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "A Mother's Parting Gift" "The Sun" "The Fox" "The Realm" "The Web" "Turn the Other Cheek" "Death" "Call to the First Ones" "The Hermit" "Audacity" "Doedre's Madness" "The Watcher" "Dark Temptation" "The Blazing Fire" "The Rabid Rhoa" "Forbidden Power" "The Tumbleweed" "The Army of Blood" "The Wolf's Shadow" "The Demoness" "The Betrayal" "Volatile Power" "Three Voices" "Three Faces in the Dark" "The Wolf" "The Trial" "The Traitor" "The Tower" "The Summoner" "The Stormcaller" "The Standoff" "The Inventor" "The Gladiator" "The Fletcher" "The Arena Champion" "The Aesthete" "Mitts" "Hunter's Resolve" "Glimmer of Hope" "Assassin's Favour" "The Drunken Aristocrat" "The Dragon" "The Deceiver" "The One With All" "Alivia's Grace" "The Golden Era" "Triskaidekaphobia" "The Dreamland" "Hope" "The Whiteout" "The Penitent" "Man With Bear" "The Wolf's Legacy" "Azure Rage" "Dialla's Subjugation" "The Admirer" "The Cataclysm" "The Jeweller's Boon" "The Lord of Celebration" "The Return of the Rat" "The Wilted Rose" "The Oath" "The Surveyor" "Loyalty" "Emperor's Luck" "Alone in the Darkness" "Atziri's Arsenal" "The Fox in the Brambles" "The Master" "The Conduit" "Lysah's Respite" "The Wind" "Unchained" "The Cache" "The Feast" "The Lion" "The Rite of Elements" "Broken Truce" "The Battle Born" "Blind Venture" "Boundless Realms" "Grave Knowledge" "Hubris" "Lost Worlds" "Scholar of the Seas" "The Body" "The Doppelganger" "The Encroaching Darkness" "The Explorer" "The Forsaken" "The Gemcutter" "The Master Artisan" "The Mountain" "The Survivalist" "The Wretched" "Time-Lost Relic" "Vile Power" "The Fool" "The Jester" "Jack in the Box" "Prejudice" "The Scavenger" "Last Stand" "When Currents Blaze"
+	BaseType == "The Gambler" "The Flora's Gift" "Her Mask" "The Catalyst" "The Spoiled Prince" "Thunderous Skies" "The Twins" "The Mercenary" "The Calling" "The Visionary" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "A Mother's Parting Gift" "The Sun" "The Fox" "The Realm" "The Web" "Turn the Other Cheek" "Death" "Call to the First Ones" "The Hermit" "Audacity" "Doedre's Madness" "The Watcher" "Dark Temptation" "The Blazing Fire" "The Rabid Rhoa" "Forbidden Power" "The Tumbleweed" "The Army of Blood" "The Wolf's Shadow" "The Demoness" "The Betrayal" "Volatile Power" "Three Voices" "Three Faces in the Dark" "The Wolf" "The Trial" "The Traitor" "The Tower" "The Summoner" "The Stormcaller" "The Standoff" "The Inventor" "The Gladiator" "The Fletcher" "The Arena Champion" "The Aesthete" "Mitts" "Hunter's Resolve" "Glimmer of Hope" "Assassin's Favour" "The Drunken Aristocrat" "The Dragon" "The Deceiver" "The One With All" "Alivia's Grace" "The Golden Era" "Triskaidekaphobia" "The Dreamland" "Hope" "The Whiteout" "The Penitent" "Man With Bear" "The Wolf's Legacy" "Azure Rage" "Dialla's Subjugation" "The Admirer" "The Cataclysm" "The Jeweller's Boon" "The Lord of Celebration" "The Return of the Rat" "The Wilted Rose" "The Oath" "The Surveyor" "Loyalty" "Emperor's Luck" "Alone in the Darkness" "Atziri's Arsenal" "The Fox in the Brambles" "The Master" "The Conduit" "Lysah's Respite" "The Wind" "Unchained" "The Cache" "The Feast" "The Lion" "The Rite of Elements" "Broken Truce" "The Battle Born" "Blind Venture" "Boundless Realms" "Grave Knowledge" "Hubris" "Lost Worlds" "Scholar of the Seas" "The Body" "The Doppelganger" "The Encroaching Darkness" "The Explorer" "The Forsaken" "The Gemcutter" "The Master Artisan" "The Mountain" "The Survivalist" "The Wretched" "Time-Lost Relic" "Vile Power" "The Fool" "The Jester" "Jack in the Box" "Prejudice" "The Scavenger" "Last Stand" "When Currents Blaze" "The Messenger"
 	Class "Divination Card"
 	SetBackgroundColor 110 160 210
 	SetBorderColor 0 0 0
@@ -9358,7 +9402,18 @@ Show
 ###################################################################################
 #top and rare gems
 Show
-	BaseType "Item Quantity" "Awakened" "Enlighten" "Empower"
+	BaseType "Item Quantity" "Enlighten"
+	SetBackgroundColor 250 250 250
+	SetBorderColor 0 0 0
+	SetTextColor 27 162 155
+	SetFontSize 35
+	PlayAlertSound 6 250
+	MinimapIcon 0 Cyan Diamond
+	PlayEffect White
+# exceptional gems
+Show
+	Class "Support Gems"
+	DropLevel >= 72
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
 	SetTextColor 27 162 155
@@ -9367,7 +9422,7 @@ Show
 	MinimapIcon 0 Cyan Diamond
 	PlayEffect White
 Show
-	BaseType "Enhance" "Vaal Breach"
+	BaseType "Enhance" "Empower" "Vaal Breach"
 	Class Gem
 	SetBackgroundColor 27 162 155
 	SetBorderColor 0 0 0
@@ -9376,6 +9431,18 @@ Show
 	PlayAlertSound 12 250
 	MinimapIcon 1 White Triangle
 	PlayEffect Cyan
+# Imbued 
+Show
+	Class Gem
+	Imbued True
+	SetBackgroundColor 27 162 155
+	SetBorderColor 0 0 0
+	SetTextColor 250 250 250
+	SetFontSize 35
+	PlayAlertSound 12 250
+	MinimapIcon 1 White Triangle
+	PlayEffect Cyan
+Show
 Show
 	BaseType "Portal"
 	Class Gem
