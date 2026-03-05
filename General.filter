@@ -6506,20 +6506,20 @@ Show
 	# SetBorderColor 150 200 250
 	# SetFontSize 38
 #top basetypes
-Show
-	BaseType "Quartz Sceptre" "Shadow Sceptre"
-	AreaLevel <= 47
-	SetBorderColor 100 150 200
-	SetFontSize 30
-Show
-	BaseType "Crystal Sceptre" "Abyssal Sceptre"
-	AreaLevel <= 59
-	SetBorderColor 100 150 200
-	SetFontSize 38
-Show
-	BaseType "Opal Sceptre" "Void Sceptre" "Sambar Sceptre"
-	AreaLevel <= 67
-	SetBorderColor 100 150 200
+# Show
+# 	BaseType "Quartz Sceptre" "Shadow Sceptre"
+# 	AreaLevel <= 47
+# 	SetBorderColor 100 150 200
+# 	SetFontSize 30
+# Show
+# 	BaseType "Crystal Sceptre" "Abyssal Sceptre"
+# 	AreaLevel <= 59
+# 	SetBorderColor 100 150 200
+# 	SetFontSize 38
+# Show
+# 	BaseType "Opal Sceptre" "Void Sceptre" "Sambar Sceptre"
+# 	AreaLevel <= 67
+# 	SetBorderColor 100 150 200
 #catchalls
 # Show
 	# Class "Sceptre"
@@ -6632,167 +6632,167 @@ Show
 ###################################################################################
 #As of 3.11.5 only shows axes by default
 #Early pre-specialization levelling, shows both axes and swords before roughly level ~20 zones
-Show
-	BaseType "Rusted Hatchet" "Rusted Sword" "Rusted Spike" "Whalebone Rapier" "Driftwood Club"
-	AreaLevel <= 5
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Jade Hatchet" "Copper Sword"
-	AreaLevel <= 11
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Boarding Axe" "Sabre"
-	AreaLevel <= 15
-	SetBorderColor 128 0 0
-	SetFontSize 35
+# Show
+# 	BaseType "Rusted Hatchet" "Rusted Sword" "Rusted Spike" "Whalebone Rapier" "Driftwood Club"
+# 	AreaLevel <= 5
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Jade Hatchet" "Copper Sword"
+# 	AreaLevel <= 11
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Boarding Axe" "Sabre"
+# 	AreaLevel <= 15
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
 	
-# Axes
-Show
-	BaseType "Cleaver"
-	AreaLevel <= 20
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Broad Axe"
-	AreaLevel <= 24
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Arming Axe"
-	AreaLevel <= 28
-	Rarity Rare
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Arming Axe"
-	AreaLevel <= 28
-	SetBorderColor 128 0 0
-	SetFontSize 30
-Show
-	BaseType "Decorative Axe"
-	AreaLevel <= 32
-	Rarity Rare
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Decorative Axe"
-	AreaLevel <= 32
-	SetBorderColor 128 0 0
-	SetFontSize 30
-Show
-	BaseType "Spectral Axe"
-	AreaLevel <= 34
-	Rarity Rare
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Spectral Axe"
-	AreaLevel <= 34
-	SetBorderColor 128 0 0
-	SetFontSize 30
-Show
-	BaseType "Jasper Axe" "Etched Hatchet"
-	AreaLevel <= 38
-	Rarity Rare
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Jasper Axe" "Etched Hatchet"
-	AreaLevel <= 38
-	SetBorderColor 128 0 0
-	SetFontSize 30
-Show
-	BaseType "Tomahawk"
-	AreaLevel <= 41
-	Rarity Rare
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Tomahawk"
-	AreaLevel <= 41
-	SetBorderColor 128 0 0
-	SetFontSize 30
-Show
-	BaseType "Wrist Chopper"
-	AreaLevel <= 44
-	Rarity Rare
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Wrist Chopper"
-	AreaLevel <= 44
-	SetBorderColor 128 0 0
-	SetFontSize 30
+# # Axes
+# Show
+# 	BaseType "Cleaver"
+# 	AreaLevel <= 20
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Broad Axe"
+# 	AreaLevel <= 24
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Arming Axe"
+# 	AreaLevel <= 28
+# 	Rarity Rare
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Arming Axe"
+# 	AreaLevel <= 28
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 30
+# Show
+# 	BaseType "Decorative Axe"
+# 	AreaLevel <= 32
+# 	Rarity Rare
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Decorative Axe"
+# 	AreaLevel <= 32
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 30
+# Show
+# 	BaseType "Spectral Axe"
+# 	AreaLevel <= 34
+# 	Rarity Rare
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Spectral Axe"
+# 	AreaLevel <= 34
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 30
+# Show
+# 	BaseType "Jasper Axe" "Etched Hatchet"
+# 	AreaLevel <= 38
+# 	Rarity Rare
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Jasper Axe" "Etched Hatchet"
+# 	AreaLevel <= 38
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 30
+# Show
+# 	BaseType "Tomahawk"
+# 	AreaLevel <= 41
+# 	Rarity Rare
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Tomahawk"
+# 	AreaLevel <= 41
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 30
+# Show
+# 	BaseType "Wrist Chopper"
+# 	AreaLevel <= 44
+# 	Rarity Rare
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Wrist Chopper"
+# 	AreaLevel <= 44
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 30
 	
-#a5 kitava cutoff
-Show
-	BaseType "War Axe"
-	AreaLevel <= 47
-	Rarity Rare
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "War Axe"
-	AreaLevel <= 47
-	SetBorderColor 128 0 0
-	SetFontSize 30
-Show
-	BaseType "Chest Splitter"
-	AreaLevel <= 50
-	Rarity Rare
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Chest Splitter"
-	AreaLevel <= 50
-	SetBorderColor 128 0 0
-	SetFontSize 30
-Show
-	BaseType "Ceremonial Axe"
-	AreaLevel <= 53
-	Rarity Rare
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Ceremonial Axe"
-	AreaLevel <= 53
-	SetBorderColor 128 0 0
-	SetFontSize 30
-Show
-	BaseType "Wraith Axe"
-	AreaLevel <= 56
-	Rarity Rare
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Wraith Axe"
-	AreaLevel <= 56
-	SetBorderColor 128 0 0
-	SetFontSize 30
-Show
-	BaseType "Engraved Hatchet" "Karui Axe"
-	AreaLevel <= 58
-	Rarity Rare
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Engraved Hatchet" "Karui Axe"
-	AreaLevel <= 58
-	SetBorderColor 128 0 0
-	SetFontSize 30
-Show
-	BaseType "Vaal Hatchet"
-	AreaLevel <= 67
-	Rarity Rare
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Vaal Hatchet"
-	AreaLevel <= 67
-	SetBorderColor 128 0 0
-	SetFontSize 30
+# #a5 kitava cutoff
+# Show
+# 	BaseType "War Axe"
+# 	AreaLevel <= 47
+# 	Rarity Rare
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "War Axe"
+# 	AreaLevel <= 47
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 30
+# Show
+# 	BaseType "Chest Splitter"
+# 	AreaLevel <= 50
+# 	Rarity Rare
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Chest Splitter"
+# 	AreaLevel <= 50
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 30
+# Show
+# 	BaseType "Ceremonial Axe"
+# 	AreaLevel <= 53
+# 	Rarity Rare
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Ceremonial Axe"
+# 	AreaLevel <= 53
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 30
+# Show
+# 	BaseType "Wraith Axe"
+# 	AreaLevel <= 56
+# 	Rarity Rare
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Wraith Axe"
+# 	AreaLevel <= 56
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 30
+# Show
+# 	BaseType "Engraved Hatchet" "Karui Axe"
+# 	AreaLevel <= 58
+# 	Rarity Rare
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Engraved Hatchet" "Karui Axe"
+# 	AreaLevel <= 58
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 30
+# Show
+# 	BaseType "Vaal Hatchet"
+# 	AreaLevel <= 67
+# 	Rarity Rare
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Vaal Hatchet"
+# 	AreaLevel <= 67
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 30
 	
 #endgame axes
 # Show
@@ -7541,21 +7541,21 @@ Show
 ##################### Section 16.2 - 2h Melee Levelling ###########################
 ###################################################################################
 #As of 3.11.5 only shows axes by default
-Show
-	BaseType "Stone Axe" "Corroded Blade" "Driftwood Maul"
-	AreaLevel <= 8
-	SetBorderColor 128 0 0
-	SetFontSize 30
-Show
-	BaseType "Jade Chopper" "Longsword"
-	AreaLevel <= 12
-	SetBorderColor 128 0 0
-	SetFontSize 35
-Show
-	BaseType "Woodsplitter" "Bastard Sword"
-	AreaLevel <= 17
-	SetBorderColor 128 0 0
-	SetFontSize 35
+# Show
+# 	BaseType "Stone Axe" "Corroded Blade" "Driftwood Maul"
+# 	AreaLevel <= 8
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 30
+# Show
+# 	BaseType "Jade Chopper" "Longsword"
+# 	AreaLevel <= 12
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
+# Show
+# 	BaseType "Woodsplitter" "Bastard Sword"
+# 	AreaLevel <= 17
+# 	SetBorderColor 128 0 0
+# 	SetFontSize 35
 	
 #Axes
 # Show
