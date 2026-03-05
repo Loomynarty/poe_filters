@@ -388,7 +388,7 @@ Show
 
 #50c+ (pink)
 Show 
-	BaseType "Divine Orb" "Fracturing Shard" "Reflecting Mist" "Orb of Dominance" "Awakener's Orb" "Veiled Exalted Orb" "Hunter's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Redeemer's Exalted Orb" 
+	BaseType "Divine Orb" "Fracturing Shard" "Reflecting Mist" "Orb of Dominance" "Awakener's Orb" "Veiled Exalted Orb" "Hunter's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Redeemer's Exalted Orb" "Orb of Annulment" 
 	Class Currency
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
@@ -400,7 +400,7 @@ Show
 	DisableDropSound
 
 Show 
-	BaseType "Exalted Orb" "Orb of Annulment" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb"
+	BaseType "Exalted Orb" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb"
 	StackSize >= 5
 	Class Currency
 	SetBackgroundColor 250 0 125
@@ -413,7 +413,7 @@ Show
 
 #10c+ (red)
 Show
-	BaseType "Exalted Orb" "Orb of Annulment" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Orb of Conflict" "Shaper's Exalted Orb" "Elder's Exalted Orb" 
+	BaseType "Exalted Orb" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Orb of Conflict" "Shaper's Exalted Orb" "Elder's Exalted Orb" 
 	Class Currency
 	SetBackgroundColor 250 0 125
 	SetBorderColor 255 255 255
@@ -2008,40 +2008,41 @@ Show
 	PlayEffect Grey Temp	
 
 #Settlers of Kalguur (v3.25)
-#gold
 Show
 	Class "Gold"
 	StackSize >= 1000
-	SetTextColor 250 125 0
-	SetBackgroundColor 0 0 0
-	SetBorderColor 0 0 0
-	SetFontSize 32
+	SetTextColor 250 125 0 0
+	SetBackgroundColor 0 0 0 0
+	SetBorderColor 0 0 0 0
+	SetFontSize 0
 	PlayAlertSound 3 125
 	MinimapIcon 1 Orange Circle
 	PlayEffect Orange
 Show
 	Class "Gold"
 	StackSize >= 500
-	SetTextColor 250 150 0
-	SetBackgroundColor 0 0 0
-	SetBorderColor 0 0 0
-	SetFontSize 28
+	SetTextColor 250 150 0 0
+	SetBackgroundColor 0 0 0 0
+	SetBorderColor 0 0 0 0
+	SetFontSize 0
 	MinimapIcon 2 Orange Circle
 	PlayEffect Orange Temp
 Show
 	Class "Gold"
 	StackSize >= 100
-	SetTextColor 250 175 0
-	SetBackgroundColor 0 0 0
-	SetBorderColor 0 0 0
-	SetFontSize 24
+	SetTextColor 250 175 0 0
+	SetBackgroundColor 0 0 0 0
+	SetBorderColor 0 0 0 0
+	SetFontSize 0
+	MinimapIcon 2 Orange Circle
 	PlayEffect Yellow Temp
 Show
 	Class "Gold"
-	SetTextColor 250 200 0
-	SetBackgroundColor 0 0 0
-	SetBorderColor 0 0 0
-	SetFontSize 20
+	SetTextColor 250 200 0 0
+	SetBackgroundColor 0 0 0 0
+	SetBorderColor 0 0 0 0
+	MinimapIcon 2 Orange Circle
+	SetFontSize 0
 
 #Legacy of Phrecia Event
 Show
@@ -2773,7 +2774,7 @@ Show
 	DisableDropSound
 #high tier. 10c+ (orange bg, white border)
 Show
-	BaseType "Synthesised" "Museum" "Moon Temple" "Courtyard"
+	BaseType "Synthesised" "Museum" "Moon Temple" "Courtyard" "Cursed Crypt"
 	Class Map Contract
 	Rarity Unique
 	SetBackgroundColor 175 96 37 255
@@ -4897,12 +4898,12 @@ Show
 #Variable Value Blocks - basetypes where at least one unique is valuable and one is not. Watery-theme highlighting (blue and cyan)
 #High Variable Value. 200c+ value on at least one unique from the basetype. Must be checked. Bright cyan border, larger font.
 Show
-	BaseType "Leather Belt" "Heavy Belt" "Paua Amulet"
+	BaseType "Leather Belt" "Heavy Belt" "Paua Amulet" "Vaal Blade" "Imperial Skean" "Vaal Claw" "Imperial Bow" "Spine Bow"
 	Rarity Unique
-	SetBackgroundColor 225 100 0
+	SetBackgroundColor 225 100 0 
 	SetBorderColor 0 250 250
 	SetTextColor 0 0 0
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 4 100
 	MinimapIcon 1 Cyan Star
 	PlayEffect Cyan Temp
