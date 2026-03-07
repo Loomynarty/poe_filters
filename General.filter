@@ -593,7 +593,7 @@ Show
 
 #50c+ (pink)
 Show 
-	BaseType "Divine Orb" "Fracturing Shard" "Reflecting Mist" "Orb of Dominance" "Awakener's Orb" "Veiled Exalted Orb" "Hunter's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Redeemer's Exalted Orb" "Orb of Annulment"
+	BaseType "Divine Orb" "Fracturing Shard" "Reflecting Mist" "Orb of Dominance" "Awakener's Orb" "Veiled Exalted Orb" "Hunter's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Redeemer's Exalted Orb"
 	Class Currency
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
@@ -605,7 +605,7 @@ Show
 	DisableDropSound
 
 Show 
-	BaseType "Exalted Orb" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb"
+	BaseType "Exalted Orb" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb" "Orb of Annulment"
 	StackSize >= 5
 	Class Currency
 	SetBackgroundColor 250 0 125
@@ -618,7 +618,7 @@ Show
 
 #10c+ (red)
 Show
-	BaseType "Exalted Orb" "Orb of Annulment" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Orb of Conflict" "Shaper's Exalted Orb" "Elder's Exalted Orb" 
+	BaseType "Exalted Orb" "Orb of Annulment" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Orb of Conflict" "Shaper's Exalted Orb" "Elder's Exalted Orb" "Orb of Annulment"
 	Class Currency
 	SetBackgroundColor 250 0 125
 	SetBorderColor 255 255 255
@@ -1880,7 +1880,7 @@ Show
 	PlayEffect Green Temp
 	PlayAlertSound 11 200
 	MinimapIcon 1 Green Raindrop
-Hide
+Show
 	BaseType "Verdant Oil" "Clear Oil" "Sepia Oil" "Amber Oil"
 	SetBackgroundColor 100 150 100
 	SetBorderColor 0 0 0
