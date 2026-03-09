@@ -2750,6 +2750,19 @@ Show
 	SetFontSize 32
 	PlayEffect Pink
 	MinimapIcon 0 Pink Square
+
+#t16 - Mirage map
+Show	
+	Class Map
+	MapTier >= 16
+	AnyEnchantment True
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 100 0 122 255
+	SetTextColor 100 0 122 255
+	PlayAlertSound 1 300
+	SetFontSize 32
+	PlayEffect Yellow
+	MinimapIcon 0 Yellow Square
 	
 #Voidstones
 Show
@@ -9279,13 +9292,13 @@ Show
 Show
 	Class "Support Gems"
 	DropLevel >= 72
-	SetBackgroundColor 250 250 250
+	SetBackgroundColor 27 162 155
 	SetBorderColor 0 0 0
-	SetTextColor 27 162 155
+	SetTextColor 250 250 250
 	SetFontSize 35
-	PlayAlertSound 6 250
-	MinimapIcon 0 Cyan Diamond
-	PlayEffect White
+	PlayAlertSound 12 250
+	MinimapIcon 1 White Triangle
+	PlayEffect Cyan
 Show
 	BaseType "Enhance" "Empower" "Vaal Breach"
 	Class Gem
