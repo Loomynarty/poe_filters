@@ -400,7 +400,7 @@ Show
 	DisableDropSound
 
 Show 
-	BaseType "Exalted Orb" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb" "Orb of Annulment"
+	BaseType "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb" "Orb of Annulment"
 	StackSize >= 5
 	Class Currency
 	SetBackgroundColor 250 0 125
@@ -413,7 +413,7 @@ Show
 
 #10c+ (red)
 Show
-	BaseType "Exalted Orb" "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Orb of Conflict" "Shaper's Exalted Orb" "Elder's Exalted Orb" "Orb of Annulment"
+	BaseType "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Orb of Conflict" "Shaper's Exalted Orb" "Elder's Exalted Orb" "Orb of Annulment"
 	Class Currency
 	SetBackgroundColor 250 0 125
 	SetBorderColor 255 255 255
@@ -461,7 +461,7 @@ Show
 	PlayEffect Purple
 	DisableDropSound
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Vaal Orb"
+	BaseType "Chaos Orb" "Regal Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb"
 	Class Currency
 	StackSize >= 5
 	SetBackgroundColor 175 0 250
@@ -499,7 +499,7 @@ Show
 
 #1c+ (teal)
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Vaal Orb"
+	BaseType "Chaos Orb" "Regal Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb" 
 	Class Currency
 	SetBackgroundColor 0 225 225
 	SetBorderColor 0 0 0
@@ -2770,13 +2770,13 @@ Show
 	PlayEffect Blue Temp
 
 #Fragments
-Show
-	BaseType "Fragment" "Mortal"
+Hide
+	BaseType "Mortal"
 	Class "Map Fragments"
 	SetBackgroundColor 0 0 0
 	SetBorderColor 200 150 250
 	SetTextColor 200 150 250
-	SetFontSize 35
+	SetFontSize 30
 	MinimapIcon 2 Pink Hexagon
 	PlayEffect Pink
 Show
@@ -2784,7 +2784,7 @@ Show
 	SetBackgroundColor 0 0 0
 	SetBorderColor 200 150 250
 	SetTextColor 200 150 250
-	SetFontSize 35
+	SetFontSize 25
 	MinimapIcon 2 Pink Hexagon
 	PlayEffect Pink Temp
 	
