@@ -392,13 +392,13 @@ Hide
 #200c+ (white)
 Show
 	BaseType "Mirror of Kalandra" "Mirror Shard" "Fracturing Orb" "Hinekora's Lock" "Eternal Orb" "Fishing Rod" "Albino Rhoa Feather"
-	SetBackgroundColor 250 250 250
-	SetBorderColor 0 0 0
-	SetTextColor 250 0 0
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
 	SetFontSize 35
-	PlayAlertSound 6 250
-	MinimapIcon 0 White Diamond
-	PlayEffect White
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
 	DisableDropSound
 
 #50c+ (pink)
@@ -5195,12 +5195,14 @@ Hide
 #Maximum Tier - 200c+. White.
 Show
 	BaseType == "The Doctor" "The Fiend" "House of Mirrors" "The Demon" "Unrequited Love" "Love Through Ice" "The Apothecary" "The Shieldbearer" "Choking Guilt" "The Price of Devotion" "The Insane Cat" "Brother's Gift" "Fire of Unknown Origin" "I See Brothers" "The Endless Darkness" "Wealth and Power" "Father's Love" "Lonely Warrior" "Damnation" "History" "The Lake" "The Eye of Terror"
-	SetBorderColor 0 0 0
-	SetTextColor 240 0 240
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
 	SetFontSize 35
-	PlayAlertSound 6 250
-	MinimapIcon 0 White Square
-	PlayEffect White
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	DisableDropSound
 
 #High Tier - 50c to 200c. Fuschia.
 Show
