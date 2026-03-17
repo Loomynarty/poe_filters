@@ -440,7 +440,7 @@ Show
 	PlayEffect Red
 	DisableDropSound
 Show
-	BaseType "Ancient Orb"
+	BaseType "Ancient Orb" "Gemcutter's Prism"
 	StackSize >= 5
 	Class Currency
 	SetBackgroundColor 250 0 125
@@ -452,7 +452,7 @@ Show
 	PlayEffect Red
 	DisableDropSound
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Vaal Orb"
+	BaseType "Chaos Orb" "Regal Orb" "Glassblower's Bauble" "Vaal Orb"
 	StackSize >= 10
 	Class Currency
 	SetBackgroundColor 250 0 125
@@ -466,7 +466,7 @@ Show
 
 #5c+ (purple)
 Show
-	BaseType "Ancient Orb"
+	BaseType "Ancient Orb" "Gemcutter's Prism"
 	Class Currency
 	SetBackgroundColor 175 0 250
 	SetBorderColor 0 0 0
@@ -477,7 +477,7 @@ Show
 	PlayEffect Purple
 	DisableDropSound
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb"
+	BaseType "Chaos Orb" "Regal Orb" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb"
 	Class Currency
 	StackSize >= 5
 	SetBackgroundColor 175 0 250
@@ -515,7 +515,7 @@ Show
 
 #1c+ (teal)
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Gemcutter's Prism" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb" 
+	BaseType "Chaos Orb" "Regal Orb" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb" 
 	Class Currency
 	SetBackgroundColor 0 225 225
 	SetBorderColor 0 0 0
