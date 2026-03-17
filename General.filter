@@ -540,6 +540,14 @@ Show
 
 #Eldritch Currencies (combo ones use standard highlights)
 Show
+	BaseType "Lesser Eldritch Ember"
+	SetBackgroundColor 225 115 115
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 30
+	PlayAlertSound 3 150
+	MinimapIcon 1 Brown Circle
+Show
 	BaseType "Eldritch Ember"
 	SetBackgroundColor 225 115 115
 	SetBorderColor 0 0 0
@@ -548,6 +556,14 @@ Show
 	PlayAlertSound 3 150
 	MinimapIcon 1 Brown Circle
 	PlayEffect Red
+Show
+	BaseType "Lesser Eldritch Ichor"
+	SetBackgroundColor 115 225 225
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 30
+	PlayAlertSound 3 150
+	MinimapIcon 1 Cyan Circle
 Show
 	BaseType "Eldritch Ichor"
 	SetBackgroundColor 115 225 225
@@ -1764,7 +1780,7 @@ Show
 
 # Scarabs
 Show
-	BaseType == "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Ambush Scarab of Containment"
+	BaseType == "Ambush Scarab of Containment" "Breach Scarab of Resonant Cascade" "Horned Scarab of Bloodlines" "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
 	SetTextColor 180 76 58 255
@@ -1772,36 +1788,45 @@ Show
 	PlayAlertSound 6 300
 	PlayEffect Red
 	MinimapIcon 0 Red Star
-# Show
-# 	BaseType "Horned"
-# 	Class "Map Fragment"
-# 	SetBackgroundColor 80 0 0
-# 	SetBorderColor 250 250 250
-# 	SetTextColor 250 0 0 
-# 	SetFontSize 35
-# 	PlayAlertSound 11 200
-# 	MinimapIcon 1 Red Triangle
-# 	PlayEffect Red
 Show
-	BaseType == "Divination Scarab of Pilfering" "Essence Scarab of Calcification" "Domination Scarab of Terrors" "Harvest Scarab of Cornucopia" "Ambush Scarab of Discernment" "Horned Scarab of Bloodlines" "Cartography Scarab of Corruption" "Incursion Scarab of Timelines" "Blight Scarab of Blooming" "Harvest Scarab of Doubling" "Ritual Scarab of Abundance" "Ambush Scarab" "Cartography Scarab of the Multitude" "Essence Scarab of Adaptation" "Titanic Scarab of Treasures" "Horned Scarab of Tradition" "Horned Scarab of Nemeses" "Horned Scarab of Pandemonium" "Cartography Scarab of Risk" "Horned Scarab of Glittering" "Horned Scarab of Awakening" 
+	BaseType == "Cartography Scarab of Risk" "Domination Scarab of Terrors" "Essence Scarab of Calcification" "Horned Scarab of Awakening" "Horned Scarab of Pandemonium" "Kalguuran Scarab of Refinement" "Legion Scarab of Eternal Conflict" "Harvest Scarab of Cornucopia" 
 	Class "Map Fragment"
 	SetBackgroundColor 100 50 0
 	SetBorderColor 225 225 225
 	SetTextColor 250 150 0
-	SetFontSize 35
+	SetFontSize 32
 	PlayAlertSound 11 200
 	MinimapIcon 2 Orange Triangle
 	PlayEffect Orange
+Show
+	StackSize >= 3
+	BaseType == "Abyss Scarab" "Abyss Scarab of Descending" "Abyss Scarab of Edifice" "Abyss Scarab of Multitudes" "Abyss Scarab of Profound Depth" "Ambush Scarab" "Ambush Scarab of Discernment" "Ambush Scarab of Hidden Compartments" "Ambush Scarab of Potency" "Anarchy Scarab" "Anarchy Scarab of Gigantification" "Anarchy Scarab of Partnership" "Anarchy Scarab of the Exceptional" "Bestiary Scarab" "Bestiary Scarab of Duplicating" "Bestiary Scarab of the Herd" "Betrayal Scarab" "Betrayal Scarab of Reinforcements" "Betrayal Scarab of the Allflame" "Betrayal Scarab of Unbreaking" "Beyond Scarab" "Beyond Scarab of Haemophilia" "Beyond Scarab of Resurgence" "Beyond Scarab of the Invasion" "Blight Scarab" "Blight Scarab of Invigoration" "Blight Scarab of the Blightheart" "Breach Scarab of Instability" "Breach Scarab of the Hive" "Breach Scarab of the Incensed Swarm" "Breach Scarab of the Marshal" "Cartography Scarab of Corruption" "Cartography Scarab of Escalation" "Cartography Scarab of the Multitude" "Delirium Scarab" "Delirium Scarab of Delusions" "Delirium Scarab of Mania" "Delirium Scarab of Neuroses" "Delirium Scarab of Paranoia" "Divination Scarab of Plenty" "Divination Scarab of The Cloister" "Domination Scarab" "Domination Scarab of Apparitions" "Domination Scarab of Evolution" "Essence Scarab" "Essence Scarab of Ascent" "Essence Scarab of Stability" "Expedition Scarab" "Expedition Scarab of Archaeology" "Expedition Scarab of Infusion" "Expedition Scarab of Runefinding" "Expedition Scarab of Verisium Powder" "Harvest Scarab" "Harvest Scarab of Doubling" "Horned Scarab of Glittering" "Horned Scarab of Nemeses" "Horned Scarab of Tradition" "Incursion Scarab" "Incursion Scarab of Champions" "Incursion Scarab of Invasion" "Incursion Scarab of Timelines" "Influencing Scarab of Hordes" "Influencing Scarab of Interference" "Influencing Scarab of the Elder" "Influencing Scarab of the Shaper" "Kalguuran Scarab" "Kalguuran Scarab of Enriching" "Kalguuran Scarab of Guarded Riches" "Legion Scarab" "Legion Scarab of Officers" "Legion Scarab of Treasures" "Ritual Scarab of Corpses" "Ritual Scarab of Selectiveness" "Ritual Scarab of Wisps" "Scarab of Adversaries" "Scarab of Divinity" "Scarab of Monstrous Lineage" "Scarab of Radiant Storms" "Scarab of Stability" "Scarab of the Sinistral" "Scarab of Wisps" "Sulphite Scarab" "Sulphite Scarab of Fumes" "Titanic Scarab" "Titanic Scarab of Legend" "Titanic Scarab of Treasures" "Torment Scarab" "Torment Scarab of Peculiarity" "Torment Scarab of Possession" "Ultimatum Scarab" "Ultimatum Scarab of Bribing" "Ultimatum Scarab of Dueling" "Ultimatum Scarab of Inscription"
+	Class "Map Fragment"
+	SetBackgroundColor 100 50 0
+	SetBorderColor 225 225 225
+	SetTextColor 250 150 0
+	SetFontSize 30
+	PlayAlertSound 11 200
+	MinimapIcon 2 Yellow Triangle
+	PlayEffect Yellow
+Show
+	BaseType == "Blight Scarab of Blooming" "Divination Scarab of Pilfering" "Essence Scarab of Adaptation" "Ritual Scarab of Abundance" "Scarab of the Dextral" "Abyss Scarab of Profound Depth" "Blight Scarab of Invigoration" "Breach Scarab of Instability" "Delirium Scarab of Paranoia" "Harvest Scarab of Doubling" "Horned Scarab of Glittering" "Incursion Scarab of Timelines" "Scarab of Wisps" "Divination Scarab of The Cloister" "Bestiary Scarab of Duplicating" "Betrayal Scarab of Unbreaking" "Beyond Scarab of the Invasion" "Breach Scarab of the Incensed Swarm" "Cartography Scarab of Corruption" "Delirium Scarab of Neuroses" "Divination Scarab of Plenty" "Expedition Scarab of Archaeology" "Horned Scarab of Tradition" "Kalguuran Scarab" "Legion Scarab of Treasures" "Scarab of Monstrous Lineage" "Scarab of the Sinistral" "Torment Scarab of Possession" "Ultimatum Scarab of Dueling" "Ultimatum Scarab of Inscription" "Abyss Scarab of Edifice" "Abyss Scarab of Multitudes"
+	Class "Map Fragment"
+	SetBackgroundColor 100 50 0
+	SetBorderColor 225 225 225
+	SetTextColor 250 150 0
+	SetFontSize 30
+	PlayAlertSound 11 200
+	MinimapIcon 2 Yellow Triangle
+	PlayEffect Yellow
 Show
 	BaseType "Scarab"
 	Class "Map Fragment"
 	SetBackgroundColor 80 40 0
 	SetBorderColor 200 200 200
 	SetTextColor 225 75 0
-	SetFontSize 30
+	SetFontSize 27
 	PlayAlertSound 11 200
-	MinimapIcon 2 Brown Triangle
-	PlayEffect Brown
 
 #Synthesis (v3.6) - Light Blue. moved fracs to sec 5 due to conflicts
 Show
@@ -2457,9 +2482,8 @@ Show
 	MinimapIcon 1 Purple Star
 
 #Mirage (v3.28)
-
 Show
-	BaseType "Coin of Restoration" "Coin of Desecration" "Coin of Knowledge" "Coin of Power" "Coin of Skill" "Crystallised Rancour" "Flesh of Xesht" "Volatile Vaal Orb" "Essence of Desolation" "Refracting Fog" "Sinistral Catalyst" "Dextral Catalyst"
+	BaseType  "Coin of Knowledge" "Coin of Power" "Coin of Skill" "Crystallised Rancour" "Flesh of Xesht" "Volatile Vaal Orb" "Essence of Desolation" "Refracting Fog" "Sinistral Catalyst" "Dextral Catalyst"
 	Class Currency
 	SetFontSize 30
 	SetTextColor 0 0 0 255
@@ -2468,6 +2492,15 @@ Show
 	PlayAlertSound 2 150
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Moon
+	DisableDropSound
+Hide
+	BaseType "Coin of Restoration" "Coin of Desecration"
+	Class Currency
+	SetFontSize 25
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 120 200 160 255
+	PlayAlertSound 2 150
 	DisableDropSound
 
 # Blight Belt
@@ -5334,7 +5367,7 @@ Show
 
 #High Tier - 50c to 200c. Fuschia.
 Show
-	BaseType == "The Dragon's Heart" "The Nurse" "The Price of Loyalty" "The Enlightened" "The Progeny of Lunaris" "The Gulf" "Seven Years Bad Luck" "Broken Promises" "Home" "Divine Beauty" "Gemcutter's Mercy" "The Samurai's Eye" "Succor of the Sinless" "Brother's Stash" "The Last One Standing" "The Greatest Intentions" "The World Eater" "Matryoshka" "Auspicious Ambitions" "Beauty Through Death" "The Sephirot" "The Immortal" "The Soul" "One Last Score" "Outfoxed" "The Journey"
+	BaseType == "The Dragon's Heart" "The Nurse" "The Price of Loyalty" "The Enlightened" "The Progeny of Lunaris" "The Gulf" "Seven Years Bad Luck" "Broken Promises" "Home" "Divine Beauty" "Gemcutter's Mercy" "The Samurai's Eye" "Succor of the Sinless" "The Last One Standing" "The Greatest Intentions" "The World Eater" "Matryoshka" "Auspicious Ambitions" "Beauty Through Death" "The Sephirot" "The Immortal" "The Soul" "One Last Score" "Outfoxed" "The Journey"
 	Class "Divination Card"
 	SetBackgroundColor 250 100 200
 	SetBorderColor 0 0 0
@@ -5392,7 +5425,7 @@ Show
 
 #Trash Tier: <2c. No sounds, darker blue color. Hidden in the Uber filter only. Note that these blocks are rather aggressive and caution should be exercised when using the Uber filter for SSF. 
 Show
-	BaseType == "The Gambler" "The Flora's Gift" "Her Mask" "The Catalyst" "The Spoiled Prince" "Thunderous Skies" "The Twins" "The Mercenary" "The Calling" "The Visionary" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "A Mother's Parting Gift" "The Sun" "The Fox" "The Realm" "The Web" "Turn the Other Cheek" "Death" "Call to the First Ones" "The Hermit" "Audacity" "Doedre's Madness" "The Watcher" "Dark Temptation" "The Blazing Fire" "The Rabid Rhoa" "Forbidden Power" "The Tumbleweed" "The Army of Blood" "The Wolf's Shadow" "The Demoness" "The Betrayal" "Volatile Power" "Three Voices" "Three Faces in the Dark" "The Wolf" "The Trial" "The Traitor" "The Tower" "The Summoner" "The Stormcaller" "The Standoff" "The Inventor" "The Gladiator" "The Fletcher" "The Arena Champion" "The Aesthete" "Mitts" "Hunter's Resolve" "Glimmer of Hope" "Assassin's Favour" "The Drunken Aristocrat" "The Dragon" "The Deceiver" "The One With All" "Alivia's Grace" "The Golden Era" "Triskaidekaphobia" "The Dreamland" "Hope" "The Whiteout" "The Penitent" "Man With Bear" "The Wolf's Legacy" "Azure Rage" "Dialla's Subjugation" "The Admirer" "The Cataclysm" "The Jeweller's Boon" "The Lord of Celebration" "The Return of the Rat" "The Wilted Rose" "The Oath" "The Surveyor" "Loyalty" "Emperor's Luck" "Alone in the Darkness" "Atziri's Arsenal" "The Fox in the Brambles" "The Master" "The Conduit" "Lysah's Respite" "The Wind" "Unchained" "The Cache" "The Feast" "The Lion" "The Rite of Elements" "Broken Truce" "The Battle Born" "Blind Venture" "Boundless Realms" "Grave Knowledge" "Hubris" "Lost Worlds" "Scholar of the Seas" "The Body" "The Doppelganger" "The Encroaching Darkness" "The Explorer" "The Forsaken" "The Gemcutter" "The Master Artisan" "The Mountain" "The Survivalist" "The Wretched" "Time-Lost Relic" "Vile Power" "The Fool" "The Jester" "Jack in the Box" "Prejudice" "The Scavenger" "Last Stand" "When Currents Blaze" "The Messenger"
+	BaseType == "The Gambler" "The Flora's Gift" "Her Mask" "The Catalyst" "The Spoiled Prince" "Thunderous Skies" "The Twins" "The Mercenary" "The Calling" "The Visionary" "Cartographer's Delight" "The Pack Leader" "The Gentleman" "A Mother's Parting Gift" "The Sun" "The Fox" "The Realm" "The Web" "Turn the Other Cheek" "Death" "Call to the First Ones" "The Hermit" "Audacity" "Doedre's Madness" "The Watcher" "Dark Temptation" "The Blazing Fire" "The Rabid Rhoa" "Forbidden Power" "The Tumbleweed" "The Army of Blood" "The Wolf's Shadow" "The Demoness" "The Betrayal" "Volatile Power" "Three Voices" "Three Faces in the Dark" "The Wolf" "The Trial" "The Traitor" "The Tower" "The Summoner" "The Stormcaller" "The Standoff" "The Inventor" "The Gladiator" "The Fletcher" "The Arena Champion" "The Aesthete" "Mitts" "Hunter's Resolve" "Glimmer of Hope" "Assassin's Favour" "The Drunken Aristocrat" "The Dragon" "The Deceiver" "The One With All" "Alivia's Grace" "The Golden Era" "Triskaidekaphobia" "The Dreamland" "Hope" "The Whiteout" "The Penitent" "Man With Bear" "The Wolf's Legacy" "Azure Rage" "Dialla's Subjugation" "The Admirer" "The Cataclysm" "The Jeweller's Boon" "The Lord of Celebration" "The Return of the Rat" "The Wilted Rose" "The Oath" "The Surveyor" "Loyalty" "Emperor's Luck" "Alone in the Darkness" "Atziri's Arsenal" "The Fox in the Brambles" "The Master" "The Conduit" "Lysah's Respite" "The Wind" "Unchained" "The Cache" "The Feast" "The Lion" "The Rite of Elements" "Broken Truce" "The Battle Born" "Blind Venture" "Boundless Realms" "Grave Knowledge" "Hubris" "Lost Worlds" "Scholar of the Seas" "The Body" "The Doppelganger" "The Encroaching Darkness" "The Explorer" "The Forsaken" "The Gemcutter" "The Master Artisan" "The Mountain" "The Survivalist" "The Wretched" "Time-Lost Relic" "Vile Power" "The Fool" "The Jester" "Jack in the Box" "Prejudice" "The Scavenger" "Last Stand" "When Currents Blaze" "The Messenger" "Brother's Stash"
 	Class "Divination Card"
 	SetBackgroundColor 110 160 210
 	SetBorderColor 0 0 0
