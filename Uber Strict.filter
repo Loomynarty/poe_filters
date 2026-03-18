@@ -3955,7 +3955,7 @@ Hide
 # 	PlayAlertSound 16 200
 # 	MinimapIcon 1 Grey Moon
 # 	# PlayEffect Grey
-Hide
+Show
 	Class Gloves Boots Helm "Body Armour"
 	BaseArmour >= 1
 	BaseEvasion = 0
@@ -3964,11 +3964,11 @@ Hide
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
-Hide
+Show
 	Class Gloves Boots Helm "Body Armour"
 	BaseArmour >= 1
 	BaseEvasion >= 1
@@ -3977,11 +3977,11 @@ Hide
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 0 250 0
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
-Hide
+Show
 	Class Gloves Boots Helm "Body Armour"
 	BaseArmour = 0
 	BaseEvasion >= 1
@@ -3990,11 +3990,11 @@ Hide
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 0 250 0
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
-Hide
+Show
 	Class Gloves Boots Helm "Body Armour"
 	BaseArmour = 0
 	BaseEvasion >= 1
@@ -4003,11 +4003,11 @@ Hide
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 0 250 0
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
-Hide
+Show
 	Class Gloves Boots Helm "Body Armour"
 	BaseArmour >= 1
 	BaseEvasion = 0
@@ -4016,21 +4016,21 @@ Hide
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
-Hide
+Show
 	Class "Body Armour" "Boots" "Gloves" "Helm"
 	DropLevel >= 84
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 250 250 250
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 0 Grey Moon
 	# PlayEffect Grey
-Hide
+Show
 	Class Gloves Boots Helm "Body Armour"
 	DropLevel >= 66
 	FracturedItem True
@@ -4040,7 +4040,7 @@ Hide
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
-Hide
+Show
 	Class Shield
 	BaseArmour = 0
 	BaseEvasion = 0
@@ -4048,11 +4048,11 @@ Hide
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 200 250
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
-Hide
+Show
 	Class Sceptre
 	DropLevel >= 20
 	FracturedItem True
@@ -4062,7 +4062,7 @@ Hide
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
 	# PlayEffect Grey
-Hide
+Show
 	Class Wand
 	DropLevel >= 40
 	FracturedItem True
@@ -4072,7 +4072,7 @@ Hide
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
 	# PlayEffect Grey
-Hide
+Show
 	Class "Rune Dagger"
 	FracturedItem True
 	SetBackgroundColor 40 90 140
@@ -4081,7 +4081,7 @@ Hide
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
 	# PlayEffect Grey
-Hide
+Show
 	Class "Two Hand Axe"
 	FracturedItem True
 	DropLevel >= 58
@@ -4091,7 +4091,7 @@ Hide
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
 	# PlayEffect Grey
-Hide
+Show
 	Class Gloves Boots Helm "Body Armour"
 	FracturedItem True
 	SetBackgroundColor 40 90 140
@@ -4100,7 +4100,7 @@ Hide
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
-Hide
+Show
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
