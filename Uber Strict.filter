@@ -403,7 +403,7 @@ Show
 
 #50c+ (pink)
 Show 
-	BaseType "Divine Orb" "Fracturing Shard" "Reflecting Mist" "Orb of Dominance" "Awakener's Orb" "Veiled Exalted Orb" "Hunter's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Redeemer's Exalted Orb"
+	BaseType "Divine Orb" "Fracturing Shard" "Reflecting Mist" "Orb of Dominance" "Awakener's Orb" "Veiled Exalted Orb" "Hunter's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Redeemer's Exalted Orb" "Volatile Vaal Orb" "Refracting Fog" 
 	Class Currency
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
@@ -413,7 +413,6 @@ Show
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 	DisableDropSound
-
 Show 
 	BaseType "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb" "Orb of Annulment"
 	StackSize >= 5
@@ -524,7 +523,7 @@ Show
 	MinimapIcon 2 Cyan Circle
 	DisableDropSound
 Hide
-	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking" "Orb of Alteration"
+	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking"
 	StackSize >= 3
 	Class Currency
 	SetBackgroundColor 0 175 175
@@ -2246,7 +2245,7 @@ Show #
 
 #Mirage (v3.28)
 Show
-	BaseType  "Coin of Knowledge" "Coin of Power" "Coin of Skill" "Crystallised Rancour" "Flesh of Xesht" "Volatile Vaal Orb" "Essence of Desolation" "Refracting Fog" "Sinistral Catalyst" "Dextral Catalyst"
+	BaseType "Crystallised Rancour" "Flesh of Xesht" "Essence of Desolation" "Sinistral Catalyst" "Dextral Catalyst"
 	Class Currency
 	SetFontSize 30
 	SetTextColor 0 0 0 255
@@ -2255,6 +2254,17 @@ Show
 	PlayAlertSound 2 150
 	PlayEffect Yellow
 	MinimapIcon 1 Yellow Moon
+	DisableDropSound
+Show
+	BaseType "Coin of Knowledge" "Coin of Power" "Coin of Skill"
+	Class Currency
+	SetBackgroundColor 250 0 125
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	PlayAlertSound 10 250
+	SetFontSize 35
+	MinimapIcon 1 Red Circle
+	PlayEffect Red
 	DisableDropSound
 Hide
 	BaseType "Coin of Restoration" "Coin of Desecration"
