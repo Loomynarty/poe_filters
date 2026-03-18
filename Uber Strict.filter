@@ -522,9 +522,9 @@ Show
 	PlayAlertSound 3 125
 	MinimapIcon 2 Cyan Circle
 	DisableDropSound
-Hide
-	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking"
-	StackSize >= 3
+Show
+	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking"
+	StackSize >= 5
 	Class Currency
 	SetBackgroundColor 0 175 175
 	SetBorderColor 0 0 0
