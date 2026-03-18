@@ -5536,7 +5536,7 @@ Show
 #BaseDefencePercentile Bullshit
 Show
 	BaseType "Titanium Spirit Shield" "Ezomyte Tower Shield" "Lacquered Buckler" "Supreme Spiked Shield" "Elegant Round Shield"
-	BaseDefencePercentile >= 90
+	BaseDefencePercentile >= 100
 	ItemLevel >= 86
 	Corrupted False
 	Mirrored False
@@ -5548,7 +5548,7 @@ Show
 Show
 	Class "Body Armour"
 	DropLevel >= 84
-	BaseDefencePercentile >= 90
+	BaseDefencePercentile >= 100
 	ItemLevel >= 86
 	Corrupted False
 	Mirrored False
@@ -5560,7 +5560,7 @@ Show
 Show
 	Class "Boots" "Gloves" "Helm" 
 	DropLevel >= 84
-	BaseDefencePercentile >= 90
+	BaseDefencePercentile >= 100
 	ItemLevel >= 86
 	Corrupted False
 	Mirrored False
