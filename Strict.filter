@@ -5187,7 +5187,7 @@ Show
 
 #Mid Tier - 10c to 50c. Lavender.
 Show
-	BaseType == "A Fate Worse Than Death" "A Modest Request" "A Stone Perfected" "Akil's Prophecy" "Apocalypse" "Avian Pursuit" "Azyran's Reward" "Beauty Through Death" "Brother's Stash" "Brush, Paint and Palette" "Burning Blood" "Chaotic Disposition" "Chasing Risk" "Costly Curio" "Council of Cats" "Deadly Joy" "Eternal Bonds" "Fateful Meeting" "Gift of Asenath" "Hunter's Reward" "Judging Voices" "Lingering Remnants" "Magnum Opus" "Mawr Blaidd" "Misery in Darkness" "Peaceful Moments" "Rebirth and Renewal" "Reckless Ambition" "Something Dark" "Temperance" "Terrible Secret of Space" "The Academic" "The Astromancer" "The Dreamer" "The Eldritch Decay" "The Enforcer" "The Escape" "The Eternal War" "The Everlasting" "The Fishmonger" "The Formless Sea" "The Garish Power" "The Hook" "The Last Laugh" "The Last One Standing" "The Life Thief" "The Long Con" "The Mad King" "The Old Man" "The Polymath" "The Price of Loyalty" "The Shepherd's Sandals" "The Shortcut" "The Strategist" "The Void" "The Wedding Gift" "Tranquillity" "Who Asked" "The Union"
+	BaseType == "A Fate Worse Than Death" "A Modest Request" "A Stone Perfected" "Akil's Prophecy" "Apocalypse" "Avian Pursuit" "Azyran's Reward" "Beauty Through Death" "Brush, Paint and Palette" "Burning Blood" "Chaotic Disposition" "Chasing Risk" "Costly Curio" "Council of Cats" "Deadly Joy" "Eternal Bonds" "Fateful Meeting" "Gift of Asenath" "Hunter's Reward" "Judging Voices" "Lingering Remnants" "Magnum Opus" "Mawr Blaidd" "Misery in Darkness" "Peaceful Moments" "Rebirth and Renewal" "Reckless Ambition" "Something Dark" "Temperance" "Terrible Secret of Space" "The Academic" "The Astromancer" "The Dreamer" "The Eldritch Decay" "The Enforcer" "The Escape" "The Eternal War" "The Everlasting" "The Fishmonger" "The Formless Sea" "The Garish Power" "The Hook" "The Last Laugh" "The Last One Standing" "The Life Thief" "The Long Con" "The Mad King" "The Old Man" "The Polymath" "The Price of Loyalty" "The Shepherd's Sandals" "The Shortcut" "The Strategist" "The Void" "The Wedding Gift" "Tranquillity" "Who Asked" 
 	Class "Divination Card"
 	SetBackgroundColor 200 150 250
 	SetBorderColor 0 0 0
@@ -5196,15 +5196,25 @@ Show
 	SetFontSize 30
 	MinimapIcon 1 Purple Square
 
+# Higher-Tier Currency Cards
+Show 
+Class == "Divination Cards"
+    BaseType == "A Sea of Blue" "Acclimatisation" "Altered Perception" "Checkmate" "Dementophobia" "Demigod's Wager" "More is Never Enough" "Society's Remorse" "The Finishing Touch" "The Seeker" "The Silly Boy" "The Tinkerer's Table" "The Wrath" "Brother's Stash" "The Union"
+    SetFontSize 28
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+	SetBackgroundColor 200 138 0 255
+    MinimapIcon 2 Yellow Square
+
 # Currency Cards
 Show
-	Class == "Divination Cards"
-	BaseType == "A Sea of Blue" "Abandoned Wealth" "Acclimatisation" "Alluring Bounty" "Altered Perception" "Ambitious Obsession" "Buried Treasure" "Cameria's Cut" "Checkmate" "Coveted Possession" "Dementophobia" "Demigod's Wager" "Disdain" "Emperor's Luck" "Ever-Changing" "Harmony of Souls" "Humility" "Immortal Resolve" "Last Hope" "Lucky Connections" "Lucky Deck" "Man With Bear" "More is Never Enough" "No Traces" "Runic Luck" "Sambodhi's Vow" "Society's Remorse" "The Cacophony" "The Card Sharp" "The Ethereal" "The Finishing Touch" "The Fool" "The Gemcutter" "The Heroic Shot" "The Innocent" "The Inventor" "The Master Artisan" "The Price of Prescience" "The Price of Protection" "The Rusted Bard" "The Scout" "The Seeker" "The Silly Boy" "The Survivalist" "The Tinkerer's Table" "The Tireless Extractor" "The Transformation"  "The White Knight" "The Wrath" "Three Faces in the Dark" "Vanity" "Vinia's Token"
-	SetFontSize 30
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 200 138 101 255
-	MinimapIcon 1 Brown Square
+    Class == "Divination Cards"
+    BaseType == "Abandoned Wealth" "Runic Luck" "Alluring Bounty" "Ambitious Obsession" "Buried Treasure" "Cameria's Cut" "Coveted Possession" "Disdain" "Emperor's Luck" "No Traces" "Ever-Changing" "Harmony of Souls" "Humility" "Immortal Resolve" "Last Hope" "Lucky Connections" "Lucky Deck" "Man With Bear" "Sambodhi's Vow" "The Cacophony" "The Card Sharp" "The Ethereal" "The Fool" "The Gemcutter" "The Heroic Shot" "The Innocent" "The Inventor" "The Master Artisan" "The Price of Prescience" "The Price of Protection" "The Rusted Bard" "The Scout" "The Survivalist" "The Tireless Extractor" "The Transformation" "The White Knight" "Three Faces in the Dark" "Vanity" "Vinia's Token"
+    SetFontSize 26
+    SetTextColor 0 0 0 255
+    SetBorderColor 0 0 0 255
+    SetBackgroundColor 200 138 101 255
+    MinimapIcon 2 Brown Square
 
 #Trash Tier: <2c. No sounds, darker blue color. Hidden in the Uber filter only. Note that these blocks are rather aggressive and caution should be exercised when using the Uber filter for SSF. 
 Show
