@@ -2934,16 +2934,29 @@ Hide
 	DisableDropSound
 	
 #Non-Map Maplike Runnable Areas with Variable Zonelevel
+
+# Mirage Blueprints
+Show
+	Class "Blueprint"
+	AnyEnchantment True
+	ItemLevel >= 83
+	SetBackgroundColor 255 221 153
+	SetBorderColor 255 20 147
+	SetTextColor 125 100 75
+	SetFontSize 35
+	PlayAlertSound 10 250
+	MinimapIcon 0 Pink Hexagon
+	PlayEffect Pink
 Show
 	Class "Blueprint" "Expedition Logbook" "Sanctum Research"
-	AreaLevel >= 83
+	ItemLevel >= 83
 	SetBackgroundColor 255 221 153
 	SetBorderColor 100 200 250
 	SetTextColor 125 100 75
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 8 150
 	MinimapIcon 0 Blue Hexagon
-	PlayEffect Blue
+	PlayEffect Blue Temp
 Show
 	Class "Blueprint" "Expedition Logbook" "Sanctum Research"
 	SetBackgroundColor 255 221 153
@@ -2952,10 +2965,22 @@ Show
 	SetFontSize 30
 	PlayAlertSound 8 150
 	MinimapIcon 0 Blue Hexagon
-	PlayEffect Blue
+	PlayEffect Blue Temp
+
+# Mirage Contracts
 Show
-	BaseType "Contract"
-	AreaLevel >= 83
+	Class Contract
+	AnyEnchantment True
+	# ItemLevel >= 83
+	SetBackgroundColor 255 221 153
+	SetBorderColor 255 0 0
+	SetTextColor 125 100 75
+	SetFontSize 30
+	PlayAlertSound 10 250
+	PlayEffect Red Temp
+Show
+	Class Contract
+	ItemLevel >= 83
 	SetBackgroundColor 255 221 153
 	SetBorderColor 150 200 0
 	SetTextColor 125 100 75
@@ -2963,11 +2988,11 @@ Show
 	PlayAlertSound 9 200
 	PlayEffect Green Temp
 Hide
-	BaseType "Contract"
+	Class Contract
 	SetBackgroundColor 255 221 153
 	SetBorderColor 150 200 0
 	SetTextColor 125 100 75
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 9 200
 	MinimapIcon 0 Green Hexagon
 	PlayEffect Green Temp
