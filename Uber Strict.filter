@@ -4931,7 +4931,18 @@ Show
 
 #Oddball Classes
 Show
-	Class "Piece" "Tincture" "Charms" "Corpses"
+	Class Pieces
+	Rarity Unique
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
+	SetFontSize 35
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	DisableDropSound
+Show
+	Class "Tincture" "Charms" "Corpses"
 	Rarity Unique
 	SetBackgroundColor 0 0 0
 	SetBorderColor 250 150 0
