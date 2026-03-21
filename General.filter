@@ -2522,6 +2522,14 @@ Hide
 	SetBackgroundColor 120 200 160 255
 	PlayAlertSound 2 150
 	DisableDropSound
+Show
+	HasExplicitMod "Infamous" "of Infamy"
+	SetBorderColor 250 250 250
+	SetTextColor 225 0 0
+	SetFontSize 30
+	MinimapIcon 2 Red Moon
+	PlayEffect Red Temp
+	DisableDropSound
 
 # Blight Belt
 Show 
@@ -9235,9 +9243,42 @@ Hide
 	SetTextColor 0 125 250
 	SetFontSize 28
 
+Show
+	BaseType "Iron Flask"
+	Rarity Normal Magic Rare
+	ItemLevel >= 84
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
+	SetFontSize 35
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	DisableDropSound
+Show
+	BaseType "Iron Flask"
+	Rarity Normal Magic Rare
+	ItemLevel >= 83
+	SetBackgroundColor 250 0 125
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	PlayAlertSound 10 250
+	SetFontSize 35
+	MinimapIcon 1 Red Circle
+	PlayEffect Red
+	DisableDropSound
+Show
+	BaseType "Iron Flask"
+	Rarity Normal Magic Rare
+	ItemLevel >= 70
+	SetBorderColor 200 200 200
+	SetTextColor 0 125 250
+	SetFontSize 30
+	MinimapIcon 2 Grey Raindrop
+
 #Quality Flasks
 Show
-	BaseType "Eternal Life Flask" "Divine Life Flask" "Eternal Mana Flask" "Quicksilver Flask" "Granite Flask" "Jade Flask" "Basalt Flask" "Quartz Flask" "Quicksilver Flask" "Silver Flask" "Stibnite Flask" "Diamond Flask" "Sulphur Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Gold Flask" "Iron Flask" "Bismuth Flask"
+	BaseType "Eternal Life Flask" "Divine Life Flask" "Eternal Mana Flask" "Quicksilver Flask" "Granite Flask" "Jade Flask" "Basalt Flask" "Quartz Flask" "Quicksilver Flask" "Silver Flask" "Stibnite Flask" "Diamond Flask" "Sulphur Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Gold Flask" "Bismuth Flask"
 	Quality >= 21
 	ItemLevel >= 82
     SetBorderColor 200 200 200
@@ -9248,14 +9289,14 @@ Show
 
 #High ilvl Flasks
 Show
-	BaseType "Amethyst Flask" "Basalt Flask" "Bismuth Flask" "Diamond Flask" "Gold Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Ruby Flask" "Sapphire Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask" "Topaz Flask" "Eternal Mana Flask" "Divine Life Flask" "Eternal Life Flask"
+	BaseType "Amethyst Flask" "Basalt Flask" "Bismuth Flask" "Diamond Flask" "Gold Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Ruby Flask" "Sapphire Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask" "Topaz Flask" "Eternal Mana Flask" "Divine Life Flask" "Eternal Life Flask"
 	ItemLevel >= 85
 	SetBorderColor 200 150 0
 	SetTextColor 0 125 250
 	SetFontSize 28
 	
 Show
-	BaseType "Amethyst Flask" "Basalt Flask" "Bismuth Flask" "Diamond Flask" "Gold Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Ruby Flask" "Sapphire Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask" "Topaz Flask"  
+	BaseType "Amethyst Flask" "Basalt Flask" "Bismuth Flask" "Diamond Flask" "Gold Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Ruby Flask" "Sapphire Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask" "Topaz Flask"  
 	ItemLevel >= 84
 	Quality == 0
 	SetTextColor 0 125 250
@@ -9313,16 +9354,16 @@ Show
 
 #Utility flasks
 Show
-	BaseType "Amethyst Flask" "Basalt Flask" "Bismuth Flask" "Diamond Flask" "Gold Flask" "Granite Flask" "Iron Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Ruby Flask" "Sapphire Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask" "Topaz Flask"  
+	BaseType "Amethyst Flask" "Basalt Flask" "Bismuth Flask" "Diamond Flask" "Gold Flask" "Granite Flask" "Jade Flask" "Quartz Flask" "Quicksilver Flask" "Ruby Flask" "Sapphire Flask" "Silver Flask" "Stibnite Flask" "Sulphur Flask" "Topaz Flask"  
 	ItemLevel >= 68
 	SetTextColor 0 125 250
 	SetFontSize 30
 # Show
-	# BaseType "Granite Flask" "Jade Flask" "Basalt Flask" "Quartz Flask" "Quicksilver Flask" "Silver Flask" "Stibnite Flask" "Diamond Flask" "Sulphur Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Gold Flask" "Iron Flask"
+	# BaseType "Granite Flask" "Jade Flask" "Basalt Flask" "Quartz Flask" "Quicksilver Flask" "Silver Flask" "Stibnite Flask" "Diamond Flask" "Sulphur Flask" "Ruby Flask" "Sapphire Flask" "Topaz Flask" "Gold Flask"
 	# ItemLevel <= 77
 	# SetTextColor 0 125 250
 # Show
-	# BaseType "Bismuth Flask" "Amethyst Flask" "Corundum Flask" "Iron Flask" "Aquamarine Flask"
+	# BaseType "Bismuth Flask" "Amethyst Flask" "Corundum Flask" "Aquamarine Flask"
 	# AreaLevel <= 67
 
 #Life flasks. current best tier shows with red border, large font and small minimap icon. 2nd best tier shows with smaller font and no extra highlighting or icon
