@@ -3974,6 +3974,15 @@ Show
 # 	MinimapIcon 2 Yellow Cross
 	
 #Fractured Items
+Hide
+	FracturedItem True
+	Corrupted True
+	SetBackgroundColor 40 90 140
+	SetBorderColor 225 0 0
+	SetFontSize 25
+	PlayAlertSound 16 200
+	MinimapIcon 1 Grey Moon
+	PlayEffect Grey
 Show
 	BaseType != "Gold Ring" "Iron Ring" "Paua Ring" "Coral Amulet" "Paua Amulet" "Gold Amulet" "Chain Belt" "Cloth Belt" "Rustic Sash" "Studded Belt"
 	Class Ring Amulet Belt Jewel
@@ -3984,8 +3993,8 @@ Show
 	PlayAlertSound 16 200
 	MinimapIcon 1 White Moon
 	# PlayEffect Grey
-Hide
-	# BaseType "Divine Life Flask" "Eternal Mana Flask"
+Show
+	BaseType "Divine Life Flask" "Eternal Mana Flask"
 	Class Flask
 	FracturedItem True
 	SetBackgroundColor 40 90 140
@@ -3993,16 +4002,16 @@ Hide
 	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
-	# PlayEffect Grey
-# Hide
-# 	Class "Utility Flask"
-# 	FracturedItem True
-# 	SetBackgroundColor 40 90 140
-# 	SetBorderColor 225 225 225
-# 	SetFontSize 25
-# 	PlayAlertSound 16 200
-# 	MinimapIcon 1 Grey Moon
-# 	# PlayEffect Grey
+	PlayEffect Grey
+Show
+	Class "Utility Flask"
+	FracturedItem True
+	SetBackgroundColor 40 90 140
+	SetBorderColor 225 225 225
+	SetFontSize 25
+	PlayAlertSound 16 200
+	MinimapIcon 1 Grey Moon
+	PlayEffect Grey
 Show
 	Class Gloves Boots Helm "Body Armour"
 	BaseArmour >= 1

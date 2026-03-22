@@ -4173,6 +4173,15 @@ Show
 	MinimapIcon 2 Yellow Cross
 	
 #Fractured Items
+Hide
+	FracturedItem True
+	Corrupted True
+	SetBackgroundColor 40 90 140
+	SetBorderColor 225 0 0
+	SetFontSize 25
+	PlayAlertSound 16 200
+	MinimapIcon 1 Grey Moon
+	PlayEffect Grey
 Show
 	BaseType != "Gold Ring" "Iron Ring" "Paua Ring" "Coral Amulet" "Paua Amulet" "Gold Amulet" "Chain Belt" "Cloth Belt" "Rustic Sash" "Studded Belt"
 	Class Ring Amulet Belt Jewel
@@ -4189,7 +4198,7 @@ Show
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 225 225 225
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	PlayEffect Grey
@@ -4198,7 +4207,7 @@ Show
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 225 225 225
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	PlayEffect Grey
