@@ -5117,7 +5117,7 @@ Hide
 #Variable Value Blocks - basetypes where at least one unique is valuable and one is not. Watery-theme highlighting (blue and cyan)
 #High Variable Value. 200c+ value on at least one unique from the basetype. Must be checked. Bright cyan border, larger font.
 Show
-	BaseType "Leather Belt" "Heavy Belt" "Paua Amulet" "Vaal Blade" "Imperial Skean" "Vaal Claw" "Imperial Bow" "Spine Bow"
+	BaseType "Leather Belt" "Heavy Belt" "Paua Amulet" "Vaal Blade" "Imperial Skean" "Vaal Claw" "Imperial Bow" "Spine Bow" "Iron Flask"
 	Rarity Unique
 	SetBackgroundColor 225 100 0 
 	SetBorderColor 0 250 250
@@ -5129,7 +5129,7 @@ Show
 	DisableDropSound
 #Mid Variable Value. 50-200c value on at least one unique from the basetype. Blue border
 Hide
-	BaseType "Imperial Bow" "Fiend Dagger" "Imperial Skean" "Sage's Robe" "Spidersilk Robe" "Murder Mitts" "Spine Bow" "Sage Wand" "Iron Flask" "Crusader Plate" "Cloth Belt" "Sadist Garb" "Onyx Amulet" "Moonstone Ring" "Topaz Ring" "Turquoise Amulet" "Bone Circlet" "Nameless Ring"
+	BaseType "Imperial Bow" "Fiend Dagger" "Imperial Skean" "Sage's Robe" "Spidersilk Robe" "Murder Mitts" "Spine Bow" "Sage Wand" "Crusader Plate" "Cloth Belt" "Sadist Garb" "Onyx Amulet" "Moonstone Ring" "Topaz Ring" "Turquoise Amulet" "Bone Circlet" "Nameless Ring"
 	Rarity Unique
 	SetBackgroundColor 180 80 0
 	SetBorderColor 100 100 250
