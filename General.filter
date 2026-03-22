@@ -5129,7 +5129,7 @@ Show
 
 #Maximum Value Tier - 200c+ guaranteed value
 Show
-	BaseType "Crusader Boots" "Unset Amulet" "Siege Axe" "Karui Maul" "Rot Head Talisman" "Greatwolf Talisman" "Riveted Boots" "Engraved Greatsword" "Vaal Rapier" "Cabalist Regalia"
+	BaseType "Crusader Boots" "Unset Amulet" "Siege Axe" "Karui Maul" "Rot Head Talisman" "Greatwolf Talisman" "Riveted Boots" "Engraved Greatsword" "Vaal Rapier" "Cabalist Regalia" "Dusk Blade" "Runic Sollerets"
 	Rarity Unique
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
@@ -5259,7 +5259,7 @@ Show
 	DisableDropSound
 #Mid Value Tier - 20c to 50c fairly consistently. Include bases with multiple uniques as long as they all fall into this range.
 Show
-	BaseType "Amethyst Flask" "Ruby Flask" "Topaz Flask" "Mosaic Kite Shield" "Silk Gloves" "Dusk Blade" "Ezomyte Dagger" "Serpentscale Boots" "Trapper Boots" "Highborn Staff" "Sovereign Spiked Shield" "Runic" "Hydrascale Gauntlets" "Harmonic Spirit Shield" "Blood Sceptre" "Citadel Bow" "Carnal Boots" "Gemstone Sword" "Cardinal Round Shield" "Steelwood Bow" "Vaal Greaves" "Quarterstaff" "Jewelled Foil" "Goliath Greaves" "Grand Mana Flask" "Studded Belt" "Stygian Vise" "Large Hybrid Flask" "Steel Kite Shield" "Fugitive Boots" "Archon Kite Shield" "Ornate Quiver" "Void Axe" "Ezomyte Tower Shield"
+	BaseType "Amethyst Flask" "Ruby Flask" "Topaz Flask" "Mosaic Kite Shield" "Silk Gloves" "Ezomyte Dagger" "Serpentscale Boots" "Trapper Boots" "Highborn Staff" "Sovereign Spiked Shield" "Runic" "Hydrascale Gauntlets" "Harmonic Spirit Shield" "Blood Sceptre" "Citadel Bow" "Carnal Boots" "Gemstone Sword" "Cardinal Round Shield" "Steelwood Bow" "Vaal Greaves" "Quarterstaff" "Jewelled Foil" "Goliath Greaves" "Grand Mana Flask" "Studded Belt" "Stygian Vise" "Large Hybrid Flask" "Steel Kite Shield" "Fugitive Boots" "Archon Kite Shield" "Ornate Quiver" "Void Axe" "Ezomyte Tower Shield"
 	Rarity Unique
 	SetBackgroundColor 225 100 0
 	SetBorderColor 0 0 0
