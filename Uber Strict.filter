@@ -4017,7 +4017,7 @@ Show
 	BaseArmour >= 1
 	BaseEvasion = 0
 	BaseEnergyShield = 0
-	DropLevel >= 73
+	DropLevel >= 78
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
@@ -4030,7 +4030,7 @@ Show
 	BaseArmour >= 1
 	BaseEvasion >= 1
 	BaseEnergyShield = 0
-	DropLevel >= 73
+	DropLevel >= 78
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 0 250 0
@@ -4043,7 +4043,7 @@ Show
 	BaseArmour = 0
 	BaseEvasion >= 1
 	BaseEnergyShield = 0
-	DropLevel >= 73
+	DropLevel >= 78
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 0 250 0
@@ -4056,7 +4056,7 @@ Show
 	BaseArmour = 0
 	BaseEvasion >= 1
 	BaseEnergyShield >= 1
-	DropLevel >= 73
+	DropLevel >= 78
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 0 250 0
@@ -4069,7 +4069,7 @@ Show
 	BaseArmour >= 1
 	BaseEvasion = 0
 	BaseEnergyShield >= 1
-	DropLevel >= 73
+	DropLevel >= 78
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
@@ -4079,7 +4079,7 @@ Show
 	# PlayEffect Grey
 Show
 	Class "Body Armour" "Boots" "Gloves" "Helm"
-	DropLevel >= 84
+	DropLevel >= 78
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 250 250 250
@@ -4087,21 +4087,18 @@ Show
 	PlayAlertSound 16 200
 	MinimapIcon 0 Grey Moon
 	# PlayEffect Grey
-Show
-	Class Gloves Boots Helm "Body Armour"
-	DropLevel >= 66
-	FracturedItem True
-	SetBackgroundColor 40 90 140
-	SetBorderColor 150 150 150
-	SetFontSize 25
-	PlayAlertSound 16 200
-	MinimapIcon 1 Grey Moon
+# Hide
+# 	Class "Body Armour" "Boots" "Gloves" "Helm"
+# 	DropLevel >= 66
+# 	FracturedItem True
+# 	SetBackgroundColor 40 90 140
+# 	SetBorderColor 150 150 150
+# 	SetFontSize 25
+# 	PlayAlertSound 16 200
+# 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
 Show
 	Class Shield
-	BaseArmour = 0
-	BaseEvasion = 0
-	BaseEnergyShield >= 1
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 200 250
@@ -4148,7 +4145,7 @@ Show
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
 	# PlayEffect Grey
-Show
+Hide
 	Class Gloves Boots Helm "Body Armour"
 	FracturedItem True
 	SetBackgroundColor 40 90 140
@@ -4157,7 +4154,7 @@ Show
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
 	# PlayEffect Grey
-Show
+Hide
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 150 150
@@ -4165,11 +4162,6 @@ Show
 	PlayAlertSound 16 200
 	MinimapIcon 2 Grey Moon
 	# PlayEffect Grey
-Show
-	FracturedItem True
-	SetBackgroundColor 40 90 140
-	SetBorderColor 150 150 150
-	SetFontSize 20
 
 #Temporary Exarch/Eater Sections. v3.22 update - is likely never going to be further expanded as these drops are pretty much always worthless
 #Show
