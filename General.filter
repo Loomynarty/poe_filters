@@ -4298,13 +4298,25 @@ Show
 	PlayEffect Grey
 Show
 	Class Shield
+	BaseArmour = 0
+	BaseEvasion = 0
+	BaseEnergyShield >= 1
 	FracturedItem True
 	SetBackgroundColor 40 90 140
 	SetBorderColor 150 200 250
-	SetFontSize 30
+	SetFontSize 25
 	PlayAlertSound 16 200
 	MinimapIcon 1 Grey Moon
-	PlayEffect Grey
+Show
+	Class Shield
+	DropLevel >= 60
+	FracturedItem True
+	SetBackgroundColor 40 90 140
+	SetBorderColor 150 200 250
+	SetFontSize 25
+	PlayAlertSound 16 200
+	MinimapIcon 1 Grey Moon
+	# PlayEffect Grey
 Show
 	Class Sceptre
 	DropLevel >= 20
