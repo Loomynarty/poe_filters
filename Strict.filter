@@ -2335,17 +2335,17 @@ Show
 	MinimapIcon 0 Red Star
 
 # Boss Fragments
+# Show
+# 	BaseType "Reality Fragment" "Devouring Fragment"
+# 	SetBackgroundColor 255 255 255 255
+# 	SetBorderColor 180 76 58 255
+# 	SetTextColor 180 76 58 255
+# 	SetFontSize 35
+# 	PlayAlertSound 6 300
+# 	PlayEffect Red
+# 	MinimapIcon 0 Red Star
 Show
-	BaseType "Reality Fragment" "Devouring Fragment"
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 180 76 58 255
-	SetTextColor 180 76 58 255
-	SetFontSize 35
-	PlayAlertSound 6 300
-	PlayEffect Red
-	MinimapIcon 0 Red Star
-Show
-	BaseType "Cosmic Fragment" "Decaying Fragment" "Awakening Fragment" "Synthesising Fragment" "Blazing Fragment" "Primordial Fragment"
+	BaseType "Cosmic Fragment" "Decaying Fragment" "Awakening Fragment" "Synthesising Fragment" "Blazing Fragment" "Primordial Fragment" "Traumatic Fragment" "Lonely Fragment" "Reverent Fragment" "Reality Fragment" "Devouring Fragment"
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 180 76 58 255 

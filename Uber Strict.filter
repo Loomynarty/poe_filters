@@ -2364,17 +2364,17 @@ Show
 	MinimapIcon 0 Red Star
 
 # Boss Fragments
+# Show
+# 	BaseType "Reality Fragment" "Devouring Fragment"
+# 	SetBackgroundColor 255 255 255 255
+# 	SetBorderColor 180 76 58 255
+# 	SetTextColor 180 76 58 255
+# 	SetFontSize 35
+# 	PlayAlertSound 6 300
+# 	PlayEffect Red
+# 	MinimapIcon 0 Red Star
 Show
-	BaseType "Reality Fragment" "Devouring Fragment"
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 180 76 58 255
-	SetTextColor 180 76 58 255
-	SetFontSize 35
-	PlayAlertSound 6 300
-	PlayEffect Red
-	MinimapIcon 0 Red Star
-Show
-	BaseType "Cosmic Fragment" "Decaying Fragment" "Awakening Fragment" "Synthesising Fragment" "Blazing Fragment" "Primordial Fragment"
+	BaseType "Cosmic Fragment" "Decaying Fragment" "Awakening Fragment" "Synthesising Fragment" "Blazing Fragment" "Primordial Fragment" "Traumatic Fragment" "Lonely Fragment" "Reverent Fragment" "Reality Fragment" "Devouring Fragment"
 	SetTextColor 255 255 255 255
 	SetBorderColor 255 255 255 255
 	SetBackgroundColor 180 76 58 255 
@@ -3184,16 +3184,16 @@ Show
 	# PlayEffect Red
 	# MinimapIcon 1 Red Square
 	DisableDropSound
-Hide
+Show
 	Class Map
 	MapTier >= 16
 	SetBackgroundColor 235 235 235 255
 	SetBorderColor 255 0 0
 	SetTextColor 0 0 0 255
-	SetFontSize 27
-	PlayAlertSound 5 300
+	SetFontSize 25
+	PlayAlertSound 5 100
 	# PlayEffect Red
-	# MinimapIcon 1 Red Square
+	MinimapIcon 2 Red Square
 	DisableDropSound
 Hide
 	Class Map
