@@ -1055,7 +1055,7 @@ Show
 
 #Essence (v2.4) - Raised Colors (Green->Teal)
 Show
-	BaseType "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium"
+	BaseType "Essence of Hysteria" "Essence of Insanity" "Essence of Horror" "Essence of Delirium" "Essence of Desolation"
 	Class Currency
 	SetBackgroundColor 80 0 40
 	SetBorderColor 250 250 250
@@ -1065,7 +1065,7 @@ Show
 	MinimapIcon 0 Red Circle
 	PlayEffect Red
 Show
-	BaseType "Deafening Essence" "Remnant of Corruption"
+	BaseType "Deafening Essence" "Remnant of Corruption" "Weeping Essence of Doubt" "Wailing Essence of Doubt" "Whispering Essence of Woe" "Weeping Essence of Woe"
 	Class Currency
 	SetBackgroundColor 80 0 40
 	SetBorderColor 0 0 0
@@ -1075,7 +1075,7 @@ Show
 	MinimapIcon 1 Red Circle
 	PlayEffect Red Temp
 Show
-	BaseType "Shrieking Essence"
+	BaseType "Shrieking Essence" "Weeping Essence of Fear" "Weeping Essence of Rage" 
 	Class Currency
 	SetBackgroundColor 40 0 80
 	SetBorderColor 0 0 0
@@ -2252,7 +2252,7 @@ Show #
 
 #Mirage (v3.28)
 Show
-	BaseType "Crystallised Rancour" "Flesh of Xesht" "Essence of Desolation" "Sinistral Catalyst" "Dextral Catalyst"
+	BaseType "Crystallised Rancour" "Flesh of Xesht" "Sinistral Catalyst" "Dextral Catalyst"
 	Class Currency
 	SetFontSize 30
 	SetTextColor 0 0 0 255
@@ -3191,7 +3191,7 @@ Show
 	SetBorderColor 255 0 0
 	SetTextColor 0 0 0 255
 	SetFontSize 25
-	PlayAlertSound 5 100
+	# PlayAlertSound 5 100
 	# PlayEffect Red
 	MinimapIcon 2 Red Square
 	DisableDropSound
@@ -5130,7 +5130,7 @@ Hide
 #Variable Value Blocks - basetypes where at least one unique is valuable and one is not. Watery-theme highlighting (blue and cyan)
 #High Variable Value. 200c+ value on at least one unique from the basetype. Must be checked. Bright cyan border, larger font.
 Show
-	BaseType "Leather Belt" "Heavy Belt" "Paua Amulet" "Vaal Blade" "Imperial Skean" "Vaal Claw" "Imperial Bow" "Spine Bow" "Iron Flask"
+	BaseType "Leather Belt" "Heavy Belt" "Paua Amulet" "Vaal Blade" "Imperial Skean" "Vaal Claw" "Imperial Bow" "Spine Bow" "Iron Flask" "Foul Staff"
 	Rarity Unique
 	SetBackgroundColor 225 100 0 
 	SetBorderColor 0 250 250
