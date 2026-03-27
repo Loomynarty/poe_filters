@@ -2252,6 +2252,7 @@ Hide
 	PlayAlertSound 2 150
 	DisableDropSound
 Show
+	Class Amulet Belt "Body Armour" Boots Gloves Helmet Shield Ring
 	HasExplicitMod "Infamous" "of Infamy"
 	SetBorderColor 250 250 250
 	SetTextColor 225 0 0
