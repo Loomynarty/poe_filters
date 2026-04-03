@@ -350,7 +350,7 @@ Show
 	SetBackgroundColor 225 115 115
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 25
+	SetFontSize 30
 	PlayAlertSound 3 150
 	MinimapIcon 1 Brown Circle
 Hide
@@ -367,7 +367,7 @@ Show
 	SetBackgroundColor 115 225 225
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 25
+	SetFontSize 30
 	PlayAlertSound 3 150
 	MinimapIcon 1 Cyan Circle
 Hide
