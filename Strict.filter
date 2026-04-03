@@ -1698,14 +1698,15 @@ Show
 
 #Harvest (v3.11) - bluey teal. seed blocks disabled as of 3.13. | completely overhauled in 3.19 with lifeforce change
 Show
-	BaseType "Sacred Crystallised Lifeforce"
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 180 76 58 255
-	SetTextColor 180 76 58 255
+	BaseType "Sacred Crystallised Lifeforce" "Crystallised Rancour" "Sacred Blossom"
+	SetBackgroundColor 250 0 125
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	PlayAlertSound 10 250
 	SetFontSize 35
-	PlayAlertSound 6 300
+	MinimapIcon 1 Red Circle
 	PlayEffect Red
-	MinimapIcon 0 Red Star
+	DisableDropSound
 Show
 	BaseType "Primal Crystallised Lifeforce"
 	SetBackgroundColor 0 137 239 255
@@ -2221,7 +2222,7 @@ Show #
 
 #Mirage (v3.28)
 Show
-	BaseType "Crystallised Rancour" "Flesh of Xesht" "Sinistral Catalyst" "Dextral Catalyst"
+	BaseType "Flesh of Xesht" "Sinistral Catalyst" "Dextral Catalyst"
 	Class Currency
 	SetFontSize 30
 	SetTextColor 0 0 0 255
@@ -2326,7 +2327,7 @@ Show
 # T1 Fragments
 Show
 	Class == "Map Fragments"
-	BaseType == "Sacred Blossom" "Simulacrum" "The Maven's Writ" "An Audience With The King" "Syndicate Medallion" "The Black Barya"
+	BaseType == "Simulacrum" "The Maven's Writ" "An Audience With The King" "Syndicate Medallion" "The Black Barya"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
 	SetTextColor 180 76 58 255
