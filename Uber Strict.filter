@@ -5095,7 +5095,7 @@ Show
 #Set Value Blocks - bases where all potential uniques fall within a set value range. Fiery-theme highlighting (orange and yellow)
 #High Value Tier - 50-200c
 Show
-	BaseType "Wyrmscale Doublet" "Champion Kite Shield" "Jingling Spirit Shield" "Savant's Robe" "Slaughter Knife" "Hydrascale Gauntlets" "Occultist's Vestment" "Prophecy Wand" "Hellion's Paw" "Wyrmscale Boots" "Titanium Spirit Shield" "Devout Chainmail" "Rawhide Boots" "Spiked Gloves" "Slink Boots" "Iron Sceptre" "Assassin's Boots" "Magistrate Crown" "Gladiator Plate" "Blood Raiment" "Riveted Gloves" "Golden Buckler" "Fingerless Silk Gloves" "Savant's Robe" "Vaal Spirit Shield" "Royal Burgonet" "Cutlass" "Opal Wand" "Painted Tower Shield" "Girded Tower Shield" "Runic Gages" "Glorious Plate" "Vermillion Ring"
+	BaseType "Wyrmscale Doublet" "Champion Kite Shield" "Jingling Spirit Shield" "Savant's Robe" "Slaughter Knife" "Hydrascale Gauntlets" "Occultist's Vestment" "Prophecy Wand" "Hellion's Paw" "Wyrmscale Boots" "Titanium Spirit Shield" "Devout Chainmail" "Rawhide Boots" "Spiked Gloves" "Slink Boots" "Iron Sceptre" "Assassin's Boots" "Magistrate Crown" "Gladiator Plate" "Blood Raiment" "Riveted Gloves" "Golden Buckler" "Fingerless Silk Gloves" "Savant's Robe" "Vaal Spirit Shield" "Royal Burgonet" "Cutlass" "Opal Wand" "Painted Tower Shield" "Girded Tower Shield" "Runic Gages" "Glorious Plate" "Vermillion Ring" "Murder Mitts" "Lacewood Spirit Shield"
 	Rarity Unique
 	SetBackgroundColor 225 100 0
 	SetBorderColor 255 255 255
@@ -5145,7 +5145,7 @@ Show
 	DisableDropSound
 #Mid Variable Value. 50-200c value on at least one unique from the basetype. Blue border
 Hide
-	BaseType "Imperial Bow" "Fiend Dagger" "Imperial Skean" "Sage's Robe" "Spidersilk Robe" "Murder Mitts" "Spine Bow" "Sage Wand" "Crusader Plate" "Cloth Belt" "Sadist Garb" "Onyx Amulet" "Moonstone Ring" "Topaz Ring" "Turquoise Amulet" "Bone Circlet" "Nameless Ring"
+	BaseType "Imperial Bow" "Fiend Dagger" "Imperial Skean" "Sage's Robe" "Spidersilk Robe" "Spine Bow" "Sage Wand" "Crusader Plate" "Cloth Belt" "Sadist Garb" "Onyx Amulet" "Moonstone Ring" "Topaz Ring" "Turquoise Amulet" "Bone Circlet" "Nameless Ring"
 	Rarity Unique
 	SetBackgroundColor 180 80 0
 	SetBorderColor 100 100 250
