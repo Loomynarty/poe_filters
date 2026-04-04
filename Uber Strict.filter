@@ -350,7 +350,7 @@ Show
 	SetBackgroundColor 225 115 115
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 32
 	PlayAlertSound 3 150
 	MinimapIcon 1 Brown Circle
 Hide
@@ -367,7 +367,7 @@ Show
 	SetBackgroundColor 115 225 225
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 32
 	PlayAlertSound 3 150
 	MinimapIcon 1 Cyan Circle
 Hide
@@ -456,12 +456,12 @@ Show
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	PlayAlertSound 10 250
-	SetFontSize 30
+	SetFontSize 35
 	MinimapIcon 1 Red Circle
 	PlayEffect Red
 	DisableDropSound
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Glassblower's Bauble" "Vaal Orb"
+	BaseType "Chaos Orb" "Glassblower's Bauble" "Vaal Orb"
 	StackSize >= 10
 	Class Currency
 	SetBackgroundColor 250 0 125
@@ -480,13 +480,13 @@ Show
 	SetBackgroundColor 175 0 250
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 25
+	SetFontSize 32
 	PlayAlertSound 2 150
 	MinimapIcon 1 Purple Circle
 	PlayEffect Purple
 	DisableDropSound
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb"
+	BaseType "Chaos Orb" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb"
 	Class Currency
 	StackSize >= 5
 	SetBackgroundColor 175 0 250
@@ -498,13 +498,13 @@ Show
 	PlayEffect Purple
 	DisableDropSound
 Show
-	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking"
+	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking" "Regal Orb"
 	Class Currency
 	StackSize >= 10
 	SetBackgroundColor 175 0 250
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 25
+	SetFontSize 27
 	PlayAlertSound 2 150
 	MinimapIcon 1 Purple Circle
 	PlayEffect Purple
@@ -524,12 +524,12 @@ Hide
 
 #1c+ (teal)
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb"
+	BaseType "Chaos Orb" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb"
 	Class Currency
 	SetBackgroundColor 0 225 225
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 25
+	SetFontSize 27
 	PlayAlertSound 3 125
 	MinimapIcon 2 Cyan Circle
 	DisableDropSound
@@ -570,7 +570,7 @@ Hide
 #<1c but still important (seagreen) - lowest tier to be shown in Uber.
 #note that some of these are higher tiered than their trade value because of their high consumption rate and SSF value
 Hide
-	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking"
+	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking" "Regal Orb" 
 	Class Currency
 	SetBackgroundColor 0 180 130
 	SetBorderColor 0 0 0
