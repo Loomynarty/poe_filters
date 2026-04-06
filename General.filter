@@ -5138,6 +5138,20 @@ Show
 	MinimapIcon 1 Orange Triangle
 	PlayEffect Orange
 
+# Blight uniques in blight ravaged
+Show
+	BaseType "Hydrascale Gauntlets" "Solaris Circlet" "Silken Hood" "Ezomyte Burgonet" "Assassin's Boots" "Saint's Hauberk"
+	Rarity Unique
+	AreaLevel >= 85
+	SetBackgroundColor 225 100 0
+	SetBorderColor 255 255 255
+	SetTextColor 0 0 0
+	SetFontSize 32
+	PlayAlertSound 5 150
+	MinimapIcon 0 Orange Star
+	PlayEffect Orange
+	DisableDropSound
+
 #Maximum Value Tier - 200c+ guaranteed value
 Show
 	BaseType "Crusader Boots" "Unset Amulet" "Siege Axe" "Karui Maul" "Rot Head Talisman" "Greatwolf Talisman" "Riveted Boots" "Engraved Greatsword" "Vaal Rapier" "Cabalist Regalia" "Dusk Blade" "Runic Sollerets"
