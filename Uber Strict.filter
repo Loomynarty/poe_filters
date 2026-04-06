@@ -273,7 +273,18 @@ Show
 
 #Tainted Currencies
 Show
-	BaseType "Tainted Orb of Fusing" "Tainted Divine Teardrop" "Tainted Exalted Orb" "Tainted Chaos Orb"
+	BaseType "Tainted Divine Teardrop"
+	Class Currency
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
+	SetFontSize 35
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	DisableDropSound
+Show
+	BaseType "Tainted Orb of Fusing" "Tainted Exalted Orb" "Tainted Chaos Orb" "Tainted Mythic"
 	Class Currency
 	SetBackgroundColor 180 0 0
 	SetBorderColor 250 250 250
@@ -281,29 +292,28 @@ Show
 	SetFontSize 35
 	PlayAlertSound 2 100
 	MinimapIcon 0 Brown Circle
-	PlayEffect Red
 	DisableDropSound
 Show
-	BaseType "Tainted Chromatic" "Tainted Jeweller's" "Tainted Mythic"
-	Class Currency
-	SetBackgroundColor 180 0 0
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 32
-	PlayAlertSound 3 100
-	MinimapIcon 1 Brown Circle
-	PlayEffect Brown
-	DisableDropSound
-Show
-	BaseType "Tainted"
+	BaseType "Tainted Chromatic" "Tainted Jeweller's" "Tainted Blacksmith's" "Tainted Armourer's"
 	Class Currency
 	SetBackgroundColor 180 0 0
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	SetFontSize 30
-	MinimapIcon 2 Brown Circle
-	PlayEffect Brown Temp
+	PlayAlertSound 3 100
+	MinimapIcon 1 Brown Circle
+	PlayEffect Brown
 	DisableDropSound
+# Show
+# 	BaseType "Tainted"
+# 	Class Currency
+# 	SetBackgroundColor 180 0 0
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 0 0 0
+# 	SetFontSize 30
+# 	MinimapIcon 2 Brown Circle
+# 	PlayEffect Brown Temp
+# 	DisableDropSound
 	
 #Map Upgraders (rare currencies used on maps)
 Show
@@ -1618,7 +1628,7 @@ Hide
 
 #Blight (v3.8)
 Show
-	BaseType "Golden Oil" "Prismatic Oil"
+	BaseType "Golden Oil" "Prismatic Oil" "Tainted Oil"
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
 	SetTextColor 75 125 75
@@ -1627,7 +1637,7 @@ Show
 	PlayAlertSound 6 200
 	MinimapIcon 0 White Raindrop
 Show
-	BaseType "Silver Oil" "Opalescent Oil" "Black Oil" "Tainted Oil" "Reflective Oil"
+	BaseType "Silver Oil" "Opalescent Oil" "Black Oil" "Reflective Oil"
 	SetBackgroundColor 200 250 200
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
