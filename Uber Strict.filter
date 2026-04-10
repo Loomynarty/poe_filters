@@ -471,7 +471,7 @@ Show
 	PlayEffect Red
 	DisableDropSound
 Show
-	BaseType "Chaos Orb" "Glassblower's Bauble" "Vaal Orb"
+	BaseType "Chaos Orb" "Vaal Orb"
 	StackSize >= 10
 	Class Currency
 	SetBackgroundColor 250 0 125
@@ -496,7 +496,7 @@ Show
 	PlayEffect Purple
 	DisableDropSound
 Show
-	BaseType "Chaos Orb" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb"
+	BaseType "Chaos Orb" "Vaal Orb" "Exalted Orb"
 	Class Currency
 	StackSize >= 5
 	SetBackgroundColor 175 0 250
@@ -508,7 +508,7 @@ Show
 	PlayEffect Purple
 	DisableDropSound
 Show
-	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking" "Regal Orb"
+	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking" "Regal Orb" "Glassblower's Bauble"
 	Class Currency
 	StackSize >= 10
 	SetBackgroundColor 175 0 250
@@ -534,7 +534,7 @@ Hide
 
 #1c+ (teal)
 Show
-	BaseType "Chaos Orb" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb"
+	BaseType "Chaos Orb" "Vaal Orb" "Exalted Orb"
 	Class Currency
 	SetBackgroundColor 0 225 225
 	SetBorderColor 0 0 0
@@ -580,7 +580,7 @@ Hide
 #<1c but still important (seagreen) - lowest tier to be shown in Uber.
 #note that some of these are higher tiered than their trade value because of their high consumption rate and SSF value
 Hide
-	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking" "Regal Orb" 
+	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking" "Regal Orb" "Glassblower's Bauble"
 	Class Currency
 	SetBackgroundColor 0 180 130
 	SetBorderColor 0 0 0
@@ -774,9 +774,9 @@ Show
 	Class "Quest"
 	SetBorderColor 0 250 0
 	SetTextColor 0 250 0
-	SetFontSize 30
-	MinimapIcon 0 Green UpsideDownHouse
-	PlayEffect Green
+	SetFontSize 25
+	MinimapIcon 2 Green UpsideDownHouse
+	# PlayEffect Green
 	
 #6L Blocks - located up here due to code priority issues. 5L and 6S blocks are in the Sockets section (7)
 #corrupted catcher
@@ -4694,7 +4694,7 @@ Show
 	PlayEffect White
 Show
 	BaseType "Small Cluster Jewel"
-	EnchantmentPassiveNode "Reservation"
+	EnchantmentPassiveNode "Reservation" "Suppress"
 	EnchantmentPassiveNum = 3
 	ItemLevel >= 84
 	SetBackgroundColor 250 250 250
@@ -4704,7 +4704,6 @@ Show
 	PlayAlertSound 11 200
 	MinimapIcon 0 White Kite
 	PlayEffect White
-	
 Show
 	BaseType "Large Cluster Jewel"
 	EnchantmentPassiveNum = 12
@@ -4716,15 +4715,25 @@ Show
 	PlayAlertSound 12 200
 	# MinimapIcon 0 Pink Kite
 	# PlayEffect White
+	
 #large clusters
 Show
 	BaseType "Large Cluster Jewel"
 	EnchantmentPassiveNum = 8
+	EnchantmentPassiveNode "Chaos" "Minion"
 	SetBackgroundColor 250 125 150
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 25
+	SetFontSize 27
 	PlayAlertSound 12 200
+# Show
+# 	BaseType "Large Cluster Jewel"
+# 	EnchantmentPassiveNum = 8
+# 	SetBackgroundColor 250 125 150
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 0 0 0
+# 	SetFontSize 25
+# 	PlayAlertSound 12 200
 Hide
 	BaseType "Large Cluster Jewel"
 	EnchantmentPassiveNum 9 10 11
@@ -4735,6 +4744,7 @@ Hide
 	PlayAlertSound 12 200
 	# MinimapIcon 1 Pink Kite
 	# PlayEffect Pink
+
 #medium clusters
 # Show
 # 	BaseType "Medium Cluster Jewel"
@@ -4746,42 +4756,44 @@ Hide
 # 	PlayAlertSound 12 200
 # 	MinimapIcon 1 Pink Kite
 # 	PlayEffect Pink
-# Show
+Show
+	BaseType "Medium Cluster Jewel"
+	EnchantmentPassiveNode "Area"
+	EnchantmentPassiveNum <= 5
+	ItemLevel <= 83
+	SetBackgroundColor 200 100 115
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 27
+# Hide
 # 	BaseType "Medium Cluster Jewel"
-# 	EnchantmentPassiveNode "Herald" "Channelling" "Recovery" "Critical" "Area"
-# 	ItemLevel <= 83
-# 	SetBackgroundColor 200 100 115
+# 	EnchantmentPassiveNum == 6
+# 	SetBackgroundColor 250 125 150
 # 	SetBorderColor 0 0 0
 # 	SetTextColor 0 0 0
-# 	SetFontSize 30
-Hide
-	BaseType "Medium Cluster Jewel"
-	EnchantmentPassiveNum == 6
-	SetBackgroundColor 250 125 150
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 25
-	PlayAlertSound 12 200
-Show
-	BaseType "Medium Cluster Jewel"
-	EnchantmentPassiveNum <= 5
-	SetBackgroundColor 250 125 150
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 25
-	PlayAlertSound 12 200
+# 	SetFontSize 25
+# 	PlayAlertSound 12 200
+# Show
+# 	BaseType "Medium Cluster Jewel"
+# 	EnchantmentPassiveNum <= 5
+# 	SetBackgroundColor 250 125 150
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 0 0 0
+# 	SetFontSize 25
+# 	PlayAlertSound 12 200
+
 #small clusters
-Show
-	BaseType "Small Cluster Jewel"
-	EnchantmentPassiveNode "Reservation" "Chaos" "Suppress"
-	SetBackgroundColor 250 125 150
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 25
-	PlayAlertSound 12 200
+# Hide
+# 	BaseType "Small Cluster Jewel"
+# 	EnchantmentPassiveNode "Reservation" "Chaos" "Suppress"
+# 	SetBackgroundColor 250 125 150
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 0 0 0
+# 	SetFontSize 25
+# 	PlayAlertSound 12 200
 	# MinimapIcon 1 Pink Kite
 	# PlayEffect Pink
-Show
+Hide
 	BaseType "Small Cluster Jewel"
 	EnchantmentPassiveNode "Evasion" "Fire" "Cold" "Lightning" "Block Spell" "Block Attack" "Curse" "Armour" "Evasion" "Mana"
 	ItemLevel <= 83
