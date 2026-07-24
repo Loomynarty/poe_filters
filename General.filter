@@ -2318,6 +2318,16 @@ Show
 	MinimapIcon 1 Blue Triangle
 	PlayEffect Blue
 
+Show
+	BaseType "Mercenary Warrant"
+	SetBackgroundColor 255 221 153
+	SetBorderColor 100 200 250
+	SetTextColor 125 100 75
+	SetFontSize 30
+	PlayAlertSound 8 150
+	MinimapIcon 0 Blue Hexagon
+	PlayEffect Blue Temp
+
 #Keepers of the Flame (v3.27)
 
 # Wombgifts
@@ -3118,7 +3128,7 @@ Show
 	MinimapIcon 0 Pink Hexagon
 	PlayEffect Pink
 Show
-	Class "Blueprint" "Expedition Logbook" "Sanctum Research" "Mercenary Warrant"
+	Class "Blueprint" "Expedition Logbook" "Sanctum Research"
 	ItemLevel >= 83
 	SetBackgroundColor 255 221 153
 	SetBorderColor 100 200 250
@@ -3128,7 +3138,7 @@ Show
 	MinimapIcon 0 Blue Hexagon
 	PlayEffect Blue Temp
 Show
-	Class "Blueprint" "Expedition Logbook" "Sanctum Research" "Mercenary Warrant"
+	Class "Blueprint" "Expedition Logbook" "Sanctum Research"
 	SetBackgroundColor 255 221 153
 	SetBorderColor 100 200 250
 	SetTextColor 125 100 75 
