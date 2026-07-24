@@ -210,7 +210,7 @@
 # 	MinimapIcon 2 Cyan Circle
 # 	DisableDropSound
 # Show
-# 	BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration" "Chromatic Orb" "Jeweller's Orb" "Blacksmith's Whetstone" "Armourer's Scrap"
+# 	BaseType "Orb of Transmutation" "Orb of Augmentation" "Orb of Alteration"  "Jeweller's Orb" "Blacksmith's Whetstone" "Armourer's Scrap"
 # 	AreaLevel <= 67
 # 	Class Currency
 # 	SetBackgroundColor 0 200 0
@@ -284,7 +284,7 @@ Show
 	MinimapIcon 0 Red Star
 	DisableDropSound
 Show
-	BaseType "Tainted Orb of Fusing" "Tainted Exalted Orb" "Tainted Chaos Orb" "Tainted Mythic"
+	BaseType "Tainted Orb of Fusing" "Tainted Exalted Orb" "Tainted Chaos Orb" "Tainted Mythic" "Tainted Chromatic"
 	Class Currency
 	SetBackgroundColor 180 0 0
 	SetBorderColor 250 250 250
@@ -294,7 +294,7 @@ Show
 	MinimapIcon 0 Brown Circle
 	DisableDropSound
 Show
-	BaseType "Tainted Chromatic" "Tainted Jeweller's" "Tainted Blacksmith's" "Tainted Armourer's"
+	BaseType "Tainted Jeweller's" "Tainted Blacksmith's" "Tainted Armourer's"
 	Class Currency
 	SetBackgroundColor 180 0 0
 	SetBorderColor 0 0 0
@@ -437,7 +437,7 @@ Show
 	DisableDropSound
 
 Show 
-	BaseType "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb" "Orb of Annulment"
+	BaseType "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Orb of Annulment" "Chromatic Orb"
 	StackSize >= 5
 	Class Currency
 	SetBackgroundColor 250 0 125
@@ -450,7 +450,7 @@ Show
 
 #10c+ (red)
 Show
-	BaseType "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Djinn-Touched Vaal Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Orb of Conflict" "Shaper's Exalted Orb" "Elder's Exalted Orb" "Orb of Annulment"
+	BaseType "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Orb of Conflict" "Shaper's Exalted Orb" "Elder's Exalted Orb" "Orb of Annulment" "Chromatic Orb"
 	Class Currency
 	SetBackgroundColor 250 0 125
 	SetBorderColor 255 255 255
@@ -522,7 +522,7 @@ Show
 	PlayEffect Purple
 	DisableDropSound
 Show 
-	BaseType "Orb of Alchemy" "Orb of Fusing" "Chromatic Orb"
+	BaseType "Orb of Alchemy" "Orb of Fusing" 
 	Class Currency
 	StackSize >= 15
 	SetBackgroundColor 175 0 250
@@ -557,7 +557,7 @@ Show
 	MinimapIcon 2 Cyan Circle
 	DisableDropSound
 Show
-	BaseType "Orb of Alchemy" "Orb of Fusing" "Chromatic Orb"
+	BaseType "Orb of Alchemy" "Orb of Fusing" 
 	StackSize >= 6
 	Class Currency
 	SetBackgroundColor 0 175 175
@@ -592,7 +592,7 @@ Show
 	MinimapIcon 2 Green Circle
 	DisableDropSound
 Show
-	BaseType "Orb of Alchemy" "Orb of Fusing" "Chromatic Orb"
+	BaseType "Orb of Alchemy" "Orb of Fusing" 
 	StackSize >= 3
 	Class Currency
 	SetBackgroundColor 0 180 130
@@ -627,7 +627,7 @@ Hide
 
 #Lowest value to still have solid color background (dark green) - lowest tier to be shown in Strict
 Hide
-	BaseType "Orb of Alchemy" "Orb of Fusing" "Chromatic Orb"
+	BaseType "Orb of Alchemy" "Orb of Fusing" 
 	Class Currency
 	SetBackgroundColor 0 150 0
 	SetBorderColor 0 0 0
