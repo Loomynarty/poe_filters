@@ -273,24 +273,24 @@ Show
 	SetFontSize 30
 	MinimapIcon 2 Cyan Pentagon
 #3CL w/icon blocks
-Show
-	AreaLevel <= 59
-	Rarity Normal Magic Rare 
-	Sockets < 6
-	Height <= 3
-	SetBackgroundColor 40 40 40
-	SetBorderColor 150 150 150
-	SetFontSize 30
-	MinimapIcon 2 Grey Pentagon
-Show
-	AreaLevel <= 59
-	Rarity Normal Magic Rare 
-	Sockets < 6
-	Width <= 1
-	SetBackgroundColor 40 40 40
-	SetBorderColor 150 150 150
-	SetFontSize 30
-	MinimapIcon 2 Grey Pentagon
+# Show
+# 	AreaLevel <= 59
+# 	Rarity Normal Magic Rare 
+# 	Sockets < 6
+# 	Height <= 3
+# 	SetBackgroundColor 40 40 40
+# 	SetBorderColor 150 150 150
+# 	SetFontSize 30
+# 	MinimapIcon 2 Grey Pentagon
+# Show
+# 	AreaLevel <= 59
+# 	Rarity Normal Magic Rare 
+# 	Sockets < 6
+# 	Width <= 1
+# 	SetBackgroundColor 40 40 40
+# 	SetBorderColor 150 150 150
+# 	SetFontSize 30
+# 	MinimapIcon 2 Grey Pentagon
 #3L catchall
 Show
 	Class "Gloves" "Helm" "Boots" "Body Armour"
