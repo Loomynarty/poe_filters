@@ -4957,22 +4957,22 @@ Show
 	SetTextColor 0 0 0
 	
 #White sockets (primarily for offhand gem levelling, with bow + maloney's being the best combo)
-Show
-	Class "Bow"
-	Sockets WWWWWW
-	SetBackgroundColor 90 90 90
-	SetBorderColor 175 175 175
-	SetFontSize 32
-	PlayAlertSound 2 200
-	PlayEffect White
-	MinimapIcon 1 Grey Square
-Show
-	Class "Wand" "Sceptre" "Dagger" "Claw" "One Hand" "Shield"
-	Sockets WWW
-	SetBackgroundColor 90 90 90
-	SetBorderColor 0 0 0
-	SetFontSize 36
-	PlayEffect White Temp
+# Show
+# 	Class "Bow"
+# 	Sockets WWWWWW
+# 	SetBackgroundColor 90 90 90
+# 	SetBorderColor 175 175 175
+# 	SetFontSize 32
+# 	PlayAlertSound 2 200
+# 	PlayEffect White
+# 	MinimapIcon 1 Grey Square
+# Show
+# 	Class "Wand" "Sceptre" "Dagger" "Claw" "One Hand" "Shield"
+# 	Sockets WWW
+# 	SetBackgroundColor 90 90 90
+# 	SetBorderColor 0 0 0
+# 	SetFontSize 36
+# 	PlayEffect White Temp
 
 #Sockets
 #NOTE - 6L is located in Currency section and 3CL (chrome recipe) is located in Misc section due to code priority issues.
@@ -5089,18 +5089,18 @@ Show
 	
 #Special Exceptions - higher value uniques that can be targetted by other characteristics for more precise filtering
 #squire
-Show
-	BaseType "Elegant Round Shield" "Ornate Quiver"
-	Sockets WWW
-	Rarity Unique
-	SetBackgroundColor 255 255 255
-	SetBorderColor 175 96 37
-	SetTextColor 175 96 37
-	SetFontSize 35
-	PlayAlertSound 6 250
-	MinimapIcon 0 White Star
-	PlayEffect White
-	DisableDropSound
+# Show
+# 	BaseType "Elegant Round Shield" "Ornate Quiver"
+# 	Sockets WWW
+# 	Rarity Unique
+# 	SetBackgroundColor 255 255 255
+# 	SetBorderColor 175 96 37
+# 	SetTextColor 175 96 37
+# 	SetFontSize 35
+# 	PlayAlertSound 6 250
+# 	MinimapIcon 0 White Star
+# 	PlayEffect White
+# 	DisableDropSound
 #2 socket abyss uniques
 Show
 	BaseType "Steelscale Gauntlets" "Murder Boots"
@@ -5222,7 +5222,7 @@ Show
 #Variable Value Blocks - basetypes where at least one unique is valuable and one is not. Watery-theme highlighting (blue and cyan)
 #High Variable Value. 200c+ value on at least one unique from the basetype. Must be checked. Bright cyan border, larger font.
 Show
-	BaseType "Leather Belt" "Heavy Belt" "Paua Amulet" "Vaal Blade" "Imperial Skean" "Vaal Claw" "Imperial Bow" "Spine Bow" "Iron Flask" "Foul Staff"
+	BaseType "Leather Belt" "Heavy Belt" "Paua Amulet" "Vaal Blade" "Imperial Skean" "Vaal Claw" "Imperial Bow" "Spine Bow" "Iron Flask" "Foul Staff" "Elegant Round Shield"
 	Rarity Unique
 	SetBackgroundColor 225 100 0 
 	SetBorderColor 0 250 250
