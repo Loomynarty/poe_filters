@@ -9235,7 +9235,7 @@ Show
 	Quality == 0
 	SetTextColor 0 125 250
 	SetFontSize 30
-	# MinimapIcon 2 Brown Raindrop
+	MinimapIcon 2 Brown Raindrop
 
 #Sounded Flasks (campaign and early maps only. should be disabled, NOT hidden, in Uber only)
 Show

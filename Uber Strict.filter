@@ -4892,24 +4892,24 @@ Show
 	SetFontSize 30
 	
 #White sockets (primarily for offhand gem levelling, with bow + maloney's being the best combo)
-Show
-	Class "Bow"
-	Sockets WWWWWW
-	Rarity Normal Magic Rare
-	SetBackgroundColor 90 90 90
-	SetBorderColor 175 175 175
-	SetFontSize 32
-	PlayAlertSound 2 200
-	PlayEffect White
-	MinimapIcon 1 Grey Square
-Show
-	Class "Wand" "Sceptre" "Dagger" "Claw" "One Hand" "Shield"
-	Sockets WWW
-	Rarity Normal Magic Rare
-	SetBackgroundColor 90 90 90
-	SetBorderColor 0 0 0
-	SetFontSize 36
-	PlayEffect White Temp
+# Show
+# 	Class "Bow"
+# 	Sockets WWWWWW
+# 	Rarity Normal Magic Rare
+# 	SetBackgroundColor 90 90 90
+# 	SetBorderColor 175 175 175
+# 	SetFontSize 32
+# 	PlayAlertSound 2 200
+# 	PlayEffect White
+# 	MinimapIcon 1 Grey Square
+# Show
+# 	Class "Wand" "Sceptre" "Dagger" "Claw" "One Hand" "Shield"
+# 	Sockets WWW
+# 	Rarity Normal Magic Rare
+# 	SetBackgroundColor 90 90 90
+# 	SetBorderColor 0 0 0
+# 	SetFontSize 36
+# 	PlayEffect White Temp
 
 #Sockets
 #NOTE - 6L is located in Currency section and 3CL (chrome recipe) is located in Misc section due to code priority issues.
