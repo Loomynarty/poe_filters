@@ -4936,7 +4936,7 @@ Show
 
 #Maximum Value Tier - 200c+ guaranteed value
 Show
-	BaseType "Crusader Boots" "Unset Amulet" "Siege Axe" "Karui Maul" "Greatwolf Talisman" "Riveted Boots" "Engraved Greatsword" "Vaal Rapier" "Cabalist Regalia" "Dusk Blade" "Runic Sollerets"
+	BaseType "Crusader Boots" "Unset Amulet" "Siege Axe" "Karui Maul" "Greatwolf Talisman" "Riveted Boots" "Engraved Greatsword" "Vaal Rapier" "Cabalist Regalia" "Dusk Blade" "Runic Sollerets" "Pearlescent Amulet"
 	Rarity Unique
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
