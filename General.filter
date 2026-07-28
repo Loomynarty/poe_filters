@@ -1673,7 +1673,7 @@ Show
 
 # Scarabs
 Show
-	BaseType == "Ambush Scarab of Containment" "Breach Scarab of Resonant Cascade" "Horned Scarab of Bloodlines" "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing"
+	BaseType == "Ambush Scarab of Containment" "Horned Scarab of Bloodlines" "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Horned Scarab of Pandemonium" "Domination Scarab of Terrors" 
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
 	SetTextColor 180 76 58 255
@@ -1682,7 +1682,7 @@ Show
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 Show
-	BaseType == "Cartography Scarab of Risk" "Domination Scarab of Terrors" "Essence Scarab of Calcification" "Horned Scarab of Awakening" "Horned Scarab of Pandemonium" "Kalguuran Scarab of Refinement" "Legion Scarab of Eternal Conflict" "Harvest Scarab of Cornucopia" 
+	BaseType == "Cartography Scarab of Risk" "Essence Scarab of Calcification" "Horned Scarab of Awakening"  "Kalguuran Scarab of Refinement" "Legion Scarab of Eternal Conflict" "Harvest Scarab of Cornucopia" "Abyss Scarab of the Consort" "Incursion Scarab of Timelines" "Divination Scarab of Pilfering" "Trarthan Scarab of Renown" "Harvest Scarab of Doubling" "Breach Scarab of Resonant Cascade" "Blight Scarab of Blooming"
 	Class "Map Fragment"
 	SetBackgroundColor 250 178 70
 	SetBorderColor 255 255 255
@@ -1693,7 +1693,7 @@ Show
 	DisableDropSound
 Show
 	StackSize >= 3
-	BaseType == "Abyss Scarab" "Abyss Scarab of Descending" "Abyss Scarab of Crystals" "Abyss Scarab of Multitudes" "Abyss Scarab of the Consort" "Ambush Scarab" "Ambush Scarab of Discernment" "Ambush Scarab of Hidden Compartments" "Ambush Scarab of Potency" "Anarchy Scarab" "Anarchy Scarab of Gigantification" "Anarchy Scarab of Partnership" "Anarchy Scarab of the Exceptional" "Bestiary Scarab" "Bestiary Scarab of Duplicating" "Bestiary Scarab of the Herd" "Betrayal Scarab" "Betrayal Scarab of Reinforcements" "Betrayal Scarab of the Allflame" "Betrayal Scarab of Unbreaking" "Beyond Scarab" "Beyond Scarab of Haemophilia" "Beyond Scarab of Resurgence" "Beyond Scarab of the Invasion" "Blight Scarab" "Blight Scarab of Invigoration" "Blight Scarab of the Blightheart" "Breach Scarab of Instability" "Breach Scarab of the Hive" "Breach Scarab of the Incensed Swarm" "Breach Scarab of the Marshal" "Cartography Scarab of Corruption" "Cartography Scarab of Escalation" "Cartography Scarab of the Multitude" "Delirium Scarab" "Delirium Scarab of Delusions" "Delirium Scarab of Mania" "Delirium Scarab of Neuroses" "Delirium Scarab of Paranoia" "Divination Scarab of Plenty" "Divination Scarab of The Cloister" "Domination Scarab" "Domination Scarab of Apparitions" "Domination Scarab of Evolution" "Essence Scarab" "Essence Scarab of Ascent" "Essence Scarab of Stability" "Expedition Scarab" "Expedition Scarab of Archaeology" "Expedition Scarab of Infusion" "Expedition Scarab of Runefinding" "Expedition Scarab of Verisium Powder" "Harvest Scarab" "Harvest Scarab of Doubling" "Horned Scarab of Glittering" "Horned Scarab of Nemeses" "Horned Scarab of Tradition" "Incursion Scarab" "Incursion Scarab of Champions" "Incursion Scarab of Invasion" "Incursion Scarab of Timelines" "Influencing Scarab of Hordes" "Influencing Scarab of Interference" "Influencing Scarab of the Elder" "Influencing Scarab of the Shaper" "Kalguuran Scarab" "Kalguuran Scarab of Enriching" "Kalguuran Scarab of Guarded Riches" "Legion Scarab" "Legion Scarab of Officers" "Legion Scarab of Treasures" "Ritual Scarab of Corpses" "Ritual Scarab of Selectiveness" "Ritual Scarab of Wisps" "Scarab of Adversaries" "Scarab of Divinity" "Scarab of Monstrous Lineage" "Scarab of Radiant Storms" "Scarab of Stability" "Scarab of the Sinistral" "Scarab of Wisps" "Sulphite Scarab" "Sulphite Scarab of Fumes" "Titanic Scarab" "Titanic Scarab of Legend" "Titanic Scarab of Treasures" "Torment Scarab" "Torment Scarab of Peculiarity" "Torment Scarab of Possession" "Ultimatum Scarab" "Ultimatum Scarab of Bribing" "Ultimatum Scarab of Dueling" "Ultimatum Scarab of Inscription"
+	BaseType == "Ambush Scarab" "Ambush Scarab of Discernment" "Ambush Scarab of Hidden Compartments" "Ambush Scarab of Potency" "Anarchy Scarab" "Anarchy Scarab of Gigantification" "Anarchy Scarab of Partnership" "Anarchy Scarab of the Exceptional" "Bestiary Scarab" "Bestiary Scarab of Duplicating" "Bestiary Scarab of the Herd" "Betrayal Scarab of Reinforcements" "Betrayal Scarab of the Allflame" "Betrayal Scarab of Unbreaking" "Blight Scarab of Invigoration" "Breach Scarab of Instability" "Breach Scarab of the Hive" "Breach Scarab of the Incensed Swarm" "Breach Scarab of the Marshal" "Cartography Scarab of Corruption" "Cartography Scarab of Escalation" "Cartography Scarab of the Multitude" "Delirium Scarab" "Delirium Scarab of Delusions" "Delirium Scarab of Mania" "Delirium Scarab of Neuroses" "Delirium Scarab of Paranoia" "Divination Scarab of Plenty" "Divination Scarab of The Cloister" "Domination Scarab" "Essence Scarab" "Essence Scarab of Ascent" "Essence Scarab of Stability" "Expedition Scarab" "Expedition Scarab of Archaeology" "Expedition Scarab of Infusion" "Expedition Scarab of Runefinding" "Expedition Scarab of Verisium Powder" "Horned Scarab of Glittering" "Horned Scarab of Nemeses" "Horned Scarab of Tradition" "Incursion Scarab" "Incursion Scarab of Champions" "Influencing Scarab of Hordes" "Influencing Scarab of Interference" "Influencing Scarab of the Elder" "Influencing Scarab of the Shaper" "Kalguuran Scarab" "Kalguuran Scarab of Enriching" "Kalguuran Scarab of Guarded Riches" "Legion Scarab" "Legion Scarab of Officers" "Legion Scarab of Treasures" "Ritual Scarab of Selectiveness" "Ritual Scarab of Wisps" "Scarab of Adversaries" "Scarab of Divinity" "Scarab of Monstrous Lineage" "Scarab of Radiant Storms" "Scarab of Stability" "Scarab of the Sinistral" "Scarab of Wisps" "Sulphite Scarab" "Sulphite Scarab of Fumes" "Titanic Scarab" "Titanic Scarab of Legend" "Titanic Scarab of Treasures" "Torment Scarab of Peculiarity" "Torment Scarab of Possession" "Ultimatum Scarab" "Ultimatum Scarab of Bribing" "Ultimatum Scarab of Dueling" "Ultimatum Scarab of Inscription" "Trarthan Scarab of Infamy"
 	Class "Map Fragment"
 	SetBackgroundColor 100 50 0
 	SetBorderColor 225 225 225
@@ -1702,7 +1702,7 @@ Show
 	PlayAlertSound 11 200
 	MinimapIcon 2 Yellow Triangle
 Show
-	BaseType == "Blight Scarab of Blooming" "Divination Scarab of Pilfering" "Essence Scarab of Adaptation" "Ritual Scarab of Abundance" "Scarab of the Dextral" "Abyss Scarab of the Consort" "Blight Scarab of Invigoration" "Breach Scarab of Instability" "Delirium Scarab of Paranoia" "Harvest Scarab of Doubling" "Horned Scarab of Glittering" "Incursion Scarab of Timelines" "Scarab of Wisps" "Divination Scarab of The Cloister" "Bestiary Scarab of Duplicating" "Betrayal Scarab of Unbreaking" "Beyond Scarab of the Invasion" "Breach Scarab of the Incensed Swarm" "Cartography Scarab of Corruption" "Delirium Scarab of Neuroses" "Divination Scarab of Plenty" "Expedition Scarab of Archaeology" "Horned Scarab of Tradition" "Kalguuran Scarab" "Legion Scarab of Treasures" "Scarab of Monstrous Lineage" "Scarab of the Sinistral" "Torment Scarab of Possession" "Ultimatum Scarab of Dueling" "Ultimatum Scarab of Inscription" "Abyss Scarab of Crystals" "Abyss Scarab of Multitudes"
+	BaseType == "Essence Scarab of Adaptation" "Ritual Scarab of Abundance" "Scarab of the Dextral" "Blight Scarab of Invigoration" "Breach Scarab of Instability" "Delirium Scarab of Paranoia" "Horned Scarab of Glittering" "Incursion Scarab of Timelines" "Scarab of Wisps" "Divination Scarab of The Cloister" "Bestiary Scarab of Duplicating" "Betrayal Scarab of Unbreaking" "Breach Scarab of the Incensed Swarm" "Cartography Scarab of Corruption" "Delirium Scarab of Neuroses" "Divination Scarab of Plenty" "Expedition Scarab of Archaeology" "Horned Scarab of Tradition" "Kalguuran Scarab" "Legion Scarab of Treasures" "Scarab of Monstrous Lineage" "Scarab of the Sinistral" "Torment Scarab of Possession" "Ultimatum Scarab of Dueling" "Ultimatum Scarab of Inscription" "Trarthan Scarab of Infamy"
 	Class "Map Fragment"
 	SetBackgroundColor 100 50 0
 	SetBorderColor 225 225 225
@@ -1710,6 +1710,15 @@ Show
 	SetFontSize 30
 	PlayAlertSound 11 200
 	MinimapIcon 2 Yellow Triangle
+Show
+	BaseType "Scarab"
+	Class "Map Fragment"
+	StackSize >= 3
+	SetBackgroundColor 80 40 0
+	SetBorderColor 200 200 200
+	SetTextColor 225 75 0
+	SetFontSize 30
+	PlayAlertSound 11 200
 Show
 	BaseType "Scarab"
 	Class "Map Fragment"
