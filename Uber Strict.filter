@@ -1101,6 +1101,16 @@ Show
 #Harbinger (v3.0) / Fall of Oriath - fully migrated into other sections
 
 #Abyss (v3.1) - fully migrated into other sections
+Show
+	BaseType "Stygian Vise"
+	Rarity Normal Magic Rare
+	ItemLevel >= 84
+	SetBackgroundColor 65 0 65
+	SetBorderColor 200 150 0
+	SetFontSize 30
+	PlayAlertSound 13 200
+	MinimapIcon 1 Blue Kite
+	PlayEffect Blue Temp
 
 #Bestiary (v3.2) - "Dirty" Green
 #note: nets still here for legacy purposes only
@@ -1189,7 +1199,7 @@ Show
 	MinimapIcon 1 Red UpsideDownHouse
 #special base combos
 Show
-	BaseType "Steel Ring" "Opal Ring" "Crystal Belt" "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise" "Vermillion Ring" "Cerulean Ring" "Convoking Wand" "Seaglass Amulet" "Iolite Ring" "Fugitive Boots" "Apothecary's Gloves" "Artillery Quiver"
+	BaseType "Steel Ring" "Opal Ring" "Crystal Belt" "Marble Amulet" "Blue Pearl Amulet" "Vanguard Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"  "Vermillion Ring" "Cerulean Ring" "Convoking Wand" "Seaglass Amulet" "Iolite Ring" "Fugitive Boots" "Apothecary's Gloves" "Artillery Quiver"
 	HasExplicitMod "Tacati's" "Citaqualotl's" "Matatl's" "Topotante's" "Guatelitzi's" "of Tacati" "of Citaqualotl" "of Matatl" "of Puhuarte" "of Guatelitzi" "Xopec's"
 	SetBackgroundColor 65 0 65
 	SetBorderColor 250 250 250
@@ -3320,7 +3330,7 @@ Show
 
 #atlas bases, white background red-purple text. v3.22 update - removed Marble Amulet, Blue Pearl Amulet, Vanguard Belt, Cerulean Ring, Convoking Wand, Seaglass Amulet, Artillery Quiver
 Show	
-	BaseType "Vermillion Ring" "Steel Ring" "Opal Ring" "Iolite Ring" "Marble Amulet" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves" "Stygian Vise" "Fugitive Boots" "Apothecary's Gloves"
+	BaseType "Vermillion Ring" "Steel Ring" "Opal Ring" "Iolite Ring" "Marble Amulet" "Crystal Belt" "Bone Helmet" "Two-Toned Boots" "Spiked Gloves" "Gripped Gloves" "Fingerless Silk Gloves"  "Fugitive Boots" "Apothecary's Gloves"
 	HasInfluence Crusader Redeemer Hunter Warlord Shaper Elder
 	SetBackgroundColor 250 250 250
 	SetBorderColor 0 0 0
@@ -4203,7 +4213,7 @@ Hide
 	
 #T1 Atlas Bases. dark purple background, border indicates ilvl
 Hide
-	BaseType "Vermillion Ring" "Stygian Vise" "Crystal Belt" "Marble Amulet"
+	BaseType "Vermillion Ring"  "Crystal Belt" "Marble Amulet"
 	Rarity Normal Magic Rare
 	ItemLevel >= 86
 	SetBackgroundColor 65 0 65
@@ -4213,7 +4223,7 @@ Hide
 	# MinimapIcon 1 Red Kite
 	# PlayEffect Red
 Hide
-	BaseType "Vermillion Ring" "Stygian Vise" "Crystal Belt" "Marble Amulet"
+	BaseType "Vermillion Ring"  "Crystal Belt" "Marble Amulet"
 	Rarity Normal Magic Rare
 	ItemLevel >= 85
 	SetBackgroundColor 65 0 65
@@ -4223,7 +4233,7 @@ Hide
 	# MinimapIcon 1 Purple Kite
 	# PlayEffect Purple
 Hide
-	BaseType "Vermillion Ring" "Stygian Vise" "Crystal Belt" "Marble Amulet"
+	BaseType "Vermillion Ring"  "Crystal Belt" "Marble Amulet"
 	Rarity Normal Magic Rare
 	ItemLevel >= 84
 	SetBackgroundColor 65 0 65
@@ -4233,7 +4243,7 @@ Hide
 	# MinimapIcon 1 Blue Kite
 	# PlayEffect Blue
 Hide
-	BaseType "Vermillion Ring" "Stygian Vise" "Crystal Belt" "Marble Amulet"
+	BaseType "Vermillion Ring"  "Crystal Belt" "Marble Amulet"
 	Rarity Normal Magic Rare
 	SetBackgroundColor 65 0 65
 	SetBorderColor 220 0 220
