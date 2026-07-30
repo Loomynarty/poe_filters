@@ -123,15 +123,6 @@
 #	MinimapIcon 0 Yellow Star
 #	PlayEffect Yellow
 
-# Show
-# 	MemoryStrands >= 40
-# 	SetBackgroundColor 40 90 140
-# 	SetBorderColor 225 190 70
-# 	SetFontSize 30
-# 	PlayAlertSound 16 200
-# 	MinimapIcon 1 Blue Moon
-# 	PlayEffect Blue
-
 ###################################################################################
 ############## Section 1 - Chance, Priority Highlight, Link Options ###############
 ###################################################################################
@@ -2149,6 +2140,15 @@ Show
 	SetFontSize 30
 	PlayAlertSound 8 150
 	MinimapIcon 0 Blue Hexagon
+	PlayEffect Blue Temp
+
+Show
+	MemoryStrands >= 40
+	SetBackgroundColor 40 90 140
+	SetBorderColor 225 190 70
+	SetFontSize 27
+	PlayAlertSound 16 200
+	MinimapIcon 1 Blue Moon
 	PlayEffect Blue Temp
 
 #Keepers of the Flame (v3.27)

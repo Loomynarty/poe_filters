@@ -2182,6 +2182,15 @@ Show
 	MinimapIcon 0 Blue Hexagon
 	PlayEffect Blue Temp
 
+Show
+	MemoryStrands >= 40
+	SetBackgroundColor 40 90 140
+	SetBorderColor 225 190 70
+	SetFontSize 27
+	PlayAlertSound 16 200
+	MinimapIcon 1 Blue Moon
+	PlayEffect Blue Temp
+
 #Keepers of the Flame (v3.27)
 
 # Wombgifts
