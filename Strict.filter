@@ -4537,7 +4537,7 @@ Show
 	SetBackgroundColor 250 225 100
 	SetBorderColor 255 0 0
 	SetTextColor 0 0 0
-	SetFontSize 25
+	SetFontSize 30
 Show
 	Class "Jewel"
 	Corrupted True
@@ -4759,39 +4759,15 @@ Show
 	SetTextColor 0 0 0
 	SetFontSize 32
 	PlayAlertSound 12 200
-
-Hide
+Show
 	Class "Abyss Jewel"
 	ItemLevel >= 83
 	Rarity Rare
 	SetBackgroundColor 250 225 100
 	SetBorderColor 250 250 250
 	SetTextColor 0 0 0
-	SetFontSize 25
+	SetFontSize 28
 	PlayAlertSound 12 200
-	# MinimapIcon 2 Brown Kite
-	# PlayEffect Brown
-Hide
-	Class "Abyss Jewel"
-	ItemLevel >= 83
-	Rarity Magic
-	SetBackgroundColor 150 125 250
-	SetBorderColor 250 250 250
-	SetTextColor 0 0 0
-	SetFontSize 25
-	PlayAlertSound 12 200
-	# MinimapIcon 2 Brown Kite
-	# PlayEffect Brown
-Hide
-	Class "Abyss Jewel"
-	ItemLevel >= 83
-	SetBackgroundColor 150 125 225
-	SetBorderColor 250 250 250
-	SetTextColor 0 0 0
-	SetFontSize 25
-	PlayAlertSound 12 200
-	# MinimapIcon 2 Brown Kite
-	# PlayEffect Brown
 Show
 	Class "Abyss Jewel"
 	Rarity Rare
@@ -4799,17 +4775,19 @@ Show
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	SetFontSize 25
-	
-Hide
+Show
+	Class "Abyss Jewel"
+	ItemLevel >= 83
+	Rarity Normal Magic
+	SetBackgroundColor 150 125 250
+	SetBorderColor 250 250 250
+	SetTextColor 0 0 0
+	SetFontSize 25
+	PlayAlertSound 12 200
+Show
 	Class "Abyss Jewel"
 	Rarity Normal Magic
 	SetBackgroundColor 150 125 250
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 25
-Hide
-	Class "Abyss Jewel"
-	SetBackgroundColor 150 125 225
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
 	SetFontSize 25

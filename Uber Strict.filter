@@ -4835,8 +4835,6 @@ Hide
 	SetTextColor 0 0 0
 	SetFontSize 25
 	PlayAlertSound 12 200
-	# MinimapIcon 2 Brown Kite
-	# PlayEffect Brown
 Hide
 	Class "Abyss Jewel"
 	ItemLevel >= 83
@@ -4846,8 +4844,13 @@ Hide
 	SetTextColor 0 0 0
 	SetFontSize 25
 	PlayAlertSound 12 200
-	# MinimapIcon 2 Brown Kite
-	# PlayEffect Brown
+Show
+	Class "Abyss Jewel"
+	Rarity Rare
+	SetBackgroundColor 250 225 100
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 25
 Hide
 	Class "Abyss Jewel"
 	ItemLevel >= 83
@@ -4856,17 +4859,8 @@ Hide
 	SetTextColor 0 0 0
 	SetFontSize 25
 	PlayAlertSound 12 200
-	# MinimapIcon 2 Brown Kite
-	# PlayEffect Brown
-Show
-	Class "Abyss Jewel"
-	Rarity Rare
-	SetBackgroundColor 250 225 100
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 25
 	
-Hide
+Show
 	Class "Abyss Jewel"
 	Rarity Normal Magic
 	SetBackgroundColor 150 125 250
