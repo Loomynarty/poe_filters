@@ -5010,18 +5010,18 @@ Show
 	PlayEffect Brown
 	DisableDropSound
 #Heist Curio Displays - these uniques always drop ID'd and are therefore easily tagged
-Show
-	BaseType "Sentinel Jacket" "Paua Ring" "Crimson Round Shield" "Butcher Axe" "Ambusher" "Ezomyte Staff" "Fluted Bascinet" "Mirrored Spiked Shield" "Gladius"
-	Identified True
-	Rarity Unique
-	SetBackgroundColor 225 100 0
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 27
-	PlayAlertSound 4 100	
-	MinimapIcon 1 Blue Star
-	PlayEffect Blue Temp
-	DisableDropSound
+# Show
+# 	BaseType "Sentinel Jacket" "Paua Ring" "Crimson Round Shield" "Butcher Axe" "Ambusher" "Ezomyte Staff" "Fluted Bascinet" "Mirrored Spiked Shield" "Gladius"
+# 	Identified True
+# 	Rarity Unique
+# 	SetBackgroundColor 225 100 0
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 0 0 0
+# 	SetFontSize 27
+# 	PlayAlertSound 4 100	
+# 	MinimapIcon 1 Blue Star
+# 	PlayEffect Blue Temp
+# 	DisableDropSound
 	
 #HIGH JUICE MF BLOCKS - Meant for extreme situations, care should be taken with using these blocks and you should check to make sure everything hidden is something you want hidden. 
 ##Corrupted Unique Killer - for hiding the stuff you're corrupting. Note that this will also hide corrupted uniques that drop naturally.
