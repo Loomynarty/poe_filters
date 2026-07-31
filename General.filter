@@ -2367,10 +2367,11 @@ Show
 	Class == "Rings"
 	BaseType == "Breach Ring" "Cryonic Ring" "Enthalpic Ring" "Formless Ring" "Fugitive Ring" "Organic Ring" "Synaptic Ring"
 	SetFontSize 35
-	SetTextColor 0 240 190 255
-	SetBorderColor 0 240 190 255
+	SetTextColor 164 0 240 255
+	SetBorderColor 164 0 240 255
 	SetBackgroundColor 20 20 0 255
 	PlayAlertSound 3 150
+	MinimapIcon 1 Purple Moon
 	DisableDropSound
 
 Show # 
@@ -2379,10 +2380,11 @@ Show #
 	Class == "Rings"
 	BaseType == "Breach Ring" "Cryonic Ring" "Enthalpic Ring" "Formless Ring" "Fugitive Ring" "Organic Ring" "Synaptic Ring"
 	SetFontSize 32
-	SetTextColor 0 240 190 255
-	SetBorderColor 0 240 190 255
+	SetTextColor 164 0 240 255
+	SetBorderColor 164 0 240 255
 	SetBackgroundColor 20 20 0 255
 	PlayAlertSound 3 150
+	MinimapIcon 1 Purple Moon
 	DisableDropSound
 
 # Foulborn Uniques
@@ -4714,14 +4716,6 @@ Show
 	SetBorderColor 0 0 0
 	SetTextColor 255 255 119
 	SetFontSize 30
-
-Hide
-	BaseType "Breach Ring"
-	SetBackgroundColor 0 50 100
-	SetBorderColor 75 150 255
-	SetFontSize 27
-	DisableDropSound
-
 	
 ###################################################################################
 ######################## Section 7 - Jewels & Sockets #############################
