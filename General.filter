@@ -3070,7 +3070,7 @@ Show
 	SetTextColor 200 150 250
 	SetFontSize 35
 	MinimapIcon 2 Pink Hexagon
-	PlayEffect Pink
+	PlayEffect Pink Temp
 Show
 	Class "Map Fragments"
 	SetBackgroundColor 0 0 0
@@ -5309,7 +5309,7 @@ Show
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 Show
-	BaseType "Prismatic Ring" "Primordial Staff"
+	BaseType "Prismatic Ring" "Primordial Staff" "Ancient Spirit Shield"
 	Rarity Unique
 	ItemLevel >= 85
 	AreaLevel >= 83
