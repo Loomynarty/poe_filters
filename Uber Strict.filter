@@ -5138,7 +5138,7 @@ Show
 	DisableDropSound
 #Mid Value Tier - 20c to 50c fairly consistently. Include bases with multiple uniques as long as they all fall into this range.
 Hide
-	BaseType "Amethyst Flask" "Ruby Flask" "Topaz Flask" "Mosaic Kite Shield" "Silk Gloves" "Ezomyte Dagger" "Serpentscale Boots" "Trapper Boots" "Highborn Staff" "Sovereign Spiked Shield" "Runic" "Hydrascale Gauntlets" "Harmonic Spirit Shield" "Blood Sceptre" "Citadel Bow" "Carnal Boots" "Gemstone Sword" "Cardinal Round Shield" "Steelwood Bow" "Vaal Greaves" "Quarterstaff" "Jewelled Foil" "Goliath Greaves" "Grand Mana Flask" "Studded Belt" "Stygian Vise" "Large Hybrid Flask" "Steel Kite Shield" "Fugitive Boots" "Archon Kite Shield" "Ornate Quiver" "Void Axe" "Ezomyte Tower Shield" "Scholar's Robe" "Desert Brigandine" 
+	BaseType "Amethyst Flask" "Ruby Flask" "Topaz Flask" "Mosaic Kite Shield" "Silk Gloves" "Ezomyte Dagger" "Serpentscale Boots" "Trapper Boots" "Highborn Staff" "Sovereign Spiked Shield" "Runic" "Hydrascale Gauntlets" "Harmonic Spirit Shield" "Blood Sceptre" "Citadel Bow" "Carnal Boots" "Gemstone Sword" "Cardinal Round Shield" "Steelwood Bow" "Vaal Greaves" "Quarterstaff" "Jewelled Foil" "Goliath Greaves" "Grand Mana Flask" "Studded Belt" "Stygian Vise" "Large Hybrid Flask" "Steel Kite Shield" "Fugitive Boots" "Archon Kite Shield" "Ornate Quiver" "Void Axe" "Ezomyte Tower Shield" "Scholar's Robe" "Desert Brigandine" "Martyr Gloves"
 	Rarity Unique
 	SetBackgroundColor 225 100 0
 	SetBorderColor 0 0 0
@@ -5239,22 +5239,13 @@ Show
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 Show
-	BaseType "Prismatic Ring" "Primordial Staff" "Ancient Spirit Shield" "Ancient Spirit Shield"
+	BaseType "Prismatic Ring" "Primordial Staff" "Ancient Spirit Shield" "Ezomyte Blade" "Marble Amulet" "Shadow Sceptre" "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Ancient Gauntlets" "Vaal Sceptre" "Vaal Mask" "Triumphant Lamellar" "Dragonscale Boots" "Royal Sceptre" "Golden Plate" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Ambush Mitts" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Shagreen Boots" "Golden Mask" "Titan Gauntlets" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Lacquered Helmet" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Agate Amulet" "Goliath Gauntlets" "Zealot Helmet"  "Antique Gauntlets" "Spiny Round Shield" "Paladin Crown"  "Faithful Helmet" "Sacrificial Garb" "Lich's Circlet" "Waxed Garb" "Spectral Axe" "Seaglass Amulet" "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Colossal Mana Flask" "Steel Ring" "Fugitive Ring" "Organic Ring" "Torturer Garb" "Ghostflame Blade"
 	Rarity Unique
 	ItemLevel >= 85
-	AreaLevel >= 83
 	SetBackgroundColor 180 80 0
 	SetBorderColor 200 150 250
 	SetTextColor 0 0 0
 	SetFontSize 32
-	DisableDropSound
-Hide
-	BaseType "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Ancient Gauntlets" "Vaal Sceptre" "Vaal Mask" "Triumphant Lamellar" "Dragonscale Boots" "Royal Sceptre" "Golden Plate" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Ambush Mitts" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Shagreen Boots" "Golden Mask" "Titan Gauntlets" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Lacquered Helmet" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Agate Amulet" "Goliath Gauntlets" "Zealot Helmet" "Shadow Sceptre" "Ezomyte Blade" "Antique Gauntlets" "Spiny Round Shield" "Paladin Crown" "Marble Amulet" "Faithful Helmet" "Sacrificial Garb" "Lich's Circlet" "Waxed Garb" "Spectral Axe" "Seaglass Amulet" "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Colossal Mana Flask" "Steel Ring" "Fugitive Ring" "Organic Ring" "Torturer Garb" "Ghostflame Blade"
-	Rarity Unique
-	SetBackgroundColor 180 80 0
-	SetBorderColor 200 150 250
-	SetTextColor 0 0 0
-	SetFontSize 25
 	DisableDropSound
 
 
