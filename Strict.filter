@@ -5154,7 +5154,7 @@ Show
 	SetBackgroundColor 180 80 0
 	SetBorderColor 200 150 250
 	SetTextColor 0 0 0
-	SetFontSize 32
+	SetFontSize 25
 	DisableDropSound
 
 #6S uniques - located here due to priority issues
@@ -5164,7 +5164,7 @@ Show
 	SetBackgroundColor 0 115 0
 	SetBorderColor 225 100 0
 	SetTextColor 225 100 0
-	SetFontSize 35
+	SetFontSize 30
 	PlayAlertSound 2 200
 	MinimapIcon 2 Orange Square
 	PlayEffect Orange

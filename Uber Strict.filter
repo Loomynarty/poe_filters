@@ -5245,7 +5245,7 @@ Show
 	SetBackgroundColor 180 80 0
 	SetBorderColor 200 150 250
 	SetTextColor 0 0 0
-	SetFontSize 32
+	SetFontSize 25
 	DisableDropSound
 
 
