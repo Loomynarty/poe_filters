@@ -9461,7 +9461,7 @@ Show
 	MinimapIcon 1 White Triangle
 	PlayEffect Cyan
 Show
-	BaseType "Enhance" "Empower" "Vaal Breach"
+	BaseType "Enhance" "Empower" "Vaal Breach" "Pact of"
 	Class Gem
 	SetBackgroundColor 27 162 155
 	SetBorderColor 0 0 0
