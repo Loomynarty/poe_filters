@@ -1490,8 +1490,9 @@ Hide
 	MinimapIcon 2 Brown Moon
 
 # Scarabs
+# Scarabs
 Show
-	BaseType == "Ambush Scarab of Containment" "Horned Scarab of Bloodlines" "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Horned Scarab of Pandemonium" "Domination Scarab of Terrors" "Horned Scarab of Tradition"
+	BaseType == "Ambush Scarab of Containment" "Horned Scarab of Bloodlines" "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Horned Scarab of Pandemonium" "Domination Scarab of Terrors" "Cartography Scarab of Risk" "Divination Scarab of Pilfering"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
 	SetTextColor 180 76 58 255
@@ -1500,7 +1501,7 @@ Show
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 Show
-	BaseType == "Cartography Scarab of Risk" "Essence Scarab of Calcification" "Horned Scarab of Awakening"  "Kalguuran Scarab of Refinement" "Legion Scarab of Eternal Conflict" "Harvest Scarab of Cornucopia" "Abyss Scarab of the Consort" "Incursion Scarab of Timelines" "Divination Scarab of Pilfering" "Trarthan Scarab of Renown" "Harvest Scarab of Doubling" "Breach Scarab of Resonant Cascade" "Blight Scarab of Blooming" "Trarthan Scarab of Surprising Alliances" 
+	BaseType == "Essence Scarab of Calcification" "Horned Scarab of Awakening"  "Kalguuran Scarab of Refinement" "Legion Scarab of Eternal Conflict" "Harvest Scarab of Cornucopia" "Abyss Scarab of the Consort" "Incursion Scarab of Timelines" "Trarthan Scarab of Renown" "Harvest Scarab of Doubling" "Breach Scarab of Resonant Cascade" "Blight Scarab of Blooming" "Trarthan Scarab of Surprising Alliances" "Horned Scarab of Tradition"
 	Class "Map Fragment"
 	SetBackgroundColor 250 178 70
 	SetBorderColor 255 255 255
