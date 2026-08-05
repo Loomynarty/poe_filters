@@ -2314,7 +2314,7 @@ Show
 
 # Curse of the Allflame (v3.29)
 Show
-	BaseType "Merrick's Ducat" "Cyaxan's Ducat" "The Changeling's Ducat" "The Genteel's Ducat" "Kishara's Ducat" "Telesia's Ducat" "Rotmother's Ducat" "Brinehook's Ducat" "Katakohi's Ducat" "Tzamoto's Ducat"
+	BaseType "Merrick's Ducat" "Cyaxan's Ducat" "The Changeling's Ducat" "The Genteel's Ducat" "Kishara's Ducat" "Telesia's Ducat" "Rotmother's Ducat" "Brinehook's Ducat" "Katakohi's Ducat" "Tzamoto's Ducat" "Ukatoa's Ducat"
 	SetFontSize 30
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
@@ -2331,7 +2331,7 @@ Show
 
 Show
 	Class "Chart"
-	SetFontSize 25
+	SetFontSize 35
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
 	SetBackgroundColor 20 20 0 255
