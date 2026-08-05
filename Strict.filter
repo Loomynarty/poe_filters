@@ -2282,11 +2282,12 @@ Show
 
 Show
 	BaseType "Dead Man's Sulphur" "Message in a Bottle"
-	SetFontSize 30
+	SetFontSize 35
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
 	SetBackgroundColor 20 20 0 255
 	PlayAlertSound 3 150
+	MinimapIcon 2 Green Raindrop
 
 Show
 	Class "Chart"
@@ -2295,6 +2296,7 @@ Show
 	SetBorderColor 0 240 190 255
 	SetBackgroundColor 20 20 0 255
 	PlayAlertSound 3 150
+	MinimapIcon 2 Green Square
 
 #League Unknowns - Uniques and div cards whose names/basetypes are known before launch but not the details, or if I'm not quite sure how significantly the changes will impact the value. Small green icons.
 # Show
