@@ -2030,14 +2030,19 @@ Show
 	
 #Affliction (v3.23)
 Hide
-	Class "Tincture" "Charms" "Corpses"
+	Class "Tincture" "Charms"
 	SetBackgroundColor 75 50 40
 	SetBorderColor 200 200 200
 	SetTextColor 225 225 225
 	SetFontSize 25
 	PlayAlertSound 11 150
-	# PlayEffect Brown
-	# MinimapIcon 2 Brown Square
+Show
+	Class "Corpses"
+	SetBackgroundColor 75 50 40
+	SetBorderColor 200 200 200
+	SetTextColor 225 225 225
+	SetFontSize 25
+	PlayAlertSound 11 150
 Show 
 	Class "Tincture"
 	Quality >= 21

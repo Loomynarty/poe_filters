@@ -2019,15 +2019,20 @@ Show
 	PlayEffect Cyan Temp
 	
 #Affliction (v3.23)
-Show
-	Class "Tincture" "Charms" "Corpses"
+Hide
+	Class "Tincture" "Charms"
 	SetBackgroundColor 75 50 40
 	SetBorderColor 200 200 200
 	SetTextColor 225 225 225
 	SetFontSize 25
 	PlayAlertSound 11 150
-	# PlayEffect Brown
-	# MinimapIcon 2 Brown Square
+Show
+	Class "Corpses"
+	SetBackgroundColor 75 50 40
+	SetBorderColor 200 200 200
+	SetTextColor 225 225 225
+	SetFontSize 25
+	PlayAlertSound 11 150
 	
 #Necropolis (v3.24)
 Show

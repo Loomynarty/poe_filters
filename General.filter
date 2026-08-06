@@ -2213,13 +2213,22 @@ Show
 	
 #Affliction (v3.23)
 Show
-	Class "Tincture" "Charms" "Corpses"
+	Class "Tincture" "Charms"
 	SetBackgroundColor 75 50 40
 	SetBorderColor 200 200 200
 	SetTextColor 225 225 225
-	SetFontSize 32
+	SetFontSize 25
 	PlayAlertSound 11 150
-	PlayEffect Brown
+	PlayEffect Brown Temp
+	MinimapIcon 2 Brown Square
+Show
+	Class "Corpses"
+	SetBackgroundColor 75 50 40
+	SetBorderColor 200 200 200
+	SetTextColor 225 225 225
+	SetFontSize 25
+	PlayAlertSound 11 150
+	PlayEffect Brown Temp
 	MinimapIcon 2 Brown Square
 	
 #Necropolis (v3.24)
