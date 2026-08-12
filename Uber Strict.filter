@@ -442,6 +442,7 @@ Show
 	SetBorderColor 255 255 255
 	SetTextColor 255 255 255
 	PlayAlertSound 6 300
+	SetFontSize 35
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 	DisableDropSound
@@ -2056,7 +2057,27 @@ Show
 	
 #Necropolis (v3.24)
 Show
-	BaseType "Allflame Ember" "Coffin"
+	BaseType "Allflame Ember of the Ethereal" "Allflame Ember of Kulemak"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
+	SetFontSize 35
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+
+Show
+	BaseType "Allflame Ember of the Gilded" "Allflame Ember of Propagation"
+	SetBackgroundColor 250 0 125
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	PlayAlertSound 10 250
+	SetFontSize 35
+	MinimapIcon 1 Red Circle
+	PlayEffect Red
+
+Show
+	BaseType "Allflame Ember"
 	SetBackgroundColor 75 75 125
 	SetBorderColor 225 225 225
 	SetTextColor 225 225 225
@@ -2064,6 +2085,16 @@ Show
 	PlayAlertSound 11 200
 	MinimapIcon 2 Grey Square
 	PlayEffect Grey Temp	
+
+Show
+	BaseType "Coffin"
+	SetBackgroundColor 75 75 125
+	SetBorderColor 225 225 225
+	SetTextColor 225 225 225
+	SetFontSize 30
+	PlayAlertSound 11 200
+	MinimapIcon 2 Grey Square
+	PlayEffect Grey Temp		
 
 #Settlers of Kalguur (v3.25)
 Show
