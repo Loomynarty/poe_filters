@@ -2279,15 +2279,35 @@ Show
 
 # Curse of the Allflame (v3.29)
 Show
-	BaseType "Merrick's Ducat" "Cyaxan's Ducat" "The Changeling's Ducat" "The Genteel's Ducat" "Kishara's Ducat" "Telesia's Ducat" "Rotmother's Ducat" "Brinehook's Ducat" "Katakohi's Ducat" "Tzamoto's Ducat" "Ukatoa's Ducat"
+	BaseType "Brinehook's Ducat" "Tzamoto's Ducat" "Ukatoa's Ducat"
+	SetFontSize 35
+	SetTextColor 238 229 229 255
+	SetBorderColor 0 240 190 255
+	SetBackgroundColor 82 179 159 255
+	PlayAlertSound 10 150
+
+Show
+	BaseType "Merrick's Ducat" "Cyaxan's Ducat" "The Changeling's Ducat" "The Genteel's Ducat" "Kishara's Ducat" "Telesia's Ducat" "Rotmother's Ducat" "Katakohi's Ducat"
 	SetFontSize 30
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
 	SetBackgroundColor 20 20 0 255
 	PlayAlertSound 3 150
 
+Show 
+	BaseType "Message in a Bottle"
+	Class Currency
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
+	SetFontSize 35
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+	DisableDropSound
+
 Show
-	BaseType "Dead Man's Sulphur" "Message in a Bottle"
+	BaseType "Dead Man's Sulphur"
 	SetFontSize 35
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
@@ -2303,6 +2323,7 @@ Show
 	SetBackgroundColor 20 20 0 255
 	PlayAlertSound 3 150
 	MinimapIcon 2 Green Square
+
 
 #League Unknowns - Uniques and div cards whose names/basetypes are known before launch but not the details, or if I'm not quite sure how significantly the changes will impact the value. Small green icons.
 # Show
