@@ -2324,6 +2324,14 @@ Show
 	SetBackgroundColor 20 20 0 255
 	PlayAlertSound 3 150
 
+Show
+	Class "Cursed Ducat"
+	SetFontSize 30
+	SetBorderColor 0 250 0
+	SetTextColor 0 250 0
+	SetFontSize 35
+	MinimapIcon 2 Green UpsideDownHouse
+
 Show 
 	BaseType "Message in a Bottle"
 	Class Currency
