@@ -1862,13 +1862,22 @@ Show
 	MinimapIcon 1 Grey Triangle
 	PlayEffect Grey Temp
 Show
-	BaseType "Exotic Coinage" "Scrap Metal" "Astragali" "Burial Medallion"
+	BaseType "Exotic Coinage" "Burial Medallion"
 	SetBackgroundColor 68 98 122
 	SetBorderColor 225 225 225
 	SetTextColor 225 225 225
 	SetFontSize 35
 	PlayAlertSound 11 200
 	MinimapIcon 1 Grey Triangle
+	PlayEffect Grey Temp
+Hide
+	BaseType "Scrap Metal" "Astragali"
+	SetBackgroundColor 68 98 122
+	SetBorderColor 225 225 225
+	SetTextColor 225 225 225
+	SetFontSize 25
+	PlayAlertSound 11 200
+	# MinimapIcon 1 Grey Triangle
 	PlayEffect Grey Temp
 	
 #Scourge (v3.16) - dark orange
@@ -2130,7 +2139,7 @@ Show
 	SetTextColor 250 200 0 0
 	SetBackgroundColor 0 0 0 0
 	SetBorderColor 0 0 0 0
-	MinimapIcon 2 Orange Circle
+	# MinimapIcon 2 Orange Circle
 	SetFontSize 0
 
 #Legacy of Phrecia Event
