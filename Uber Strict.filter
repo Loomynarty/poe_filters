@@ -2228,7 +2228,7 @@ Show
 	MinimapIcon 0 Blue Hexagon
 	PlayEffect Blue Temp
 
-Show
+Hide
 	MemoryStrands >= 40
 	SetBackgroundColor 40 90 140
 	SetBorderColor 225 190 70
@@ -3027,7 +3027,7 @@ Show
 	PlayEffect Orange
 	DisableDropSound
 #high tier. 10c+ (orange bg, white border)
-Show
+Hide
 	BaseType "Synthesised" "Museum" "Moon Temple" "Courtyard" "Cursed Crypt"
 	Class Map Contract
 	Rarity Unique
@@ -3054,7 +3054,7 @@ Hide
 	PlayEffect Orange
 	DisableDropSound
 #low tier (darker orange, darker border, no sound in Uber)
-Show
+Hide
 	Class Map
 	Rarity Unique
 	SetBackgroundColor 180 80 0
@@ -3112,7 +3112,7 @@ Show
 	PlayEffect Blue Temp
 
 # Mirage Contracts
-Show
+Hide
 	Class Contract
 	AnyEnchantment True
 	# ItemLevel >= 83
@@ -3122,7 +3122,7 @@ Show
 	SetFontSize 30
 	PlayAlertSound 10 250
 	PlayEffect Red Temp
-Show
+Hide
 	Class Contract
 	ItemLevel >= 83
 	SetBackgroundColor 255 221 153
