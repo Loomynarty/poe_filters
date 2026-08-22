@@ -1683,7 +1683,7 @@ Show
 
 # Scarabs
 Show
-	BaseType == "Ambush Scarab of Containment" "Horned Scarab of Bloodlines" "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Horned Scarab of Pandemonium" "Domination Scarab of Terrors" "Cartography Scarab of Risk" "Divination Scarab of Pilfering"
+	BaseType == "Ambush Scarab of Containment" "Horned Scarab of Bloodlines" "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Horned Scarab of Pandemonium" "Cartography Scarab of Risk" "Legion Scarab of Eternal Conflict" 
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
 	SetTextColor 180 76 58 255
@@ -1692,7 +1692,7 @@ Show
 	PlayEffect Red
 	MinimapIcon 0 Red Star
 Show
-	BaseType == "Essence Scarab of Calcification" "Horned Scarab of Awakening"  "Kalguuran Scarab of Refinement" "Legion Scarab of Eternal Conflict" "Harvest Scarab of Cornucopia" "Abyss Scarab of the Consort" "Incursion Scarab of Timelines" "Trarthan Scarab of Renown" "Harvest Scarab of Doubling" "Breach Scarab of Resonant Cascade" "Blight Scarab of Blooming" "Trarthan Scarab of Surprising Alliances" "Horned Scarab of Tradition"
+	BaseType == "Essence Scarab of Calcification" "Horned Scarab of Awakening"  "Kalguuran Scarab of Refinement" "Harvest Scarab of Cornucopia" "Abyss Scarab of the Consort" "Incursion Scarab of Timelines" "Trarthan Scarab of Renown" "Harvest Scarab of Doubling" "Breach Scarab of Resonant Cascade" "Blight Scarab of Blooming" "Trarthan Scarab of Surprising Alliances" "Divination Scarab of Pilfering"  "Domination Scarab of Terrors" "Scarab of Wisps"
 	Class "Map Fragment"
 	SetBackgroundColor 250 178 70
 	SetBorderColor 255 255 255
@@ -1702,7 +1702,7 @@ Show
 	MinimapIcon 1 Orange Triangle
 	DisableDropSound
 Show
-	BaseType == "Ambush Scarab" "Ambush Scarab of Discernment" "Bestiary Scarab of Duplicating" "Bestiary Scarab of the Herd" "Betrayal Scarab of Unbreaking" "Blight Scarab of Invigoration" "Breach Scarab of Instability" "Breach Scarab of the Incensed Swarm" "Cartography Scarab of Corruption" "Cartography Scarab of Escalation" "Cartography Scarab of the Multitude" "Delirium Scarab of Paranoia" "Divination Scarab of Plenty" "Divination Scarab of The Cloister" "Domination Scarab" "Essence Scarab" "Essence Scarab of Ascent" "Essence Scarab of Stability" "Horned Scarab of Glittering" "Horned Scarab of Nemeses" "Influencing Scarab of Interference" "Kalguuran Scarab" "Legion Scarab" "Legion Scarab of Officers" "Legion Scarab of Treasures" "Scarab of Monstrous Lineage" "Scarab of the Sinistral" "Scarab of Wisps" "Ultimatum Scarab of Bribing" "Ultimatum Scarab of Dueling" "Ultimatum Scarab of Inscription" "Trarthan Scarab of Infamy" "Essence Scarab of Adaptation" "Abyss Scarab" "Abyss Scarab of Multitudes"
+	BaseType == "Ambush Scarab" "Ambush Scarab of Discernment" "Bestiary Scarab of Duplicating" "Bestiary Scarab of the Herd" "Betrayal Scarab of Unbreaking" "Blight Scarab of Invigoration" "Breach Scarab of Instability" "Breach Scarab of the Incensed Swarm" "Cartography Scarab of Corruption" "Cartography Scarab of Escalation" "Cartography Scarab of the Multitude" "Delirium Scarab of Paranoia" "Divination Scarab of Plenty" "Divination Scarab of The Cloister" "Domination Scarab" "Essence Scarab" "Essence Scarab of Ascent" "Essence Scarab of Stability" "Horned Scarab of Glittering" "Horned Scarab of Nemeses" "Influencing Scarab of Interference" "Kalguuran Scarab" "Legion Scarab" "Legion Scarab of Officers" "Legion Scarab of Treasures" "Scarab of Monstrous Lineage" "Scarab of the Sinistral" "Ultimatum Scarab of Bribing" "Ultimatum Scarab of Dueling" "Ultimatum Scarab of Inscription" "Trarthan Scarab of Infamy" "Essence Scarab of Adaptation" "Abyss Scarab" "Abyss Scarab of Multitudes" "Horned Scarab of Tradition"
 	Class "Map Fragment"
 	SetBackgroundColor 100 50 0
 	SetBorderColor 225 225 225
