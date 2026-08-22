@@ -497,7 +497,7 @@ Show
 	PlayEffect Purple
 	DisableDropSound
 Show
-	BaseType "Chaos Orb" "Vaal Orb" "Exalted Orb" "Chromatic Orb"
+	BaseType "Chaos Orb" "Chromatic Orb"
 	Class Currency
 	StackSize >= 5
 	SetBackgroundColor 175 0 250
@@ -535,7 +535,7 @@ Hide
 
 #1c+ (teal)
 Show
-	BaseType "Chaos Orb" "Vaal Orb" "Exalted Orb" "Chromatic Orb"
+	BaseType "Chaos Orb" "Chromatic Orb"
 	Class Currency
 	SetBackgroundColor 0 225 225
 	SetBorderColor 0 0 0
@@ -545,7 +545,7 @@ Show
 	MinimapIcon 2 Cyan Circle
 	DisableDropSound
 Show
-	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking"
+	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Orb of Unmaking" "Vaal Orb" "Exalted Orb"
 	StackSize >= 5
 	Class Currency
 	SetBackgroundColor 0 175 175
@@ -581,7 +581,7 @@ Hide
 #<1c but still important (seagreen) - lowest tier to be shown in Uber.
 #note that some of these are higher tiered than their trade value because of their high consumption rate and SSF value
 Hide
-	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking" "Regal Orb" "Glassblower's Bauble"
+	BaseType "Blessed Orb" "Orb of Regret" "Orb of Scouring" "Enkindling Orb" "Instilling Orb" "Cartographer's Chisel" "Orb of Unmaking" "Regal Orb" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb"
 	Class Currency
 	SetBackgroundColor 0 180 130
 	SetBorderColor 0 0 0
@@ -2118,7 +2118,7 @@ Show
 	PlayEffect Orange
 Show
 	Class "Gold"
-	StackSize >= 500
+	StackSize >= 250
 	SetTextColor 250 150 0 0
 	SetBackgroundColor 0 0 0 0
 	SetBorderColor 0 0 0 0
@@ -2132,7 +2132,7 @@ Show
 	SetBackgroundColor 0 0 0 0
 	SetBorderColor 0 0 0 0
 	SetFontSize 0
-	MinimapIcon 2 Orange Circle
+	# MinimapIcon 2 Orange Circle
 	PlayEffect Yellow Temp
 Show
 	Class "Gold"
