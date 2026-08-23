@@ -2512,6 +2512,7 @@ Show
 	SetTextColor 238 229 229 255
 	SetBorderColor 0 240 190 255
 	SetBackgroundColor 82 179 159 255
+	MinimapIcon 1 Cyan Triangle
 	PlayAlertSound 10 150
 
 Show
