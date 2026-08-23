@@ -5108,7 +5108,7 @@ Show
 	SetFontSize 30
 	DisableDropSound
 Show
-	BaseType "Prismatic Ring" "Primordial Staff" "Ancient Spirit Shield" "Ezomyte Blade" "Marble Amulet" "Shadow Sceptre" "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Triumphant Lamellar" "Dragonscale Boots" "Royal Sceptre" "Golden Plate" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Ambush Mitts" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Shagreen Boots" "Golden Mask" "Titan Gauntlets" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Lacquered Helmet" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Agate Amulet" "Goliath Gauntlets" "Zealot Helmet"  "Antique Gauntlets" "Spiny Round Shield" "Paladin Crown"  "Faithful Helmet" "Sacrificial Garb" "Lich's Circlet" "Waxed Garb" "Spectral Axe" "Seaglass Amulet" "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Colossal Mana Flask" "Steel Ring" "Fugitive Ring" "Organic Ring" "Torturer Garb" "Ghostflame Blade"
+	BaseType "Prismatic Ring" "Primordial Staff" "Ancient Spirit Shield" "Marble Amulet" "Shadow Sceptre" "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Triumphant Lamellar" "Dragonscale Boots" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Goliath Gauntlets" "Zealot Helmet"  "Antique Gauntlets" "Spiny Round Shield" "Paladin Crown"  "Faithful Helmet" "Sacrificial Garb" "Lich's Circlet" "Waxed Garb" "Spectral Axe" "Seaglass Amulet" "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Colossal Mana Flask" "Steel Ring" "Fugitive Ring" "Organic Ring" "Torturer Garb" "Ghostflame Blade"
 	Rarity Unique
 	ItemLevel >= 85
 	SetBackgroundColor 180 80 0
@@ -5232,29 +5232,6 @@ Hide
 	SetFontSize 30
 	MinimapIcon 1 Grey Star
 	PlayEffect Grey Temp
-	DisableDropSound
-
-#Boss Bases - the basetype has a unique that is valuable but only drops from a boss (so it can't be hidden) and the other uniques on that base are dogshit. Purple border/star - the idea is that you ignore it unless you just killed a boss. No sound or light, smallest icon.
-Show
-	BaseType == "Bismuth Flask" "Amethyst Flask"
-	Rarity Unique
-	ItemLevel == 87
-	AreaLevel == 85
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 180 76 58 255
-	SetTextColor 180 76 58 255
-	SetFontSize 35
-	PlayAlertSound 6 300
-	PlayEffect Red
-	MinimapIcon 0 Red Star
-Show
-	BaseType "Prismatic Ring" "Primordial Staff" "Ancient Spirit Shield" "Ezomyte Blade" "Marble Amulet" "Shadow Sceptre" "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Ancient Gauntlets" "Vaal Sceptre" "Vaal Mask" "Triumphant Lamellar" "Dragonscale Boots" "Royal Sceptre" "Golden Plate" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Ambush Mitts" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Shagreen Boots" "Golden Mask" "Titan Gauntlets" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Lacquered Helmet" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Agate Amulet" "Goliath Gauntlets" "Zealot Helmet"  "Antique Gauntlets" "Spiny Round Shield" "Paladin Crown"  "Faithful Helmet" "Sacrificial Garb" "Lich's Circlet" "Waxed Garb" "Spectral Axe" "Seaglass Amulet" "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Colossal Mana Flask" "Steel Ring" "Fugitive Ring" "Organic Ring" "Torturer Garb" "Ghostflame Blade" "Ancient Gauntlets"
-	Rarity Unique
-	ItemLevel >= 85
-	SetBackgroundColor 180 80 0
-	SetBorderColor 200 150 250
-	SetTextColor 0 0 0
-	SetFontSize 25
 	DisableDropSound
 
 #6S uniques - located here due to priority issues
