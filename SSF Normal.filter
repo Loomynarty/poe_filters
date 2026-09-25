@@ -6014,45 +6014,45 @@ Show
 #Note: only top meta basetypes are shown by default. delete the blocks that don't apply to your build. off meta builds may need to edit in their specific weapons
 #Note: caster shields with spelldamage implicits are considered weapons. all other shields are considered armor.
 #caster (light blue)
+Show
+	BaseType "Sambar Sceptre" "Opal Sceptre" "Void Sceptre"  "Profane Wand"
+	Rarity Rare
+	SetBorderColor 150 200 250
+	SetFontSize 25
 # Show
-	# BaseType "Sambar Sceptre" "Opal Sceptre" "Void Sceptre"  "Profane Wand"
-	# Rarity Rare
-	# SetBorderColor 150 200 250
-	# SetFontSize 30
-# Show
-	# BaseType "Twig Spirit Shield" "Yew Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Walnut Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Lacewood Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield"
-	# Rarity Rare
-	# SetBorderColor 150 200 250
-	# SetFontSize 30
+	BaseType "Twig Spirit Shield" "Yew Spirit Shield" "Tarnished Spirit Shield" "Jingling Spirit Shield" "Walnut Spirit Shield" "Ancient Spirit Shield" "Chiming Spirit Shield" "Lacewood Spirit Shield" "Vaal Spirit Shield" "Harmonic Spirit Shield"
+	Rarity Rare
+	SetBorderColor 150 200 250
+	SetFontSize 25
 
 #ranged (lime green)
-# Show
-	# BaseType "Spine Bow" "Thicket Bow" "Feathered Arrow Quiver" "Broadhead Arrow Quiver" "Primal Arrow Quiver"
-	# Rarity Rare
-	# SetBorderColor 125 200 40
-	# SetFontSize 30
+Show
+	BaseType "Spine Bow" "Thicket Bow" "Feathered Arrow Quiver" "Broadhead Arrow Quiver" "Primal Arrow Quiver"
+	Rarity Rare
+	SetBorderColor 125 200 40
+	SetFontSize 25
 
 #melee (maroon)
-# Show
-# 	BaseType "Despot Axe" "Ezomyte Axe" "Piledriver" "Siege Axe" "Royal Axe"
-# 	Rarity Rare
-# 	SetBorderColor 125 0 0
-# 	SetFontSize 30
+Show
+	BaseType "Despot Axe" "Ezomyte Axe" "Piledriver" "Siege Axe" "Royal Axe"
+	Rarity Rare
+	SetBorderColor 125 0 0
+	SetFontSize 25
 	
 #summoner (violet)
-# Show
-# 	BaseType "Calling Wand" "Convening Wand" "Convoking Wand" "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
-# 	Rarity Rare
-# 	SetBorderColor 125 0 250
-# 	SetFontSize 30
+Show
+	BaseType "Calling Wand" "Convening Wand" "Convoking Wand" "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
+	Rarity Rare
+	SetBorderColor 125 0 250
+	SetFontSize 25
 
 #bone ring is included in summoner weapon section as it's the only jewellery base that's archetype-associated, and you're either playing a summoner or you're not
-# Show
-# 	BaseType "Bone Ring"
-# 	# Rarity Rare
-# 	SetBackgroundColor 50 0 100
-# 	SetBorderColor 175 75 255
-# 	SetFontSize 30
+Show
+	BaseType "Bone Ring"
+	# Rarity Rare
+	SetBackgroundColor 50 0 100
+	SetBorderColor 175 75 255
+	SetFontSize 25
 	
 #offmeta - disabled by default, listed here for convenience
 #Show
@@ -6468,641 +6468,651 @@ Show
 ###################################################################################
 #Wands
 #+1 gems
-# Show
-	# Class "Wand"
-	# ItemLevel = 2
-	# SetBorderColor 150 200 250
-	# SetFontSize 35
-	# MinimapIcon 2 Blue Cross
-	# PlayEffect Blue Temp
-#3L wands, highlighted only if within 15 levels of zonelevel. ends at 60
-# Show
-	# Class "Wand"
-	# AreaLevel <= 10
-	# LinkedSockets = 3
-	# SetBackgroundColor 40 50 60
-	# SetBorderColor 150 200 250
-	# SetFontSize 35
-# Show
-	# Class "Wand"
-	# AreaLevel <= 20
-	# DropLevel >= 5
-	# LinkedSockets = 3
-	# SetBackgroundColor 40 50 60
-	# SetBorderColor 150 200 250
-	# SetFontSize 32
-# Show
-	# Class "Wand"
-	# AreaLevel <= 30
-	# DropLevel >= 15
-	# LinkedSockets = 3
-	# SetBackgroundColor 40 50 60
-	# SetBorderColor 150 200 250
-	# SetFontSize 30
-# Show
-	# Class "Wand"
-	# AreaLevel <= 40
-	# DropLevel >= 25
-	# LinkedSockets = 3
-	# SetBackgroundColor 40 50 60
-	# SetBorderColor 150 200 250
-	# SetFontSize 38
-# Show
-	# Class "Wand"
-	# AreaLevel <= 47
-	# DropLevel >= 35
-	# LinkedSockets = 3
-	# SetBackgroundColor 40 50 60
-	# SetBorderColor 150 200 250
-	# SetFontSize 38
-#Percent wands. shows both the 1.5 speed and the max spelldmg lines. naturally alternates
-# Show
-	# BaseType 
-	# AreaLevel <= 29
-	# SetBorderColor 100 150 200
-	# SetFontSize 36
-# Show
-	# BaseType "Sage Wand"
-	# AreaLevel <= 39
-	# SetBorderColor 100 150 200
-	# SetFontSize 36
-# Show
-	# BaseType 
-	# AreaLevel <= 52
-	# SetBorderColor 100 150 200
-	# SetFontSize 36
-# Show
-	# BaseType "Omen Wand"
-	# AreaLevel <= 58
-	# SetBorderColor 100 150 200
-	# SetFontSize 36
-# Show
-	# BaseType 
-	# AreaLevel <= 67
-	# SetBorderColor 100 150 200
-	# SetFontSize 36
-# Show
-	# BaseType "Prophecy Wand"
-	# AreaLevel <= 68
-	# SetBorderColor 100 150 200
-	# SetFontSize 36
-#Flat wands. has faint colored backgrounds indicating flat type. are highlighted for 10 levels after they start dropping
-#fire
-# Show
-	# BaseType "Goat's Horn"
-	# AreaLevel <= 16
-	# SetBorderColor 100 150 200
-	# SetBackgroundColor 50 0 0
-	# SetFontSize 38
-# Show
-	# BaseType "Faun's Horn"
-	# AreaLevel <= 45
-	# SetBorderColor 100 150 200
-	# SetBackgroundColor 50 0 0
-	# SetFontSize 38
-# Show
-	# BaseType "Demon's Horn"
-	# AreaLevel <= 67
-	# SetBorderColor 100 150 200
-	# SetBackgroundColor 50 0 0
-	# SetFontSize 38
-#cold
-# Show
-	# BaseType "Quartz Wand"
-	# AreaLevel <= 28
-	# SetBorderColor 100 150 200
-	# SetBackgroundColor 0 50 0
-	# SetFontSize 38
-# Show
-	# BaseType "Crystal Wand"
-	# AreaLevel <= 55
-	# SetBorderColor 100 150 200
-	# SetBackgroundColor 0 50 0
-	# SetFontSize 38
-# Show
-	# BaseType "Opal Wand"
-	# AreaLevel <= 67
-	# SetBorderColor 100 150 200
-	# SetBackgroundColor 0 50 0
-	# SetFontSize 38
-#lightning
-# Show
-	# BaseType "Spiraled Wand"
-	# AreaLevel <= 34
-	# SetBorderColor 100 150 200
-	# SetBackgroundColor 0 0 75
-	# SetFontSize 38
-# Show
-	# BaseType "Coiled Wand"
-	# AreaLevel <= 59
-	# SetBorderColor 100 150 200
-	# SetBackgroundColor 0 0 75
-	# SetFontSize 38
-# Show
-	# BaseType "Tornado Wand"
-	# AreaLevel <= 67
-	# SetBorderColor 100 150 200
-	# SetBackgroundColor 0 0 75
-	# SetFontSize 38
-#catchalls
-# Show
-	# Class "Wand"
-	# Rarity Magic Rare
-	# AreaLevel <= 13
-	# SetBorderColor 150 200 250
-	# SetFontSize 35
-# Show
-	# Class "Wand"
-	# Rarity Rare
-	# AreaLevel <= 67
-	# SetBorderColor 150 200 250
-	# SetFontSize 38
-# Show
-	# Class "Wand"
-	# Rarity Magic
-	# AreaLevel <= 30
-	# SetBorderColor 150 200 250
-	# SetFontSize 38
-# Show
-	# Class "Wand"
-	# AreaLevel <= 47
-	# LinkedSockets = 3
-	# SetBorderColor 150 200 250
-# Show
-	# Class "Wand"
-	# AreaLevel <= 13
-	# ItemLevel >= 2
+Show
+	Class "Wand"
+	ItemLevel = 2
+	SetBorderColor 150 200 250
+	SetFontSize 27
+	MinimapIcon 2 Blue Cross
+	PlayEffect Blue Temp
+# 3L wands, highlighted only if within 15 levels of zonelevel. ends at 60
+Show
+	Class "Wand"
+	AreaLevel <= 10
+	LinkedSockets = 3
+	SetBackgroundColor 40 50 60
+	SetBorderColor 150 200 250
+	SetFontSize 27
+Show
+	Class "Wand"
+	AreaLevel <= 20
+	DropLevel >= 5
+	LinkedSockets = 3
+	SetBackgroundColor 40 50 60
+	SetBorderColor 150 200 250
+	SetFontSize 27
+Show
+	Class "Wand"
+	AreaLevel <= 30
+	DropLevel >= 15
+	LinkedSockets = 3
+	SetBackgroundColor 40 50 60
+	SetBorderColor 150 200 250
+	SetFontSize 27
+Show
+	Class "Wand"
+	AreaLevel <= 40
+	DropLevel >= 25
+	LinkedSockets = 3
+	SetBackgroundColor 40 50 60
+	SetBorderColor 150 200 250
+	SetFontSize 27
+Show
+	Class "Wand"
+	AreaLevel <= 47
+	DropLevel >= 35
+	LinkedSockets = 3
+	SetBackgroundColor 40 50 60
+	SetBorderColor 150 200 250
+	SetFontSize 27
+# Percent wands. shows both the 1.5 speed and the max spelldmg lines. naturally alternates
+Show
+	BaseType 
+	AreaLevel <= 29
+	SetBorderColor 100 150 200
+	SetFontSize 27
+Show
+	BaseType "Sage Wand"
+	AreaLevel <= 39
+	SetBorderColor 100 150 200
+	SetFontSize 27
+Show
+	BaseType 
+	AreaLevel <= 52
+	SetBorderColor 100 150 200
+	SetFontSize 27
+Show
+	BaseType "Omen Wand"
+	AreaLevel <= 58
+	SetBorderColor 100 150 200
+	SetFontSize 27
+Show
+	BaseType 
+	AreaLevel <= 67
+	SetBorderColor 100 150 200
+	SetFontSize 27
+Show
+	BaseType "Prophecy Wand"
+	AreaLevel <= 68
+	SetBorderColor 100 150 200
+	SetFontSize 27
+# Flat wands. has faint colored backgrounds indicating flat type. are highlighted for 10 levels after they start dropping
+# fire
+Show
+	BaseType "Goat's Horn"
+	AreaLevel <= 16
+	SetBorderColor 100 150 200
+	SetBackgroundColor 50 0 0
+	SetFontSize 27
+Show
+	BaseType "Faun's Horn"
+	AreaLevel <= 45
+	SetBorderColor 100 150 200
+	SetBackgroundColor 50 0 0
+	SetFontSize 27
+Show
+	BaseType "Demon's Horn"
+	AreaLevel <= 67
+	SetBorderColor 100 150 200
+	SetBackgroundColor 50 0 0
+	SetFontSize 27
+# cold
+Show
+	BaseType "Quartz Wand"
+	AreaLevel <= 28
+	SetBorderColor 100 150 200
+	SetBackgroundColor 0 50 0
+	SetFontSize 27
+Show
+	BaseType "Crystal Wand"
+	AreaLevel <= 55
+	SetBorderColor 100 150 200
+	SetBackgroundColor 0 50 0
+	SetFontSize 27
+Show
+	BaseType "Opal Wand"
+	AreaLevel <= 67
+	SetBorderColor 100 150 200
+	SetBackgroundColor 0 50 0
+	SetFontSize 27
+# lightning
+Show
+	BaseType "Spiraled Wand"
+	AreaLevel <= 34
+	SetBorderColor 100 150 200
+	SetBackgroundColor 0 0 75
+	SetFontSize 27
+Show
+	BaseType "Coiled Wand"
+	AreaLevel <= 59
+	SetBorderColor 100 150 200
+	SetBackgroundColor 0 0 75
+	SetFontSize 27
+Show
+	BaseType "Tornado Wand"
+	AreaLevel <= 67
+	SetBorderColor 100 150 200
+	SetBackgroundColor 0 0 75
+	SetFontSize 27
+# catchalls
+Show
+	Class "Wand"
+	Rarity Magic Rare
+	AreaLevel <= 13
+	SetBorderColor 150 200 250
+	SetFontSize 27
+Show
+	Class "Wand"
+	Rarity Rare
+	AreaLevel <= 67
+	SetBorderColor 150 200 250
+	SetFontSize 27
+Show
+	Class "Wand"
+	Rarity Magic
+	AreaLevel <= 30
+	SetBorderColor 150 200 250
+	SetFontSize 27
+Show
+	Class "Wand"
+	AreaLevel <= 47
+	LinkedSockets = 3
+	SetBorderColor 150 200 250
+	SetFontSize 27
+Show
+	Class "Wand"
+	AreaLevel <= 13
+	ItemLevel >= 2
+	SetFontSize 27
 	
-#Sceptres
-#+1 gems
-# Show
-	# Class "Sceptre"
-	# ItemLevel = 2
-	# SetBorderColor 150 200 250
-	# SetFontSize 35
-	# MinimapIcon 2 Blue Cross
-	# PlayEffect Blue Temp
-#3L
-# Show
-	# BaseType "Quartz Sceptre" "Shadow Sceptre"
-	# AreaLevel <= 47
-	# LinkedSockets = 3
-	# SetBackgroundColor 40 50 60
-	# SetBorderColor 150 200 250
-	# SetFontSize 30
-# Show
-	# BaseType "Crystal Sceptre" "Abyssal Sceptre"
-	# AreaLevel <= 61
-	# LinkedSockets = 3
-	# SetBackgroundColor 40 50 60
-	# SetBorderColor 150 200 250
-	# SetFontSize 38
-# Show
-	# BaseType "Opal Sceptre" "Void Sceptre"
-	# AreaLevel <= 63
-	# LinkedSockets = 3
-	# SetBackgroundColor 40 50 60
-	# SetBorderColor 150 200 250
-	# SetFontSize 38
-#top basetypes
-# Show
-# 	BaseType "Quartz Sceptre" "Shadow Sceptre"
-# 	AreaLevel <= 47
-# 	SetBorderColor 100 150 200
-# 	SetFontSize 30
-# Show
-# 	BaseType "Crystal Sceptre" "Abyssal Sceptre"
-# 	AreaLevel <= 59
-# 	SetBorderColor 100 150 200
-# 	SetFontSize 38
-# Show
-# 	BaseType "Opal Sceptre" "Void Sceptre" "Sambar Sceptre"
-# 	AreaLevel <= 67
-# 	SetBorderColor 100 150 200
+# Sceptres
+# +1 gems
+Show
+	Class "Sceptre"
+	ItemLevel = 2
+	SetBorderColor 150 200 250
+	SetFontSize 27
+	MinimapIcon 2 Blue Cross
+	PlayEffect Blue Temp
+# 3L
+Show
+	BaseType "Quartz Sceptre" "Shadow Sceptre"
+	AreaLevel <= 47
+	LinkedSockets = 3
+	SetBackgroundColor 40 50 60
+	SetBorderColor 150 200 250
+	SetFontSize 27
+Show
+	BaseType "Crystal Sceptre" "Abyssal Sceptre"
+	AreaLevel <= 61
+	LinkedSockets = 3
+	SetBackgroundColor 40 50 60
+	SetBorderColor 150 200 250
+	SetFontSize 27
+Show
+	BaseType "Opal Sceptre" "Void Sceptre"
+	AreaLevel <= 63
+	LinkedSockets = 3
+	SetBackgroundColor 40 50 60
+	SetBorderColor 150 200 250
+	SetFontSize 27
+# top basetypes
+Show
+	BaseType "Quartz Sceptre" "Shadow Sceptre"
+	AreaLevel <= 47
+	SetBorderColor 100 150 200
+	SetFontSize 27
+Show
+	BaseType "Crystal Sceptre" "Abyssal Sceptre"
+	AreaLevel <= 59
+	SetBorderColor 100 150 200
+	SetFontSize 27
+Show
+	BaseType "Opal Sceptre" "Void Sceptre" "Sambar Sceptre"
+	AreaLevel <= 67
+	SetBorderColor 100 150 200
+	SetFontSize 27
 #catchalls
 Show
 	Class "Sceptre"
 	Rarity Magic Rare
 	AreaLevel <= 13
 	SetBorderColor 150 200 250
-	SetFontSize 35
-# Show
-	# Class "Sceptre"
-	# Rarity Rare
-	# AreaLevel <= 67
-	# SetBorderColor 150 200 250
-	# SetFontSize 38
-# Show
-	# Class "Sceptre"
-	# Rarity Magic
-	# AreaLevel <= 35
-	# SetBorderColor 150 200 250
-	# SetFontSize 38
-# Show
-	# Class "Sceptre"
-	# AreaLevel <= 47
-	# LinkedSockets = 3
-	# SetBorderColor 150 200 250
-# Show
-	# Class "Sceptre"
-	# AreaLevel <= 13
-	# ItemLevel >= 2
+	SetFontSize 27
+Show
+	Class "Sceptre"
+	Rarity Rare
+	AreaLevel <= 67
+	SetBorderColor 150 200 250
+	SetFontSize 27
+Show
+	Class "Sceptre"
+	Rarity Magic
+	AreaLevel <= 35
+	SetBorderColor 150 200 250
+	SetFontSize 27
+Show
+	Class "Sceptre"
+	AreaLevel <= 47
+	LinkedSockets = 3
+	SetBorderColor 150 200 250
+	SetFontSize 27
+Show
+	Class "Sceptre"
+	AreaLevel <= 13
+	ItemLevel >= 2
+	SetFontSize 27
 	
 #shields
-# Show
-	# BaseType "Harmonic Spirit Shield" "Jingling Spirit Shield" "Chiming Spirit Shield"
-	# AreaLevel <= 67
-	# SetBorderColor 150 200 250
+Show
+	BaseType "Harmonic Spirit Shield" "Jingling Spirit Shield" "Chiming Spirit Shield"
+	AreaLevel <= 67
+	SetBorderColor 150 200 250
+	SetFontSize 27
 	
 #crit daggers (disabled by default)
-#Show
-#	BaseType "Copper Kris" "Golden Kris" "Platinum Kris"
-#	SetBorderColor 100 150 200
-#	AreaLevel <= 67
-#	ItemLevel >= 60
+Show
+	BaseType "Copper Kris" "Golden Kris" "Platinum Kris"
+	SetBorderColor 100 150 200
+	AreaLevel <= 67
+	ItemLevel >= 60
+	SetFontSize 27
 	
 ###################################################################################
 ###################### Section 15 - Summoner Levelling ############################
 ###################################################################################
 #Note: as there is overlap with the caster section, some highlighting here only "activates" if the caster section is deleted
-#Show
-#	BaseType "Convoking Wand"
-#	AreaLevel <= 72
-#	SetBorderColor 125 0 250
-#	SetFontSize 38
-#	MinimapIcon 2 Purple Cross
-#Show
-#	BaseType "Convening Wand"
-#	AreaLevel <= 67
-#	SetBorderColor 125 0 250
-#	SetFontSize 38
-#	MinimapIcon 2 Purple Cross
-#Show
-#	BaseType "Calling Wand"
-#	AreaLevel <= 49
-#	SetBorderColor 125 0 250
-#	SetFontSize 38
-#	MinimapIcon 2 Purple Cross
-#Show
-#	Class "Wand" "Sceptre"
-#	Rarity Magic Rare
-#	AreaLevel <= 15
-#	SetBorderColor 125 0 250
-#	SetFontSize 35
-# Show
-	# 	BaseType "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
-	# 	Rarity Normal Magic Rare
-	# 	AreaLevel <= 67
-	# 	SetBorderColor 125 0 250
-#Show
-#	Class "Wand"
-#	ItemLevel <= 15
-#	ItemLevel >= 2
-#Show
-#	AreaLevel <= 67
-#	BaseType "Bone Ring"
-#	SetFontSize 36
-#Show
-#	BaseType "Helmet"
-#	AreaLevel <= 67
-#	HasExplicitMod "Reanimator's"
-#	SetBorderColor 125 0 250
-#	SetFontSize 38
-#Show
-#	BaseType "Helmet"
-#	AreaLevel <= 75
-#	HasExplicitMod "Summoner's"
-#	SetBorderColor 125 0 250
-#	SetFontSize 30
+Show
+	BaseType "Convoking Wand"
+	AreaLevel <= 72
+	SetBorderColor 125 0 250
+	SetFontSize 27
+	MinimapIcon 2 Purple Cross
+Show
+	BaseType "Convening Wand"
+	AreaLevel <= 67
+	SetBorderColor 125 0 250
+	SetFontSize 27
+	MinimapIcon 2 Purple Cross
+Show
+	BaseType "Calling Wand"
+	AreaLevel <= 49
+	SetBorderColor 125 0 250
+	SetFontSize 27
+	MinimapIcon 2 Purple Cross
+Show
+	Class "Wand" "Sceptre"
+	Rarity Magic Rare
+	AreaLevel <= 15
+	SetBorderColor 125 0 250
+	SetFontSize 27
+Show
+	BaseType "Bone Spirit Shield" "Ivory Spirit Shield" "Fossilised Spirit Shield"
+	Rarity Normal Magic Rare
+	AreaLevel <= 67
+	SetBorderColor 125 0 250
+	SetFontSize 27
+Show
+	Class "Wand"
+	ItemLevel <= 15
+	ItemLevel >= 2
+	SetFontSize 27
+Show
+	AreaLevel <= 67
+	BaseType "Bone Ring"
+	SetFontSize 27
+Show
+	BaseType "Helmet"
+	AreaLevel <= 67
+	HasExplicitMod "Reanimator's"
+	SetBorderColor 125 0 250
+	SetFontSize 27
+Show
+	BaseType "Helmet"
+	AreaLevel <= 75
+	HasExplicitMod "Summoner's"
+	SetBorderColor 125 0 250
+	SetFontSize 27
 
 #Claw levelling (disabled by default after it fell out of meta due to holy relic / cyclone / minion nerfs)
-#Show
-#	BaseType "Sparkling Claw" "Double Claw" "Gouger"
-#	ItemLevel <= 45
-#	SetBorderColor 125 0 250
-#Show
-#	BaseType "Gut Ripper"
-#	ItemLevel <= 67
-#	SetBorderColor 125 0 250
-#	SetFontSize 38
+Show
+	BaseType "Sparkling Claw" "Double Claw" "Gouger"
+	ItemLevel <= 45
+	SetBorderColor 125 0 250
+	SetFontSize 27
+Show
+	BaseType "Gut Ripper"
+	ItemLevel <= 67
+	SetBorderColor 125 0 250
+	SetFontSize 27
 	
 ###################################################################################
 ##################### Section 16.1 - 1h Melee Levelling ###########################
 ###################################################################################
 #As of 3.11.5 only shows axes by default
 #Early pre-specialization levelling, shows both axes and swords before roughly level ~20 zones
-# Show
-# 	BaseType "Rusted Hatchet" "Rusted Sword" "Rusted Spike" "Whalebone Rapier" "Driftwood Club"
-# 	AreaLevel <= 5
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Jade Hatchet" "Copper Sword"
-# 	AreaLevel <= 11
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Boarding Axe" "Sabre"
-# 	AreaLevel <= 15
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
+Show
+	BaseType "Rusted Hatchet" "Rusted Sword" "Rusted Spike" "Whalebone Rapier" "Driftwood Club"
+	AreaLevel <= 5
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Jade Hatchet" "Copper Sword"
+	AreaLevel <= 11
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Boarding Axe" "Sabre"
+	AreaLevel <= 15
+	SetBorderColor 128 0 0
+	SetFontSize 27
 	
 # # Axes
-# Show
-# 	BaseType "Cleaver"
-# 	AreaLevel <= 20
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Broad Axe"
-# 	AreaLevel <= 24
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Arming Axe"
-# 	AreaLevel <= 28
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Arming Axe"
-# 	AreaLevel <= 28
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Decorative Axe"
-# 	AreaLevel <= 32
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Decorative Axe"
-# 	AreaLevel <= 32
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Spectral Axe"
-# 	AreaLevel <= 34
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Spectral Axe"
-# 	AreaLevel <= 34
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Jasper Axe" "Etched Hatchet"
-# 	AreaLevel <= 38
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Jasper Axe" "Etched Hatchet"
-# 	AreaLevel <= 38
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Tomahawk"
-# 	AreaLevel <= 41
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Tomahawk"
-# 	AreaLevel <= 41
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Wrist Chopper"
-# 	AreaLevel <= 44
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Wrist Chopper"
-# 	AreaLevel <= 44
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
+Show
+	BaseType "Cleaver"
+	AreaLevel <= 20
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Broad Axe"
+	AreaLevel <= 24
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Arming Axe"
+	AreaLevel <= 28
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Arming Axe"
+	AreaLevel <= 28
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Decorative Axe"
+	AreaLevel <= 32
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Decorative Axe"
+	AreaLevel <= 32
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Spectral Axe"
+	AreaLevel <= 34
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Spectral Axe"
+	AreaLevel <= 34
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Jasper Axe" "Etched Hatchet"
+	AreaLevel <= 38
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Jasper Axe" "Etched Hatchet"
+	AreaLevel <= 38
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Tomahawk"
+	AreaLevel <= 41
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Tomahawk"
+	AreaLevel <= 41
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Wrist Chopper"
+	AreaLevel <= 44
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Wrist Chopper"
+	AreaLevel <= 44
+	SetBorderColor 128 0 0
+	SetFontSize 27
 	
 # #a5 kitava cutoff
-# Show
-# 	BaseType "War Axe"
-# 	AreaLevel <= 47
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "War Axe"
-# 	AreaLevel <= 47
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Chest Splitter"
-# 	AreaLevel <= 50
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Chest Splitter"
-# 	AreaLevel <= 50
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Ceremonial Axe"
-# 	AreaLevel <= 53
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Ceremonial Axe"
-# 	AreaLevel <= 53
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Wraith Axe"
-# 	AreaLevel <= 56
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Wraith Axe"
-# 	AreaLevel <= 56
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Engraved Hatchet" "Karui Axe"
-# 	AreaLevel <= 58
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Engraved Hatchet" "Karui Axe"
-# 	AreaLevel <= 58
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Vaal Hatchet"
-# 	AreaLevel <= 67
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Vaal Hatchet"
-# 	AreaLevel <= 67
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
+Show
+	BaseType "War Axe"
+	AreaLevel <= 47
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "War Axe"
+	AreaLevel <= 47
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Chest Splitter"
+	AreaLevel <= 50
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Chest Splitter"
+	AreaLevel <= 50
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Ceremonial Axe"
+	AreaLevel <= 53
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Ceremonial Axe"
+	AreaLevel <= 53
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Wraith Axe"
+	AreaLevel <= 56
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Wraith Axe"
+	AreaLevel <= 56
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Engraved Hatchet" "Karui Axe"
+	AreaLevel <= 58
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Engraved Hatchet" "Karui Axe"
+	AreaLevel <= 58
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Vaal Hatchet"
+	AreaLevel <= 67
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Vaal Hatchet"
+	AreaLevel <= 67
+	SetBorderColor 128 0 0
+	SetFontSize 27
 	
 #endgame axes
-# Show
-# 	Class "One Hand Axe"
-# 	DropLevel >= 59
-# 	AreaLevel <= 67
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Siege Axe"
-# 	AreaLevel <= 67
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Runic Hatchet"
-# 	AreaLevel <= 71
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
+Show
+	Class "One Hand Axe"
+	DropLevel >= 59
+	AreaLevel <= 67
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Siege Axe"
+	AreaLevel <= 67
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Runic Hatchet"
+	AreaLevel <= 71
+	SetBorderColor 128 0 0
+	SetFontSize 27
 
 ##Swords
-# Show
-# 	BaseType "Broad Sword"
-# 	AreaLevel <= 19
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "War Sword"
-# 	AreaLevel <= 23
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Ancient Sword"
-# 	AreaLevel <= 27
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Elegant Sword"
-# 	AreaLevel <= 31
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Elegant Sword"
-# 	AreaLevel <= 31
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Dusk Blade" "Hook Sword"
-# 	AreaLevel <= 34
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Dusk Blade" "Hook Sword"
-# 	AreaLevel <= 34
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Variscite Blade"
-# 	AreaLevel <= 37
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Variscite Blade"
-# 	AreaLevel <= 37
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Cutlass"
-# 	AreaLevel <= 40
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Cutlass"
-# 	AreaLevel <= 40
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Baselard"
-# 	AreaLevel <= 43
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Baselard"
-# 	AreaLevel <= 43
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
+Show
+	BaseType "Broad Sword"
+	AreaLevel <= 19
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "War Sword"
+	AreaLevel <= 23
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Ancient Sword"
+	AreaLevel <= 27
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Elegant Sword"
+	AreaLevel <= 31
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Elegant Sword"
+	AreaLevel <= 31
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Dusk Blade" "Hook Sword"
+	AreaLevel <= 34
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Dusk Blade" "Hook Sword"
+	AreaLevel <= 34
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Variscite Blade"
+	AreaLevel <= 37
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Variscite Blade"
+	AreaLevel <= 37
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Cutlass"
+	AreaLevel <= 40
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Cutlass"
+	AreaLevel <= 40
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Baselard"
+	AreaLevel <= 43
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Baselard"
+	AreaLevel <= 43
+	SetBorderColor 128 0 0
+	SetFontSize 27
 	
 ##a5 kitava cutoff
-# Show
-# 	BaseType "Battle Sword"
-# 	AreaLevel <= 46
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 32
-# Show
-# 	BaseType "Battle Sword"
-# 	AreaLevel <= 46
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 38
-# Show
-# 	BaseType "Elder Sword" "Graceful Sword"
-# 	AreaLevel <= 52
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 32
-# Show
-# 	BaseType "Elder Sword" "Graceful Sword"
-# 	AreaLevel <= 52
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 38
-# Show
-# 	BaseType "Twilight Blade" "Grappler"
-# 	AreaLevel <= 57
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 32
-# Show
-# 	BaseType "Twilight Blade" "Grappler"
-# 	AreaLevel <= 55
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 38
-# Show
-# 	BaseType "Gemstone Sword"
-# 	AreaLevel <= 57
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 32
-# Show
-# 	BaseType "Gemstone Sword"
-# 	AreaLevel <= 57
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 38
+Show
+	BaseType "Battle Sword"
+	AreaLevel <= 46
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Battle Sword"
+	AreaLevel <= 46
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Elder Sword" "Graceful Sword"
+	AreaLevel <= 52
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Elder Sword" "Graceful Sword"
+	AreaLevel <= 52
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Twilight Blade" "Grappler"
+	AreaLevel <= 57
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Twilight Blade" "Grappler"
+	AreaLevel <= 55
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Gemstone Sword"
+	AreaLevel <= 57
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Gemstone Sword"
+	AreaLevel <= 57
+	SetBorderColor 128 0 0
+	SetFontSize 27
 	
 ##endgame swords
-# Show
-# 	Class "One Hand Sword"
-# 	DropLevel >= 59
-# 	ItemLevel <= 67
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 38
-# Show
-# 	BaseType "Corsair Sword" "Eternal Sword" "Jewelled Foil" "Spiraled Foil"
-# 	ItemLevel <= 67
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 36
+Show
+	Class "One Hand Sword"
+	DropLevel >= 59
+	ItemLevel <= 67
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Corsair Sword" "Eternal Sword" "Jewelled Foil" "Spiraled Foil"
+	ItemLevel <= 67
+	SetBorderColor 128 0 0
+	SetFontSize 27
 
 ##Hammers/Maces
 Show
@@ -7110,884 +7120,899 @@ Show
 	AreaLevel <= 4
 	Rarity Rare
 	SetBorderColor 128 0 0
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Driftwood Club"
 	AreaLevel <= 4
 	SetBorderColor 128 0 0
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Tribal Club"
 	AreaLevel <= 9
 	Rarity Rare
 	SetBorderColor 128 0 0
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Tribal Club"
 	AreaLevel <= 9
 	SetBorderColor 128 0 0
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Spiked Club"
 	AreaLevel <= 14
 	Rarity Rare
 	SetBorderColor 128 0 0
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Spiked Club"
 	AreaLevel <= 14
 	SetBorderColor 128 0 0
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Stone Hammer"
 	AreaLevel <= 19
 	Rarity Rare
 	SetBorderColor 128 0 0
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Stone Hammer"
 	AreaLevel <= 19
 	SetBorderColor 128 0 0
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "War Hammer"
 	AreaLevel <= 23
 	Rarity Rare
 	SetBorderColor 128 0 0
-	SetFontSize 35
-#Show
-#	BaseType "War Hammer"
-#	AreaLevel <= 23
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Bladed Mace"
-#	AreaLevel <= 27
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Bladed Mace"
-#	AreaLevel <= 27
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Ceremonial Mace"
-#	AreaLevel <= 31
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Ceremonial Mace"
-#	AreaLevel <= 31
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Dream Mace"
-#	AreaLevel <= 33
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Dream Mace"
-#	AreaLevel <= 33
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Wyrm Mace" "Petrified Club"
-#	AreaLevel <= 37
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Wyrm Mace" "Petrified Club"
-#	AreaLevel <= 37
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Barbed Club"
-#	AreaLevel <= 40
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Barbed Club"
-#	AreaLevel <= 40
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Rock Breaker"
-#	AreaLevel <= 43
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Rock Breaker"
-#	AreaLevel <= 43
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-##a5 kitava cutoff
-#Show
-#	BaseType "Battle Hammer"
-#	AreaLevel <= 46
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Battle Hammer"
-#	AreaLevel <= 46
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Flanged Mace"
-#	AreaLevel <= 49
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Flanged Mace"
-#	AreaLevel <= 49
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Ornate Mace"
-#	AreaLevel <= 52
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Ornate Mace"
-#	AreaLevel <= 52
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Phantom Mace"
-#	AreaLevel <= 54
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Phantom Mace"
-#	AreaLevel <= 54
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Dragon Mace" "Ancestral Club"
-#	AreaLevel <= 59
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Dragon Mace" "Ancestral Club"
-#	AreaLevel <= 59
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Tenderizer" "Gavel"
-#	AreaLevel <= 61
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Tenderizer" "Gavel"
-#	AreaLevel <= 61
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
+	SetFontSize 27
+Show
+	BaseType "War Hammer"
+	AreaLevel <= 23
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Bladed Mace"
+	AreaLevel <= 27
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Bladed Mace"
+	AreaLevel <= 27
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Ceremonial Mace"
+	AreaLevel <= 31
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Ceremonial Mace"
+	AreaLevel <= 31
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Dream Mace"
+	AreaLevel <= 33
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Dream Mace"
+	AreaLevel <= 33
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Wyrm Mace" "Petrified Club"
+	AreaLevel <= 37
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Wyrm Mace" "Petrified Club"
+	AreaLevel <= 37
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Barbed Club"
+	AreaLevel <= 40
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Barbed Club"
+	AreaLevel <= 40
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Rock Breaker"
+	AreaLevel <= 43
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Rock Breaker"
+	AreaLevel <= 43
+	SetBorderColor 128 0 0
+	SetFontSize 27
+#a5 kitava cutoff
+Show
+	BaseType "Battle Hammer"
+	AreaLevel <= 46
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Battle Hammer"
+	AreaLevel <= 46
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Flanged Mace"
+	AreaLevel <= 49
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Flanged Mace"
+	AreaLevel <= 49
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Ornate Mace"
+	AreaLevel <= 52
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Ornate Mace"
+	AreaLevel <= 52
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Phantom Mace"
+	AreaLevel <= 54
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Phantom Mace"
+	AreaLevel <= 54
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Dragon Mace" "Ancestral Club"
+	AreaLevel <= 59
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Dragon Mace" "Ancestral Club"
+	AreaLevel <= 59
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Tenderizer" "Gavel"
+	AreaLevel <= 61
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Tenderizer" "Gavel"
+	AreaLevel <= 61
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 ##endgame hammers/maces
-#Show
-#	Class "One Hand Mace"
-#	DropLevel >= 60
-#	AreaLevel <= 67
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Legion Hammer" "Pernach"
-#	AreaLevel <= 67
-#	SetBorderColor 128 0 0
-#	SetFontSize 36
-#Show
-#	BaseType "Auric Mace" "Nightmare Mace" "Behemoth Mace"
-#	AreaLevel <= 70
-#	SetBorderColor 128 0 0
+Show
+	Class "One Hand Mace"
+	DropLevel >= 60
+	AreaLevel <= 67
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Legion Hammer" "Pernach"
+	AreaLevel <= 67
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Auric Mace" "Nightmare Mace" "Behemoth Mace"
+	AreaLevel <= 70
+	SetBorderColor 128 0 0
+	SetFontSize 27
 
 ##Daggers
-#Show
-#	BaseType "Glass Shank"
-#	AreaLevel <= 4
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Glass Shank"
-#	AreaLevel <= 4
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Skinning Knife"
-#	AreaLevel <= 14
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Skinning Knife"
-#	AreaLevel <= 14
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Stiletto"
-#	AreaLevel <= 29
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Stiletto"
-#	AreaLevel <= 29
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Flaying Knife"
-#	AreaLevel <= 21
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Flaying Knife"
-#	AreaLevel <= 21
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Prong Dagger" "Poignard"
-#	AreaLevel <= 50
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Prong Dagger" "Poignard"
-#	AreaLevel <= 50
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
+Show
+	BaseType "Glass Shank"
+	AreaLevel <= 4
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Glass Shank"
+	AreaLevel <= 4
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Skinning Knife"
+	AreaLevel <= 14
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Skinning Knife"
+	AreaLevel <= 14
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Stiletto"
+	AreaLevel <= 29
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Stiletto"
+	AreaLevel <= 29
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Flaying Knife"
+	AreaLevel <= 21
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Flaying Knife"
+	AreaLevel <= 21
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Prong Dagger" "Poignard"
+	AreaLevel <= 50
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Prong Dagger" "Poignard"
+	AreaLevel <= 50
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 ##a5 kitava cutoff
-#Show
-#	BaseType "Trisula"
-#	AreaLevel <= 55
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Trisula"
-#	AreaLevel <= 55
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Gutting Knife"
-#	AreaLevel <= 59
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Gutting Knife"
-#	AreaLevel <= 59
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
+Show
+	BaseType "Trisula"
+	AreaLevel <= 55
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Trisula"
+	AreaLevel <= 55
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Gutting Knife"
+	AreaLevel <= 59
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Gutting Knife"
+	AreaLevel <= 59
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 ##endgame daggers
-#Show
-#	Class "Dagger"
-#	DropLevel >= 60
-#	AreaLevel <= 67
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Ambusher" "Sai"
-#	AreaLevel <= 70
-#	SetBorderColor 128 0 0
+Show
+	Class "Dagger"
+	DropLevel >= 60
+	AreaLevel <= 67
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Ambusher" "Sai"
+	AreaLevel <= 70
+	SetBorderColor 128 0 0
+	SetFontSize 27
 
 ##Rune Daggers
-#Show
-#	BaseType "Carving Knife"
-#	AreaLevel <= 19
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Carving Knife"
-#	AreaLevel <= 19
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Boot Knife"
-#	AreaLevel <= 23
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Boot Knife"
-#	AreaLevel <= 23
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Copper Kris"
-#	AreaLevel <= 27
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Copper Kris"
-#	AreaLevel <= 27
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Skean"
-#	AreaLevel <= 31
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Skean"
-#	AreaLevel <= 31
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Imp Dagger"
-#	AreaLevel <= 37
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Imp Dagger"
-#	AreaLevel <= 37
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Butcher Knife"
-#	AreaLevel <= 43
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Butcher Knife"
-#	AreaLevel <= 43
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
+Show
+	BaseType "Carving Knife"
+	AreaLevel <= 19
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Carving Knife"
+	AreaLevel <= 19
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Boot Knife"
+	AreaLevel <= 23
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Boot Knife"
+	AreaLevel <= 23
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Copper Kris"
+	AreaLevel <= 27
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Copper Kris"
+	AreaLevel <= 27
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Skean"
+	AreaLevel <= 31
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Skean"
+	AreaLevel <= 31
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Imp Dagger"
+	AreaLevel <= 37
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Imp Dagger"
+	AreaLevel <= 37
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Butcher Knife"
+	AreaLevel <= 43
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Butcher Knife"
+	AreaLevel <= 43
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 ##a5 kitava cutoff
-#Show
-#	BaseType "Boot Blade"
-#	AreaLevel <= 46
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Boot Blade"
-#	AreaLevel <= 46
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Golden Kris" "Royal Skean"
-#	AreaLevel <= 52
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Golden Kris" "Royal Skean"
-#	AreaLevel <= 52
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Fiend Dagger"
-#	AreaLevel <= 57
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Fiend Dagger"
-#	AreaLevel <= 57
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Slaughter Knife"
-#	AreaLevel <= 61
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Slaughter Knife"
-#	AreaLevel <= 61
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
+Show
+	BaseType "Boot Blade"
+	AreaLevel <= 46
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Boot Blade"
+	AreaLevel <= 46
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Golden Kris" "Royal Skean"
+	AreaLevel <= 52
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Golden Kris" "Royal Skean"
+	AreaLevel <= 52
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Fiend Dagger"
+	AreaLevel <= 57
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Fiend Dagger"
+	AreaLevel <= 57
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Slaughter Knife"
+	AreaLevel <= 61
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Slaughter Knife"
+	AreaLevel <= 61
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 ##endgame rune daggers
-#Show
-#	Class "Rune Dagger"
-#	DropLevel >= 60
-#	AreaLevel <= 67
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Ezomyte Dagger"
-#	AreaLevel <= 67
-#	SetBorderColor 128 0 0
-#	SetFontSize 36
-#Show
-#	BaseType "Demon Dagger" "Imperial Skean" "Platinum Kris"
-#	AreaLevel <= 70
-#	SetBorderColor 128 0 0
+Show
+	Class "Rune Dagger"
+	DropLevel >= 60
+	AreaLevel <= 67
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Ezomyte Dagger"
+	AreaLevel <= 67
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Demon Dagger" "Imperial Skean" "Platinum Kris"
+	AreaLevel <= 70
+	SetBorderColor 128 0 0
+	SetFontSize 27
 
 ##Claws
-#Show
-#	BaseType "Nailed Fist"
-#	AreaLevel <= 6
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Nailed Fist"
-#	AreaLevel <= 6
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Sharktooth Claw"
-#	AreaLevel <= 11
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Sharktooth Claw"
-#	AreaLevel <= 11
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Awl"
-#	AreaLevel <= 15
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Awl"
-#	AreaLevel <= 15
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Cat's Paw"
-#	AreaLevel <= 21
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Cat's Paw"
-#	AreaLevel <= 21
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Blinder"
-#	AreaLevel <= 25
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Blinder"
-#	AreaLevel <= 25
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Timeworn Claw"
-#	AreaLevel <= 29
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Timeworn Claw"
-#	AreaLevel <= 29
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Sparkling Claw"
-#	AreaLevel <= 33
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Sparkling Claw"
-#	AreaLevel <= 33
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Fright Claw"
-#	AreaLevel <= 35
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Fright Claw"
-#	AreaLevel <= 35
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Double Claw" "Thresher Claw"
-#	AreaLevel <= 39
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Double Claw" "Thresher Claw"
-#	AreaLevel <= 39
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Gouger" "Tiger's Paw"
-#	AreaLevel <= 45
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Gouger" "Tiger's Paw"
-#	AreaLevel <= 45
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
+Show
+	BaseType "Nailed Fist"
+	AreaLevel <= 6
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Nailed Fist"
+	AreaLevel <= 6
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Sharktooth Claw"
+	AreaLevel <= 11
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Sharktooth Claw"
+	AreaLevel <= 11
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Awl"
+	AreaLevel <= 15
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Awl"
+	AreaLevel <= 15
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Cat's Paw"
+	AreaLevel <= 21
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Cat's Paw"
+	AreaLevel <= 21
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Blinder"
+	AreaLevel <= 25
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Blinder"
+	AreaLevel <= 25
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Timeworn Claw"
+	AreaLevel <= 29
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Timeworn Claw"
+	AreaLevel <= 29
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Sparkling Claw"
+	AreaLevel <= 33
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Sparkling Claw"
+	AreaLevel <= 33
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Fright Claw"
+	AreaLevel <= 35
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Fright Claw"
+	AreaLevel <= 35
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Double Claw" "Thresher Claw"
+	AreaLevel <= 39
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Double Claw" "Thresher Claw"
+	AreaLevel <= 39
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Gouger" "Tiger's Paw"
+	AreaLevel <= 45
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Gouger" "Tiger's Paw"
+	AreaLevel <= 45
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 ##a5 kitava cutoff
-#Show
-#	BaseType "Gut Ripper" "Prehistoric Claw"
-#	AreaLevel <= 51
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Gut Ripper" "Prehistoric Claw"
-#	AreaLevel <= 51
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Noble Claw" "Eagle Claw"
-#	AreaLevel <= 56
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Noble Claw" "Eagle Claw"
-#	AreaLevel <= 56
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Twin Claw" "Great White Claw"
-#	AreaLevel <= 61
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Twin Claw" "Great White Claw"
-#	AreaLevel <= 61
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
+Show
+	BaseType "Gut Ripper" "Prehistoric Claw"
+	AreaLevel <= 51
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Gut Ripper" "Prehistoric Claw"
+	AreaLevel <= 51
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Noble Claw" "Eagle Claw"
+	AreaLevel <= 56
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Noble Claw" "Eagle Claw"
+	AreaLevel <= 56
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Twin Claw" "Great White Claw"
+	AreaLevel <= 61
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Twin Claw" "Great White Claw"
+	AreaLevel <= 61
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 ##endgame claws
-#Show
-#	Class "Claw"
-#	DropLevel >= 60
-#	AreaLevel <= 67
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Eye Gouger" "Vaal Claw"
-#	AreaLevel <= 67
-#	SetBorderColor 128 0 0
-#	SetFontSize 36
-#Show
-#	BaseType "Gemini Claw" "Imperial Claw"
-#	AreaLevel <= 70
-#	SetBorderColor 128 0 0
+Show
+	Class "Claw"
+	DropLevel >= 60
+	AreaLevel <= 67
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Eye Gouger" "Vaal Claw"
+	AreaLevel <= 67
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Gemini Claw" "Imperial Claw"
+	AreaLevel <= 70
+	SetBorderColor 128 0 0
+	SetFontSize 27
 
 ###################################################################################
 ##################### Section 16.2 - 2h Melee Levelling ###########################
 ###################################################################################
 #As of 3.11.5 only shows axes by default
-# Show
-# 	BaseType "Stone Axe" "Corroded Blade" "Driftwood Maul"
-# 	AreaLevel <= 8
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Jade Chopper" "Longsword"
-# 	AreaLevel <= 12
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Woodsplitter" "Bastard Sword"
-# 	AreaLevel <= 17
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
+Show
+	BaseType "Stone Axe" "Corroded Blade" "Driftwood Maul"
+	AreaLevel <= 8
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Jade Chopper" "Longsword"
+	AreaLevel <= 12
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Woodsplitter" "Bastard Sword"
+	AreaLevel <= 17
+	SetBorderColor 128 0 0
+	SetFontSize 27
 	
 #Axes
-# Show
-# 	BaseType "Poleaxe"
-# 	AreaLevel <= 22
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Poleaxe"
-# 	AreaLevel <= 22
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Double Axe"
-# 	AreaLevel <= 27
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Double Axe"
-# 	AreaLevel <= 27
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Gilded Axe"
-# 	AreaLevel <= 32
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Gilded Axe"
-# 	AreaLevel <= 32
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Shadow Axe"
-# 	AreaLevel <= 35
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Shadow Axe"
-# 	AreaLevel <= 35
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Jasper Chopper"
-# 	AreaLevel <= 40
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Jasper Chopper"
-# 	AreaLevel <= 40
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
-# Show
-# 	BaseType "Timber Axe"
-# 	AreaLevel <= 44
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 35
-# Show
-# 	BaseType "Timber Axe"
-# 	AreaLevel <= 44
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 30
+Show
+	BaseType "Poleaxe"
+	AreaLevel <= 22
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Poleaxe"
+	AreaLevel <= 22
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Double Axe"
+	AreaLevel <= 27
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Double Axe"
+	AreaLevel <= 27
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Gilded Axe"
+	AreaLevel <= 32
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Gilded Axe"
+	AreaLevel <= 32
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Shadow Axe"
+	AreaLevel <= 35
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Shadow Axe"
+	AreaLevel <= 35
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Jasper Chopper"
+	AreaLevel <= 40
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Jasper Chopper"
+	AreaLevel <= 40
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Timber Axe"
+	AreaLevel <= 44
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Timber Axe"
+	AreaLevel <= 44
+	SetBorderColor 128 0 0
+	SetFontSize 27
 	
 # a5 kitava cutoff
-# Show
-# 	BaseType "Headsman Axe"
-# 	AreaLevel <= 48
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 32
-# Show
-# 	BaseType "Headsman Axe"
-# 	AreaLevel <= 48
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 38
-# Show
-# 	BaseType "Labrys"
-# 	AreaLevel <= 51
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 32
-# Show
-# 	BaseType "Labrys"
-# 	AreaLevel <= 51
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 38
-# Show
-# 	BaseType "Noble Axe"
-# 	AreaLevel <= 54
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 32
-# Show
-# 	BaseType "Noble Axe"
-# 	AreaLevel <= 54
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 38
-# Show
-# 	BaseType "Abyssal Axe"
-# 	AreaLevel <= 57
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 32
-# Show
-# 	BaseType "Abyssal Axe"
-# 	AreaLevel <= 57
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 38
+Show
+	BaseType "Headsman Axe"
+	AreaLevel <= 48
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Headsman Axe"
+	AreaLevel <= 48
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Labrys"
+	AreaLevel <= 51
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Labrys"
+	AreaLevel <= 51
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Noble Axe"
+	AreaLevel <= 54
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Noble Axe"
+	AreaLevel <= 54
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Abyssal Axe"
+	AreaLevel <= 57
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Abyssal Axe"
+	AreaLevel <= 57
+	SetBorderColor 128 0 0
+	SetFontSize 27
 	
 #endgame axes
-# Show
-# 	Class "Two Hand Axe"
-# 	DropLevel >= 60
-# 	AreaLevel <= 67
-# 	Rarity Rare
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 38
-# Show
-# 	BaseType "Vaal Axe" "Karui Chopper"
-# 	AreaLevel <= 67
-# 	SetBorderColor 128 0 0
-# 	SetFontSize 36
-# Show
-# 	BaseType "Fleshripper" "Despot Axe"
-# 	AreaLevel <= 70
-# 	SetBorderColor 128 0 0
+Show
+	Class "Two Hand Axe"
+	DropLevel >= 60
+	AreaLevel <= 67
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Vaal Axe" "Karui Chopper"
+	AreaLevel <= 67
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Fleshripper" "Despot Axe"
+	AreaLevel <= 70
+	SetBorderColor 128 0 0
+	SetFontSize 27
 
 #Swords
-#Show
-#	BaseType "Two Hand Sword"
-#	AreaLevel <= 21
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Two Hand Sword"
-#	AreaLevel <= 21
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Etched Greatsword"
-#	AreaLevel <= 25
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Etched Greatsword"
-#	AreaLevel <= 26
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Ornate Sword"
-#	AreaLevel <= 31
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Ornate Sword"
-#	AreaLevel <= 31
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Spectral Sword"
-#	AreaLevel <= 34
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Spectral Sword"
-#	AreaLevel <= 34
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Curved Blade" "Butcher Sword"
-#	AreaLevel <= 39
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Curved Blade" "Butcher Sword"
-#	AreaLevel <= 39
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Footman Sword"
-#	AreaLevel <= 43
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Footman Sword"
-#	AreaLevel <= 43
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
+Show
+	BaseType "Two Hand Sword"
+	AreaLevel <= 21
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Two Hand Sword"
+	AreaLevel <= 21
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Etched Greatsword"
+	AreaLevel <= 25
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Etched Greatsword"
+	AreaLevel <= 26
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Ornate Sword"
+	AreaLevel <= 31
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Ornate Sword"
+	AreaLevel <= 31
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Spectral Sword"
+	AreaLevel <= 34
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Spectral Sword"
+	AreaLevel <= 34
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Curved Blade" "Butcher Sword"
+	AreaLevel <= 39
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Curved Blade" "Butcher Sword"
+	AreaLevel <= 39
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Footman Sword"
+	AreaLevel <= 43
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Footman Sword"
+	AreaLevel <= 43
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 #a5 kitava cutoff
-#Show
-#	BaseType "Highland Blade"
-#	AreaLevel <= 47
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Highland Blade"
-#	AreaLevel <= 47
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Engraved Greatsword"
-#	AreaLevel <= 50
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Engraved Greatsword"
-#	AreaLevel <= 50
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Tiger Sword"
-#	AreaLevel <= 53
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Tiger Sword"
-#	AreaLevel <= 53
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Wraith Sword" "Lithe Blade"
-#	AreaLevel <= 55
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Wraith Sword" "Lithe Blade"
-#	AreaLevel <= 55
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Headman's Sword"
-#	AreaLevel <= 58
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Headman's Sword"
-#	AreaLevel <= 58
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
+Show
+	BaseType "Highland Blade"
+	AreaLevel <= 47
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Highland Blade"
+	AreaLevel <= 47
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Engraved Greatsword"
+	AreaLevel <= 50
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Engraved Greatsword"
+	AreaLevel <= 50
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Tiger Sword"
+	AreaLevel <= 53
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Tiger Sword"
+	AreaLevel <= 53
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Wraith Sword" "Lithe Blade"
+	AreaLevel <= 55
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Wraith Sword" "Lithe Blade"
+	AreaLevel <= 55
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Headman's Sword"
+	AreaLevel <= 58
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Headman's Sword"
+	AreaLevel <= 58
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 #endgame swords
-#Show
-#	Class "Two Hand Sword"
-#	DropLevel >= 60
-#	AreaLevel <= 67
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Reaver Sword" "Lion Sword"
-#	AreaLevel <= 67
-#	SetBorderColor 128 0 0
-#	SetFontSize 36
-#Show
-#	BaseType "Exquisite Blade"
-#	AreaLevel <= 70
-#	SetBorderColor 128 0 0
+Show
+	Class "Two Hand Sword"
+	DropLevel >= 60
+	AreaLevel <= 67
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Reaver Sword" "Lion Sword"
+	AreaLevel <= 67
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Exquisite Blade"
+	AreaLevel <= 70
+	SetBorderColor 128 0 0
+	SetFontSize 27
 
 ##Hammers/Maces
 Show
@@ -7995,367 +8020,376 @@ Show
 	AreaLevel <= 7
 	Rarity Rare
 	SetBorderColor 128 0 0
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Driftwood Maul"
 	AreaLevel <= 7
 	SetBorderColor 128 0 0
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Tribal Maul"
 	AreaLevel <= 11
 	Rarity Rare
 	SetBorderColor 128 0 0
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Tribal Maul"
 	AreaLevel <= 11
 	SetBorderColor 128 0 0
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Mallet"
 	AreaLevel <= 16
 	Rarity Rare
 	SetBorderColor 128 0 0
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Mallet"
 	AreaLevel <= 16
 	SetBorderColor 128 0 0
-	SetFontSize 30
-#Show
-#	BaseType "Sledgehammer"
-#	AreaLevel <= 21
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Sledgehammer"
-#	AreaLevel <= 21
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Jagged Maul"
-#	AreaLevel <= 26
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Jagged Maul"
-#	AreaLevel <= 26
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Brass Maul"
-#	AreaLevel <= 31
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Brass Maul"
-#	AreaLevel <= 31
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Fright Maul"
-#	AreaLevel <= 35
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Fright Maul"
-#	AreaLevel <= 35
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Morning Star" "Totemic Maul"
-#	AreaLevel <= 39
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Morning Star" "Totemic Maul"
-#	AreaLevel <= 39
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Great Mallet"
-#	AreaLevel <= 43
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Great Mallet"
-#	AreaLevel <= 43
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
+	SetFontSize 27
+Show
+	BaseType "Sledgehammer"
+	AreaLevel <= 21
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Sledgehammer"
+	AreaLevel <= 21
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Jagged Maul"
+	AreaLevel <= 26
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Jagged Maul"
+	AreaLevel <= 26
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Brass Maul"
+	AreaLevel <= 31
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Brass Maul"
+	AreaLevel <= 31
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Fright Maul"
+	AreaLevel <= 35
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Fright Maul"
+	AreaLevel <= 35
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Morning Star" "Totemic Maul"
+	AreaLevel <= 39
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Morning Star" "Totemic Maul"
+	AreaLevel <= 39
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Great Mallet"
+	AreaLevel <= 43
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Great Mallet"
+	AreaLevel <= 43
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 ##a5 kitava cutoff
-#Show
-#	BaseType "Steelhead"
-#	AreaLevel <= 47
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Steelhead"
-#	AreaLevel <= 47
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Spiny Maul"
-#	AreaLevel <= 50
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Spiny Maul"
-#	AreaLevel <= 50
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Plated Maul"
-#	AreaLevel <= 53
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Plated Maul"
-#	AreaLevel <= 53
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Dread Maul"
-#	AreaLevel <= 56
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Dread Maul"
-#	AreaLevel <= 56
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Solar Maul" "Karui Maul"
-#	AreaLevel <= 58
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Solar Maul" "Karui Maul"
-#	AreaLevel <= 58
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Colossus Mallet" "Piledriver"
-#	AreaLevel <= 63
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Colossus Mallet" "Piledriver"
-#	AreaLevel <= 63
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
+Show
+	BaseType "Steelhead"
+	AreaLevel <= 47
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Steelhead"
+	AreaLevel <= 47
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Spiny Maul"
+	AreaLevel <= 50
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Spiny Maul"
+	AreaLevel <= 50
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Plated Maul"
+	AreaLevel <= 53
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Plated Maul"
+	AreaLevel <= 53
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Dread Maul"
+	AreaLevel <= 56
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Dread Maul"
+	AreaLevel <= 56
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Solar Maul" "Karui Maul"
+	AreaLevel <= 58
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Solar Maul" "Karui Maul"
+	AreaLevel <= 58
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Colossus Mallet" "Piledriver"
+	AreaLevel <= 63
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Colossus Mallet" "Piledriver"
+	AreaLevel <= 63
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 ##endgame hammers/maces
-#Show
-#	Class "Two Hand Mace"
-#	DropLevel >= 60
-#	AreaLevel <= 67
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Terror Maul"
-#	AreaLevel <= 67
-#	SetBorderColor 128 0 0
-#	SetFontSize 36
-#Show
-#	BaseType "Coronal Maul" "Imperial Maul" "Meatgrinder"
-#	AreaLevel <= 70
-#	SetBorderColor 128 0 0
+Show
+	Class "Two Hand Mace"
+	DropLevel >= 60
+	AreaLevel <= 67
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Terror Maul"
+	AreaLevel <= 67
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Coronal Maul" "Imperial Maul" "Meatgrinder"
+	AreaLevel <= 70
+	SetBorderColor 128 0 0
+	SetFontSize 27
 
 ##Staves
-#Show
-#	BaseType "Gnarled Branch"
-#	AreaLevel <= 8
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Gnarled Branch"
-#	AreaLevel <= 8
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Primitive Staff"
-#	AreaLevel <= 17
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Primitive Staff"
-#	AreaLevel <= 17
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Long Staff"
-#	AreaLevel <= 27
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Long Staff"
-#	AreaLevel <= 27
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Royal Staff"
-#	AreaLevel <= 35
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Royal Staff"
-#	AreaLevel <= 35
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Crescent Staff" "Woodful Staff"
-#	AreaLevel <= 44
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Crescent Staff" "Woodful Staff"
-#	AreaLevel <= 44
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
+Show
+	BaseType "Gnarled Branch"
+	AreaLevel <= 8
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Gnarled Branch"
+	AreaLevel <= 8
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Primitive Staff"
+	AreaLevel <= 17
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Primitive Staff"
+	AreaLevel <= 17
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Long Staff"
+	AreaLevel <= 27
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Long Staff"
+	AreaLevel <= 27
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Royal Staff"
+	AreaLevel <= 35
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Royal Staff"
+	AreaLevel <= 35
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Crescent Staff" "Woodful Staff"
+	AreaLevel <= 44
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Crescent Staff" "Woodful Staff"
+	AreaLevel <= 44
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 ##a5 kitava cutoff
-#Show
-#	BaseType "Quarterstaff"
-#	AreaLevel <= 49
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Quarterstaff"
-#	AreaLevel <= 49
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Highborn Staff"
-#	AreaLevel <= 57
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Highborn Staff"
-#	AreaLevel <= 57
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
+Show
+	BaseType "Quarterstaff"
+	AreaLevel <= 49
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Quarterstaff"
+	AreaLevel <= 49
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Highborn Staff"
+	AreaLevel <= 57
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Highborn Staff"
+	AreaLevel <= 57
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 ##endgame staves
-#Show
-#	Class "Staff"
-#	DropLevel >= 60
-#	AreaLevel <= 67
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Lathi" "Primordial Staff" "Moon Staff"
-#	AreaLevel <= 67
-#	SetBorderColor 128 0 0
-#	SetFontSize 36
-#Show
-#	BaseType "Imperial Staff" "Eclipse Staff"
-#	AreaLevel <= 70
-#	SetBorderColor 128 0 0
+Show
+	Class "Staff"
+	DropLevel >= 60
+	AreaLevel <= 67
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Lathi" "Primordial Staff" "Moon Staff"
+	AreaLevel <= 67
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Imperial Staff" "Eclipse Staff"
+	AreaLevel <= 70
+	SetBorderColor 128 0 0
+	SetFontSize 27
 
 ##Warstaves
-#Show
-#	BaseType "Iron Staff"
-#	AreaLevel <= 22
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Iron Staff"
-#	AreaLevel <= 22
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Coiled Staff"
-#	AreaLevel <= 32
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Coiled Staff"
-#	AreaLevel <= 32
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
-#Show
-#	BaseType "Vile Staff"
-#	AreaLevel <= 40
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 35
-#Show
-#	BaseType "Vile Staff"
-#	AreaLevel <= 40
-#	SetBorderColor 128 0 0
-#	SetFontSize 30
+Show
+	BaseType "Iron Staff"
+	AreaLevel <= 22
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Iron Staff"
+	AreaLevel <= 22
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Coiled Staff"
+	AreaLevel <= 32
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Coiled Staff"
+	AreaLevel <= 32
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Vile Staff"
+	AreaLevel <= 40
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Vile Staff"
+	AreaLevel <= 40
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 ##a5 kitava cutoff
-#Show
-#	BaseType "Military Staff"
-#	AreaLevel <= 48
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Military Staff"
-#	AreaLevel <= 48
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Serpentine Staff"
-#	AreaLevel <= 54
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Serpentine Staff"
-#	AreaLevel <= 54
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Foul Staff"
-#	AreaLevel <= 59
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 32
-#Show
-#	BaseType "Foul Staff"
-#	AreaLevel <= 59
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
+Show
+	BaseType "Military Staff"
+	AreaLevel <= 48
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Military Staff"
+	AreaLevel <= 48
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Serpentine Staff"
+	AreaLevel <= 54
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Serpentine Staff"
+	AreaLevel <= 54
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Foul Staff"
+	AreaLevel <= 59
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Foul Staff"
+	AreaLevel <= 59
+	SetBorderColor 128 0 0
+	SetFontSize 27
+
 ##endgame warstaves
-#Show
-#	Class "Warstaves"
-#	DropLevel >= 60
-#	AreaLevel <= 67
-#	Rarity Rare
-#	SetBorderColor 128 0 0
-#	SetFontSize 38
-#Show
-#	BaseType "Ezomyte Staff"
-#	AreaLevel <= 67
-#	SetBorderColor 128 0 0
-#	SetFontSize 36
-#Show
-#	BaseType "Ezomyte Staff" "Maelstrom Staff" "Judgement Staff"
-#	AreaLevel <= 70
-#	SetBorderColor 128 0 0
+Show
+	Class "Warstaves"
+	DropLevel >= 60
+	AreaLevel <= 67
+	Rarity Rare
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Ezomyte Staff"
+	AreaLevel <= 67
+	SetBorderColor 128 0 0
+	SetFontSize 27
+Show
+	BaseType "Ezomyte Staff" "Maelstrom Staff" "Judgement Staff"
+	AreaLevel <= 70
+	SetBorderColor 128 0 0
+	SetFontSize 27
 	
 ###################################################################################
 ####################### Section 17 - Ranged Levelling #############################
@@ -8368,7 +8402,7 @@ Show
 	AreaLevel <= 25
 	Rarity Normal Magic Rare
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 
 #quivershit
 Show
@@ -8376,293 +8410,293 @@ Show
 	Rarity Magic Rare
 	SetBorderColor 125 200 40
 	AreaLevel <= 15
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Serrated Arrow Quiver" "Fire Arrow Quiver"
 	AreaLevel <= 20
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Penetrating Arrow Quiver" "Blunt Arrow Quiver" "Blazing Arrow Quiver"
 	AreaLevel <= 50
 	SetBorderColor 125 200 40
-	SetFontSize 36
+	SetFontSize 27
 Show
 	BaseType "Broadhead Arrow Quiver" "Heavy Arrow Quiver" "Primal Arrow Quiver" "Vile Arrow Quiver"
 	AreaLevel <= 67
 	SetBorderColor 125 200 40
-	SetFontSize 34
+	SetFontSize 27
 Show
 	BaseType "Feathered Arrow Quiver"
 	AreaLevel <= 67
 	SetBorderColor 125 200 40
-	SetFontSize 34
+	SetFontSize 27
 #
 ##elemental bows (ele dmg implicit)
 Show
 	BaseType "Royal Bow"
 	AreaLevel <= 49
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Highborn Bow"
 	AreaLevel <= 65
 	SetBorderColor 125 200 40
-	SetFontSize 38
+	SetFontSize 27
 Show
 	BaseType "Imperial Bow"
 	AreaLevel <= 67
 	SetBorderColor 125 200 40
-	SetFontSize 36
+	SetFontSize 27
 
 #chaos bows (fastest)
 Show
 	BaseType "Short Bow"
 	AreaLevel <= 34
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Grove Bow"
 	AreaLevel <= 55
 	SetBorderColor 125 200 40
-	SetFontSize 38
+	SetFontSize 27
 Show
 	BaseType "Thicket Bow"
 	AreaLevel <= 67
 	SetBorderColor 125 200 40
-	SetFontSize 36
+	SetFontSize 27
 	
 #bleed bows (highest avg dmg)
 Show
 	BaseType "Short Bow"
 	AreaLevel <= 8
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Long Bow"
 	AreaLevel <= 13
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Composite Bow"
 	AreaLevel <= 17
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Recurve Bow"
 	AreaLevel <= 22
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Recurve Bow"
 	AreaLevel <= 22
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Bone Bow"
 	AreaLevel <= 27
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Bone Bow"
 	AreaLevel <= 27
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Royal Bow"
 	AreaLevel <= 31
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Royal Bow"
 	AreaLevel <= 31
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Death Bow"
 	AreaLevel <= 37
 	Rarity Rare 
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Death Bow"
 	AreaLevel <= 37
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Decurve Bow"
 	AreaLevel <= 52
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Decurve Bow"
 	AreaLevel <= 52
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Decimation Bow"
 	AreaLevel <= 57
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 32
+	SetFontSize 27
 Show
 	BaseType "Decimation Bow"
 	AreaLevel <= 57
 	SetBorderColor 125 200 40
-	SetFontSize 38
+	SetFontSize 27
 Show
 	BaseType "Citadel Bow"
 	AreaLevel <= 67
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 32
+	SetFontSize 27
 Show
 	BaseType "Citadel Bow"
 	AreaLevel <= 67
 	SetBorderColor 125 200 40
-	SetFontSize 38
+	SetFontSize 27
 
 #phys bows
 Show
 	BaseType "Short Bow"
 	AreaLevel <= 8
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Long Bow"
 	AreaLevel <= 13
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Composite Bow"
 	AreaLevel <= 17
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Recurve Bow"
 	AreaLevel <= 22
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Recurve Bow"
 	AreaLevel <= 22
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Bone Bow"
 	AreaLevel <= 27
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Bone Bow"
 	AreaLevel <= 27
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Royal Bow"
 	AreaLevel <= 31
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Royal Bow"
 	AreaLevel <= 31
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Death Bow"
 	AreaLevel <= 34
 	Rarity Rare 
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Death Bow"
 	AreaLevel <= 34
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Grove Bow" "Reflex Bow"
 	AreaLevel <= 37
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Grove Bow" "Reflex Bow"
 	AreaLevel <= 37
 	Rarity Rare 
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Decurve Bow" "Compound Bow"
 	AreaLevel <= 43
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Decurve Bow" "Compound Bow"
 	AreaLevel <= 43
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Sniper Bow"
 	AreaLevel <= 46
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Sniper Bow"
 	AreaLevel <= 46
 	SetBorderColor 125 200 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Ivory Bow"
 	AreaLevel <= 49
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 32
+	SetFontSize 27
 Show
 	BaseType "Ivory Bow"
 	AreaLevel <= 49
 	SetBorderColor 125 200 40
-	SetFontSize 38
+	SetFontSize 27
 Show
 	BaseType "Highborn Bow"
 	AreaLevel <= 52
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 32
+	SetFontSize 27
 Show
 	BaseType "Highborn Bow"
 	AreaLevel <= 52
 	SetBorderColor 125 200 40
-	SetFontSize 38
+	SetFontSize 27
 Show
 	BaseType "Decimation Bow"
 	AreaLevel <= 55
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 32
+	SetFontSize 27
 Show
 	BaseType "Decimation Bow"
 	AreaLevel <= 55
 	SetBorderColor 125 200 40
-	SetFontSize 38
+	SetFontSize 27
 Show
 	BaseType "Thicket Bow" "Steelwood Bow"
 	AreaLevel <= 55
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 32
+	SetFontSize 27
 Show
 	BaseType "Thicket Bow" "Steelwood Bow"
 	AreaLevel <= 55
 	SetBorderColor 125 200 40
-	SetFontSize 38
+	SetFontSize 27
 #endgame phys bows
 Show
 	Class "Bow"
@@ -8670,18 +8704,18 @@ Show
 	AreaLevel <= 67
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 38
+	SetFontSize 27
 Show
 	BaseType "Spine Bow" "Assassin Bow" "Citadel Bow"
 	AreaLevel <= 65
 	Rarity Rare
 	SetBorderColor 125 200 40
-	SetFontSize 38
+	SetFontSize 27
 Show
 	BaseType "Spine Bow" "Assassin Bow" "Citadel Bow"
 	AreaLevel <= 67
 	SetBorderColor 125 200 40
-	SetFontSize 36
+	SetFontSize 27
 
 ###################################################################################
 ############################ Section 18 - Armour ##################################
@@ -8694,248 +8728,248 @@ Show
 	BaseType "Iron Hat" "Iron Gauntlets" "Iron Greaves"
 	ItemLevel <= 5
 	Rarity Magic Rare
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Iron Hat" "Iron Gauntlets" "Iron Greaves"
 	ItemLevel <= 3
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Leather Cap" "Rawhide Gloves" "Rawhide Boots"
 	ItemLevel <= 11
 	Rarity Magic Rare
 	SetBorderColor 150 100 0
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Leather Cap" "Rawhide Gloves" "Rawhide Boots" "Battered Helm" "Fishscale Gauntlets" "Scale Vest" "Leatherscale Boots"
 	ItemLevel <= 11
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Battered Helm" "Fishscale Gauntlets" "Leatherscale Boots"
 	Rarity Magic Rare
 	ItemLevel <= 15
 	SetBorderColor 150 100 0
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Battered Helm" "Fishscale Gauntlets" "Leatherscale Boots"
 	ItemLevel <= 15
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Cone Helmet" "Steel Greaves" "Chestplate"
 	ItemLevel <= 15
 	SetBorderColor 150 100 0
 	Rarity Magic Rare
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Cone Helmet" "Steel Greaves" "Chestplate"
 	ItemLevel <= 18
-	SetFontSize 30
+	SetFontSize 27
 Show 
 	BaseType "Plated Gauntlets" "Strapped Leather" "Light Brigandine" "Goathide Gloves"
 	ItemLevel <= 15
 	SetBorderColor 150 100 0
 	Rarity Magic Rare
-	SetFontSize 35
+	SetFontSize 27
 Show 
 	BaseType "Plated Gauntlets" "Strapped Leather" "Light Brigandine" "Goathide Gloves"
 	ItemLevel <= 15
 	SetBorderColor 150 100 0
-	SetFontSize 30
+	SetFontSize 27
 Show 
 	BaseType "Plated Gauntlets" "Strapped Leather" "Light Brigandine" "Goathide Gloves"
 	ItemLevel <= 18
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Tricorne" "Sallet" "Goathide Boots" "Barbute Helmet" "Scale Doublet"
 	ItemLevel <= 25
 	SetBorderColor 150 100 0	
 	Rarity Magic Rare
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Tricorne" "Sallet" "Goathide Boots" "Barbute Helmet" "Scale Doublet"
 	ItemLevel <= 25
-	SetFontSize 30
+	SetFontSize 27
 Show 
 	BaseType "Ironscale Gauntlets" "Buckskin Tunic" "Ironscale Boots" "Copper Plate" "Leather Hood" "Deerskin Gloves" "Infantry Brigandine" "Deerskin Boots" "War Plate" "Wild Leather" "Plated Greaves" "Bronze Gauntlets" "Visored Sallet"
 	ItemLevel <= 30
 	SetBorderColor 150 100 0
 	Rarity Rare
-	SetFontSize 30
+	SetFontSize 27
 Show 
 	BaseType "Ironscale Gauntlets" "Buckskin Tunic" "Ironscale Boots" "Copper Plate" "Leather Hood" "Deerskin Gloves" "Infantry Brigandine" "Deerskin Boots" "War Plate" "Wild Leather" "Plated Greaves" "Bronze Gauntlets" "Visored Sallet"
 	ItemLevel <= 30
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Close Helmet" "Bronzescale Gauntlets" "Full Scale Armour" "Full Leather" "Full Plate"
 	ItemLevel <= 35
 	SetBorderColor 150 100 0
 	Rarity Rare
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Close Helmet" "Bronzescale Gauntlets" "Full Scale Armour" "Full Leather" "Full Plate"
 	ItemLevel <= 35
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Close Helmet" "Bronzescale Gauntlets" "Full Scale Armour" "Full Leather" "Full Plate"
 	ItemLevel <= 37
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Wolf Pelt" "Soldier's Brigandine" "Arena Plate" "Sun Leather" "Bronzescale Boots"
 	ItemLevel <= 37
 	SetBorderColor 150 100 0
 	Rarity Rare
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Wolf Pelt" "Soldier's Brigandine" "Arena Plate" "Sun Leather" "Bronzescale Boots"
 	ItemLevel <= 37
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Wolf Pelt" "Soldier's Brigandine" "Arena Plate" "Sun Leather" "Bronzescale Boots"
 	ItemLevel <= 39
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Gilded Sallet" "Nubuck Gloves" "Field Lamellar" "Thief's Garb" "Lordly Plate" "Reinforced Greaves" "Nubuck Boots"
 	ItemLevel <= 40
 	SetBorderColor 150 100 0
 	Rarity Rare
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Gilded Sallet" "Nubuck Gloves" "Field Lamellar" "Thief's Garb" "Lordly Plate" "Reinforced Greaves" "Nubuck Boots"
 	ItemLevel <= 40
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Gilded Sallet" "Nubuck Gloves" "Field Lamellar" "Thief's Garb" "Lordly Plate" "Reinforced Greaves" "Nubuck Boots"
 	ItemLevel <= 42
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Gladiator Helmet" "Secutor Helm" "Steel Gauntlets" "Steelscale Gauntlets" "Eelskin Gloves" "Bronze Plate" "Wyrmscale Doublet" "Eelskin Tunic" "Steelscale Boots" "Antique Greaves"
 	ItemLevel <= 43
 	SetBorderColor 150 100 0
 	Rarity Rare
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Gladiator Helmet" "Secutor Helm" "Steel Gauntlets" "Steelscale Gauntlets" "Eelskin Gloves" "Bronze Plate" "Wyrmscale Doublet" "Eelskin Tunic" "Steelscale Boots" "Antique Greaves"
 	ItemLevel <= 43
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Gladiator Helmet" "Secutor Helm" "Steel Gauntlets" "Steelscale Gauntlets" "Eelskin Gloves" "Bronze Plate" "Wyrmscale Doublet" "Eelskin Tunic" "Steelscale Boots" "Antique Greaves"
 	ItemLevel <= 45
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Reaver Helmet" "Hunter Hood" "Antique Gauntlets" "Battle Plate" "Frontier Leather" "Eelskin Boots"
 	ItemLevel <= 45
 	SetBorderColor 150 100 0
 	Rarity Rare
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Reaver Helmet" "Hunter Hood" "Antique Gauntlets" "Battle Plate" "Frontier Leather" "Eelskin Boots"
 	ItemLevel <= 45
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Reaver Helmet" "Hunter Hood" "Antique Gauntlets" "Battle Plate" "Frontier Leather" "Eelskin Boots"
 	ItemLevel <= 47
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Fencer Helm" "Serpentscale Gauntlets" "Hussar Brigandine" "Glorious Leather" "Serpentscale Boots"
 	ItemLevel <= 47
 	SetBorderColor 150 100 0
 	Rarity Rare
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Fencer Helm" "Serpentscale Gauntlets" "Hussar Brigandine" "Glorious Leather" "Serpentscale Boots"
 	ItemLevel <= 47
-	SetFontSize 38
+	SetFontSize 27
 Show
 	BaseType "Fencer Helm" "Serpentscale Gauntlets" "Hussar Brigandine" "Glorious Leather" "Serpentscale Boots"
 	ItemLevel <= 50
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Noble Tricorne" "Sharkskin Gloves" "Sun Plate" "Full Wyrmscale" "Ancient Greaves"
 	ItemLevel <= 48
 	SetBorderColor 150 100 0
 	Rarity Rare
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Noble Tricorne" "Sharkskin Gloves" "Sun Plate" "Full Wyrmscale" "Ancient Greaves"
 	ItemLevel <= 48
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Noble Tricorne" "Sharkskin Gloves" "Sun Plate" "Full Wyrmscale" "Ancient Greaves"
 	ItemLevel <= 51
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Siege Helmet" "Ancient Gauntlets" "Coronal Leather"
 	ItemLevel <= 51
 	SetBorderColor 150 100 0	
 	Rarity Rare
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Siege Helmet" "Ancient Gauntlets" "Coronal Leather"
 	ItemLevel <= 53
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Lacquered Helmet" "Wyrmscale Gauntlets" "Colosseum Plate" "Commander's Brigandine" "Wyrmscale Boots"
 	ItemLevel <= 53
 	Rarity Rare
 	SetBorderColor 150 100 0
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Lacquered Helmet" "Wyrmscale Gauntlets" "Colosseum Plate" "Commander's Brigandine" "Wyrmscale Boots"
 	ItemLevel <= 56
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Ursine Pelt" "Samnite Helmet" "Goliath Gauntlets" "Shagreen Gloves" "Majestic Plate" "Battle Lamellar" "Goliath Greaves" "Cutthroat's Garb"
 	ItemLevel <= 56
 	SetBorderColor 150 100 0
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Ursine Pelt" "Samnite Helmet" "Goliath Gauntlets" "Shagreen Gloves" "Majestic Plate" "Battle Lamellar" "Goliath Greaves" "Cutthroat's Garb"
 	ItemLevel <= 59
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Fluted Bascinet" "Golden Plate" "Dragonscale Doublet" "Hydrascale Boots" "Sharkskin Tunic"
 	ItemLevel <= 59
 	Rarity Rare
 	SetBorderColor 150 100 0
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Fluted Bascinet" "Golden Plate" "Dragonscale Doublet" "Hydrascale Boots" "Sharkskin Tunic"
 	ItemLevel <= 62
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Silken Hood" "Ezomyte Burgonet" "Hydrascale Gauntlets" "Stealth Gloves" "Crusader Plate" "Desert Brigandine" "Vaal Greaves" "Destiny Leather"
 	ItemLevel <= 62
 	Rarity Rare
 	SetBorderColor 150 100 0
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Silken Hood" "Ezomyte Burgonet" "Hydrascale Gauntlets" "Stealth Gloves" "Crusader Plate" "Desert Brigandine" "Vaal Greaves" "Destiny Leather"
 	ItemLevel <= 66
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Pig-Faced Bascinet" "Sinner Tricorne" "Vaal Gauntlets" "Gladiator Plate" "Dragonscale Boots" "Exquisite Leather"
 	ItemLevel <= 67
 	Rarity Rare
 	SetBorderColor 150 100 0
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Pig-Faced Bascinet" "Sinner Tricorne" "Vaal Gauntlets" "Gladiator Plate"
 	ItemLevel <= 67
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Vaal Regalia" "Astral Plate" "Assassin's Garb" "Lacquered Garb" "Titanium Spirit Shield" "Triumphant Lamellar"
 	ItemLevel <= 70
 	SetBorderColor 150 100 0
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Nightmare Bascinet" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Dragonscale Gauntlets" "Titan Gauntlets" "Slink Gloves" "Sorcerer Gloves" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots"
 	ItemLevel <= 70
 	Rarity Rare
 	SetBorderColor 150 100 0
-	SetFontSize 30
+	SetFontSize 27
 Show
 	BaseType "Nightmare Bascinet" "Eternal Burgonet" "Royal Burgonet" "Lion Pelt" "Hubris Circlet" "Dragonscale Gauntlets" "Titan Gauntlets" "Slink Gloves" "Sorcerer Gloves" "Titan Greaves" "Slink Boots" "Sorcerer Boots" "Dragonscale Boots"
 	ItemLevel <= 70
-	SetFontSize 30
+	SetFontSize 27
 	
 #ES & ES/EV blocks for orbs of binding - these blocks exist solely to provide targets for casters/summoners to use orbs of binding on (all other archetypes are covered by the fact the filter shows ar, ev, ar/ev gear by default). ES/AR is excluded because no build uses red/blue sockets equally.
 #As strict as possible with no more than one base is shown at a time. Starts at A3, ends at 67. dev notes: used gapped method instead of overlap but most gapped bases show for at least ~4 zones before the gap. watch and loosen if necessary. update: if anything it's probably showing too much
