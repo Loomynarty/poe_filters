@@ -6516,31 +6516,31 @@ Show
 	SetBorderColor 150 200 250
 	SetFontSize 27
 # Percent wands. shows both the 1.5 speed and the max spelldmg lines. naturally alternates
-Show
-	BaseType 
-	AreaLevel <= 29
-	SetBorderColor 100 150 200
-	SetFontSize 27
+# Show
+# 	BaseType 
+# 	AreaLevel <= 29
+# 	SetBorderColor 100 150 200
+# 	SetFontSize 27
 Show
 	BaseType "Sage Wand"
 	AreaLevel <= 39
 	SetBorderColor 100 150 200
 	SetFontSize 27
-Show
-	BaseType 
-	AreaLevel <= 52
-	SetBorderColor 100 150 200
-	SetFontSize 27
+# Show
+# 	BaseType 
+# 	AreaLevel <= 52
+# 	SetBorderColor 100 150 200
+# 	SetFontSize 27
 Show
 	BaseType "Omen Wand"
 	AreaLevel <= 58
 	SetBorderColor 100 150 200
 	SetFontSize 27
-Show
-	BaseType 
-	AreaLevel <= 67
-	SetBorderColor 100 150 200
-	SetFontSize 27
+# Show
+# 	BaseType 
+# 	AreaLevel <= 67
+# 	SetBorderColor 100 150 200
+# 	SetFontSize 27
 Show
 	BaseType "Prophecy Wand"
 	AreaLevel <= 68
@@ -7872,13 +7872,13 @@ Show
 
 #Swords
 Show
-	BaseType "Two Hand Sword"
+	Class "Two Hand Sword"
 	AreaLevel <= 21
 	Rarity Rare
 	SetBorderColor 128 0 0
 	SetFontSize 27
 Show
-	BaseType "Two Hand Sword"
+	Class "Two Hand Sword"
 	AreaLevel <= 21
 	SetBorderColor 128 0 0
 	SetFontSize 27
