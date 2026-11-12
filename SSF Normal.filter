@@ -5689,28 +5689,28 @@ Show
 	Corrupted False
 	Mirrored False
 	SetBorderColor 250 200 150
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Harmonic Spirit Shield" "Ezomyte Tower Shield" "Lacquered Buckler" "Supreme Spiked Shield" "Spine Bow" "Bone Helmet"
 	ItemLevel >= 86
 	Corrupted False
 	Mirrored False
 	SetBorderColor 250 200 150
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Despot Axe" "Feathered Arrow Quiver" "Opal Sceptre" "Void Sceptre"  "Convoking Wand" "Profane Wand" "Fossilised Spirit Shield" "Leather Belt" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Amethyst Ring" "Two-Stone Ring" "Coral Ring" "Bone Ring" 
 	ItemLevel >= 85
 	Corrupted False
 	Mirrored False
 	SetBorderColor 200 150 0
-	SetFontSize 35
+	SetFontSize 27
 Show
 	BaseType "Titanium Spirit Shield" "Harmonic Spirit Shield" "Ezomyte Tower Shield" "Lacquered Buckler" "Supreme Spiked Shield" "Despot Axe" "Spine Bow" "Feathered Arrow Quiver" "Opal Sceptre" "Void Sceptre"  "Convoking Wand" "Profane Wand" "Fossilised Spirit Shield" "Leather Belt" "Agate Amulet" "Turquoise Amulet" "Citrine Amulet" "Amethyst Ring" "Two-Stone Ring" "Coral Ring" "Bone Ring" 
 	ItemLevel >= 84
 	Corrupted False
 	Mirrored False
 	SetBorderColor 150 100 0
-	SetFontSize 34
+	SetFontSize 27
 
 ###################################################################################
 ############################ Section 11A - Rare Armour ############################
