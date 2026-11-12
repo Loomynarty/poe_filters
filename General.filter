@@ -2100,16 +2100,16 @@ Show
 # 	PlayAlertSound 4 100
 # 	MinimapIcon 2 Green Star
 # 	PlayEffect Green
-Show
-	BaseType == "Pearls Before Swine" "Energy Sword" "Divine Shard"
-	Class "Divination Card"
-	SetBackgroundColor 200 150 250
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	PlayAlertSound 2 125
-	SetFontSize 30
-	MinimapIcon 2 Green Square
-	PlayEffect Green
+# Show
+# 	BaseType == ""
+# 	Class "Divination Card"
+# 	SetBackgroundColor 200 150 250
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 0 0 0
+# 	PlayAlertSound 2 125
+# 	SetFontSize 30
+# 	MinimapIcon 2 Green Square
+# 	PlayEffect Green
 
 ###################################################################################
 ####################### Section 4 - Maps & Atlas Items ############################
@@ -4392,7 +4392,7 @@ Show
 
 #Maximum Tier - 200c+. White.
 Show
-	BaseType == "Brother's Gift" "Choking Guilt" "Damnation" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "Father's Love" "Fire Of Unknown Origin" "History" "House of Mirrors" "I See Brothers" "Lonely Warrior" "Love Through Ice" "Lucky Bastion" "Luminous Trove" "Outfoxed" "Reflection of the Heart" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Artist" "The Demon" "The Doctor" "The Dragon's Heart" "The Endless Darkness" "The Enlightened" "The Eye of Terror" "The Fiend" "The Gulf" "The Immortal" "The Insane Cat" "The Journey" "The Lake" "The Miracle" "The Nurse" "The Price of Devotion" "The Progeny of Lunaris" "The Rabbit's Foot" "The Sephirot" "The Shieldbearer" "The Slumbering Beast" "Unrequited Love" "Wealth and Power"
+	BaseType == "Brother's Gift" "Choking Guilt" "Damnation" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "Father's Love" "Fire Of Unknown Origin" "History" "House of Mirrors" "I See Brothers" "Lonely Warrior" "Love Through Ice" "Lucky Bastion" "Luminous Trove" "Outfoxed" "Reflection of the Heart" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Artist" "The Demon" "The Doctor" "The Dragon's Heart" "The Endless Darkness" "The Enlightened" "The Eye of Terror" "The Fiend" "The Gulf" "The Immortal" "The Insane Cat" "The Journey" "The Lake" "The Miracle" "The Nurse" "The Price of Devotion" "The Progeny of Lunaris" "The Rabbit's Foot" "The Sephirot" "The Shieldbearer" "The Slumbering Beast" "Unrequited Love" "Wealth and Power" "Pearls Before Swine"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
 	SetTextColor 180 76 58 255
@@ -4404,7 +4404,7 @@ Show
 
 #High Tier - 50c to 200c. Fuschia.
 Show
-	BaseType == "A Familiar Call" "Assassin's Gift" "Doryani's Epiphany" "Duality" "Friendship" "Gemcutter's Mercy" "Home" "Lachrymal Necrosis" "Last Stand" "Lethean Temptation" "Matryoshka" "One Last Score" "Remembrance" "Squandered Prosperity" "The Chosen" "The Eye of the Dragon" "The Fortunate" "The Greatest Intentions" "The Last Supper" "The Leviathan" "The Mayor" "The Pact" "The Patient" "The Sacrifice" "The Samurai's Eye" "The Side Quest" "The Soul" "The Vast" "The World Eater" "Winter's Embrace" "Auspicious Ambitions" "Broken Promises" "Darker Half" "Monochrome" "Imperfect Memories" "The Damned" "The Destination" "The Forbidden Fruit"
+	BaseType == "A Familiar Call" "Assassin's Gift" "Doryani's Epiphany" "Duality" "Friendship" "Gemcutter's Mercy" "Home" "Lachrymal Necrosis" "Last Stand" "Lethean Temptation" "Matryoshka" "One Last Score" "Remembrance" "Squandered Prosperity" "The Chosen" "The Eye of the Dragon" "The Fortunate" "The Greatest Intentions" "The Last Supper" "The Leviathan" "The Mayor" "The Pact" "The Patient" "The Sacrifice" "The Samurai's Eye" "The Side Quest" "The Soul" "The Vast" "The World Eater" "Winter's Embrace" "Auspicious Ambitions" "Broken Promises" "Darker Half" "Monochrome" "Imperfect Memories" "The Damned" "The Destination" "The Forbidden Fruit" "Energy Sword"
 	Class "Divination Card"
 	SetBackgroundColor 250 0 125
 	SetBorderColor 255 255 255
@@ -4416,7 +4416,7 @@ Show
 
 #Mid Tier - 10c to 50c. Lavender.
 Show
-	BaseType == "A Fate Worse Than Death" "A Modest Request" "A Stone Perfected" "Akil's Prophecy" "Apocalypse" "Avian Pursuit" "Azyran's Reward" "Beauty Through Death" "Brother's Stash" "Brush, Paint and Palette" "Burning Blood" "Chaotic Disposition" "Chasing Risk" "Costly Curio" "Council of Cats" "Deadly Joy" "Eternal Bonds" "Fateful Meeting" "Gift of Asenath" "Hunter's Reward" "Judging Voices" "Lingering Remnants" "Magnum Opus" "Mawr Blaidd" "Misery in Darkness" "Peaceful Moments" "Rebirth and Renewal" "Reckless Ambition" "Something Dark" "Temperance" "Terrible Secret of Space" "The Academic" "The Astromancer" "The Dreamer" "The Eldritch Decay" "The Enforcer" "The Escape" "The Eternal War" "The Everlasting" "The Fishmonger" "The Formless Sea" "The Garish Power" "The Hook" "The Last Laugh" "The Last One Standing" "The Life Thief" "The Long Con" "The Mad King" "The Old Man" "The Polymath" "The Price of Loyalty" "The Shepherd's Sandals" "The Shortcut" "The Strategist" "The Void" "The Wedding Gift" "Tranquillity" "Who Asked" "The Union"
+	BaseType == "A Fate Worse Than Death" "A Modest Request" "A Stone Perfected" "Akil's Prophecy" "Apocalypse" "Avian Pursuit" "Azyran's Reward" "Beauty Through Death" "Brush, Paint and Palette" "Burning Blood" "Chaotic Disposition" "Chasing Risk" "Costly Curio" "Council of Cats" "Deadly Joy" "Eternal Bonds" "Fateful Meeting" "Gift of Asenath" "Hunter's Reward" "Judging Voices" "Lingering Remnants" "Magnum Opus" "Mawr Blaidd" "Misery in Darkness" "Peaceful Moments" "Rebirth and Renewal" "Reckless Ambition" "Something Dark" "Temperance" "Terrible Secret of Space" "The Academic" "The Astromancer" "The Dreamer" "The Eldritch Decay" "The Enforcer" "The Escape" "The Eternal War" "The Everlasting" "The Fishmonger" "The Formless Sea" "The Garish Power" "The Hook" "The Last Laugh" "The Last One Standing" "The Life Thief" "The Long Con" "The Mad King" "The Old Man" "The Polymath" "The Price of Loyalty" "The Shepherd's Sandals" "The Shortcut" "The Strategist" "The Void" "The Wedding Gift" "Tranquillity" "Who Asked" "The Union"
 	Class "Divination Card"
 	SetBackgroundColor 200 150 250
 	SetBorderColor 0 0 0
@@ -4438,7 +4438,7 @@ Class == "Divination Cards"
 # Currency Cards
 Show
     Class == "Divination Cards"
-    BaseType == "Abandoned Wealth" "Runic Luck" "Alluring Bounty" "Ambitious Obsession" "Buried Treasure" "Cameria's Cut" "Coveted Possession" "Disdain" "Emperor's Luck" "No Traces" "Ever-Changing" "Harmony of Souls" "Humility" "Immortal Resolve" "Last Hope" "Lucky Connections" "Lucky Deck" "Man With Bear" "Sambodhi's Vow" "The Cacophony" "The Card Sharp" "The Ethereal" "The Fool" "The Gemcutter" "The Heroic Shot" "The Innocent" "The Inventor" "The Master Artisan" "The Price of Prescience" "The Price of Protection" "The Rusted Bard" "The Scout" "The Survivalist" "The Tireless Extractor" "The Transformation" "The White Knight" "Three Faces in the Dark" "Vanity" "Vinia's Token"
+    BaseType == "Abandoned Wealth" "Runic Luck" "Alluring Bounty" "Ambitious Obsession" "Buried Treasure" "Cameria's Cut" "Coveted Possession" "Disdain" "Emperor's Luck" "No Traces" "Ever-Changing" "Harmony of Souls" "Humility" "Immortal Resolve" "Last Hope" "Lucky Connections" "Lucky Deck" "Man With Bear" "Sambodhi's Vow" "The Cacophony" "The Card Sharp" "The Ethereal" "The Fool" "The Gemcutter" "The Heroic Shot" "The Innocent" "The Inventor" "The Master Artisan" "The Price of Prescience" "The Price of Protection" "The Rusted Bard" "The Scout" "The Survivalist" "The Tireless Extractor" "The Transformation" "The White Knight" "Three Faces in the Dark" "Vanity" "Vinia's Token" "Divine Shard"
     SetFontSize 26
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
