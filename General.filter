@@ -120,17 +120,6 @@ Show
 	SetTextColor 100 150 200
 	MinimapIcon 2 Blue UpsideDownHouse
 	PlayEffect Blue Temp
-Show
-	BaseType "Orb of Binding"
-	AreaLevel <= 67
-	SetBackgroundColor 175 0 250
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 35
-	PlayAlertSound 2 150
-	MinimapIcon 1 Purple Circle
-	PlayEffect Purple
-	DisableDropSound
 
 # Keepers of the Flame Currencies
 Show
@@ -220,7 +209,7 @@ Show
 	MinimapIcon 1 Pink Circle
 	PlayEffect Pink
 Show 
-	BaseType "Maven's Chisel of Proliferation" "Maven's Chisel of Divination" "Maven's Chisel of Avarice" "Maven's Chisel of Scarabs" "Maven's Chisel of Procurement" 
+	BaseType "Maven's Chisel of Proliferation" "Maven's Chisel of Divination" "Maven's Chisel of Avarice" "Maven's Chisel of Threads" "Maven's Chisel of Procurement" 
 	SetBackgroundColor 250 0 125
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
@@ -591,16 +580,6 @@ Show
 	PlayAlertSound 2 150
 	MinimapIcon 1 Purple Circle
 	PlayEffect Purple Temp
-	DisableDropSound
-Show
-	BaseType "Orb of Binding"
-	Class Currency
-	SetBackgroundColor 0 180 130
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 35
-	PlayAlertSound 3 100
-	MinimapIcon 2 Green Circle
 	DisableDropSound
 	
 #Legacy Currencies & Other Weird Items That Don't Normally Drop (here to reduce clutter elsewhere). Grey
@@ -990,7 +969,6 @@ Show
 	DisableDropSound
 	
 #Incursion (v3.3) - Dark Red
-#vials moved to unique section in 3.23
 Show
 	BaseType "Stone of Passage" "Flashpowder Keg"
 	SetBackgroundColor 100 0 0
@@ -1265,28 +1243,9 @@ Show
 	PlayEffect Brown Temp
 	MinimapIcon 2 Brown Moon
 
-# Scarabs
+# Threads
 Show
-	BaseType == "Ambush Scarab of Containment" "Horned Scarab of Bloodlines" "Horned Scarab of Preservation" "Ultimatum Scarab of Catalysing" "Horned Scarab of Pandemonium" "Cartography Scarab of Risk" "Legion Scarab of Eternal Conflict" 
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 180 76 58 255
-	SetTextColor 180 76 58 255
-	SetFontSize 35
-	PlayAlertSound 6 300
-	PlayEffect Red
-	MinimapIcon 0 Red Star
-Show
-	BaseType == "Essence Scarab of Calcification" "Horned Scarab of Awakening"  "Kalguuran Scarab of Refinement" "Harvest Scarab of Cornucopia" "Abyss Scarab of the Consort" "Incursion Scarab of Timelines" "Trarthan Scarab of Renown" "Harvest Scarab of Doubling" "Breach Scarab of Resonant Cascade" "Blight Scarab of Blooming" "Trarthan Scarab of Surprising Alliances" "Divination Scarab of Pilfering"  "Domination Scarab of Terrors" "Scarab of Wisps"
-	Class "Map Fragment"
-	SetBackgroundColor 250 178 70
-	SetBorderColor 255 255 255
-	SetTextColor 0 0 0
-	PlayAlertSound 10 250
-	SetFontSize 35
-	MinimapIcon 1 Orange Triangle
-	DisableDropSound
-Show
-	BaseType == "Ambush Scarab" "Ambush Scarab of Discernment" "Bestiary Scarab of Duplicating" "Bestiary Scarab of the Herd" "Betrayal Scarab of Unbreaking" "Blight Scarab of Invigoration" "Breach Scarab of Instability" "Breach Scarab of the Incensed Swarm" "Cartography Scarab of Corruption" "Cartography Scarab of Escalation" "Cartography Scarab of the Multitude" "Delirium Scarab of Paranoia" "Divination Scarab of Plenty" "Divination Scarab of The Cloister" "Domination Scarab" "Essence Scarab" "Essence Scarab of Ascent" "Essence Scarab of Stability" "Horned Scarab of Glittering" "Horned Scarab of Nemeses" "Influencing Scarab of Interference" "Kalguuran Scarab" "Legion Scarab" "Legion Scarab of Officers" "Legion Scarab of Treasures" "Scarab of Monstrous Lineage" "Scarab of the Sinistral" "Ultimatum Scarab of Bribing" "Ultimatum Scarab of Dueling" "Ultimatum Scarab of Inscription" "Trarthan Scarab of Infamy" "Essence Scarab of Adaptation" "Abyss Scarab" "Abyss Scarab of Multitudes" "Horned Scarab of Tradition"
+	BaseType "Thread"
 	Class "Map Fragment"
 	SetBackgroundColor 100 50 0
 	SetBorderColor 225 225 225
@@ -1294,23 +1253,6 @@ Show
 	SetFontSize 30
 	PlayAlertSound 11 200
 	MinimapIcon 2 Yellow Triangle
-Show
-	BaseType "Scarab"
-	Class "Map Fragment"
-	StackSize >= 3
-	SetBackgroundColor 80 40 0
-	SetBorderColor 200 200 200
-	SetTextColor 225 75 0
-	SetFontSize 30
-	PlayAlertSound 11 200
-Show
-	BaseType "Scarab"
-	Class "Map Fragment"
-	SetBackgroundColor 80 40 0
-	SetBorderColor 200 200 200
-	SetTextColor 225 75 0
-	SetFontSize 27
-	PlayAlertSound 11 200
 
 #Synthesis (v3.6) - Light Blue. moved fracs to sec 5 due to conflicts
 Show
@@ -1482,16 +1424,6 @@ Show
 	PlayAlertSound 3 200
 	MinimapIcon 1 Cyan Circle
 	PlayEffect Cyan Temp
-Show
-	BaseType "Lure"
-	Class "Map Fragment"
-	SetBackgroundColor 175 200 0
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 35
-	PlayAlertSound 4 150
-	MinimapIcon 0 Green Moon
-	PlayEffect Green
 	
 #Heist (v3.12) - brown theme for the league items. runnable areas now located in map section
 Show
@@ -1979,26 +1911,6 @@ Show
 	MinimapIcon 1 Yellow Moon
 	DisableDropSound
 Show
-	BaseType "Coin of Knowledge" "Coin of Power" "Coin of Skill"
-	Class Currency
-	SetBackgroundColor 250 0 125
-	SetBorderColor 255 255 255
-	SetTextColor 255 255 255
-	PlayAlertSound 10 250
-	SetFontSize 35
-	MinimapIcon 1 Red Circle
-	PlayEffect Red
-	DisableDropSound
-Hide
-	BaseType "Coin of Restoration" "Coin of Desecration"
-	Class Currency
-	SetFontSize 25
-	SetTextColor 0 0 0 255
-	SetBorderColor 0 0 0 255
-	SetBackgroundColor 120 200 160 255
-	PlayAlertSound 2 150
-	DisableDropSound
-Show
 	Class "Amulet" Belt "Body Armour" Boots Gloves Helmet Shield Ring
 	HasExplicitMod "Infamous" "of Infamy"
 	SetBorderColor 250 250 250
@@ -2083,6 +1995,36 @@ Show
 Show
 	Class "Chart"
 	SetFontSize 35
+	SetTextColor 0 240 190 255
+	SetBorderColor 0 240 190 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 150
+	MinimapIcon 2 Green Square
+
+# Covens of Umbra (v3.30)
+Show
+	Class "Viscera"
+	SetFontSize 30
+	SetTextColor 0 240 190 255
+	SetBorderColor 0 240 190 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 150
+	MinimapIcon 2 Green Square
+
+# Temporary block for new items
+Show
+	BaseType "Essence of Trickery" "Frayed Thread" "Royal Visage" "Soul Core of Instability" "Soul Core of Intellect" "Soul Core of Might" "Soul Core of Finesse" "Cursed Poppet" "Mycelium Core"
+	SetFontSize 30
+	SetTextColor 0 240 190 255
+	SetBorderColor 0 240 190 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 150
+	MinimapIcon 2 Green Square
+
+# No clue what Fated does
+Show
+	Fated True
+	SetFontSize 30
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
 	SetBackgroundColor 20 20 0 255
@@ -2640,29 +2582,11 @@ Show
 
 #Fragments
 Show
-	BaseType "Sacrifice at Dusk" "Sacrifice at Noon" "Sacrifice at Midnight" "Sacrifice at Dawn" 
 	Class "Map Fragments"
 	SetBackgroundColor 0 0 0
 	SetBorderColor 200 150 250
 	SetTextColor 200 150 250
 	SetFontSize 25
-	MinimapIcon 2 Pink Hexagon
-	PlayEffect Pink Temp
-Show
-	BaseType "Fragment" "Mortal"
-	Class "Map Fragments"
-	SetBackgroundColor 0 0 0
-	SetBorderColor 200 150 250
-	SetTextColor 200 150 250
-	SetFontSize 35
-	MinimapIcon 2 Pink Hexagon
-	PlayEffect Pink Temp
-Show
-	Class "Map Fragments"
-	SetBackgroundColor 0 0 0
-	SetBorderColor 200 150 250
-	SetTextColor 200 150 250
-	SetFontSize 35
 	MinimapIcon 2 Pink Hexagon
 	PlayEffect Pink Temp
 	
@@ -4083,18 +4007,6 @@ Show
 ###################################################################################
 #Note: Uniques with special aspects are handled in those respective sections (i.e. influence in Sec 8)
 
-#Upgraders (Breach Blessings, Incursion Vials, Harbinger Scrolls)
-Show
-	BaseType "Blessing of" "Vial of"
-	Class Currency
-	SetBackgroundColor 250 40 0
-	SetBorderColor 0 0 0
-	SetTextColor 0 0 0
-	SetFontSize 35
-	PlayAlertSound 2 200
-	MinimapIcon 0 Orange Triangle
-	PlayEffect Orange
-
 #Oddball Classes
 Show
 	Class Pieces
@@ -4392,7 +4304,7 @@ Show
 
 #Maximum Tier - 200c+. White.
 Show
-	BaseType == "Brother's Gift" "Choking Guilt" "Damnation" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "Father's Love" "Fire Of Unknown Origin" "History" "House of Mirrors" "I See Brothers" "Lonely Warrior" "Love Through Ice" "Lucky Bastion" "Luminous Trove" "Outfoxed" "Reflection of the Heart" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Artist" "The Demon" "The Doctor" "The Dragon's Heart" "The Endless Darkness" "The Enlightened" "The Eye of Terror" "The Fiend" "The Gulf" "The Immortal" "The Insane Cat" "The Journey" "The Lake" "The Miracle" "The Nurse" "The Price of Devotion" "The Progeny of Lunaris" "The Rabbit's Foot" "The Sephirot" "The Shieldbearer" "The Slumbering Beast" "Unrequited Love" "Wealth and Power" "Pearls Before Swine"
+	BaseType == "Brother's Gift" "Choking Guilt" "Damnation" "Desecrated Virtue" "Divine Beauty" "Divine Justice" "Father's Love" "Fire Of Unknown Origin" "History" "House of Mirrors" "I See Brothers" "Lonely Warrior" "Love Through Ice" "Lucky Bastion" "Luminous Trove" "Outfoxed" "Reflection of the Heart" "Seven Years Bad Luck" "Succor of the Sinless" "The Apothecary" "The Artist" "The Demon" "The Doctor" "The Dragon's Heart" "The Endless Darkness" "The Enlightened" "The Eye of Terror" "The Fiend" "The Gulf" "The Immortal" "The Insane Cat" "The Journey" "The Lake" "The Miracle" "The Nurse" "The Price of Devotion" "The Progeny of Lunaris" "The Sephirot" "The Shieldbearer" "The Slumbering Beast" "Unrequited Love" "Wealth and Power" "Pearls Before Swine"
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
 	SetTextColor 180 76 58 255
@@ -4428,7 +4340,7 @@ Show
 # Higher-Tier Currency Cards
 Show 
 Class == "Divination Cards"
-    BaseType == "A Sea of Blue" "Acclimatisation" "Altered Perception" "Checkmate" "Dementophobia" "Demigod's Wager" "More is Never Enough" "Society's Remorse" "The Finishing Touch" "The Seeker" "The Silly Boy" "The Tinkerer's Table" "The Wrath" "Brother's Stash" "The Union"
+    BaseType == "A Sea of Blue" "Acclimatisation" "Altered Perception" "Checkmate" "Dementophobia" "Demigod's Wager" "Society's Remorse" "The Finishing Touch" "The Seeker" "The Tinkerer's Table" "The Wrath" "Brother's Stash" "The Union"
     SetFontSize 28
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
@@ -4438,7 +4350,7 @@ Class == "Divination Cards"
 # Currency Cards
 Show
     Class == "Divination Cards"
-    BaseType == "Abandoned Wealth" "Runic Luck" "Alluring Bounty" "Ambitious Obsession" "Buried Treasure" "Cameria's Cut" "Coveted Possession" "Disdain" "Emperor's Luck" "No Traces" "Ever-Changing" "Harmony of Souls" "Humility" "Immortal Resolve" "Last Hope" "Lucky Connections" "Lucky Deck" "Man With Bear" "Sambodhi's Vow" "The Cacophony" "The Card Sharp" "The Ethereal" "The Fool" "The Gemcutter" "The Heroic Shot" "The Innocent" "The Inventor" "The Master Artisan" "The Price of Prescience" "The Price of Protection" "The Rusted Bard" "The Scout" "The Survivalist" "The Tireless Extractor" "The Transformation" "The White Knight" "Three Faces in the Dark" "Vanity" "Vinia's Token" "Divine Shard"
+    BaseType == "Abandoned Wealth" "Runic Luck" "Alluring Bounty" "Ambitious Obsession" "Coveted Possession" "Disdain" "Emperor's Luck" "No Traces" "Ever-Changing" "Harmony of Souls" "Humility" "Immortal Resolve" "Lucky Connections" "Lucky Deck" "The Cacophony" "The Ethereal" "The Fool" "The Gemcutter" "The Heroic Shot" "The Innocent" "The Inventor" "The Master Artisan" "The Price of Prescience" "The Price of Protection" "The Rusted Bard" "The Scout" "The Survivalist" "The Tireless Extractor" "The Transformation" "The White Knight" "Three Faces in the Dark" "Vanity" "Vinia's Token" "Divine Shard"
     SetFontSize 26
     SetTextColor 0 0 0 255
     SetBorderColor 0 0 0 255
@@ -4456,7 +4368,7 @@ Show
 
 #Dogshit Tier: Hidden in all filters, waste of a click to pick up. Same highlight as trash tier. Only the very worst get added here.
 Hide
-	BaseType == "A Mother's Parting Gift" "A Note in the Wind" "Alivia's Grace" "Audacity" "Boundless Realms" "Call to the First Ones" "Cartographer's Delight" "Cursed Words" "Dark Temptation" "Death" "Destined to Crumble" "Echoes of Love" "Emperor of Purity" "Forbidden Power" "From Bone to Ashes" "Grave Knowledge" "Imperial Legacy" "Lantador's Lost Love" "Light and Truth" "Might is Right" "Prosperity" "Rain Tempter" "Rats" "Silence and Frost" "Struck by Lightning" "The Adventuring Spirit" "The Archmage's Right Hand" "The Arena Champion" "The Army of Blood" "The Avenger" "The Beast" "The Betrayal" "The Blazing Fire" "The Calling" "The Carrion Crow" "The Cataclysm" "The Coming Storm" "The Conduit" "The Cursed King" "The Deceiver" "The Demoness" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Explorer" "The Feast" "The Fletcher" "The Forsaken" "The Fox in the Brambles" "The Gladiator" "The Golden Era" "The Harvester" "The Hermit" "The Incantation" "The Inoculated" "The Insatiable" "The Jester" "The Jeweller's Boon" "The Journalist" "The King's Blade" "The Lich" "The Lord in Black" "The Lord of Celebration" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Offering" "The Opulent" "The Pack Leader" "The Poet" "The Rabid Rhoa" "The Return of the Rat" "The Ruthless Ceinture" "The Scarred Meadow" "The Scavenger" "The Sigil" "The Siren" "The Spoiled Prince" "The Standoff" "The Summoner" "The Sun" "The Surgeon" "The Surveyor" "The Sword King's Salute" "The Throne" "The Trial" "The Twins" "The Visionary" "The Warden" "The Watcher" "The Web" "The Wind" "The Witch" "The Wolf's Shadow" "Thirst for Knowledge" "Thunderous Skies" "Turn the Other Cheek" "Vile Power" "Volatile Power" "Boon of Justice" "Bowyer's Dream" "Gemcutter's Promise" "Her Mask" "Loyalty" "Rain of Chaos" "The Catalyst" "The Deal" "The Flora's Gift" "The Gambler" "The Hoarder" "The Saint's Treasure" "The Scholar" "Three Voices"
+	BaseType == "A Mother's Parting Gift" "A Note in the Wind" "Alivia's Grace" "Audacity" "Boundless Realms" "Call to the First Ones" "Cartographer's Delight" "Cursed Words" "Dark Temptation" "Death" "Destined to Crumble" "Echoes of Love" "Emperor of Purity" "Forbidden Power" "From Bone to Ashes" "Grave Knowledge" "Imperial Legacy" "Lantador's Lost Love" "Light and Truth" "Might is Right" "Prosperity" "Rain Tempter" "Rats" "Silence and Frost" "Struck by Lightning" "The Adventuring Spirit" "The Archmage's Right Hand" "The Arena Champion" "The Army of Blood" "The Avenger" "The Beast" "The Betrayal" "The Blazing Fire" "The Calling" "The Carrion Crow" "The Cataclysm" "The Coming Storm" "The Conduit" "The Cursed King" "The Deceiver" "The Demoness" "The Dragon" "The Dreamland" "The Drunken Aristocrat" "The Explorer" "The Feast" "The Fletcher" "The Forsaken" "The Fox in the Brambles" "The Gladiator" "The Golden Era" "The Harvester" "The Hermit" "The Incantation" "The Inoculated" "The Insatiable" "The Jester" "The Jeweller's Boon" "The Journalist" "The King's Blade" "The Lich" "The Lord in Black" "The Lord of Celebration" "The Lover" "The Lunaris Priestess" "The Metalsmith's Gift" "The Oath" "The Offering" "The Opulent" "The Pack Leader" "The Poet" "The Rabid Rhoa" "The Return of the Rat" "The Ruthless Ceinture" "The Scarred Meadow" "The Scavenger" "The Sigil" "The Siren" "The Spoiled Prince" "The Standoff" "The Summoner" "The Sun" "The Surgeon" "The Surveyor" "The Sword King's Salute" "The Throne" "The Trial" "The Twins" "The Visionary" "The Warden" "The Watcher" "The Web" "The Wind" "The Witch" "The Wolf's Shadow" "Thirst for Knowledge" "Thunderous Skies" "Turn the Other Cheek" "Vile Power" "Volatile Power" "Boon of Justice" "Bowyer's Dream" "Gemcutter's Promise" "Loyalty" "Rain of Chaos" "The Catalyst" "The Flora's Gift" "The Gambler" "The Hoarder" "The Saint's Treasure" "The Scholar" "Three Voices"
 	Class "Divination Card"
 	SetBackgroundColor 70 120 170
 	SetBorderColor 0 0 0
@@ -4476,7 +4388,7 @@ Show
 
 #Stacked Decks - makes more sense in div card block even though it's technically a currency
 Show
-	BaseType "Stacked Deck" "Veiled Scarab"
+	BaseType "Stacked Deck"
 	Class Currency
 	SetBackgroundColor 0 200 250
 	SetBorderColor 0 0 0
