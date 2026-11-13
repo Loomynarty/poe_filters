@@ -4520,6 +4520,29 @@ Hide
 ###################################################################################
 ####################### Section 12 - 3CL & Miscellaneous ##########################
 ###################################################################################
+
+# Item Tier nonsense
+Show
+	Class "Body Armour" "Boots" "Gloves" "Helm"
+	DropLevel >= 70
+	UnidentifiedItemTier >= 3
+	Rarity Normal Magic Rare
+	SetBorderColor 231 85 85 255
+	SetFontSize 30
+Hide
+	Class "Body Armour" "Boots" "Gloves" "Helm"
+	DropLevel < 70
+	UnidentifiedItemTier >= 3
+	Rarity Normal Magic Rare
+	SetBorderColor 231 85 85 255
+	SetFontSize 30
+Show
+	DropLevel >= 50
+	UnidentifiedItemTier >= 3
+	Rarity Normal Magic Rare
+	SetBorderColor 0 200 0
+	SetFontSize 30
+
 #Other random items and conditions that don't really fit anywhere else
 Show
 	BaseType "Sacrificial Garb" "Grasping Mail"

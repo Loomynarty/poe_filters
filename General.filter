@@ -4486,7 +4486,7 @@ Show
 	SetBorderColor 250 200 150
 	SetFontSize 38
 Show
-	BaseType "Harmonic Spirit Shield" "Ezomyte Tower Shield" "Lacquered Buckler" "Supreme Spiked Shield" "Spine Bow" "Bone Helmet"
+	BaseType "Spine Bow" 
 	ItemLevel >= 86
 	Corrupted False
 	Mirrored False
@@ -4515,7 +4515,6 @@ Show
 
 Show
 	Class "Body Armour"
-	BaseEnergyShield > 0
 	AreaLevel <= 82
 	DropLevel >= 78
 	Rarity Rare
@@ -4679,6 +4678,29 @@ Hide
 ###################################################################################
 ####################### Section 12 - 3CL & Miscellaneous ##########################
 ###################################################################################
+
+# Item Tier nonsense
+Show
+	Class "Body Armour" "Boots" "Gloves" "Helm"
+	DropLevel >= 60
+	UnidentifiedItemTier != 0
+	Rarity Normal Magic Rare
+	SetBorderColor 231 85 85 255
+	SetFontSize 30
+Hide
+	Class "Body Armour" "Boots" "Gloves" "Helm"
+	DropLevel < 60
+	UnidentifiedItemTier != 0
+	Rarity Normal Magic Rare
+	SetBorderColor 231 85 85 255
+	SetFontSize 30
+Show
+	DropLevel >= 50
+	UnidentifiedItemTier != 0
+	Rarity Normal Magic Rare
+	SetBorderColor 0 200 0
+	SetFontSize 30
+
 #Other random items and conditions that don't really fit anywhere else
 Show
 	BaseType "Sacrificial Garb" "Grasping Mail"
