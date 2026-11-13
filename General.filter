@@ -4695,11 +4695,17 @@ Hide
 	SetBorderColor 231 85 85 255
 	SetFontSize 30
 Show
+	Class "Ring" "Belt" "Amulet" "Jewel" "Quiver"
+	UnidentifiedItemTier != 0
+	Rarity Normal Magic Rare
+	SetBorderColor 0 153 200 255
+	SetFontSize 30
+Show
 	DropLevel >= 50
 	UnidentifiedItemTier != 0
 	Rarity Normal Magic Rare
 	SetBorderColor 0 200 0
-	SetFontSize 30
+	SetFontSize 27
 
 #Other random items and conditions that don't really fit anywhere else
 Show
