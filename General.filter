@@ -4683,6 +4683,7 @@ Hide
 Show
 	Class "Body Armour" "Boots" "Gloves" "Helm"
 	DropLevel >= 60
+	ItemLevel >= 68
 	UnidentifiedItemTier != 0
 	Rarity Normal Magic Rare
 	SetBorderColor 231 85 85 255
@@ -4690,6 +4691,7 @@ Show
 Hide
 	Class "Body Armour" "Boots" "Gloves" "Helm"
 	DropLevel < 60
+	ItemLevel >= 68
 	UnidentifiedItemTier != 0
 	Rarity Normal Magic Rare
 	SetBorderColor 231 85 85 255
@@ -4697,11 +4699,21 @@ Hide
 Show
 	Class "Ring" "Belt" "Amulet" "Jewel" "Quiver"
 	UnidentifiedItemTier != 0
+	ItemLevel >= 68
 	Rarity Normal Magic Rare
 	SetBorderColor 0 153 200 255
 	SetFontSize 30
 Show
 	DropLevel >= 50
+	ItemLevel >= 68
+	UnidentifiedItemTier != 0
+	Rarity Normal Magic Rare
+	SetBorderColor 0 200 0
+	SetFontSize 27
+
+# Campaign
+Show
+	ItemLevel < 68
 	UnidentifiedItemTier != 0
 	Rarity Normal Magic Rare
 	SetBorderColor 0 200 0
