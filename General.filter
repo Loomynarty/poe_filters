@@ -4413,6 +4413,18 @@ Show
 	PlayAlertSound 13 200
 	MinimapIcon 1 White Kite
 	PlayEffect White
+Show
+	Class != "Flask"
+	DropLevel >= 50
+	Quality >= 26
+	ItemLevel >= 83
+	Corrupted False
+	Mirrored False
+	SetBorderColor 250 250 250
+	SetFontSize 30
+	PlayAlertSound 13 200
+	MinimapIcon 1 White Kite
+	PlayEffect White
 
 #BaseDefencePercentile Bullshit
 Show
