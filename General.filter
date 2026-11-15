@@ -1306,12 +1306,12 @@ Show
 	PlayEffect Green Temp
 	PlayAlertSound 11 200
 	MinimapIcon 1 Green Raindrop
-Hide
+Show
 	BaseType "Verdant Oil" "Clear Oil" "Sepia Oil" "Amber Oil"
 	SetBackgroundColor 100 150 100
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 30
+	SetFontSize 27
 
 # Blight-ravaged double annoint amulet
 Show
@@ -4575,10 +4575,10 @@ Show
 
 #ranged (lime green)
 # Show
-	# BaseType "Spine Bow" "Thicket Bow" "Feathered Arrow Quiver" "Broadhead Arrow Quiver" "Primal Arrow Quiver"
-	# Rarity Rare
-	# SetBorderColor 125 200 40
-	# SetFontSize 30
+# 	BaseType "Spine Bow" "Thicket Bow" "Feathered Arrow Quiver" "Broadhead Arrow Quiver" "Primal Arrow Quiver"
+# 	Rarity Rare
+# 	SetBorderColor 125 200 40
+# 	SetFontSize 30
 
 #melee (maroon)
 # Show
@@ -4680,44 +4680,44 @@ Hide
 ###################################################################################
 
 # Item Tier nonsense
-# Show
-# 	Class "Body Armour" "Boots" "Gloves" "Helm"
-# 	DropLevel >= 60
-# 	ItemLevel >= 68
-# 	UnidentifiedItemTier != 0
-# 	Rarity Normal Magic Rare
-# 	SetBorderColor 231 85 85 255
-# 	SetFontSize 30
-# Hide
-# 	Class "Body Armour" "Boots" "Gloves" "Helm"
-# 	DropLevel < 60
-# 	ItemLevel >= 68
-# 	UnidentifiedItemTier != 0
-# 	Rarity Normal Magic Rare
-# 	SetBorderColor 231 85 85 255
-# 	SetFontSize 30
-# Show
-# 	Class "Ring" "Belt" "Amulet" "Jewel" "Quiver"
-# 	UnidentifiedItemTier != 0
-# 	ItemLevel >= 68
-# 	Rarity Normal Magic Rare
-# 	SetBorderColor 0 153 200 255
-# 	SetFontSize 30
-# Show
-# 	DropLevel >= 50
-# 	ItemLevel >= 68
-# 	UnidentifiedItemTier != 0
-# 	Rarity Normal Magic Rare
-# 	SetBorderColor 0 200 0
-	# SetFontSize 27
+Show
+	Class "Body Armour" "Boots" "Gloves" "Helm"
+	DropLevel >= 60
+	ItemLevel >= 68
+	UnidentifiedItemTier >= 2
+	Rarity Normal Magic Rare
+	SetBorderColor 231 85 85 255
+	SetFontSize 30
+Hide
+	Class "Body Armour" "Boots" "Gloves" "Helm"
+	DropLevel < 60
+	ItemLevel >= 68
+	UnidentifiedItemTier >= 2
+	Rarity Normal Magic Rare
+	SetBorderColor 231 85 85 255
+	SetFontSize 30
+Show
+	Class "Ring" "Belt" "Amulet" "Jewel" "Quiver"
+	UnidentifiedItemTier >= 2
+	ItemLevel >= 68
+	Rarity Normal Magic Rare
+	SetBorderColor 0 153 200 255
+	SetFontSize 30
+Show
+	DropLevel >= 50
+	ItemLevel >= 68
+	UnidentifiedItemTier >= 2
+	Rarity Normal Magic Rare
+	SetBorderColor 0 200 0
+	SetFontSize 27
 
 # Campaign
-# Show
-# 	ItemLevel < 68
-# 	UnidentifiedItemTier >= 1
-# 	Rarity Normal Magic Rare
-# 	SetBorderColor 200 200 0
-# 	SetFontSize 27
+Show
+	ItemLevel < 68
+	UnidentifiedItemTier >= 1
+	Rarity Normal Magic Rare
+	SetBorderColor 200 200 0
+	SetFontSize 27
 
 #Other random items and conditions that don't really fit anywhere else
 Show
