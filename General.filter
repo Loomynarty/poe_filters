@@ -4716,9 +4716,26 @@ Show
 	SetBorderColor 0 153 200 255
 	SetFontSize 30
 Show
+	Class "Wand" "Sceptre" "Staves"
+	UnidentifiedItemTier >= 2
+	ItemLevel >= 68
+	Rarity Normal Magic Rare
+	SetBorderColor 0 153 200 255
+	SetFontSize 30
+Show
+	Class "Shield"
+	UnidentifiedItemTier >= 2
+	ItemLevel >= 68
+	BaseEnergyShield > 0
+	BaseEvasion == 0
+	BaseArmour == 0
+	Rarity Normal Magic Rare
+	SetBorderColor 0 153 200 255
+	SetFontSize 30
+Show
 	DropLevel >= 50
 	ItemLevel >= 68
-	UnidentifiedItemTier >= 2
+	UnidentifiedItemTier >= 3
 	Rarity Normal Magic Rare
 	SetBorderColor 0 200 0
 	SetFontSize 27

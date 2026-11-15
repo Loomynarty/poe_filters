@@ -4552,8 +4552,25 @@ Hide
 	SetFontSize 30
 Show
 	Class "Ring" "Belt" "Amulet" "Jewel" "Quiver"
+	UnidentifiedItemTier >= 3
+	ItemLevel >= 68
+	Rarity Normal Magic Rare
+	SetBorderColor 0 153 200 255
+	SetFontSize 30
+Show
+	Class "Wand" "Sceptre" "Staves"
 	UnidentifiedItemTier >= 4
 	ItemLevel >= 68
+	Rarity Normal Magic Rare
+	SetBorderColor 0 153 200 255
+	SetFontSize 30
+Show
+	Class "Shield"
+	UnidentifiedItemTier >= 4
+	ItemLevel >= 68
+	BaseEnergyShield > 0
+	BaseEvasion == 0
+	BaseArmour == 0
 	Rarity Normal Magic Rare
 	SetBorderColor 0 153 200 255
 	SetFontSize 30
@@ -4561,7 +4578,7 @@ Show
 Show
 	DropLevel >= 50
 	ItemLevel >= 68
-	UnidentifiedItemTier >= 4
+	UnidentifiedItemTier >= 5
 	Rarity Normal Magic Rare
 	SetBorderColor 0 200 0
 	SetFontSize 25
