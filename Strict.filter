@@ -257,7 +257,7 @@ Show
 	PlayEffect Red
 	DisableDropSound
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Glassblower's Bauble" "Vaal Orb"
+	BaseType  "Chaos Orb" "Orb of Chance" "Regal Orb" "Glassblower's Bauble" "Vaal Orb"
 	StackSize >= 10
 	Class Currency
 	SetBackgroundColor 250 0 125
@@ -282,7 +282,7 @@ Show
 	PlayEffect Purple
 	DisableDropSound
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb" "Chromatic Orb"
+	BaseType  "Chaos Orb" "Orb of Chance" "Regal Orb" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb" "Chromatic Orb"
 	Class Currency
 	StackSize >= 5
 	SetBackgroundColor 175 0 250
@@ -320,7 +320,7 @@ Show
 
 #1c+ (teal)
 Show
-	BaseType "Chaos Orb" "Regal Orb" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb" "Chromatic Orb"
+	BaseType  "Chaos Orb" "Orb of Chance" "Regal Orb" "Glassblower's Bauble" "Vaal Orb" "Exalted Orb" "Chromatic Orb"
 	Class Currency
 	SetBackgroundColor 0 225 225
 	SetBorderColor 0 0 0
@@ -431,7 +431,7 @@ Hide
 	MinimapIcon 2 Green Circle
 	DisableDropSound
 Hide
-	BaseType "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Chance"
+	BaseType "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" 
 	StackSize >= 6
 	Class Currency
 	SetBackgroundColor 0 150 0
@@ -452,7 +452,7 @@ Hide
 	SetFontSize 30
 	DisableDropSound
 Hide
-	BaseType "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" "Orb of Chance"
+	BaseType "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" 
 	StackSize >= 3
 	Class Currency
 	SetBackgroundColor 170 158 130
@@ -462,13 +462,13 @@ Hide
 
 #Lowest value (no highlight)
 Hide
-	BaseType "Armourer's Scrap" "Orb of Chance" "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone"
+	BaseType "Armourer's Scrap"  "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone"
 	AreaLevel >= 78
 	Class Currency
 	SetFontSize 30
 	DisableDropSound
 Hide
-	BaseType "Armourer's Scrap" "Orb of Chance" "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone"
+	BaseType "Armourer's Scrap"  "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone"
 	Class Currency
 	SetFontSize 30
 	DisableDropSound
