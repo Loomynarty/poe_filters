@@ -4599,7 +4599,7 @@ Show
 	SetBorderColor 0 200 0
 	SetFontSize 25
 
-# # Campaign
+# Campaign
 Show
 	ItemLevel < 68
 	UnidentifiedItemTier >= 3
