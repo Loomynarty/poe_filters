@@ -1,3 +1,5 @@
+#General Version
+
 #############################################################################################
 ############################## --- Table of Contents --- ####################################
 #############################################################################################
@@ -4700,14 +4702,14 @@ Show
 	Rarity Normal Magic Rare
 	SetBorderColor 231 85 85 255
 	SetFontSize 30
-Hide
-	Class "Body Armour" "Boots" "Gloves" "Helm"
-	DropLevel < 60
-	ItemLevel >= 68
-	UnidentifiedItemTier >= 2
-	Rarity Normal Magic Rare
-	SetBorderColor 231 85 85 255
-	SetFontSize 30
+# Hide
+# 	Class "Body Armour" "Boots" "Gloves" "Helm"
+# 	DropLevel < 60
+# 	ItemLevel >= 68
+# 	UnidentifiedItemTier >= 2
+# 	Rarity Normal Magic Rare
+# 	SetBorderColor 231 85 85 255
+# 	SetFontSize 30
 Show
 	Class "Ring" "Belt" "Amulet" "Jewel" "Quiver"
 	UnidentifiedItemTier >= 2

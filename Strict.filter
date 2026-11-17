@@ -588,9 +588,13 @@ Show
 #Talisman (v2.1)
 Show
 	BaseType "Talisman"
+	Class Amulet
 	Rarity Rare Normal Magic
 	SetFontSize 25
-	Class Amulet
+	SetTextColor 200 0 250
+	MinimapIcon 1 Pink Moon
+	PlayEffect Pink Temp
+
 
 #Perandus (v2.2) - Orange
 Show
@@ -1128,6 +1132,15 @@ Hide
 	SetBorderColor 180 180 180
 	SetTextColor 255 255 119
 	SetFontSize 30
+	PlayEffect Yellow Temp
+	MinimapIcon 2 Yellow Moon
+Show
+	HasExplicitMod "Veil"
+	Class Jewel
+	SetBackgroundColor 60 30 0
+	SetBorderColor 180 180 180
+	SetTextColor 255 255 119
+	SetFontSize 27
 	PlayEffect Yellow Temp
 	MinimapIcon 2 Yellow Moon
 #catchall
