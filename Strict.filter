@@ -4549,6 +4549,16 @@ Hide
 ###################################################################################
 
 # Item Tier nonsense
+
+# Top Tier Bases
+Show
+	Class "Body Armour" "Boots" "Gloves" "Helm"
+	DropLevel >= 84
+	ItemLevel >= 68
+	UnidentifiedItemTier >= 3
+	Rarity Normal Magic Rare
+	SetBorderColor 231 85 85 255
+	SetFontSize 30
 Show
 	Class "Body Armour" "Boots" "Gloves" "Helm"
 	DropLevel >= 70
@@ -4556,15 +4566,7 @@ Show
 	UnidentifiedItemTier >= 4
 	Rarity Normal Magic Rare
 	SetBorderColor 231 85 85 255
-	SetFontSize 30
-# Hide
-# 	Class "Body Armour" "Boots" "Gloves" "Helm"
-# 	DropLevel < 70
-# 	ItemLevel >= 68
-# 	UnidentifiedItemTier >= 4
-# 	Rarity Normal Magic Rare
-# 	SetBorderColor 231 85 85 255
-# 	SetFontSize 30
+	SetFontSize 27
 Show
 	Class "Ring" "Belt" "Amulet" "Jewel" "Quiver"
 	UnidentifiedItemTier >= 3
@@ -4589,9 +4591,8 @@ Show
 	Rarity Normal Magic Rare
 	SetBorderColor 0 153 200 255
 	SetFontSize 30
-
 Show
-	DropLevel >= 50
+	# DropLevel >= 30
 	ItemLevel >= 68
 	UnidentifiedItemTier >= 5
 	Rarity Normal Magic Rare

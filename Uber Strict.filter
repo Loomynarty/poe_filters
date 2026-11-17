@@ -4608,6 +4608,65 @@ Hide
 ###################################################################################
 ####################### Section 12 - 3CL & Miscellaneous ##########################
 ###################################################################################
+
+# Top Tier Bases
+Show
+	Class "Body Armour" "Boots" "Gloves" "Helm"
+	DropLevel >= 84
+	ItemLevel >= 68
+	UnidentifiedItemTier >= 5
+	Rarity Normal Magic Rare
+	SetBorderColor 231 85 85 255
+	SetFontSize 30
+# Show
+# 	Class "Body Armour" "Boots" "Gloves" "Helm"
+# 	DropLevel >= 70
+# 	ItemLevel >= 68
+# 	UnidentifiedItemTier >= 4
+# 	Rarity Normal Magic Rare
+# 	SetBorderColor 231 85 85 255
+# 	SetFontSize 27
+Show
+	Class "Ring" "Belt" "Amulet" "Jewel" "Quiver"
+	UnidentifiedItemTier >= 3
+	ItemLevel >= 68
+	Rarity Normal Magic Rare
+	SetBorderColor 0 153 200 255
+	SetFontSize 27
+Show
+	Class "Wand" "Sceptre" "Staves"
+	UnidentifiedItemTier >= 4
+	ItemLevel >= 68
+	Rarity Normal Magic Rare
+	SetBorderColor 0 153 200 255
+	SetFontSize 27
+Show
+	Class "Shield"
+	UnidentifiedItemTier >= 4
+	ItemLevel >= 68
+	BaseEnergyShield > 0
+	BaseEvasion == 0
+	BaseArmour == 0
+	Rarity Normal Magic Rare
+	SetBorderColor 0 153 200 255
+	SetFontSize 27
+Show
+	# DropLevel >= 30
+	ItemLevel >= 68
+	UnidentifiedItemTier >= 5
+	Rarity Normal Magic Rare
+	SetBorderColor 0 200 0
+	SetFontSize 23
+
+# Campaign
+Show
+	ItemLevel < 68
+	UnidentifiedItemTier >= 3
+	Rarity Normal Magic Rare
+	SetBorderColor 0 200 0
+	SetFontSize 27
+
+
 #Other random items and conditions that don't really fit anywhere else
 Show
 	BaseType "Sacrificial Garb" "Grasping Mail"
