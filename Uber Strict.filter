@@ -1988,13 +1988,30 @@ Show
 
 # Temporary block for new items
 Show
-	BaseType "Essence of Trickery" "Frayed Thread" "Royal Visage" "Soul Core of Instability" "Soul Core of Intellect" "Soul Core of Might" "Soul Core of Finesse" "Cursed Poppet" "Mycelium Core"
+	BaseType "Essence of Trickery" "Frayed Thread" "Cursed Poppet" "Mycelium Core"
 	SetFontSize 30
 	SetTextColor 0 240 190 255
 	SetBorderColor 0 240 190 255
 	SetBackgroundColor 20 20 0 255
 	PlayAlertSound 3 150
 	MinimapIcon 2 Green Square
+Show
+	BaseType "Royal Visage"
+	SetBackgroundColor 250 0 125
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
+Show
+	BaseType "Soul Core of Instability" "Soul Core of Intellect" "Soul Core of Might" "Soul Core of Finesse"
+	SetBackgroundColor 255 255 255 255
+	SetBorderColor 180 76 58 255
+	SetTextColor 180 76 58 255
+	SetFontSize 35
+	PlayAlertSound 6 300
+	PlayEffect Red
+	MinimapIcon 0 Red Star
 
 # No clue what Fated does
 # Show
