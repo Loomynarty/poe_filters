@@ -1849,13 +1849,22 @@ Show
 
 # Wombgifts
 Show
-	Class == "Wombgifts"
+	BaseType "Provisioning Wombgift"
+	Class "Wombgifts"
+	SetFontSize 27
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 120 200 160 255
+	PlayAlertSound 2 150
+	MinimapIcon 1 Yellow Moon
+	DisableDropSound
+Show
+	Class "Wombgifts"
 	SetFontSize 35
 	SetTextColor 0 0 0 255
 	SetBorderColor 0 0 0 255
 	SetBackgroundColor 120 200 160 255
 	PlayAlertSound 2 150
-	PlayEffect Yellow
 	MinimapIcon 1 Yellow Moon
 	DisableDropSound
 
@@ -1998,11 +2007,12 @@ Show
 Show
 	BaseType "Royal Visage"
 	SetBackgroundColor 250 0 125
-	SetBorderColor 255 255 255
-	SetTextColor 255 255 255
-	PlayAlertSound 6 300
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	PlayAlertSound 10 250
+	SetFontSize 35
+	MinimapIcon 1 Red Circle
 	PlayEffect Red
-	MinimapIcon 0 Red Star
 Show
 	BaseType "Soul Core of Instability" "Soul Core of Intellect" "Soul Core of Might" "Soul Core of Finesse"
 	SetBackgroundColor 255 255 255 255
@@ -4140,7 +4150,7 @@ Show
 	SetFontSize 25
 	DisableDropSound
 Hide
-	BaseType "Prismatic Ring" "Primordial Staff" "Ancient Spirit Shield" "Marble Amulet" "Shadow Sceptre" "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Triumphant Lamellar" "Dragonscale Boots" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Goliath Gauntlets" "Zealot Helmet"  "Antique Gauntlets" "Spiny Round Shield" "Paladin Crown"  "Faithful Helmet" "Sacrificial Garb" "Lich's Circlet" "Waxed Garb" "Spectral Axe" "Seaglass Amulet" "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Colossal Mana Flask" "Steel Ring" "Fugitive Ring" "Organic Ring" "Torturer Garb" "Ghostflame Blade"
+	BaseType "Prismatic Ring" "Primordial Staff" "Ancient Spirit Shield" "Marble Amulet" "Shadow Sceptre" "Crusader Gloves" "Carnal Mitts" "Great Crown" "Harbinger Bow" "Soldier Gloves" "Widowsilk Robe" "Praetor Crown" "Legion Sword" "Triumphant Lamellar" "Dragonscale Boots" "Infernal Sword" "Judgement Staff" "Crystal Belt" "Silver Flask" "Necromancer Circlet" "Serpentine Staff" "Primal Arrow Quiver" "Harlequin Mask" "Varnished Coat" "Opal Ring" "Vaal Regalia" "Steel Circlet" "Sulphur Flask" "Bismuth Flask" "Colossal Tower Shield" "Goliath Gauntlets" "Zealot Helmet"  "Antique Gauntlets" "Spiny Round Shield" "Paladin Crown"  "Faithful Helmet" "Sacrificial Garb" "Lich's Circlet" "Waxed Garb" "Spectral Axe" "Seaglass Amulet" "Cryonic Ring" "Enthalpic Ring" "Synaptic Ring" "Colossal Mana Flask" "Steel Ring" "Fugitive Ring" "Organic Ring" "Torturer Garb" "Ghostflame Blade" "Eye Gouger"
 	Rarity Unique
 	ItemLevel >= 85
 	SetBackgroundColor 180 80 0
