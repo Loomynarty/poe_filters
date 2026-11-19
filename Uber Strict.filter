@@ -1674,7 +1674,7 @@ Show
 	
 #Necropolis (v3.24)
 Show
-	BaseType "Allflame Ember of the Gilded" "Allflame Ember of Propagation" ""Allflame Ember of the Cloister"" "Allflame Ember of the Ethereal"
+	BaseType "Allflame Ember of the Gilded" "Allflame Ember of Propagation" "Allflame Ember of the Cloister" "Allflame Ember of the Ethereal"
 	SetBackgroundColor 250 0 125
 	SetBorderColor 255 255 255
 	SetTextColor 255 255 255
