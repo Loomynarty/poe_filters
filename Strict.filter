@@ -209,7 +209,7 @@ Show
 
 #50c+ (pink)
 Show 
-	BaseType "Divine Orb" "Fracturing Shard" "Reflecting Mist" "Orb of Dominance" "Awakener's Orb" "Veiled Exalted Orb" "Hunter's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Redeemer's Exalted Orb" "Volatile Vaal Orb" "Refracting Fog"
+	BaseType "Divine Orb" "Fracturing Shard" "Reflecting Mist" "Orb of Dominance" "Awakener's Orb" "Veiled Exalted Orb" "Hunter's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Redeemer's Exalted Orb" "Volatile Vaal Orb" "Refracting Fog" "Primordial Exalted Orb"
 	Class Currency
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
@@ -234,8 +234,8 @@ Show
 
 #10c+ (red)
 Show
-	BaseType "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Orb of Conflict" "Shaper's Exalted Orb" "Elder's Exalted Orb" "Orb of Annulment" "Enshrouding Crystal"
-	Class Currency
+	BaseType "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Orb of Conflict" "Shaper's Exalted Orb" "Elder's Exalted Orb" "Orb of Annulment" "Enshrouding Crystal" "Originator's Exalted Orb"
+	Class Currency 
 	SetBackgroundColor 250 0 125
 	SetBorderColor 255 255 255
 	SetTextColor 255 255 255
@@ -1610,17 +1610,7 @@ Show
 	
 #Necropolis (v3.24)
 Show
-	BaseType "Allflame Ember of the Ethereal" "Allflame Ember of Kulemak"
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 180 76 58 255
-	SetTextColor 180 76 58 255
-	SetFontSize 35
-	PlayAlertSound 6 300
-	PlayEffect Red
-	MinimapIcon 0 Red Star
-
-Show
-	BaseType "Allflame Ember of the Gilded" "Allflame Ember of Propagation"
+	BaseType "Allflame Ember of the Gilded" "Allflame Ember of Propagation" "Allflame Ember of Cloister" "Allflame Ember of the Ethereal"
 	SetBackgroundColor 250 0 125
 	SetBorderColor 255 255 255
 	SetTextColor 255 255 255
