@@ -127,14 +127,13 @@ Show
 Show
 	BaseType "Foulborn Exalted Orb"
 	Class Currency
-	SetBackgroundColor 255 255 255 255
-	SetBorderColor 180 76 58 255
-	SetTextColor 180 76 58 255
+	SetBackgroundColor 250 0 125
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	PlayAlertSound 10 250
 	SetFontSize 35
-	PlayAlertSound 6 300
+	MinimapIcon 1 Red Circle
 	PlayEffect Red
-	MinimapIcon 0 Red Star
-	DisableDropSound
 Show
 	BaseType "Foulborn Orb of Augmentation" "Foulborn Regal Orb"
 	Class Currency
@@ -271,7 +270,7 @@ Show
 
 #50c+ (pink)
 Show 
-	BaseType "Divine Orb" "Fracturing Shard" "Reflecting Mist" "Orb of Dominance" "Awakener's Orb" "Veiled Exalted Orb" "Hunter's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Redeemer's Exalted Orb" "Volatile Vaal Orb" "Refracting Fog" "Primordial Exalted Orb"
+	BaseType "Divine Orb" "Fracturing Shard" "Reflecting Mist" "Orb of Dominance" "Awakener's Orb" "Veiled Exalted Orb" "Volatile Vaal Orb" "Refracting Fog" 
 	Class Currency
 	SetBackgroundColor 255 255 255 255
 	SetBorderColor 180 76 58 255
@@ -289,6 +288,7 @@ Show
 	SetBackgroundColor 250 0 125
 	SetBorderColor 255 255 255
 	SetTextColor 255 255 255
+	SetFontSize 35
 	PlayAlertSound 6 300
 	PlayEffect Red
 	MinimapIcon 0 Red Star
@@ -296,7 +296,7 @@ Show
 
 #10c+ (red)
 Show
-	BaseType "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Orb of Conflict" "Shaper's Exalted Orb" "Elder's Exalted Orb" "Orb of Annulment" "Enshrouding Crystal" "Originator's Exalted Orb"
+	BaseType "Sacred Orb" "Tempering Orb" "Tailoring Orb" "Eldritch" "Veiled Chaos Orb" "Orb of Remembrance" "Orb of Unravelling" "Orb of Intention" "Orb of Conflict" "Shaper's Exalted Orb" "Elder's Exalted Orb" "Orb of Annulment" "Enshrouding Crystal" "Originator's Exalted Orb" "Hunter's Exalted Orb" "Crusader's Exalted Orb" "Warlord's Exalted Orb" "Redeemer's Exalted Orb" "Primordial Exalted Orb"
 	Class Currency 
 	SetBackgroundColor 250 0 125
 	SetBorderColor 255 255 255
