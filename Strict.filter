@@ -3777,7 +3777,7 @@ Show
 	SetBackgroundColor 250 125 150
 	SetBorderColor 250 250 250
 	SetTextColor 0 0 0
-	SetFontSize 25
+	SetFontSize 30
 	PlayAlertSound 12 200
 #large clusters
 Show
@@ -3786,7 +3786,7 @@ Show
 	SetBackgroundColor 250 125 150
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 25
+	SetFontSize 30
 	PlayAlertSound 12 200
 Hide
 	BaseType "Large Cluster Jewel"
@@ -3812,7 +3812,7 @@ Show
 	SetBackgroundColor 250 125 150
 	SetBorderColor 0 0 0
 	SetTextColor 0 0 0
-	SetFontSize 25
+	SetFontSize 30
 	PlayAlertSound 12 200
 #small clusters
 Show
@@ -3848,7 +3848,7 @@ Show
 	SetBackgroundColor 200 100 115
 	SetBorderColor 150 100 0
 	SetTextColor 0 0 0
-	SetFontSize 25
+	SetFontSize 30
 Hide
 	BaseType "Cluster Jewel"
 	SetBackgroundColor 200 100 115
@@ -4574,7 +4574,7 @@ Show
 	Class "Body Armour" "Boots" "Gloves" "Helm"
 	DropLevel >= 84
 	ItemLevel >= 68
-	UnidentifiedItemTier >= 3
+	UnidentifiedItemTier >= 4
 	Rarity Normal Magic Rare
 	SetBorderColor 231 85 85 255
 	SetFontSize 30
@@ -4582,7 +4582,7 @@ Show
 	Class "Body Armour" "Boots" "Gloves" "Helm"
 	DropLevel >= 70
 	ItemLevel >= 68
-	UnidentifiedItemTier >= 4
+	UnidentifiedItemTier >= 5
 	Rarity Normal Magic Rare
 	SetBorderColor 231 85 85 255
 	SetFontSize 27
@@ -4595,14 +4595,14 @@ Show
 	SetFontSize 30
 Show
 	Class "Wand" "Sceptre" "Staves"
-	UnidentifiedItemTier >= 4
+	UnidentifiedItemTier >= 5
 	ItemLevel >= 68
 	Rarity Normal Magic Rare
 	SetBorderColor 0 153 200 255
 	SetFontSize 30
 Show
 	Class "Shield"
-	UnidentifiedItemTier >= 4
+	UnidentifiedItemTier >= 5
 	ItemLevel >= 68
 	BaseEnergyShield > 0
 	BaseEvasion == 0
