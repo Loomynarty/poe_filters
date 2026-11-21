@@ -3698,7 +3698,7 @@ Show
 	SetFontSize 30
 	PlayEffect Red
 
-# Corrupted Abyss Jewels
+# Corrupted Jewels
 Show
 	Class "Abyss Jewel"
 	Corrupted True
@@ -3711,10 +3711,20 @@ Show
 	Class "Jewel"
 	Corrupted True
 	Rarity Rare
+	HasImplicitMod True
 	SetBackgroundColor 50 0 0
-	SetBorderColor 0 0 0
+	SetBorderColor 255 0 0
 	SetTextColor 255 255 119
 	SetFontSize 30
+	
+# Show
+# 	Class "Jewel"
+# 	Corrupted True
+# 	Rarity Rare
+# 	SetBackgroundColor 50 0 0
+# 	SetBorderColor 0 0 0
+# 	SetTextColor 255 255 119
+# 	SetFontSize 27
 	
 ###################################################################################
 ######################## Section 7 - Jewels & Sockets #############################
