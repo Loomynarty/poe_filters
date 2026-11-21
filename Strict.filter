@@ -2556,7 +2556,7 @@ Show
 	PlayEffect Orange Temp
 	DisableDropSound
 
-Hide
+Show
 	Class Contract
 	Rarity Unique
 	SetBackgroundColor 180 80 0
