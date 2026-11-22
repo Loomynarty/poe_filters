@@ -1256,6 +1256,17 @@ Show
 #Metamorph (v3.9)
 #samples removed in 3.23
 Show
+	BaseType "Sinistral Catalyst" "Dextral Catalyst"
+	Class Currency
+	SetBackgroundColor 250 0 125
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	PlayAlertSound 10 250
+	SetFontSize 35
+	MinimapIcon 0 Red Circle
+	PlayEffect Red
+	DisableDropSound
+Show
 	BaseType "Fertile Catalyst" "Prismatic Catalyst" "Tainted Catalyst"
 	Class Currency
 	StackSize >= 5
@@ -1816,7 +1827,7 @@ Show #
 
 #Mirage (v3.28)
 Show
-	BaseType "Flesh of Xesht" "Sinistral Catalyst" "Dextral Catalyst"
+	BaseType "Flesh of Xesht"
 	Class Currency
 	SetFontSize 30
 	SetTextColor 0 0 0 255
@@ -8258,23 +8269,23 @@ Show
 	PlayAlertSound 12 200
 	MinimapIcon 1 Green Triangle
 	PlayEffect Green Temp
-Show
-	Class Gem
-	Quality >= 14
-	SetBorderColor 255 204 102
-	SetFontSize 30
-	PlayAlertSound 12 200
-	MinimapIcon 2 Green Triangle
+# Show
+# 	Class Gem
+# 	Quality >= 14
+# 	SetBorderColor 255 204 102
+# 	SetFontSize 30
+# 	PlayAlertSound 12 200
+# 	MinimapIcon 2 Green Triangle
 Show
 	Class Gem
 	GemLevel >= 19
 	SetTextColor 0 200 200
 	SetFontSize 36
-Show
-	Class Gem
-	Quality >= 10
-	SetBorderColor 200 160 80
-	SetFontSize 32
+# Show
+# 	Class Gem
+# 	Quality >= 10
+# 	SetBorderColor 200 160 80
+# 	SetFontSize 32
 Hide
     Class Gem
     Quality >= 5

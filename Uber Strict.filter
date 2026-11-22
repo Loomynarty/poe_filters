@@ -1317,6 +1317,17 @@ Show
 #Metamorph (v3.9)
 #samples removed in 3.23
 Show
+	BaseType "Sinistral Catalyst" "Dextral Catalyst"
+	Class Currency
+	SetBackgroundColor 250 0 125
+	SetBorderColor 255 255 255
+	SetTextColor 255 255 255
+	PlayAlertSound 10 250
+	SetFontSize 35
+	MinimapIcon 0 Red Circle
+	PlayEffect Red
+	DisableDropSound
+Show
 	BaseType "Fertile Catalyst" "Prismatic Catalyst" "Tainted Catalyst"
 	Class Currency
 	StackSize >= 5
@@ -1900,7 +1911,7 @@ Show #
 
 #Mirage (v3.28)
 Show
-	BaseType "Flesh of Xesht" "Sinistral Catalyst" "Dextral Catalyst"
+	BaseType "Flesh of Xesht"
 	Class Currency
 	SetFontSize 30
 	SetTextColor 0 0 0 255
