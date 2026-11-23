@@ -1605,12 +1605,30 @@ Show
 	PlayEffect Cyan Temp
 	
 #Affliction (v3.23)
+Show 
+	Class "Tincture"
+	Quality >= 21
+	SetBackgroundColor 75 50 40
+	SetBorderColor 200 200 200
+	SetTextColor 225 225 225
+	SetFontSize 25
+	PlayAlertSound 11 150
+	PlayEffect Brown
+	MinimapIcon 2 Brown Square
 Hide
 	Class "Tincture" "Charms"
 	SetBackgroundColor 75 50 40
 	SetBorderColor 200 200 200
 	SetTextColor 225 225 225
 	SetFontSize 25
+	PlayAlertSound 11 150
+Hide
+	BaseType "Imperfect"
+	Class "Corpses"
+	SetBackgroundColor 75 50 40
+	SetBorderColor 200 200 200
+	SetTextColor 225 225 225
+	SetFontSize 30
 	PlayAlertSound 11 150
 Show
 	BaseType "Perfect"
