@@ -1570,7 +1570,7 @@ Show
 
 # Good Omens
 Show
-	BaseType "Omen of Fortune" "Omen of Connections" "Omen of Trichromatism" "Omen of Amelioration" "Omen of the Jeweller"  
+	BaseType "Omen of Fortune" "Omen of Connections" "Omen of Trichromatism" "Omen of Amelioration" "Omen of the Jeweller" "Omen of Brilliance"
 	Class Currency
 	SetBackgroundColor 25 165 255 215
 	SetBorderColor 225 225 225
@@ -1581,7 +1581,7 @@ Show
 	PlayEffect Blue
 
 # Every other omen
-Show
+Hide
 	BaseType "Omen"
 	Class Currency
 	SetBackgroundColor 25 165 165 200
