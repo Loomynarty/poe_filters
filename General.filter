@@ -1682,19 +1682,23 @@ Show
 	SetBackgroundColor 75 50 40
 	SetBorderColor 200 200 200
 	SetTextColor 225 225 225
-	SetFontSize 25
+	SetFontSize 30
 	PlayAlertSound 11 150
-	PlayEffect Brown Temp
-	MinimapIcon 2 Brown Square
 Show
+	BaseType "Perfect"
+	Class "Corpses"
+	SetBackgroundColor 75 50 40
+	SetBorderColor 200 200 200
+	SetTextColor 225 225 225
+	SetFontSize 30
+	PlayAlertSound 11 150
+Hide
 	Class "Corpses"
 	SetBackgroundColor 75 50 40
 	SetBorderColor 200 200 200
 	SetTextColor 225 225 225
 	SetFontSize 25
 	PlayAlertSound 11 150
-	PlayEffect Brown Temp
-	MinimapIcon 2 Brown Square
 	
 #Necropolis (v3.24)
 Show
