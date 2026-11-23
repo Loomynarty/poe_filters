@@ -430,6 +430,17 @@ Hide
 	PlayAlertSound 3 100
 	MinimapIcon 2 Green Circle
 	DisableDropSound
+Show
+	BaseType "Blacksmith's Whetstone" "Armourer's Scrap" 
+	StackSize >= 6
+	Class Currency
+	SetBackgroundColor 0 150 0
+	SetBorderColor 0 0 0
+	SetTextColor 0 0 0
+	SetFontSize 27
+	PlayAlertSound 3 100
+	MinimapIcon 2 Green Circle
+	DisableDropSound
 Hide
 	BaseType "Orb of Transmutation" "Orb of Augmentation" "Blacksmith's Whetstone" "Armourer's Scrap" 
 	StackSize >= 6
