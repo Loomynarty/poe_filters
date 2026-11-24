@@ -4790,7 +4790,7 @@ Show
 Show
 	# DropLevel >= 30
 	ItemLevel >= 68
-	UnidentifiedItemTier >= 3
+	UnidentifiedItemTier >= 5
 	Rarity Normal Magic Rare
 	SetBorderColor 0 200 0
 	SetFontSize 27
